@@ -1,0 +1,24 @@
+{
+  "name": "七年级地理复习地图",
+  "short_name": "地理复习",
+  "description": "七年级地理上下册复习 App，包含知识卡、基础题、书写题、错题本与完成度跟踪。",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5efe3",
+  "theme_color": "#c65a2e",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "assets/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
