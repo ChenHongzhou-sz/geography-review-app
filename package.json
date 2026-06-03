@@ -1,0 +1,38 @@
+{
+  "name": "geography-review-app1",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "extract:images": "tsx scripts/extract-images.ts",
+    "extract:courseware": "tsx scripts/extract-courseware-images.ts",
+    "extract:knowledge": "tsx scripts/extract-knowledge.ts",
+    "generate:questions": "tsx scripts/generate-questions.ts",
+    "inspect:courseware": "tsx scripts/inspect-courseware.ts"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.3.19",
+    "lucide-react": "^0.451.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "tailwind-merge": "^2.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.7",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}
