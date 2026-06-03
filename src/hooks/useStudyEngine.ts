@@ -194,10 +194,21 @@ export function useStudyEngine(): StudyEngine {
 
   const reviewKnowledge = (card: ReviewCard, rating: SelfRating) => {
     startTransition(() => {
-      setProgressMap((currentMap) => ({
-        ...currentMap,
-        [card.knowledgeId]: applyReviewResult(currentMap[card.knowledgeId], rating)
-      }));
+      setProgressMap((currentMap) => {
+        const previousProgress = currentMap[card.knowledgeId];
+        const nextProgress = applyReviewResult(previousProgress, rating);
+
+        return {
+          ...currentMap,
+          [card.knowledgeId]: {
+            ...nextProgress,
+            wrongCount:
+              rating === "good"
+                ? Math.max(0, (previousProgress?.wrongCount ?? 0) - 1)
+                : nextProgress.wrongCount
+          }
+        };
+      });
 
       setDashboard((currentDashboard) => {
         const prepared = ensureToday(currentDashboard);
@@ -215,8 +226,13 @@ export function useStudyEngine(): StudyEngine {
 
   const clearProgress = () => {
     startTransition(() => {
-      setProgressMap(createSeedProgress());
-      setDashboard(defaultDashboard);
+      setProgressMap({});
+      setDashboard({
+        streakDays: 0,
+        totalStudyMinutes: 0,
+        todayMinutes: 0,
+        lastStudyDate: new Date().toISOString()
+      });
       setRecentHistory(createRecentHistory());
     });
   };

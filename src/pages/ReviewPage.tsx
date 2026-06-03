@@ -7,13 +7,47 @@ import { StudyCard } from "../components/study/study-card";
 import { buttonVariants } from "../components/ui/button";
 import { Card, CardDescription, CardTitle } from "../components/ui/card";
 import { Progress } from "../components/ui/progress";
-import type { ReviewCard } from "../types";
+import { buildReviewDeck } from "../utils/review";
+import type { BookCode, ReviewCard } from "../types";
 import type { StudyEngine } from "../hooks/useStudyEngine";
 
+type PracticeScope = "all" | BookCode;
+
 export function ReviewPage({ engine }: { engine: StudyEngine }) {
+  const [scope, setScope] = useState<PracticeScope>("all");
+  const [chapter, setChapter] = useState("all");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [sessionCards, setSessionCards] = useState<ReviewCard[]>(() => engine.reviewDeck);
   const card = sessionCards[currentIndex];
+  const availableChapters = engine.chapters.filter((item) =>
+    scope === "all" ? true : item.book === scope
+  );
+
+  const buildScopedDeck = (nextScope = scope, nextChapter = chapter) => {
+    const filteredKnowledge = engine.knowledgeBase.filter((item) => {
+      const matchesBook = nextScope === "all" || item.book === nextScope;
+      const matchesChapter = nextChapter === "all" || item.chapter === nextChapter;
+      return matchesBook && matchesChapter;
+    });
+    const filteredMaps = engine.mapChallenges.filter((item) => {
+      const matchesBook = nextScope === "all" || item.book === nextScope;
+      const matchesChapter = nextChapter === "all" || item.chapter === nextChapter;
+      return matchesBook && matchesChapter;
+    });
+
+    return buildReviewDeck(
+      filteredKnowledge.length ? filteredKnowledge : engine.knowledgeBase,
+      filteredMaps,
+      engine.progressMap,
+      engine.recentHistory,
+      20
+    );
+  };
+
+  const resetSession = (nextScope = scope, nextChapter = chapter) => {
+    setSessionCards(buildScopedDeck(nextScope, nextChapter));
+    setCurrentIndex(0);
+  };
 
   return (
     <AppShell pathname="/review">
@@ -35,6 +69,51 @@ export function ReviewPage({ engine }: { engine: StudyEngine }) {
           </div>
           <div className="mt-4">
             <Progress value={(currentIndex / Math.max(sessionCards.length, 1)) * 100} />
+          </div>
+          <div className="mt-5 grid gap-3 sm:grid-cols-[1fr_1fr_auto]">
+            <label className="grid gap-2 text-sm font-semibold text-slate-700">
+              教材
+              <select
+                value={scope}
+                onChange={(event) => {
+                  const nextScope = event.target.value as PracticeScope;
+                  setScope(nextScope);
+                  setChapter("all");
+                  resetSession(nextScope, "all");
+                }}
+                className="rounded-xl border border-slate-200 bg-white px-3 py-3 text-base font-medium text-ink"
+              >
+                <option value="all">全部教材</option>
+                <option value="七上">七上</option>
+                <option value="七下">七下</option>
+              </select>
+            </label>
+            <label className="grid gap-2 text-sm font-semibold text-slate-700">
+              单元 / 章节
+              <select
+                value={chapter}
+                onChange={(event) => {
+                  const nextChapter = event.target.value;
+                  setChapter(nextChapter);
+                  resetSession(scope, nextChapter);
+                }}
+                className="rounded-xl border border-slate-200 bg-white px-3 py-3 text-base font-medium text-ink"
+              >
+                <option value="all">全部单元</option>
+                {availableChapters.map((item) => (
+                  <option key={item.chapter} value={item.chapter}>
+                    {item.book} {item.chapter}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <button
+              type="button"
+              onClick={() => resetSession()}
+              className={buttonVariants({ variant: "secondary", size: "lg" })}
+            >
+              重新组题
+            </button>
           </div>
         </Card>
 
@@ -65,8 +144,7 @@ export function ReviewPage({ engine }: { engine: StudyEngine }) {
                 <button
                   type="button"
                   onClick={() => {
-                    setSessionCards(engine.reviewDeck);
-                    setCurrentIndex(0);
+                    resetSession();
                   }}
                   className={buttonVariants({ variant: "secondary", size: "lg" })}
                 >
