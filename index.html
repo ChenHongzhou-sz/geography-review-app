@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#8e4a1f">
+  <title>七年级地理纯选择题复习</title>
+  <link rel="manifest" href="manifest.webmanifest?v=20260603c">
+  <link rel="icon" href="assets/icon.svg?v=20260603c" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=20260603c">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Geography Review App</p>
+        <h1>七上 + 七下地理纯选择题复习</h1>
+        <p class="hero-text">
+          这版固定为纯选择题模式，不做图片题，按教材目录重新整理，支持单元练习、错题回炉和交叉考核。
+        </p>
+        <div class="hero-chips">
+          <span>教材目录重建</span>
+          <span>选项随机</span>
+          <span>错题自动记录</span>
+          <span>PWA 可安装</span>
+        </div>
+      </div>
+      <div class="hero-stats" id="stats-panel"></div>
+    </header>
+
+    <div class="workspace">
+      <aside class="sidebar">
+        <section class="panel" id="scope-panel"></section>
+        <section class="panel" id="chapter-nav-panel"></section>
+      </aside>
+
+      <main class="main-content">
+        <section class="panel" id="overview-panel"></section>
+        <section class="panel" id="session-panel"></section>
+        <section class="bottom-grid">
+          <section class="panel" id="wrongbook-panel"></section>
+          <section class="panel" id="coverage-panel"></section>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script src="data/review-data.js?v=20260603c"></script>
+  <script src="data/review-data-expanded.js?v=20260603c"></script>
+  <script src="data/review-data-refined.js?v=20260603c"></script>
+  <script src="app.js?v=20260603c"></script>
+</body>
+</html>
