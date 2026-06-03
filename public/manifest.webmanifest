@@ -1,0 +1,19 @@
+{
+  "name": "GeoMemory 七年级地理记忆训练营",
+  "short_name": "GeoMemory",
+  "description": "适用于手机和 iPad 的七年级地理记忆训练 Web App。",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#edf5ff",
+  "theme_color": "#2284ff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

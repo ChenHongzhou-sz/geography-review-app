@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeoMemory</title>
+  </head>
+  <body>
+    <script>
+      (function () {
+        var segments = window.location.pathname.split("/").filter(Boolean);
+        var projectBase = segments.length > 0 ? "/" + segments[0] + "/" : "/";
+        var hashPath = segments.length > 1 ? "/" + segments.slice(1).join("/") : "/";
+        var search = window.location.search || "";
+
+        window.location.replace(
+          window.location.origin + projectBase + "#" + hashPath + search
+        );
+      })();
+    </script>
+  </body>
+</html>
