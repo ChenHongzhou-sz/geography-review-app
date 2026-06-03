@@ -205,8 +205,21 @@ export function HomePage({ engine }: { engine: StudyEngine }) {
                     </div>
                   </div>
                   <Progress value={chapter.masteryRate} />
-                  <div className="mt-2 text-right text-sm font-medium text-ocean-700">
-                    {chapter.masteryRate}%
+                  <div className="mt-3 flex items-center justify-between gap-3">
+                    <Link
+                      to={`/review?book=${chapter.book}&chapter=${encodeURIComponent(
+                        chapter.chapter
+                      )}`}
+                      className={cn(
+                        buttonVariants({ variant: "secondary", size: "sm" }),
+                        "shrink-0"
+                      )}
+                    >
+                      练本单元
+                    </Link>
+                    <div className="text-sm font-medium text-ocean-700">
+                      {chapter.masteryRate}%
+                    </div>
                   </div>
                 </div>
               ))}

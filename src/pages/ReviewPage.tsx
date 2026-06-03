@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Compass, Sparkles } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import { AppShell } from "../components/layout/app-shell";
 import { StudyCard } from "../components/study/study-card";
 import { buttonVariants } from "../components/ui/button";
@@ -12,13 +12,25 @@ import type { BookCode, ReviewCard } from "../types";
 import type { StudyEngine } from "../hooks/useStudyEngine";
 
 type PracticeScope = "all" | BookCode;
+const BOOK_OPTIONS: BookCode[] = ["七上", "七下"];
 
 export function ReviewPage({ engine }: { engine: StudyEngine }) {
-  const [scope, setScope] = useState<PracticeScope>("all");
-  const [chapter, setChapter] = useState("all");
+  const [searchParams, setSearchParams] = useSearchParams();
+  const initialBook = searchParams.get("book");
+  const initialChapter = searchParams.get("chapter");
+  const initialScope: PracticeScope = BOOK_OPTIONS.includes(initialBook as BookCode)
+    ? (initialBook as BookCode)
+    : "all";
+  const initialChapterIsValid = engine.chapters.some(
+    (item) =>
+      item.chapter === initialChapter &&
+      (initialScope === "all" || item.book === initialScope)
+  );
+  const [scope, setScope] = useState<PracticeScope>(initialScope);
+  const [chapter, setChapter] = useState(
+    initialChapter && initialChapterIsValid ? initialChapter : "all"
+  );
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [sessionCards, setSessionCards] = useState<ReviewCard[]>(() => engine.reviewDeck);
-  const card = sessionCards[currentIndex];
   const availableChapters = engine.chapters.filter((item) =>
     scope === "all" ? true : item.book === scope
   );
@@ -36,7 +48,7 @@ export function ReviewPage({ engine }: { engine: StudyEngine }) {
     });
 
     return buildReviewDeck(
-      filteredKnowledge.length ? filteredKnowledge : engine.knowledgeBase,
+      filteredKnowledge,
       filteredMaps,
       engine.progressMap,
       engine.recentHistory,
@@ -44,9 +56,34 @@ export function ReviewPage({ engine }: { engine: StudyEngine }) {
     );
   };
 
+  const [sessionCards, setSessionCards] = useState<ReviewCard[]>(() => buildScopedDeck());
+  const card = sessionCards[currentIndex];
+  const scopeLabel = chapter !== "all" ? chapter : scope === "all" ? "全部教材" : scope;
+  const scopedKnowledgeCount = engine.knowledgeBase.filter((item) => {
+    const matchesBook = scope === "all" || item.book === scope;
+    const matchesChapter = chapter === "all" || item.chapter === chapter;
+    return matchesBook && matchesChapter;
+  }).length;
+  const scopedMapCount = engine.mapChallenges.filter((item) => {
+    const matchesBook = scope === "all" || item.book === scope;
+    const matchesChapter = chapter === "all" || item.chapter === chapter;
+    return matchesBook && matchesChapter;
+  }).length;
+
   const resetSession = (nextScope = scope, nextChapter = chapter) => {
     setSessionCards(buildScopedDeck(nextScope, nextChapter));
     setCurrentIndex(0);
+    const nextParams: Record<string, string> = {};
+
+    if (nextScope !== "all") {
+      nextParams.book = nextScope;
+    }
+
+    if (nextChapter !== "all") {
+      nextParams.chapter = nextChapter;
+    }
+
+    setSearchParams(nextParams, { replace: true });
   };
 
   return (
@@ -66,6 +103,11 @@ export function ReviewPage({ engine }: { engine: StudyEngine }) {
                 {Math.max(sessionCards.length - currentIndex, 0)}
               </div>
             </div>
+          </div>
+          <div className="mt-4 rounded-2xl bg-slate-50 px-4 py-3 text-sm font-medium text-slate-600">
+            当前范围：<span className="font-semibold text-ink">{scopeLabel}</span>
+            <span className="mx-2 text-slate-300">/</span>
+            知识卡 {scopedKnowledgeCount} 条，地图题 {scopedMapCount} 组
           </div>
           <div className="mt-4">
             <Progress value={(currentIndex / Math.max(sessionCards.length, 1)) * 100} />
