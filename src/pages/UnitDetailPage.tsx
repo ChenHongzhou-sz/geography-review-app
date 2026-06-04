@@ -16,6 +16,10 @@ export function UnitDetailPage({ engine }: { engine: StudyEngine }) {
   const data = engine.getUnitData(unitId);
 
   useEffect(() => {
+    window.scrollTo({ top: 0, left: 0 });
+  }, [unitId]);
+
+  useEffect(() => {
     if (unit) {
       engine.setFeaturedUnit(unit.unitId);
     }

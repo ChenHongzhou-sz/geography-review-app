@@ -42,22 +42,14 @@ export function StudyCard({
       ? selectedOption === card.correctOption
       : undefined;
   const requiresChoiceAnswer = Boolean(card.options?.length && card.correctOption);
+  const canAutoGrade = typeof selectedIsCorrect === "boolean";
   const resolvedAssetPath = resolvePublicAsset(card.assetPath);
   const showImage =
     Boolean(resolvedAssetPath) &&
     (card.questionType === "map" || card.questionType === "analysis" || card.questionType === "choice");
 
-  function getAdvanceResult() {
-    if (typeof selectedIsCorrect === "boolean") {
-      return {
-        rating: selectedIsCorrect ? "good" : "again",
-        answeredCorrectly: selectedIsCorrect
-      } as const;
-    }
-
-    return {
-      rating: "good"
-    } as const;
+  function advanceWith(rating: SelfRating, answeredCorrectly?: boolean) {
+    onAdvance({ rating, answeredCorrectly });
   }
 
   return (
@@ -212,13 +204,39 @@ export function StudyCard({
               </div>
             </div>
 
-            <Button
-              size="lg"
-              className="w-full"
-              onClick={() => onAdvance(getAdvanceResult())}
-            >
-              {advanceLabel}
-            </Button>
+            {canAutoGrade ? (
+              <Button
+                size="lg"
+                className="w-full"
+                onClick={() => advanceWith(selectedIsCorrect ? "good" : "again", selectedIsCorrect)}
+              >
+                {advanceLabel}
+              </Button>
+            ) : (
+              <div className="grid gap-3 sm:grid-cols-3">
+                <Button
+                  size="lg"
+                  variant="danger"
+                  onClick={() => advanceWith("again", false)}
+                >
+                  答错了
+                </Button>
+                <Button
+                  size="lg"
+                  variant="secondary"
+                  onClick={() => advanceWith("hard")}
+                >
+                  模糊
+                </Button>
+                <Button
+                  size="lg"
+                  variant="success"
+                  onClick={() => advanceWith("good", true)}
+                >
+                  答对了
+                </Button>
+              </div>
+            )}
           </div>
         )}
       </Card>

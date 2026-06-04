@@ -69,6 +69,7 @@ export function HomePage({ engine }: { engine: StudyEngine }) {
   const semesterTwoUnits = engine.units.filter(
     (unit) => unit.bookCode === "grade7-semester2"
   );
+  const semesterOneReadyCount = semesterOneUnits.filter((unit) => unit.ready).length;
   const semesterTwoReadyCount = semesterTwoUnits.filter((unit) => unit.ready).length;
 
   return (
@@ -265,10 +266,10 @@ export function HomePage({ engine }: { engine: StudyEngine }) {
               <div>
                 <CardTitle>七年级上册</CardTitle>
                 <CardDescription className="mt-2">
-                  这些入口已经预留好，后续只要补对应单元数据和素材就能继续接入。
+                  已接入单元会直接复用当前这套知识手册、训练、错题和闯关流程。
                 </CardDescription>
               </div>
-              <Badge variant="slate">{semesterOneUnits.length} 个入口</Badge>
+              <Badge variant="success">{semesterOneReadyCount} 个已接入</Badge>
             </div>
 
             <div className="mt-5 space-y-3">
@@ -276,13 +277,20 @@ export function HomePage({ engine }: { engine: StudyEngine }) {
                 <Link
                   key={unit.unitId}
                   to={`/unit/${unit.unitId}`}
-                  className="flex items-center justify-between rounded-[1.25rem] border border-slate-200/80 bg-white/80 px-4 py-4 transition hover:border-ocean-200 hover:bg-slate-50"
+                  className={cn(
+                    "flex items-center justify-between rounded-[1.25rem] border px-4 py-4 transition",
+                    unit.ready
+                      ? "border-ocean-200 bg-ocean-50/75 hover:bg-ocean-50"
+                      : "border-slate-200/80 bg-white/80 hover:bg-slate-50"
+                  )}
                 >
                   <div>
                     <div className="text-sm text-slate-500">{unit.chapter}</div>
                     <div className="mt-1 font-semibold text-ink">{unit.title}</div>
                   </div>
-                  <Badge variant="slate">待接入</Badge>
+                  <Badge variant={unit.ready ? "success" : "slate"}>
+                    {unit.ready ? "可训练" : "待接入"}
+                  </Badge>
                 </Link>
               ))}
             </div>

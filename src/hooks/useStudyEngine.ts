@@ -296,9 +296,11 @@ export function useStudyEngine(): StudyEngine {
 
       setDashboard((currentDashboard) => {
         const prepared = ensureToday(currentDashboard);
+        const isFirstStudy = !prepared.lastStudyDate;
 
         return {
           ...prepared,
+          streakDays: isFirstStudy ? 1 : prepared.streakDays,
           todayMinutes: prepared.todayMinutes + 2,
           totalStudyMinutes: prepared.totalStudyMinutes + 2,
           lastStudyDate: new Date().toISOString()
