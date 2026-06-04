@@ -71,14 +71,14 @@ export function AppShell({
   return (
     <div className="min-h-screen px-4 pb-32 pt-5 text-ink sm:px-6 sm:pb-28 lg:px-8">
       <div className="mx-auto max-w-6xl safe-pb">
-        <header className="relative mb-6 overflow-hidden rounded-[2rem] border border-white/70 bg-white/68 px-5 py-5 shadow-glow backdrop-blur-2xl sm:px-7">
+        <header className="relative mb-6 overflow-hidden rounded-[2rem] border border-white/70 bg-white/68 px-4 py-4 shadow-glow backdrop-blur-2xl sm:px-7 sm:py-5">
           <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-r from-ocean-300/12 via-transparent to-mint-300/16" />
           <div className="relative flex flex-col items-start gap-5 lg:flex-row lg:items-center lg:justify-between">
             <div className="min-w-0 flex-1">
               <div className="mb-3 inline-flex rounded-full bg-ocean-50 px-3 py-1 text-xs font-semibold text-ocean-900">
                 {badge}
               </div>
-              <h1 className="title-balance break-words text-[2rem] font-bold leading-tight tracking-tight sm:text-[2.2rem]">
+              <h1 className="title-balance break-words text-[1.85rem] font-bold leading-tight tracking-tight sm:text-[2.2rem]">
                 {title}
               </h1>
               <p className="mt-2 max-w-3xl text-sm leading-6 text-slate-600 sm:text-base">

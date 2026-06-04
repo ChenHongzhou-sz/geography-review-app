@@ -39,14 +39,14 @@ export function UnitDetailPage({ engine }: { engine: StudyEngine }) {
     >
       {data ? (
         <div className="space-y-6">
-          <Card className="bg-gradient-to-br from-ocean-900 via-ocean-700 to-mint-600 text-white">
-            <div className="flex flex-col gap-5 xl:flex-row xl:items-start xl:justify-between">
+          <Card className="bg-gradient-to-br from-ocean-900 via-ocean-700 to-mint-600 p-4 text-white sm:p-6">
+            <div className="flex flex-col gap-4 xl:flex-row xl:items-start xl:justify-between">
               <div className="min-w-0 flex-1">
-                <div className="mb-3 inline-flex rounded-full bg-white/12 px-3 py-1 text-sm font-semibold">
+                <div className="mb-2 inline-flex rounded-full bg-white/12 px-3 py-1 text-sm font-semibold">
                   当前已接入训练数据
                 </div>
                 <CardTitle className="text-2xl leading-tight text-white sm:text-3xl">{data.title}</CardTitle>
-                <CardDescription className="mt-3 max-w-2xl overflow-hidden text-sm leading-6 text-white/80 [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:2] sm:text-base sm:[display:block] sm:overflow-visible">
+                <CardDescription className="mt-3 hidden max-w-2xl overflow-hidden text-sm leading-6 text-white/80 sm:block sm:text-base">
                   这个单元已经接入知识卡片、原题、地图题和亚洲闯关。后续其他章节只要沿用同样的数据结构，就能直接复用这套 UI 和训练逻辑。
                 </CardDescription>
               </div>
@@ -71,7 +71,7 @@ export function UnitDetailPage({ engine }: { engine: StudyEngine }) {
               </div>
             </div>
 
-            <div className="mt-5 grid grid-cols-2 gap-2 sm:mt-6 sm:flex sm:flex-wrap sm:gap-3">
+            <div className="mt-4 grid grid-cols-2 gap-2 sm:mt-6 sm:flex sm:flex-wrap sm:gap-3">
               <Link
                 to={`/training/${unit.unitId}`}
                 className={cn(
