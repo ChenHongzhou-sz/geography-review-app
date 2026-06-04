@@ -63,16 +63,16 @@ export function StudyCard({
         </div>
 
         {showImage ? (
-          <div className="mb-5 overflow-hidden rounded-[1.4rem] border border-ocean-100 bg-gradient-to-br from-ocean-50 to-white">
+          <div className="mb-5 rounded-[1.4rem] border border-ocean-100 bg-gradient-to-br from-ocean-50 to-white p-2 sm:p-3">
             {resolvedAssetPath && !imageFailed ? (
               <img
                 src={resolvedAssetPath}
                 alt={card.prompt}
-                className="aspect-[16/10] w-full object-cover"
+                className="mx-auto max-h-[72vh] max-w-full rounded-[1rem] bg-white"
                 onError={() => setImageFailed(true)}
               />
             ) : (
-              <div className="flex aspect-[16/10] flex-col items-center justify-center gap-3 px-5 text-center">
+              <div className="flex min-h-[18rem] flex-col items-center justify-center gap-3 rounded-[1rem] bg-white px-5 text-center sm:min-h-[24rem]">
                 <MapPinned className="h-9 w-9 text-ocean-500" />
                 <div className="text-base font-semibold text-ink">原图加载失败</div>
                 <div className="max-w-md text-sm leading-6 text-slate-600">

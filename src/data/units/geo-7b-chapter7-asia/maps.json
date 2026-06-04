@@ -47,7 +47,7 @@
     "mode": "select",
     "options": ["欧洲", "非洲", "北美洲", "大洋洲"],
     "correctOption": "非洲",
-    "assetPath": "/images/七下/第七章/asia-location-letters.png",
+    "assetPath": "/images/七下/第七章/asia-location.png",
     "extractionNote": "课件原图中直接标出了字母 b，可用于洲界识别训练。",
     "relatedIds": ["asia-k04", "asia-q02"]
   },
