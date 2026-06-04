@@ -74,7 +74,7 @@ export function AppShell({
         <header className="relative mb-6 overflow-hidden rounded-[2rem] border border-white/70 bg-white/68 px-4 py-4 shadow-glow backdrop-blur-2xl sm:px-7 sm:py-5">
           <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-r from-ocean-300/12 via-transparent to-mint-300/16" />
           <div className="relative flex flex-col items-start gap-5 lg:flex-row lg:items-center lg:justify-between">
-            <div className="min-w-0 flex-1">
+            <div className="min-w-0 w-full flex-1">
               <div className="mb-3 inline-flex rounded-full bg-ocean-50 px-3 py-1 text-xs font-semibold text-ocean-900">
                 {badge}
               </div>

@@ -106,7 +106,7 @@ export function UnitDetailPage({ engine }: { engine: StudyEngine }) {
                 to="/sprint"
                 className={cn(
                   buttonVariants({ variant: "secondary", size: "default" }),
-                  "justify-center bg-white/12 text-white sm:h-14 sm:rounded-[1.4rem] sm:px-6 sm:text-base"
+                  "hidden justify-center bg-white/12 text-white sm:inline-flex sm:h-14 sm:rounded-[1.4rem] sm:px-6 sm:text-base"
                 )}
               >
                 <Trophy className="mr-2 h-4 w-4" />
@@ -116,7 +116,7 @@ export function UnitDetailPage({ engine }: { engine: StudyEngine }) {
                 to="/review"
                 className={cn(
                   buttonVariants({ variant: "secondary", size: "default" }),
-                  "justify-center bg-white/12 text-white sm:h-14 sm:rounded-[1.4rem] sm:px-6 sm:text-base"
+                  "hidden justify-center bg-white/12 text-white sm:inline-flex sm:h-14 sm:rounded-[1.4rem] sm:px-6 sm:text-base"
                 )}
               >
                 <Sparkles className="mr-2 h-4 w-4" />
@@ -215,6 +215,16 @@ export function UnitDetailPage({ engine }: { engine: StudyEngine }) {
               </div>
               <div className="mt-5 rounded-[1.25rem] bg-slate-50 p-4 text-sm leading-7 text-slate-600">
                 错题、地图题和分析题都会记录在本地浏览器中。后续你继续给我其他单元资料时，这里的记录逻辑不需要再改。
+              </div>
+              <div className="mt-4 grid grid-cols-2 gap-2 sm:hidden">
+                <Link to="/sprint" className={buttonVariants({ variant: "secondary", size: "default" })}>
+                  <Trophy className="mr-2 h-4 w-4" />
+                  亚洲闯关
+                </Link>
+                <Link to="/review" className={buttonVariants({ variant: "secondary", size: "default" })}>
+                  <Sparkles className="mr-2 h-4 w-4" />
+                  今日复习
+                </Link>
               </div>
             </Card>
           </div>
