@@ -2,18 +2,32 @@ import { useEffect, useState } from "react";
 import { Compass, MapPinned, Sparkles, Trophy } from "lucide-react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { AppShell } from "../components/layout/app-shell";
+import { useLocalStorage } from "../hooks/useLocalStorage";
 import { StudyCard } from "../components/study/study-card";
 import { buttonVariants } from "../components/ui/button";
 import { Card, CardDescription, CardTitle } from "../components/ui/card";
 import { Progress } from "../components/ui/progress";
 import type { ReviewCard } from "../types";
 import type { StudyEngine } from "../hooks/useStudyEngine";
+import { STORAGE_KEYS } from "../utils/storage";
+
+interface StoredTrainingSession {
+  currentIndex: number;
+  cards: ReviewCard[];
+}
+
+function clampIndex(index: number, total: number) {
+  return Math.min(Math.max(index, 0), total);
+}
 
 export function TrainingPage({ engine }: { engine: StudyEngine }) {
   const params = useParams();
   const unitId = params.unitId ?? "";
   const unit = engine.getUnit(unitId);
   const data = engine.getUnitData(unitId);
+  const [storedSessions, setStoredSessions] = useLocalStorage<
+    Record<string, StoredTrainingSession>
+  >(STORAGE_KEYS.trainingSession, {});
   const [currentIndex, setCurrentIndex] = useState(0);
   const [sessionCards, setSessionCards] = useState<ReviewCard[]>(() =>
     engine.getUnitReviewDeck(unitId)
@@ -21,9 +35,48 @@ export function TrainingPage({ engine }: { engine: StudyEngine }) {
   const card = sessionCards[currentIndex];
 
   useEffect(() => {
-    setSessionCards(engine.getUnitReviewDeck(unitId));
+    const storedSession = storedSessions[unitId];
+    const availableItemIds = new Set(
+      (data
+        ? [...data.knowledgePoints, ...data.questions, ...data.maps]
+        : []
+      ).map((item) => item.id)
+    );
+    const hasValidStoredSession =
+      Boolean(storedSession?.cards.length) &&
+      (!data || storedSession.cards.every((entry) => availableItemIds.has(entry.itemId)));
+
+    if (hasValidStoredSession && storedSession) {
+      const restoredIndex = clampIndex(storedSession.currentIndex, storedSession.cards.length);
+      setSessionCards(storedSession.cards);
+      setCurrentIndex(restoredIndex);
+      return;
+    }
+
+    const freshCards = engine.getUnitReviewDeck(unitId);
+    setSessionCards(freshCards);
     setCurrentIndex(0);
-  }, [unitId]);
+    setStoredSessions((current) => ({
+      ...current,
+      [unitId]: {
+        cards: freshCards,
+        currentIndex: 0
+      }
+    }));
+  }, [data, storedSessions, unitId]);
+
+  const persistSession = (nextCards: ReviewCard[], nextIndex: number) => {
+    const clampedIndex = clampIndex(nextIndex, nextCards.length);
+    setSessionCards(nextCards);
+    setCurrentIndex(clampedIndex);
+    setStoredSessions((current) => ({
+      ...current,
+      [unitId]: {
+        cards: nextCards,
+        currentIndex: clampedIndex
+      }
+    }));
+  };
 
   if (!unit) {
     return <Navigate to="/units" replace />;
@@ -73,7 +126,7 @@ export function TrainingPage({ engine }: { engine: StudyEngine }) {
             indexLabel={`${currentIndex + 1} / ${sessionCards.length}`}
             onAdvance={({ rating, answeredCorrectly }) => {
               engine.reviewKnowledge(card, rating, { answeredCorrectly });
-              setCurrentIndex((value) => value + 1);
+              persistSession(sessionCards, currentIndex + 1);
             }}
           />
         ) : (
@@ -97,8 +150,7 @@ export function TrainingPage({ engine }: { engine: StudyEngine }) {
               <button
                 type="button"
                 onClick={() => {
-                  setSessionCards(engine.getUnitReviewDeck(unit.unitId));
-                  setCurrentIndex(0);
+                  persistSession(engine.getUnitReviewDeck(unit.unitId), 0);
                 }}
                 className={buttonVariants({ variant: "secondary", size: "lg" })}
               >

@@ -2,12 +2,18 @@ import { useEffect, useMemo, useState } from "react";
 import { BookOpen, Compass, Lightbulb, MapPinned, RotateCcw } from "lucide-react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { AppShell } from "../components/layout/app-shell";
+import { useLocalStorage } from "../hooks/useLocalStorage";
 import { Badge } from "../components/ui/badge";
 import { buttonVariants } from "../components/ui/button";
 import { Card, CardDescription, CardTitle } from "../components/ui/card";
 import { Progress } from "../components/ui/progress";
 import type { KnowledgeCard } from "../types";
 import type { StudyEngine } from "../hooks/useStudyEngine";
+import { STORAGE_KEYS } from "../utils/storage";
+
+function clampIndex(index: number, total: number) {
+  return Math.min(Math.max(index, 0), total);
+}
 
 export function HandbookPage({ engine }: { engine: StudyEngine }) {
   const params = useParams();
@@ -15,12 +21,25 @@ export function HandbookPage({ engine }: { engine: StudyEngine }) {
   const unit = engine.getUnit(unitId);
   const data = engine.getUnitData(unitId);
   const cards = useMemo<KnowledgeCard[]>(() => data?.knowledgePoints ?? [], [data]);
+  const [storedPositions, setStoredPositions] = useLocalStorage<Record<string, number>>(
+    STORAGE_KEYS.handbookPosition,
+    {}
+  );
   const [currentIndex, setCurrentIndex] = useState(0);
   const card = cards[currentIndex];
 
   useEffect(() => {
-    setCurrentIndex(0);
-  }, [unitId]);
+    setCurrentIndex(clampIndex(storedPositions[unitId] ?? 0, cards.length));
+  }, [cards.length, storedPositions, unitId]);
+
+  const updateIndex = (nextIndex: number) => {
+    const clampedIndex = clampIndex(nextIndex, cards.length);
+    setCurrentIndex(clampedIndex);
+    setStoredPositions((current) => ({
+      ...current,
+      [unitId]: clampedIndex
+    }));
+  };
 
   if (!unit) {
     return <Navigate to="/units" replace />;
@@ -112,7 +131,7 @@ export function HandbookPage({ engine }: { engine: StudyEngine }) {
             <div className="mt-6 flex flex-wrap gap-3">
               <button
                 type="button"
-                onClick={() => setCurrentIndex((value) => Math.max(0, value - 1))}
+                onClick={() => updateIndex(currentIndex - 1)}
                 className={buttonVariants({ variant: "secondary", size: "lg" })}
                 disabled={currentIndex === 0}
               >
@@ -120,7 +139,7 @@ export function HandbookPage({ engine }: { engine: StudyEngine }) {
               </button>
               <button
                 type="button"
-                onClick={() => setCurrentIndex((value) => value + 1)}
+                onClick={() => updateIndex(currentIndex + 1)}
                 className={buttonVariants({ size: "lg" })}
               >
                 下一张知识卡
@@ -141,7 +160,7 @@ export function HandbookPage({ engine }: { engine: StudyEngine }) {
             <div className="mt-6 flex flex-wrap gap-3">
               <button
                 type="button"
-                onClick={() => setCurrentIndex(0)}
+                onClick={() => updateIndex(0)}
                 className={buttonVariants({ size: "lg" })}
               >
                 <RotateCcw className="mr-2 h-4 w-4" />
