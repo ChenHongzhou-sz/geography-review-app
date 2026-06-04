@@ -1,4 +1,4 @@
-const CACHE_NAME = "geomemory-shell-v3";
+const CACHE_NAME = "geomemory-shell-v4";
 const APP_BASE = new URL("./", self.location.href);
 const INDEX_URL = new URL("index.html", APP_BASE).href;
 const APP_SHELL = [
