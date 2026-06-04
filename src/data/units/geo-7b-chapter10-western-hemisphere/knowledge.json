@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "western-k01",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "本土位置",
+    "prompt": "怎样概括美国本土的海陆位置？",
+    "answer": "美国本土东临大西洋，西濒太平洋，北邻加拿大，南邻墨西哥。",
+    "explanation": "描述国家位置时，既要说清濒临的海洋，也要交代陆上邻国，这是美国本土位置题的标准表述。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k02",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "领土构成",
+    "prompt": "美国由哪几部分组成？",
+    "answer": "美国由本土、北美洲西北部的阿拉斯加州和太平洋中的夏威夷州组成。",
+    "explanation": "美国范围题常从“本土+阿拉斯加+夏威夷”三部分考查，也是判断其跨洲跨热量带的基础。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k03",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "人口规模",
+    "prompt": "美国在人口规模上有什么突出特点？",
+    "answer": "美国人口超过3亿，是世界第三人口大国，也是发达国家中人口增长较快的国家。",
+    "explanation": "“世界第三人口大国”是美国人口题的高频表述，经常与“移民国家”一起考。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k04",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "移民国家",
+    "prompt": "美国为什么被称为典型的移民国家？",
+    "answer": "美国人口增长较快的重要原因是移民，各个人种都有，因此是典型的移民国家。",
+    "explanation": "美国人口题的关键词不是“自然增长快”，而是“移民带动人口增长”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k05",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "原住民",
+    "prompt": "美国的原住民主要是什么人？",
+    "answer": "美国的原住民主要是印第安人。",
+    "explanation": "“印第安人”是美国原住民题的标准答案，不要与后来的移民人群混淆。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k06",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "种族问题",
+    "prompt": "美国社会长期存在的突出社会问题是什么？",
+    "answer": "美国社会长期存在种族歧视，主要表现为白种人对有色人种的歧视。",
+    "explanation": "美国人文环境题不只考“多元文化”，也常考其长期存在的种族矛盾。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k07",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "跨洲特征",
+    "prompt": "美国为什么说是地跨两洲的国家？",
+    "answer": "美国本土和阿拉斯加州位于北美洲，夏威夷州位于大洋洲，因此美国地跨北美洲和大洋洲。",
+    "explanation": "跨洲判断要从各组成部分所在大洲入手，不能只盯住美国本土。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 6,
+      "note": "知识总结"
+    }
+  },
+  {
+    "id": "western-k08",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "三带三洋",
+    "prompt": "美国“地跨三带、濒三洋”具体指什么？",
+    "answer": "美国本土位于北温带，阿拉斯加州跨北温带和北寒带，夏威夷州主要位于热带；美国本土东临大西洋，西濒太平洋，阿拉斯加州北临北冰洋。",
+    "explanation": "这是概括美国纬度位置和海陆位置的经典综合表述。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 6,
+      "note": "知识总结"
+    }
+  },
+  {
+    "id": "western-k09",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "地形分布",
+    "prompt": "美国本土地形怎样概括？",
+    "answer": "美国本土地形呈南北纵列分布，西部为高原山地，中部为平原，东部为低缓山地。",
+    "explanation": "东西三大地形区是判断美国农业带、河流和龙卷风分布的重要基础。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k10",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "农业机械化",
+    "prompt": "美国农业生产在生产方式上有什么突出特点？",
+    "answer": "美国农业生产规模大，各个生产过程和环节都实现了机械化。",
+    "explanation": "机械化程度高是美国农业效率高、成本低的重要原因。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k11",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "农业大国",
+    "prompt": "美国在主要农产品生产和出口上有什么优势？",
+    "answer": "美国的玉米、小麦、大豆、棉花等产量和出口量均居世界前列。",
+    "explanation": "美国农业题常把“农业大国”和“机械化、专门化”结合起来考。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k12",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "高技术产业",
+    "prompt": "美国工业中世界领先的产业类型是什么？",
+    "answer": "美国科技发达，以信息、生物、新材料技术产业等为代表的高技术产业世界领先。",
+    "explanation": "“高技术产业世界领先”是美国工业部分最核心的结论。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k13",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "资源消耗大国",
+    "prompt": "为什么说美国是资源消耗大国？",
+    "answer": "美国是人口最多、经济水平最高的发达国家，消费水平很高，人均资源消耗量远高于世界平均水平。",
+    "explanation": "判断“资源消耗大国”不能只看总量，还要看人均消费水平高。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k14",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "农业气候条件",
+    "prompt": "美国农业发展的主要气候优势是什么？",
+    "answer": "美国本土大部分处在温带，气候以温带大陆性气候为主，光热条件充足。",
+    "explanation": "光热充足是美国发展种植业的重要自然前提。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "western-k15",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "农业地形土壤条件",
+    "prompt": "美国农业发展的地形和土壤优势是什么？",
+    "answer": "美国地形以平原为主，用于农业生产的土地面积广大，土壤肥沃。",
+    "explanation": "平原广、土壤肥，是美国中部成为世界重要粮食产区的关键原因。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "western-k16",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "农业水分条件",
+    "prompt": "美国农业用水条件为什么较好？",
+    "answer": "美国雨热同期，降水量大致从东南向西北递减，密西西比河和五大湖为农业灌溉提供了良好条件。",
+    "explanation": "做美国农业条件题时，常要把“雨热同期”和“河湖灌溉”一起答出来。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "western-k17",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "地区生产专门化",
+    "prompt": "什么是美国农业的地区生产专门化，它有什么作用？",
+    "answer": "美国根据自然条件差异和市场需求，因地制宜发展农业，形成各农业带（区）只布局一两种主要农作物的地区生产专门化格局，这有利于推广先进技术、发挥机械化优势并提高效率。",
+    "explanation": "“因地制宜+专门布局+技术推广+效率提高”是回答这类题的完整链条。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 11,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "western-k18",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "乳畜带条件",
+    "prompt": "美国乳畜带形成的主要条件有哪些？",
+    "answer": "乳畜带位置偏北，气候冷湿，适宜牧草生长；同时城市和人口分布密集，市场需求大。",
+    "explanation": "乳畜带条件常从“冷湿牧草好”和“城市人口密集、市场广阔”两方面作答。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 12,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "western-k19",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "玉米带条件",
+    "prompt": "美国玉米带形成的主要条件有哪些？",
+    "answer": "玉米带地势平坦，土壤肥沃，春夏气温较高，适合玉米生长。",
+    "explanation": "玉米带答题重点是“平坦、肥沃、热量较足”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 12,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "western-k20",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "小麦区条件",
+    "prompt": "美国小麦区形成的主要条件有哪些？",
+    "answer": "美国小麦区地势平坦，土壤肥沃，灌溉便利。",
+    "explanation": "与玉米带相比，小麦区常更强调灌溉便利这一条件。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 12,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "western-k21",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "畜牧和灌溉农业区条件",
+    "prompt": "美国畜牧和灌溉农业区形成的条件是什么？",
+    "answer": "该区多山地，降水较少，有大片半干旱草原，并且有高山冰雪融水提供灌溉水源。",
+    "explanation": "这一区域既适合发展牧业，也依赖灌溉农业，是美国西部农业的重要特点。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 12,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "western-k22",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "棉花带条件",
+    "prompt": "美国棉花带形成的主要条件是什么？",
+    "answer": "棉花带地形平坦，土壤肥沃，纬度较低，夏季气候湿热。",
+    "explanation": "棉花生长需要较高热量，回答棉花带时要突出“纬度低、夏季湿热”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 12,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "western-k23",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "资源消耗原因",
+    "prompt": "美国资源消耗多的主要原因有哪些？",
+    "answer": "美国工农业发达、生活消费水平高、汽车等消费品占有量大，人口增长和城市化持续推进，同时存在能源密集型工业，因此资源消耗很大。",
+    "explanation": "资源消耗题既要看生产，也要看生活消费，不只是“工业发达”这么简单。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 13,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "western-k24",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "能源挑战",
+    "prompt": "美国在资源和能源利用上面临哪些挑战？",
+    "answer": "美国虽然能源生产能力强，但仍需进口大量石油和天然气；化石燃料大量使用还会带来环境污染和全球变暖等问题。",
+    "explanation": "“高消耗、高排放”是美国资源利用问题的核心特征。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 13,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "western-k25",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "龙卷风走廊",
+    "prompt": "美国中部为什么容易形成“龙卷风走廊”？",
+    "answer": "美国中部平原贯通南北，来自墨西哥湾的暖湿气流和来自北方的冷空气可以长驱直入，冷暖气流交汇频繁，容易形成龙卷风。",
+    "explanation": "这类题本质上是在考美国地形对大气运动的影响。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 28,
+      "note": "能力达标第6题解析"
+    }
+  },
+  {
+    "id": "western-k26",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "密西西比河水文特征",
+    "prompt": "密西西比河中下游常见的水文特征怎样概括？",
+    "answer": "密西西比河中下游流速慢、流量较大、结冰期短、汛期较长、含沙量小。",
+    "explanation": "概括河流水文特征时，常从流速、流量、结冰期、汛期和含沙量几个角度回答。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 33,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "western-k27",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "大豆种植条件",
+    "prompt": "美国中部生产大豆的有利自然条件有哪些？",
+    "answer": "美国中部地形平坦，土壤肥沃，灌溉水源充足，水热条件较好，适合大豆生长。",
+    "explanation": "作物条件题一般从地形、土壤、水源和气候四个方面概括。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 34,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "western-k28",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "硅谷区位条件",
+    "prompt": "硅谷成为美国规模最大的高技术产业中心，主要有利条件是什么？",
+    "answer": "硅谷附近高等院校和科研机构众多，科技人才集中，科技力量雄厚，同时交通便利、环境优美。",
+    "explanation": "高技术产业的首要条件是技术和人才，其次才是交通、环境等配套优势。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 34,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "western-k29",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "国家面积",
+    "prompt": "巴西在南美洲的面积地位怎样？",
+    "answer": "巴西是南美洲面积最大的国家。",
+    "explanation": "“南美洲面积最大”是认识巴西最基本的标签之一。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k30",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "位置",
+    "prompt": "怎样概括巴西的位置特点？",
+    "answer": "巴西位于南美洲东部，东临大西洋，绝大部分国土位于热带。",
+    "explanation": "回答巴西位置题时，通常要把“南美洲东部、东临大西洋、热带范围广”一起答出。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k31",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "地形格局",
+    "prompt": "巴西主要有哪些地形区？",
+    "answer": "巴西以平原和高原为主，西北部是亚马孙平原，东南部是巴西高原。",
+    "explanation": "亚马孙平原和巴西高原是巴西自然地理题最核心的两个地形单元。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k32",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "人口规模",
+    "prompt": "巴西在人口规模上有什么突出特点？",
+    "answer": "巴西人口超过2亿，是南美洲人口最多的国家。",
+    "explanation": "巴西既是南美洲面积最大国，也是人口最多国，这两点常一起考查。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k33",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "居民构成",
+    "prompt": "巴西居民构成有什么特点？",
+    "answer": "巴西混血种人数量众多，约占总人口的45%，原住民主要是印第安人。",
+    "explanation": "“混血种人为主”是巴西人文环境最鲜明的特点。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k34",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "农产品优势",
+    "prompt": "巴西在农业生产和出口上有什么优势？",
+    "answer": "巴西的咖啡、蔗糖、大豆、玉米、牛肉产量和出口量居世界前列，是世界重要的农产品生产国和出口国。",
+    "explanation": "巴西是典型的热带农业大国，热带经济作物和粮食、畜产品都很突出。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k35",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "铁矿资源",
+    "prompt": "巴西最典型的优势矿产是什么？",
+    "answer": "巴西铁矿石储量大、品质优，产量和出口量均居世界前列。",
+    "explanation": "铁矿资源优势直接支撑了巴西钢铁工业的发展。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k36",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "工业中心",
+    "prompt": "巴西重要的工业中心主要有哪些？",
+    "answer": "巴西东南沿海的圣保罗、里约热内卢、贝洛奥里藏特是重要工业中心。",
+    "explanation": "巴西工业重心位于东南沿海，这是人口、交通、资源和历史开发共同作用的结果。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k37",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "新兴产业",
+    "prompt": "巴西在哪些产业领域具有世界领先水平？",
+    "answer": "巴西民用支线飞机制造业和生物燃料产业居世界领先水平，航空航天业规模较大。",
+    "explanation": "巴西并不只是资源和农业大国，在部分制造业和新能源领域也很有代表性。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k38",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "亚马孙河",
+    "prompt": "亚马孙河在世界河流中的地位怎样？",
+    "answer": "亚马孙河流经巴西北部，是世界上流域面积最广、水量最大的河流。",
+    "explanation": "亚马孙河不是世界第一长河，但它的流域面积和水量都居世界首位。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k39",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "热带雨林",
+    "prompt": "巴西北部最有代表性的自然景观是什么？",
+    "answer": "亚马孙流域分布着地球上面积最大的热带雨林，其中约60%在巴西境内。",
+    "explanation": "“面积最大”是亚马孙热带雨林最核心的识记点。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "western-k40",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "亚马孙河航运价值",
+    "prompt": "亚马孙河为什么航运价值不高？",
+    "answer": "亚马孙河流域气候湿热，人口稀少，经济发展水平较低，运输需求量小，因此航运价值不高。",
+    "explanation": "河流水量大不等于航运价值高，关键还要看人口和经济活动是否密集。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 7,
+      "note": "易错警示"
+    }
+  },
+  {
+    "id": "western-k41",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "半球位置",
+    "prompt": "巴西的半球位置和海陆位置怎样概括？",
+    "answer": "巴西位于西半球，大部分领土位于南半球，位于南美洲东部，东临大西洋，是海陆兼备的国家。",
+    "explanation": "回答巴西位置时，要把半球、洲际和临海情况联系起来。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 9,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "western-k42",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "面积与人口",
+    "prompt": "巴西在面积和人口上还有哪些世界地位？",
+    "answer": "巴西是南美洲面积最大、人口最多的国家，陆地面积约851万平方千米，居世界第五位。",
+    "explanation": "“南美第一、世界第五”是巴西面积题的标准组合表述。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 9,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "western-k43",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "平原与高原",
+    "prompt": "巴西地形的总体特征怎样概括？",
+    "answer": "巴西以平原和高原为主，其中亚马孙平原约占国土面积1/3，巴西高原约占2/3。",
+    "explanation": "记住“亚马孙平原+巴西高原”以及大致占比，能帮助快速判断巴西地形格局。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "western-k44",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "气候类型",
+    "prompt": "巴西主要有哪些气候类型？",
+    "answer": "巴西绝大部分国土位于热带，亚马孙河流域主要为热带雨林气候，巴西高原主要为热带草原气候。",
+    "explanation": "“亚马孙雨林、巴西高原草原”是巴西气候判读的主线。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "western-k45",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "资源禀赋",
+    "prompt": "巴西在自然资源上有哪些优势？",
+    "answer": "巴西矿产资源丰富，铁、锰、金等储量较大，同时水资源和水能资源也很丰富。",
+    "explanation": "资源优势为巴西发展工农业、冶金和水电提供了坚实基础。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "western-k46",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "雨林开发后果",
+    "prompt": "20世纪60年代以来巴西大规模开发亚马孙地区，主要方式和后果是什么？",
+    "answer": "巴西通过修建公路、开辟大型农场和牧场、采矿、办工厂、建城镇等方式开发亚马孙地区，导致热带雨林遭受严重破坏，不仅影响巴西本土环境，也影响全球气候。",
+    "explanation": "雨林开发题通常要同时回答“怎么开发”和“造成什么后果”。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 11,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "western-k47",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "雨林保护措施",
+    "prompt": "巴西保护亚马孙热带雨林的主要措施有哪些？",
+    "answer": "巴西通过设立印第安人保护区、生态保护区和森林公园等保护区，利用卫星遥感监控乱砍滥伐，并与国际组织合作推进减少森林退化和温室气体排放的行动计划。",
+    "explanation": "保护雨林既包括划区保护，也包括科技监测和国际合作。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 12,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "western-k48",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "人口和城市分布",
+    "prompt": "巴西人口和城市主要分布在哪里？",
+    "answer": "巴西人口和城市主要分布在东南沿海地区。",
+    "explanation": "东南沿海开发早、交通便利、工农业发达，因此人口和城市最集中。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 13,
+      "note": "跟踪训练第1题"
+    }
+  },
+  {
+    "id": "western-k49",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "农业发展条件",
+    "prompt": "巴西发展农业最突出的自然优势是什么？",
+    "answer": "巴西热带面积广大，水热条件优越，适合多种热带作物生长。",
+    "explanation": "回答巴西农业条件题时，热带范围广、光热水分充足是最核心的自然条件。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 21,
+      "note": "基础巩固第2题"
+    }
+  },
+  {
+    "id": "western-k50",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "甘蔗主产区条件",
+    "prompt": "巴西甘蔗主产区有哪些种植优势？",
+    "answer": "自然条件上，主产区地处热带，全年高温，热量充足，降水丰富且邻近河流，地形较平坦；人文条件上，靠近人口密集区与城市，劳动力较多，交通便利。",
+    "explanation": "作物种植条件题通常要从自然条件和人文条件两个角度分别作答。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 32,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "western-k51",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "酒精计划原因",
+    "prompt": "巴西为什么启动“酒精计划”？",
+    "answer": "因为巴西甘蔗产量大、原料丰富，而石油资源相对匮乏；同时酒精燃料属于较清洁的能源，有利于减轻环境污染。",
+    "explanation": "“原料足、石油少、污染轻”是巴西酒精计划原因题的三大关键词。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 33,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "western-k52",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "酒精计划效益",
+    "prompt": "巴西“酒精计划”带来了哪些综合效益？",
+    "answer": "巴西发展酒精燃料增加了就业和收入，促进了基础设施建设，缓解了能源短缺，减轻了对石油的依赖，同时有助于减轻环境污染、改善生态环境。",
+    "explanation": "回答这类题时，要兼顾社会经济效益和生态环境效益两方面。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 33,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "western-k53",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "工业城市分布",
+    "prompt": "巴西工业城市的分布特点是什么？",
+    "answer": "巴西工业城市多靠近原料产地，主要集中在东部沿海地区，并多沿海、沿河流分布。",
+    "explanation": "工业城市布局既受资源影响，也受港口、河流和交通条件影响。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 章末总结.pptx",
+      "slide": 30,
+      "note": "章末作业第17题"
+    }
+  },
+  {
+    "id": "western-k54",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "新能源汽车基地条件",
+    "prompt": "卡马萨里适合建设新能源汽车生产基地的条件有哪些？",
+    "answer": "卡马萨里工业基础较好，配套设施较完善，邻近港口，铁路和公路发达，交通便利，市场广阔，并且有政府政策支持。",
+    "explanation": "产业布局题往往要把工业基础、交通、市场和政策几个角度串联起来回答。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 章末总结.pptx",
+      "slide": 30,
+      "note": "章末作业第17题"
+    }
+  },
+  {
+    "id": "western-k55",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "中资建厂影响",
+    "prompt": "中国在卡马萨里建设新能源汽车基地，会给当地带来哪些积极影响？",
+    "answer": "这会推动当地矿产资源优势转化为经济优势，提供就业岗位，增加居民收入，完善基础设施建设，并促进当地经济和相关产业发展。",
+    "explanation": "外来投资对区域发展的作用，通常要从就业、收入、产业和基础设施几方面概括。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 章末总结.pptx",
+      "slide": 31,
+      "note": "章末作业第17题"
+    }
+  },
+  {
+    "id": "western-k56",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "咖啡王国",
+    "prompt": "巴西为什么被称为“咖啡王国”？",
+    "answer": "因为巴西是世界最大的咖啡生产国和出口国，咖啡产量和出口量长期居世界前列。",
+    "explanation": "“咖啡王国”是巴西最经典的别称之一，常与热带农业优势结合考查。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 29,
+      "note": "能力达标第8题解析"
+    }
+  }
+]

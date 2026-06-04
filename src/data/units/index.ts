@@ -10,6 +10,10 @@ import easternHemisphereUnitBase from "./geo-7b-chapter9-eastern-hemisphere.json
 import easternHemisphereKnowledge from "./geo-7b-chapter9-eastern-hemisphere/knowledge.json";
 import easternHemisphereQuestions from "./geo-7b-chapter9-eastern-hemisphere/questions.json";
 import easternHemisphereMaps from "./geo-7b-chapter9-eastern-hemisphere/maps.json";
+import westernHemisphereUnitBase from "./geo-7b-chapter10-western-hemisphere.json";
+import westernHemisphereKnowledge from "./geo-7b-chapter10-western-hemisphere/knowledge.json";
+import westernHemisphereQuestions from "./geo-7b-chapter10-western-hemisphere/questions.json";
+import westernHemisphereMaps from "./geo-7b-chapter10-western-hemisphere/maps.json";
 import type { UnitCatalogEntry, UnitData } from "../../types";
 
 export const DEFAULT_UNIT_ID = "geo-7b-chapter7-asia";
@@ -126,8 +130,8 @@ export const unitCatalog: UnitCatalogEntry[] = [
     chapter: "第十章",
     chapterName: "第十章 西半球的国家",
     title: "西半球的国家",
-    description: "美国与巴西等国家专题训练。",
-    status: "planned",
+    description: "按金版学案接入美国与巴西的知识手册、真题训练和综合提升。",
+    status: "ready",
     accent: "slate"
   },
   {
@@ -164,10 +168,18 @@ const easternHemisphereUnit: UnitData = {
   maps: easternHemisphereMaps as UnitData["maps"]
 };
 
+const westernHemisphereUnit: UnitData = {
+  ...(westernHemisphereUnitBase as UnitData),
+  knowledgePoints: westernHemisphereKnowledge as UnitData["knowledgePoints"],
+  questions: westernHemisphereQuestions as UnitData["questions"],
+  maps: westernHemisphereMaps as UnitData["maps"]
+};
+
 const activeUnits: Record<string, UnitData> = {
   [DEFAULT_UNIT_ID]: asiaUnit,
   [neighbourUnit.unitId]: neighbourUnit,
-  [easternHemisphereUnit.unitId]: easternHemisphereUnit
+  [easternHemisphereUnit.unitId]: easternHemisphereUnit,
+  [westernHemisphereUnit.unitId]: westernHemisphereUnit
 };
 
 export function getUnitData(unitId: string) {

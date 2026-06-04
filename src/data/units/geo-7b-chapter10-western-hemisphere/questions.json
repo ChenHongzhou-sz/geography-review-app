@@ -1,0 +1,1471 @@
+[
+  {
+    "id": "western-q01",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "地形分布",
+    "prompt": "下列对美国本土地形的描述，正确的是哪一项？",
+    "answer": "西部为高原山地，中部为平原，东部为低缓山地",
+    "explanation": "美国本土地形分为东、中、西三部分，这是判断农业带和气候差异的重要基础。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 15,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "北邻墨西哥，南邻加拿大",
+      "西部为高原山地，中部为平原，东部为低缓山地",
+      "以温带季风气候为主",
+      "人口众多，是世界第二人口大国"
+    ],
+    "correctOption": "西部为高原山地，中部为平原，东部为低缓山地"
+  },
+  {
+    "id": "western-q02",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "综合认知",
+    "prompt": "下列关于美国的说法，不准确的是哪一项？",
+    "answer": "阿拉斯加州被北回归线穿过",
+    "explanation": "阿拉斯加州被北极圈穿过，而不是北回归线。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 16,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "是典型的移民国家，文化多元",
+      "农业生产专门化、机械化和商品化程度都相当高",
+      "阿拉斯加州被北回归线穿过",
+      "高技术产业世界领先"
+    ],
+    "correctOption": "阿拉斯加州被北回归线穿过"
+  },
+  {
+    "id": "western-q03",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "原住民",
+    "prompt": "美国的原住民主要是什么人？",
+    "answer": "印第安人",
+    "explanation": "美国原住民是印第安人，不要与后来移民或北极地区居民混淆。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 17,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "印度人",
+      "因纽特人",
+      "黑人",
+      "印第安人"
+    ],
+    "correctOption": "印第安人"
+  },
+  {
+    "id": "western-q04",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "地势特征",
+    "prompt": "读美国沿40°N的地形剖面图，美国地势的总体特征是？",
+    "answer": "东西高、中部低",
+    "explanation": "美国西部高大山系、东部低缓山地、中部广阔平原，整体表现为东西高、中部低。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 18,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "西高东低",
+      "南高北低",
+      "东西高、中部低",
+      "中部高、四周低"
+    ],
+    "correctOption": "东西高、中部低"
+  },
+  {
+    "id": "western-q05",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "牛肉产区",
+    "prompt": "中国从美国进口的牛肉，最可能来自美国的哪一农业区？",
+    "answer": "畜牧和灌溉农业区",
+    "explanation": "美国西部畜牧和灌溉农业区草场广阔，最适合发展肉牛业。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 21,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "乳畜带",
+      "玉米带",
+      "棉花带",
+      "畜牧和灌溉农业区"
+    ],
+    "correctOption": "畜牧和灌溉农业区"
+  },
+  {
+    "id": "western-q06",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "农业区环境",
+    "prompt": "与美国畜牧和灌溉农业区环境特征相符的是哪一项？",
+    "answer": "地形崎岖，降水较少",
+    "explanation": "美国西部内陆多山地、降水少、半干旱草原广布，并依赖灌溉发展农业。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 22,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "河网密布，水系发达",
+      "地形崎岖，降水较少",
+      "地形平坦，土壤肥沃",
+      "距海较近，降水丰富"
+    ],
+    "correctOption": "地形崎岖，降水较少"
+  },
+  {
+    "id": "western-q07",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "农业人为条件",
+    "prompt": "美国农业生产效率高、成本低、市场竞争力强，其主要人为原因是？",
+    "answer": "农业科技发达，高度机械化和专门化",
+    "explanation": "自然条件再好，也不能直接解释“效率高、成本低”，关键是科技、机械化和专门化水平高。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 23,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "耕地广阔，土壤肥沃",
+      "农业科技发达，气候条件优越",
+      "气候条件优越，高度机械化和专门化",
+      "农业科技发达，高度机械化和专门化"
+    ],
+    "correctOption": "农业科技发达，高度机械化和专门化"
+  },
+  {
+    "id": "western-q08",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "高技术产业类型",
+    "prompt": "美国的ChatGPT与我国自主研发的DeepSeek都属于哪类产业？",
+    "answer": "信息技术产业",
+    "explanation": "人工智能助手依托自然语言处理和机器学习技术，属于信息技术产业。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 25,
+      "note": "能力达标第4题"
+    },
+    "options": [
+      "生物技术产业",
+      "信息技术产业",
+      "新材料技术产业",
+      "新能源技术产业"
+    ],
+    "correctOption": "信息技术产业"
+  },
+  {
+    "id": "western-q09",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "硅谷优势",
+    "prompt": "硅谷研发出人工智能产品的最有利条件是什么？",
+    "answer": "科技发达",
+    "explanation": "高技术产业最重要的条件是科技力量雄厚和高素质人才集中，而不是资源丰富。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 26,
+      "note": "能力达标第5题"
+    },
+    "options": [
+      "交通便利",
+      "位置优越",
+      "科技发达",
+      "资源丰富"
+    ],
+    "correctOption": "科技发达"
+  },
+  {
+    "id": "western-q10",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "龙卷风走廊",
+    "prompt": "美国中部地区有“龙卷风走廊”之称，主要原因是什么？",
+    "answer": "中部平原贯通南北，受冷暖气流影响明显",
+    "explanation": "中部平原南北贯通，有利于冷暖气流长驱直入并频繁交汇，容易形成龙卷风。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 28,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "人口、城市密集，经济发达",
+      "易受来自墨西哥湾和太平洋的气流影响",
+      "中部平原贯通南北，受冷暖气流影响明显",
+      "海拔高，气温低，易受龙卷风影响"
+    ],
+    "correctOption": "中部平原贯通南北，受冷暖气流影响明显"
+  },
+  {
+    "id": "western-q11",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "自然灾害影响",
+    "prompt": "据图分析，几乎受不到龙卷风影响的美国农业带是？",
+    "answer": "水果和灌溉农业区",
+    "explanation": "美国水果和灌溉农业区位于西部沿海，远离中部龙卷风高发区。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 29,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "小麦区",
+      "水果和灌溉农业区",
+      "玉米带",
+      "棉花带"
+    ],
+    "correctOption": "水果和灌溉农业区"
+  },
+  {
+    "id": "western-q12",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "灾害防御",
+    "prompt": "遇到龙卷风时，下列错误的逃生方式是？",
+    "answer": "躲入生活活动场所或其他简易临时建筑里",
+    "explanation": "简易建筑不坚固，在龙卷风中容易被摧毁，躲入其中非常危险。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 30,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "如在汽车中，应及时离开，到低洼地躲避",
+      "躲入地下的空间或场所，如地下室",
+      "躲入生活活动场所或其他简易临时建筑里",
+      "冷静镇定，远离门窗、大树、电线杆等"
+    ],
+    "correctOption": "躲入生活活动场所或其他简易临时建筑里"
+  },
+  {
+    "id": "western-q13",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "濒临海洋",
+    "prompt": "列出美国本土东部和西部分别濒临的海洋。",
+    "answer": "美国本土东部濒临大西洋，西部濒临太平洋。",
+    "explanation": "这种基础识图题一般按“东部—西部”顺序作答，避免方向和海洋名称写反。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 33,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "western-q14",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "河流水文",
+    "prompt": "从流速、流量、结冰期、汛期、含沙量等方面，简述密西西比河中下游的水文特征。",
+    "answer": "密西西比河中下游流速慢、流量较大、结冰期短、汛期较长、含沙量小。",
+    "explanation": "概括河流水文特征时，要按固定要素逐项回答，答案更完整、更稳妥。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 33,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "western-q15",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "大豆种植",
+    "prompt": "分析美国中部生产大豆的有利自然条件。",
+    "answer": "美国中部地形平坦，土壤肥沃，灌溉水源充足，水热条件较好，适宜大豆生长。",
+    "explanation": "作物种植条件题通常要从地形、土壤、水源和气候几方面综合概括。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 34,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "western-q16",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第一节 美国",
+    "knowledgePoint": "高技术产业条件",
+    "prompt": "分析硅谷形成美国规模最大的高技术产业中心的有利条件。",
+    "answer": "硅谷附近高等院校和科研机构众多，科技人才集中，科技力量雄厚，同时交通便利、环境优美，利于高技术产业集聚发展。",
+    "explanation": "高技术产业布局题要优先突出“科技人才优势”，再补充交通、环境等配套条件。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　美　国.pptx",
+      "slide": 34,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "western-q17",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "人口分布",
+    "prompt": "巴西的人口、城市主要分布在什么地区？",
+    "answer": "巴西东南沿海",
+    "explanation": "巴西东南沿海开发早、交通便利、经济较发达，因此人口和城市最集中。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 13,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "亚马孙河沿岸",
+      "亚马孙平原",
+      "巴西东北部河口三角洲",
+      "巴西东南沿海"
+    ],
+    "correctOption": "巴西东南沿海"
+  },
+  {
+    "id": "western-q18",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "钢铁工业区位",
+    "prompt": "巴西东部沿海地区钢铁工业较多，下列条件中与其关系最不密切的是哪一项？",
+    "answer": "地形平坦，土壤肥沃",
+    "explanation": "钢铁工业更看重矿产、交通和技术条件，而“土壤肥沃”主要对应农业发展条件。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 15,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "铁矿丰富",
+      "交通便利",
+      "地形平坦，土壤肥沃",
+      "科技发达"
+    ],
+    "correctOption": "地形平坦，土壤肥沃"
+  },
+  {
+    "id": "western-q19",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "工业门类",
+    "prompt": "根据巴西农矿产品分布推测，该国适宜发展哪些工业？",
+    "answer": "纺织工业、钢铁工业、汽车工业",
+    "explanation": "巴西既有棉花等农产品，也有铁矿资源和较完善工业体系，但不适合发展甜菜制糖工业。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 16,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "纺织工业、钢铁工业、甜菜制糖工业",
+      "钢铁工业、甜菜制糖工业、汽车工业",
+      "纺织工业、甜菜制糖工业、汽车工业",
+      "纺织工业、钢铁工业、汽车工业"
+    ],
+    "correctOption": "纺织工业、钢铁工业、汽车工业"
+  },
+  {
+    "id": "western-q20",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "雨林开发后果",
+    "prompt": "开发亚马孙热带雨林带来的主要问题有哪些？",
+    "answer": "水土流失严重，河流含沙量增高；珍贵野生动物遭劫",
+    "explanation": "开发雨林会带来生态破坏和生物多样性下降，但与沙尘暴增加、工业发展放慢并无直接对应关系。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 17,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "水土流失严重，河流含沙量增高；珍贵野生动物遭劫",
+      "珍贵野生动物遭劫；沙尘暴急剧增加，风沙危害严重",
+      "沙尘暴急剧增加，风沙危害严重；影响巴西工业发展速度",
+      "水土流失严重，河流含沙量增高；沙尘暴急剧增加"
+    ],
+    "correctOption": "水土流失严重，河流含沙量增高；珍贵野生动物遭劫"
+  },
+  {
+    "id": "western-q21",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "亚马孙河判断",
+    "prompt": "下列信息中，属于亚马孙河的是哪一组？",
+    "answer": "跨高温多雨的赤道南北；水流平缓，航运便利但航运价值小；世界上水量最大、流域面积最广的河流",
+    "explanation": "亚马孙河不是世界第一长河，也不是注入墨西哥湾，更不是内流河。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 19,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "跨高温多雨的赤道南北；水流平缓，航运便利但航运价值小；世界上水量最大、流域面积最广的河流",
+      "世界第一长河；世界上水量最大、流域面积最广的河流；世界最长的内流河",
+      "跨高温多雨的赤道南北；由北向南注入墨西哥湾；世界上水量最大、流域面积最广的河流",
+      "世界第一长河；由北向南注入墨西哥湾；世界最长的内流河"
+    ],
+    "correctOption": "跨高温多雨的赤道南北；水流平缓，航运便利但航运价值小；世界上水量最大、流域面积最广的河流"
+  },
+  {
+    "id": "western-q22",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "农业条件",
+    "prompt": "巴西发展农业最有利的自然条件是什么？",
+    "answer": "热带面积广，水热条件优越",
+    "explanation": "巴西位于低纬热带地区，光热充足、降水丰富，最适合发展热带农业。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 21,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "气候温和，平原面积广大",
+      "劳动力少，机械化程度高",
+      "热带面积广，水热条件优越",
+      "热带季风气候，雨热同期"
+    ],
+    "correctOption": "热带面积广，水热条件优越"
+  },
+  {
+    "id": "western-q23",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "出口农产品",
+    "prompt": "下列农产品中，巴西最可能出口到我国的是哪一组？",
+    "answer": "咖啡和甘蔗",
+    "explanation": "巴西是世界重要的热带经济作物生产国，咖啡和甘蔗都很有代表性。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 22,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "咖啡和甘蔗",
+      "天然橡胶和小麦",
+      "大豆和甜菜",
+      "棉花和苹果"
+    ],
+    "correctOption": "咖啡和甘蔗"
+  },
+  {
+    "id": "western-q24",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "地球之肺",
+    "prompt": "亚马孙热带雨林被称为“地球之肺”，其生态效益主要体现在哪些方面？",
+    "answer": "涵养水源，保护淡水资源；维护生物多样性；缓解温室效应",
+    "explanation": "“提供木材、药材、食品”等属于经济效益，不属于题目要求的生态效益。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 24,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "涵养水源，保护淡水资源；维护生物多样性；提供木材、药材、食品等",
+      "涵养水源，保护淡水资源；维护生物多样性；缓解温室效应",
+      "维护生物多样性；提供木材、药材、食品等；缓解温室效应",
+      "涵养水源，保护淡水资源；提供木材、药材、食品等；缓解温室效应"
+    ],
+    "correctOption": "涵养水源，保护淡水资源；维护生物多样性；缓解温室效应"
+  },
+  {
+    "id": "western-q25",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "雨林保护",
+    "prompt": "为实现亚马孙热带雨林的持续保护，最合理的做法是？",
+    "answer": "建立保护区，逐步退耕还林",
+    "explanation": "持续保护的核心是科学利用与生态修复相结合，而不是简单放任开发或完全脱离实际的禁绝措施。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 25,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "全面禁止对森林的砍伐",
+      "禁止木材的流通和买卖",
+      "建立保护区，逐步退耕还林",
+      "大力发展基础设施建设，吸引人口大量迁入"
+    ],
+    "correctOption": "建立保护区，逐步退耕还林"
+  },
+  {
+    "id": "western-q26",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "热带范围",
+    "prompt": "下列关于巴西的说法，正确的是哪一项？",
+    "answer": "热带面积广大",
+    "explanation": "巴西大部分位于赤道和南回归线之间，热带面积广大；亚马孙河航运价值并不高，东南沿海人口也不稀疏。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 27,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "热带面积广大",
+      "平原面积狭小",
+      "亚马孙河航运价值高",
+      "东南沿海人口稀疏"
+    ],
+    "correctOption": "热带面积广大"
+  },
+  {
+    "id": "western-q27",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "优势矿产与工业",
+    "prompt": "巴西利用优势矿产资源最适宜发展哪类工业？",
+    "answer": "钢铁工业",
+    "explanation": "巴西铁矿资源丰富，是发展钢铁工业最典型的资源优势。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 28,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "电子工业",
+      "蔗糖加工",
+      "钢铁工业",
+      "纺织工业"
+    ],
+    "correctOption": "钢铁工业"
+  },
+  {
+    "id": "western-q28",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "国家别称",
+    "prompt": "下列别称与巴西相符的是哪一项？",
+    "answer": "咖啡王国",
+    "explanation": "巴西是世界最大的咖啡生产国和出口国，因此有“咖啡王国”之称。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 29,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "世界办公室",
+      "咖啡王国",
+      "世界石油宝库",
+      "世界风库"
+    ],
+    "correctOption": "咖啡王国"
+  },
+  {
+    "id": "western-q29",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "甘蔗主产区条件",
+    "prompt": "分析巴西甘蔗主产区种植甘蔗的优势自然及人文条件。",
+    "answer": "自然条件上，主产区地处热带，全年高温，热量充足，降水丰富且邻近河流，地形较平坦；人文条件上，靠近人口密集区和城市，劳动力较多，交通便利。",
+    "explanation": "作物种植条件题通常要分自然条件和人文条件两部分回答。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 32,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "western-q30",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "酒精计划原因",
+    "prompt": "说明巴西启动“酒精计划”的主要原因。",
+    "answer": "巴西甘蔗产量大、原料丰富，而石油资源相对匮乏；同时酒精燃料较清洁，有利于减轻环境污染。",
+    "explanation": "回答“酒精计划”原因时，要同时突出原料、能源和环保三个维度。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 33,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "western-q31",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "第二节 巴西",
+    "knowledgePoint": "酒精计划效益",
+    "prompt": "列举巴西发展“酒精计划”取得的综合效益。",
+    "answer": "酒精计划增加了就业和收入，促进基础设施建设，缓解了能源短缺，减轻了对石油的依赖，同时有助于减轻环境污染、改善生态环境。",
+    "explanation": "综合效益题要从社会经济效益和生态环境效益两方面概括。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　巴　西.pptx",
+      "slide": 33,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "western-q32",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "专题练习四 西半球的国家——美国和巴西",
+    "knowledgePoint": "龙卷风高发区",
+    "prompt": "美国本土沿36°N地形剖面图中，最可能龙卷风频发的是哪一地？",
+    "answer": "丙",
+    "explanation": "丙位于美国中部平原，而美国中部平原是龙卷风高发区。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 专题练习四　西半球的国家——美国和巴西.pptx",
+      "slide": 3,
+      "note": "专题练习第1题"
+    },
+    "options": [
+      "甲",
+      "乙",
+      "丙",
+      "丁"
+    ],
+    "correctOption": "丙"
+  },
+  {
+    "id": "western-q33",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "专题练习四 西半球的国家——美国和巴西",
+    "knowledgePoint": "龙卷风影响",
+    "prompt": "关于龙卷风及其带来的影响，合理的是哪一项？",
+    "answer": "摧毁房屋，破坏庄稼",
+    "explanation": "龙卷风来去突然、破坏力大，会摧毁房屋、破坏庄稼，但不会直接带来持续高温干旱。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 专题练习四　西半球的国家——美国和巴西.pptx",
+      "slide": 4,
+      "note": "专题练习第2题"
+    },
+    "options": [
+      "摧毁房屋，破坏庄稼",
+      "带来持续高温、干旱天气",
+      "来去突然，破坏力小",
+      "活动范围不大，影响极小"
+    ],
+    "correctOption": "摧毁房屋，破坏庄稼"
+  },
+  {
+    "id": "western-q34",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "专题练习四 西半球的国家——美国和巴西",
+    "knowledgePoint": "现代农业特点",
+    "prompt": "从美国本土农业带分布图中，最能体现美国现代农业哪一突出特点？",
+    "answer": "地区专门化",
+    "explanation": "不同农业带（区）分工明确，最能直接体现美国农业的地区专门化特征。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 专题练习四　西半球的国家——美国和巴西.pptx",
+      "slide": 6,
+      "note": "专题练习第3题"
+    },
+    "options": [
+      "高度机械化",
+      "高度商品化",
+      "地区专门化",
+      "精耕细作"
+    ],
+    "correctOption": "地区专门化"
+  },
+  {
+    "id": "western-q35",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "专题练习四 西半球的国家——美国和巴西",
+    "knowledgePoint": "乳畜带条件",
+    "prompt": "美国乳畜带发展的有利条件主要有哪些？",
+    "answer": "城市分布密集，市场广阔；水陆交通发达；气候冷湿，利于牧草生长",
+    "explanation": "乳畜带的关键条件是市场广阔和冷湿气候适合牧草，不是劳动力特别充足。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 专题练习四　西半球的国家——美国和巴西.pptx",
+      "slide": 7,
+      "note": "专题练习第4题"
+    },
+    "options": [
+      "城市分布密集，市场广阔；水陆交通发达；气候冷湿，利于牧草生长",
+      "水陆交通发达；气候冷湿，利于牧草生长；劳动力充足",
+      "城市分布密集，市场广阔；水陆交通发达；劳动力充足",
+      "城市分布密集，市场广阔；气候冷湿，利于牧草生长；劳动力充足"
+    ],
+    "correctOption": "城市分布密集，市场广阔；水陆交通发达；气候冷湿，利于牧草生长"
+  },
+  {
+    "id": "western-q36",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "专题练习四 西半球的国家——美国和巴西",
+    "knowledgePoint": "棉花带分布",
+    "prompt": "美国分布在墨西哥湾沿岸的典型农业带是？",
+    "answer": "棉花带",
+    "explanation": "美国棉花带主要分布在南部低纬地区，墨西哥湾沿岸是其重要分布区。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 专题练习四　西半球的国家——美国和巴西.pptx",
+      "slide": 8,
+      "note": "专题练习第5题"
+    },
+    "options": [
+      "乳畜带",
+      "混合农业区",
+      "棉花带",
+      "亚热带作物带"
+    ],
+    "correctOption": "棉花带"
+  },
+  {
+    "id": "western-q37",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "专题练习四 西半球的国家——美国和巴西",
+    "knowledgePoint": "巴西优势矿产",
+    "prompt": "巴西矿产资源中，产量和出口量均居世界前列的是哪一种？",
+    "answer": "铁矿",
+    "explanation": "巴西是世界重要的铁矿石生产国和出口国，铁矿最具代表性。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 专题练习四　西半球的国家——美国和巴西.pptx",
+      "slide": 10,
+      "note": "专题练习第6题"
+    },
+    "options": [
+      "煤矿",
+      "石油",
+      "铁矿",
+      "锰矿"
+    ],
+    "correctOption": "铁矿"
+  },
+  {
+    "id": "western-q38",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "专题练习四 西半球的国家——美国和巴西",
+    "knowledgePoint": "巴西区位与发展",
+    "prompt": "下列关于巴西地理要素的描述，正确的是哪一项？",
+    "answer": "热带面积广大",
+    "explanation": "巴西位于南美洲东部，东临大西洋，属于发展中国家，通用语言是葡萄牙语。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 专题练习四　西半球的国家——美国和巴西.pptx",
+      "slide": 11,
+      "note": "专题练习第7题"
+    },
+    "options": [
+      "东西分别濒临太平洋和大西洋",
+      "热带面积广大",
+      "经济发达国家",
+      "英语为通用语言"
+    ],
+    "correctOption": "热带面积广大"
+  },
+  {
+    "id": "western-q39",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "专题练习四 西半球的国家——美国和巴西",
+    "knowledgePoint": "雨林减少原因",
+    "prompt": "亚马孙热带雨林急剧减少的主要原因有哪些？",
+    "answer": "修建公路并掠夺性开采木材；为发展采矿业和大型农场、牧场而开发；土著居民刀耕火种",
+    "explanation": "沿海城市人口激增并不是热带雨林急剧减少的主要直接原因。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 专题练习四　西半球的国家——美国和巴西.pptx",
+      "slide": 12,
+      "note": "专题练习第8题"
+    },
+    "options": [
+      "修建公路并掠夺性开采木材；沿海城市人口激增，用地规模急剧扩大；为发展采矿业和大型农场、牧场而开发",
+      "沿海城市人口激增，用地规模急剧扩大；为发展采矿业和大型农场、牧场而开发；土著居民刀耕火种",
+      "修建公路并掠夺性开采木材；为发展采矿业和大型农场、牧场而开发；土著居民刀耕火种",
+      "修建公路并掠夺性开采木材；沿海城市人口激增，用地规模急剧扩大；土著居民刀耕火种"
+    ],
+    "correctOption": "修建公路并掠夺性开采木材；为发展采矿业和大型农场、牧场而开发；土著居民刀耕火种"
+  },
+  {
+    "id": "western-q40",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "专题练习四 西半球的国家——美国和巴西",
+    "knowledgePoint": "人工智能产业区位",
+    "prompt": "从自然和人文角度，归纳美国人工智能产业高度集中于西海岸（如旧金山）的有利条件。",
+    "answer": "自然上，环境优美、气候宜人，利于吸引人才；人文上，高等院校和科研机构众多，科技力量雄厚，人才资源丰富，交通便利，并有政策支持高科技产业发展。",
+    "explanation": "高技术产业布局题要优先突出科技和人才，再补充环境、交通、政策等条件。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 专题练习四　西半球的国家——美国和巴西.pptx",
+      "slide": 16,
+      "note": "专题练习第9题第(2)问"
+    }
+  },
+  {
+    "id": "western-q41",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "专题练习四 西半球的国家——美国和巴西",
+    "knowledgePoint": "人工智能社会影响",
+    "prompt": "简述大力发展人工智能可能引发的一个社会问题，并列举两条应对措施。",
+    "answer": "人工智能可能导致部分人群失业、就业压力增大，也可能带来隐私和数据安全问题。应对上可加强社会保障、开展技能培训，提高劳动者素质；同时完善法律法规并加强国际合作与伦理规范建设。",
+    "explanation": "这类开放题先指出问题，再从社会保障、教育培训、制度规范等角度提出对策。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 专题练习四　西半球的国家——美国和巴西.pptx",
+      "slide": 17,
+      "note": "专题练习第9题第(3)问"
+    }
+  },
+  {
+    "id": "western-q42",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "专题练习四 西半球的国家——美国和巴西",
+    "knowledgePoint": "关税影响农业",
+    "prompt": "简述中国对加征关税的反制措施对美国农业可能产生的影响。",
+    "answer": "这会使美国大豆等农产品出口受阻，种植面积可能减少，农产品价格下降、农民收入减少；还可能迫使农业生产结构调整，相关产业受影响，并促使美国寻找新的出口市场。",
+    "explanation": "分析贸易政策影响时，要从出口、价格、收入、产业链和市场调整几方面作答。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 专题练习四　西半球的国家——美国和巴西.pptx",
+      "slide": 18,
+      "note": "专题练习第9题第(4)问"
+    }
+  },
+  {
+    "id": "western-q43",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "章末总结",
+    "knowledgePoint": "乳畜带分布",
+    "prompt": "美国乳畜带主要分布在哪一地区？",
+    "answer": "五大湖及其沿岸地区",
+    "explanation": "五大湖沿岸气候冷湿、牧草茂盛，且城市和人口密集，市场广阔。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 7,
+      "note": "章末作业第1题"
+    },
+    "options": [
+      "35°N以南",
+      "中部平原北部",
+      "西部山间高原",
+      "五大湖及其沿岸地区"
+    ],
+    "correctOption": "五大湖及其沿岸地区"
+  },
+  {
+    "id": "western-q44",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "章末总结",
+    "knowledgePoint": "美国出口粮食",
+    "prompt": "美国出口量居世界首位的农产品是？",
+    "answer": "小麦、玉米",
+    "explanation": "美国是世界农业大国，小麦和玉米的出口量居世界首位。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 8,
+      "note": "章末作业第2题"
+    },
+    "options": [
+      "茶叶",
+      "羊毛",
+      "天然橡胶",
+      "小麦、玉米"
+    ],
+    "correctOption": "小麦、玉米"
+  },
+  {
+    "id": "western-q45",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "章末总结",
+    "knowledgePoint": "耕地分布",
+    "prompt": "依据图示信息可推知，美国本土耕地主要分布在？",
+    "answer": "中部平原",
+    "explanation": "美国中部平原地形平坦、土壤肥沃，是耕地最集中的地区。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 9,
+      "note": "章末作业第3题"
+    },
+    "options": [
+      "东北部",
+      "太平洋沿岸",
+      "东部山区",
+      "中部平原"
+    ],
+    "correctOption": "中部平原"
+  },
+  {
+    "id": "western-q46",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "章末总结",
+    "knowledgePoint": "巴西体育文化",
+    "prompt": "在巴西，人们最喜欢的一项运动是？",
+    "answer": "足球",
+    "explanation": "足球是巴西最具代表性的体育文化符号。",
+    "difficulty": "easy",
+    "importance": "low",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 10,
+      "note": "章末作业第4题"
+    },
+    "options": [
+      "篮球",
+      "足球",
+      "乒乓球",
+      "羽毛球"
+    ],
+    "correctOption": "足球"
+  },
+  {
+    "id": "western-q47",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "章末总结",
+    "knowledgePoint": "资源宝库",
+    "prompt": "对世界可持续发展具有重大影响、属于巴西重点保护的“资源宝库”是？",
+    "answer": "热带雨林",
+    "explanation": "巴西重点保护的“资源宝库”指亚马孙热带雨林，而不是草原或矿产。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 11,
+      "note": "章末作业第5题"
+    },
+    "options": [
+      "热带草原",
+      "石油",
+      "铁矿石",
+      "热带雨林"
+    ],
+    "correctOption": "热带雨林"
+  },
+  {
+    "id": "western-q48",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "章末总结",
+    "knowledgePoint": "南美高海拔生物",
+    "prompt": "推测南美洲栗鼠栖息地主要位于哪一地形区？",
+    "answer": "安第斯山脉",
+    "explanation": "南美洲栗鼠喜高海拔、干燥凉爽环境，最符合安第斯山脉的自然条件。",
+    "difficulty": "easy",
+    "importance": "low",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 13,
+      "note": "章末作业第6题"
+    },
+    "options": [
+      "安第斯山脉",
+      "巴西高原",
+      "亚马孙平原",
+      "拉普拉塔平原"
+    ],
+    "correctOption": "安第斯山脉"
+  },
+  {
+    "id": "western-q49",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "章末总结",
+    "knowledgePoint": "生物分布原因",
+    "prompt": "南美洲栗鼠未迁移到其他大洲，可能是因为南美洲具有什么条件？",
+    "answer": "生存环境适宜，食物来源充足",
+    "explanation": "题目强调其未迁移，说明原有栖息环境和食物条件已经较好，不需要外迁。",
+    "difficulty": "medium",
+    "importance": "low",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 14,
+      "note": "章末作业第7题"
+    },
+    "options": [
+      "生存环境适宜，平原广大",
+      "生存环境适宜，食物来源充足",
+      "生存环境适宜，气候湿润",
+      "平原广大，气候湿润"
+    ],
+    "correctOption": "生存环境适宜，食物来源充足"
+  },
+  {
+    "id": "western-q50",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "章末总结",
+    "knowledgePoint": "美国农业特点",
+    "prompt": "下列哪些特点能够从材料中概括出美国农业的特征？",
+    "answer": "产量大、地区专门化、生产规模大、机械化水平高",
+    "explanation": "美国农业投入劳动力少主要靠机械化和现代技术，而不是因为“人口少”。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 15,
+      "note": "章末作业第8题"
+    },
+    "options": [
+      "地区专门化、生产规模大、美国人口少、机械化水平高",
+      "产量大、地区专门化、生产规模大、机械化水平高",
+      "产量大、生产规模大、美国人口少、机械化水平高",
+      "产量大、地区专门化、生产规模大、美国人口少"
+    ],
+    "correctOption": "产量大、地区专门化、生产规模大、机械化水平高"
+  },
+  {
+    "id": "western-q51",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "章末总结",
+    "knowledgePoint": "硅谷最重要条件",
+    "prompt": "旧金山东南的“硅谷”成为美国高新技术产业中心，最重要的条件是什么？",
+    "answer": "高等院校多，科技力量雄厚",
+    "explanation": "高新技术产业最核心的区位条件是科技和人才，而不是市场或资源。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 16,
+      "note": "章末作业第9题"
+    },
+    "options": [
+      "自然资源丰富，环境优美",
+      "人口稠密，市场广阔",
+      "位于沿海地区，交通便利",
+      "高等院校多，科技力量雄厚"
+    ],
+    "correctOption": "高等院校多，科技力量雄厚"
+  },
+  {
+    "id": "western-q52",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "章末总结",
+    "knowledgePoint": "天然橡胶分布",
+    "prompt": "巴西天然橡胶主要集中分布在该国的哪类地形区？",
+    "answer": "平原地区",
+    "explanation": "天然橡胶主要分布在亚马孙平原，这里高温多雨，适宜橡胶树生长。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 18,
+      "note": "章末作业第10题"
+    },
+    "options": [
+      "巴西高原",
+      "平原地区",
+      "沿海地区",
+      "温带地区"
+    ],
+    "correctOption": "平原地区"
+  },
+  {
+    "id": "western-q53",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "章末总结",
+    "knowledgePoint": "巴西钢铁厂布局",
+    "prompt": "中国在巴西里约热内卢附近投资建设钢铁厂，主要因为当地具备哪些优势条件？",
+    "answer": "距离铁矿产地近、人口稠密且劳动力丰富、临近港口海运便捷",
+    "explanation": "首都区位并不是当地布局钢铁厂的主要优势，资源、劳动力和港口运输才是关键。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 19,
+      "note": "章末作业第11题"
+    },
+    "options": [
+      "距离铁矿产地近、人口稠密且劳动力丰富、临近港口海运便捷",
+      "距离铁矿产地近、人口稠密且劳动力丰富、靠近首都科技先进",
+      "距离铁矿产地近、临近港口海运便捷、靠近首都科技先进",
+      "人口稠密且劳动力丰富、临近港口海运便捷、靠近首都科技先进"
+    ],
+    "correctOption": "距离铁矿产地近、人口稠密且劳动力丰富、临近港口海运便捷"
+  },
+  {
+    "id": "western-q54",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "章末总结",
+    "knowledgePoint": "美澳地理特征",
+    "prompt": "下列符合澳大利亚和美国两国地理特征的是哪一项？",
+    "answer": "美国农业生产区域专门化、机械化程度高",
+    "explanation": "其他选项要么错误描述了澳大利亚地形和资源，要么错误概括了美国地形分布。",
+    "difficulty": "easy",
+    "importance": "low",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 21,
+      "note": "章末作业第12题"
+    },
+    "options": [
+      "澳大利亚以山地、盆地为主，地势西高东低",
+      "美国以山地、平原为主，南北相间排列",
+      "澳大利亚矿产资源贫乏，但农牧业发达",
+      "美国农业生产区域专门化、机械化程度高"
+    ],
+    "correctOption": "美国农业生产区域专门化、机械化程度高"
+  },
+  {
+    "id": "western-q55",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "章末总结",
+    "knowledgePoint": "国家共性",
+    "prompt": "下列地理特征中，属于澳大利亚和美国两国共有的是哪一组？",
+    "answer": "濒临太平洋，所属大洲经济实力最强",
+    "explanation": "美国并不是北美洲面积最大的国家，因此“所属大洲面积最大”不是两国共有特征。",
+    "difficulty": "medium",
+    "importance": "low",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 22,
+      "note": "章末作业第13题"
+    },
+    "options": [
+      "濒临太平洋，所属大洲经济实力最强",
+      "所属大洲面积最大，首都是本国最大的城市",
+      "濒临太平洋，所属大洲面积最大，所属大洲经济实力最强",
+      "濒临太平洋，所属大洲面积最大，所属大洲经济实力最强，首都是本国最大的城市"
+    ],
+    "correctOption": "濒临太平洋，所属大洲经济实力最强"
+  },
+  {
+    "id": "western-q56",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "章末总结",
+    "knowledgePoint": "巴西区位判断",
+    "prompt": "关于巴西的地理位置，下列判断正确的是哪一项？",
+    "answer": "海陆兼备",
+    "explanation": "巴西东临大西洋，西部与多个国家接壤，是典型的海陆兼备国家。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 24,
+      "note": "章末作业第14题"
+    },
+    "options": [
+      "跨寒带和温带",
+      "跨东西半球",
+      "濒临太平洋",
+      "海陆兼备"
+    ],
+    "correctOption": "海陆兼备"
+  },
+  {
+    "id": "western-q57",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十章 西半球的国家",
+    "section": "章末总结",
+    "knowledgePoint": "中巴产业合作",
+    "prompt": "中国能够在巴西投资新能源汽车制造产业，最直接得益于哪一条件？",
+    "answer": "中国资金雄厚",
+    "explanation": "这一题强调的是中国对外投资能力，而不是巴西本身在汽车制造或石油方面的条件。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 25,
+      "note": "章末作业第15题"
+    },
+    "options": [
+      "中国资金雄厚",
+      "巴西造车技术先进",
+      "中国清洁能源充足",
+      "巴西石油资源丰富"
+    ],
+    "correctOption": "中国资金雄厚"
+  }
+]
