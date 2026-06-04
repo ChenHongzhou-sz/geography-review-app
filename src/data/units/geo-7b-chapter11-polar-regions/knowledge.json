@@ -1,0 +1,642 @@
+[
+  {
+    "id": "polar-k01",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "南极地区范围",
+    "prompt": "南极地区主要位于哪里，范围包括哪些部分？",
+    "answer": "南极地区主要位于南极圈以南，包括南极洲及其周边的海域。",
+    "explanation": "判断南极地区时，关键抓住“南极圈以南”和“南极洲及周边海域”两个表述。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "polar-k02",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "北极地区范围",
+    "prompt": "北极地区主要位于哪里，范围包括哪些部分？",
+    "answer": "北极地区主要位于北极圈以北，包括北冰洋的大部分及其沿岸亚洲、欧洲、北美洲的部分地区。",
+    "explanation": "北极地区不是单指北冰洋，还包括环绕北冰洋的三洲边缘部分。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "polar-k03",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "冰雪高原",
+    "prompt": "南极大陆为什么有“冰雪高原”之称？",
+    "answer": "南极大陆是南极地区的主体，覆盖着2000多米厚的冰层，因此有“冰雪高原”之称。",
+    "explanation": "南极大陆海拔高并大面积覆冰，这是其“冰雪高原”称号的直接原因。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "polar-k04",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "南极气候特点",
+    "prompt": "南极地区的气候特点怎样概括？",
+    "answer": "南极地区的气候特点是酷寒、干燥和烈风，有“白色荒漠”和“风库”之称。",
+    "explanation": "“酷寒、干燥、烈风”是南极气候题最核心的三词组合。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "polar-k05",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "北极主体",
+    "prompt": "北极地区的主体是什么，它和南极地区相比有什么气候差异？",
+    "answer": "北极地区的主体是北冰洋。北极地区没有南极地区寒冷，降水量比南极地区大得多，风速也远不及南极地区大。",
+    "explanation": "北极以海洋为主，海洋调节作用明显，因此整体上比南极温和一些。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "polar-k06",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "代表动物",
+    "prompt": "南北两极地区最有代表性的动物分别是什么？",
+    "answer": "南极地区最有代表性的动物是企鹅，北极地区最有代表性的动物是北极熊。",
+    "explanation": "“南极企鹅、北极熊”是极地地区识图和判断题中的基础常识。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "polar-k07",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "跨经纬度最广",
+    "prompt": "南极洲和北冰洋在经纬度范围上各有什么突出特点？",
+    "answer": "南极洲是世界上纬度最高、跨经度最广的大洲；北冰洋是世界上纬度最高、跨经度最广的海洋。",
+    "explanation": "这组表述很容易混淆，记忆时要把“南极洲”和“北冰洋”分开对应。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 6,
+      "note": "易混易错"
+    }
+  },
+  {
+    "id": "polar-k08",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "南极资源",
+    "prompt": "为什么说南极地区是自然资源的“大仓库”？",
+    "answer": "因为南极地区地下埋藏着丰富的矿产资源，地上储存着大量固体淡水资源，海域及沿岸栖息着无数海洋生物。",
+    "explanation": "回答“大仓库”时，要按矿产、淡水、生物三类资源完整作答。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "polar-k09",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "中国极地科考站",
+    "prompt": "我国在南极和北极分别建立了哪些代表性科学考察站？",
+    "answer": "我国在南极已建立长城站、中山站、昆仑站、泰山站和秦岭站，在北极建立了黄河站。",
+    "explanation": "“南极五站+北极黄河站”是极地科考部分的高频记忆点。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "polar-k10",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "北极油气资源",
+    "prompt": "北极地区的能源资源有什么突出特点？",
+    "answer": "北极地区石油、天然气储量丰富，约占世界总储量的四分之一。",
+    "explanation": "北极地区不仅有特殊环境，也有重要的能源战略价值。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "polar-k11",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "极地环境问题",
+    "prompt": "当前极地地区主要面临哪些环境问题？",
+    "answer": "全球变暖会加快冰川和海冰消融；过度捕杀鲸、海豹等会造成生物多样性减少；石油开采和运输可能导致石油泄漏；极地旅游也会带来不利影响。",
+    "explanation": "极地环境问题既包括全球气候变化，也包括人类直接开发和旅游活动带来的扰动。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "polar-k12",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "保护极地责任",
+    "prompt": "为什么说保护极地环境是人类的共同责任？",
+    "answer": "因为保护极地地区的生态环境关系全球环境安全，需要国际社会通力合作，共同保护人类共有的极地环境。",
+    "explanation": "极地不是某一国独有的地方，它与全球气候和海平面变化密切相关。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "polar-k13",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "北极海陆分布",
+    "prompt": "北极地区的海陆分布特点是什么？",
+    "answer": "北极地区以海洋为主，主体是北冰洋。",
+    "explanation": "“北极以海洋为主、南极以陆地为主”是比较两极环境的第一步。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "polar-k14",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "南极海陆分布",
+    "prompt": "南极地区的海陆分布特点是什么？",
+    "answer": "南极地区以陆地为主，主体是南极洲。",
+    "explanation": "南极以陆地为主，是其比北极更寒冷、更干燥的重要背景条件之一。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "polar-k15",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "北极自然环境",
+    "prompt": "北极地区的自然环境特点怎样概括？",
+    "answer": "北极地区以北冰洋为主体，气候严寒，但降水量高于南极；大陆边缘分布冰原和苔原，资源上有石油、天然气、煤、铁等矿产，也有北极熊、北极狐等生物资源。",
+    "explanation": "北极环境题常要同时概括海洋、气候和资源三方面特征。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 11,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "polar-k16",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "南极自然环境",
+    "prompt": "南极地区的自然环境特点怎样概括？",
+    "answer": "南极地区以高原为主，有“冰雪高原”之称；气候酷寒、干燥、烈风；资源上淡水和矿产丰富，生物上有企鹅、磷虾等。",
+    "explanation": "南极题常把“地形高、气候极端、资源丰富”三部分合起来考查。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 11,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "polar-k17",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "南极更寒冷原因",
+    "prompt": "为什么南极地区比北极地区气温更低、降水更少、风力更大？",
+    "answer": "因为南极地区地势更高、绝大部分地方覆冰更厚，而且以陆地为主；北极地区地势低、覆冰较少，并且以海洋为主，海洋调节作用更明显。",
+    "explanation": "回答这一比较题时，要从地势、覆冰情况和海陆因素三个角度展开。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 12,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "polar-k18",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "北极最佳考察时间",
+    "prompt": "北极地区科学考察的最佳时间通常是什么时候，为什么？",
+    "answer": "北极地区科学考察的最佳时间通常是6—8月，因为此时是北半球夏季，气温相对较高，光照时间长，便于考察。",
+    "explanation": "极地科考时间判断本质上是半球季节题，要抓住“所在半球的夏半年”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 13,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "polar-k19",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "南极最佳考察时间",
+    "prompt": "南极地区科学考察的最佳时间通常是什么时候，为什么？",
+    "answer": "南极地区科学考察的最佳时间通常是11月至次年3月，因为此时是南半球暖季，气温相对较高，光照时间长，便于考察。",
+    "explanation": "南北半球季节相反，所以南极最佳科考期与北极正好错开。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 13,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "polar-k20",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "黄河站",
+    "prompt": "我国第一个北极科学考察站是什么？",
+    "answer": "我国第一个北极科学考察站是黄河站。",
+    "explanation": "黄河站是我国北极科考的标志性站点，常与南极长城站一起考查。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 13,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "polar-k21",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "南极五站",
+    "prompt": "我国已建成的五个南极科学考察站分别是什么？",
+    "answer": "我国已建成的五个南极科学考察站分别是长城站、中山站、昆仑站、泰山站和秦岭站。",
+    "explanation": "这五个站点是当前极地地区最常考的中国科考知识点之一。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 13,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "polar-k22",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "科考站建成时间与位置",
+    "prompt": "我国主要极地科考站的代表性建成时间和位置有哪些？",
+    "answer": "长城站于1985年建于乔治王岛，中山站于1989年建于南极大陆，黄河站于2004年建于斯瓦尔巴群岛，昆仑站于2009年建于南极内陆，泰山站于2014年建于伊丽莎白公主地，秦岭站于2024年建于罗斯海恩克斯堡岛。",
+    "explanation": "这类题不一定要求全部年份逐字背诵，但要掌握新老站点及其大致位置。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 14,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "polar-k23",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "极昼极夜",
+    "prompt": "我国南极科考站中，哪些站有极昼极夜现象？",
+    "answer": "长城站位于南温带，没有极昼极夜现象；昆仑站、中山站、泰山站和秦岭站位于南极圈以内，都有极昼极夜现象。",
+    "explanation": "判断是否有极昼极夜，关键看站点是否位于极圈以内。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 15,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "polar-k24",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "昆仑站位置",
+    "prompt": "我国哪一个南极科考站最靠近南极点？",
+    "answer": "昆仑站最靠近南极点。",
+    "explanation": "昆仑站位于南极内陆高原，是我国南极站点中位置最接近南极点的一座。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 15,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "polar-k25",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "全球变暖影响链",
+    "prompt": "全球变暖会对北极地区和沿海地区产生怎样的影响链条？",
+    "answer": "全球变暖会使北极地区冰川和海冰融化加剧，进而导致海平面上升，威胁全球大量沿海地区和沿海城市。",
+    "explanation": "这类题要按“气候变暖—冰融加剧—海平面上升—沿海受威胁”的链条作答。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 34,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "polar-k26",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "北极科考困难",
+    "prompt": "在北极地区进行科学考察会遇到哪些困难？",
+    "answer": "在北极地区进行科学考察会遇到极寒、黑夜、大雾、海冰断裂以及野生动物攻击等困难。",
+    "explanation": "极地科考困难既包括自然环境恶劣，也包括生物安全风险。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 35,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "polar-k27",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "保护北极做法",
+    "prompt": "为了保护北极地区环境，可以采取哪些做法？",
+    "answer": "可以回收垃圾、保护北极动物、减少化石燃料使用并推广清洁能源。",
+    "explanation": "保护极地环境既包括直接减少当地扰动，也包括从全球减排层面入手。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 35,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "polar-k28",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "北极旅游时间",
+    "prompt": "为什么每年7、8月份去北极地区旅游最合适？",
+    "answer": "因为7、8月份北极地区处于暖季，气温较高，并且处于极昼时期，白昼长、游览时间更充足。",
+    "explanation": "旅游最佳时间和科考最佳时间的本质判断方法一样，都是看极地暖季和光照条件。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 6,
+      "note": "章末作业第1题"
+    }
+  },
+  {
+    "id": "polar-k29",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "南极最丰富资源",
+    "prompt": "南极洲最丰富的自然资源是什么？",
+    "answer": "南极洲最丰富的自然资源是淡水资源。",
+    "explanation": "南极冰层厚、储冰量大，是地球上重要的固体淡水宝库。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 7,
+      "note": "章末作业第2题"
+    }
+  },
+  {
+    "id": "polar-k30",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "秦岭站新能源",
+    "prompt": "南极秦岭站最适合大规模利用的清洁能源通常有哪些？",
+    "answer": "南极秦岭站最适合大规模利用的清洁能源通常是风能和太阳能。",
+    "explanation": "南极地区风力强、暖季日照时间长，因此风能和太阳能是最现实的新能源组合。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 30,
+      "note": "章末作业第17题"
+    }
+  },
+  {
+    "id": "polar-k31",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "北极航道利弊",
+    "prompt": "与传统航道相比，北极航道有哪些优势和不足？",
+    "answer": "北极航道的优势是能缩短航程、节省燃油和成本、减少运河费用；不足是通航时间短、气候恶劣、冰情复杂，并且可能威胁北极生态环境。",
+    "explanation": "比较交通线路时，要从时间、成本、安全和生态影响几方面综合分析。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 28,
+      "note": "章末作业第16题"
+    }
+  },
+  {
+    "id": "polar-k32",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "秦岭站建筑设计",
+    "prompt": "秦岭站采用模块拼装、架空离地和“夹心式”墙板设计，分别有什么作用？",
+    "answer": "模块拼装可以缩短南极有限施工期；架空离地有利于防止风雪掩埋；“夹心式”墙板有利于防寒保暖。",
+    "explanation": "极地建筑设计题本质上是在考特殊自然环境对人类活动的影响。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 31,
+      "note": "章末作业第17题"
+    }
+  }
+]

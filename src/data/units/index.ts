@@ -14,6 +14,10 @@ import westernHemisphereUnitBase from "./geo-7b-chapter10-western-hemisphere.jso
 import westernHemisphereKnowledge from "./geo-7b-chapter10-western-hemisphere/knowledge.json";
 import westernHemisphereQuestions from "./geo-7b-chapter10-western-hemisphere/questions.json";
 import westernHemisphereMaps from "./geo-7b-chapter10-western-hemisphere/maps.json";
+import polarRegionsUnitBase from "./geo-7b-chapter11-polar-regions.json";
+import polarRegionsKnowledge from "./geo-7b-chapter11-polar-regions/knowledge.json";
+import polarRegionsQuestions from "./geo-7b-chapter11-polar-regions/questions.json";
+import polarRegionsMaps from "./geo-7b-chapter11-polar-regions/maps.json";
 import type { UnitCatalogEntry, UnitData } from "../../types";
 
 export const DEFAULT_UNIT_ID = "geo-7b-chapter7-asia";
@@ -141,8 +145,8 @@ export const unitCatalog: UnitCatalogEntry[] = [
     chapter: "第十一章",
     chapterName: "第十一章 极地地区",
     title: "极地地区",
-    description: "南北极区域特征与比较。",
-    status: "planned",
+    description: "按金版学案接入南北极地区的知识手册、真题训练和综合提升。",
+    status: "ready",
     accent: "ocean"
   }
 ];
@@ -175,11 +179,19 @@ const westernHemisphereUnit: UnitData = {
   maps: westernHemisphereMaps as UnitData["maps"]
 };
 
+const polarRegionsUnit: UnitData = {
+  ...(polarRegionsUnitBase as UnitData),
+  knowledgePoints: polarRegionsKnowledge as UnitData["knowledgePoints"],
+  questions: polarRegionsQuestions as UnitData["questions"],
+  maps: polarRegionsMaps as UnitData["maps"]
+};
+
 const activeUnits: Record<string, UnitData> = {
   [DEFAULT_UNIT_ID]: asiaUnit,
   [neighbourUnit.unitId]: neighbourUnit,
   [easternHemisphereUnit.unitId]: easternHemisphereUnit,
-  [westernHemisphereUnit.unitId]: westernHemisphereUnit
+  [westernHemisphereUnit.unitId]: westernHemisphereUnit,
+  [polarRegionsUnit.unitId]: polarRegionsUnit
 };
 
 export function getUnitData(unitId: string) {

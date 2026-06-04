@@ -1,0 +1,1106 @@
+[
+  {
+    "id": "polar-q01",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "首个科考站",
+    "prompt": "我国在南极地区和北极地区建设的首个科学考察站，分别是什么？",
+    "answer": "长城站、黄河站",
+    "explanation": "我国首个南极科学考察站是长城站，首个北极科学考察站是黄河站。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 16,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "秦岭站、昆仑站",
+      "长城站、黄河站",
+      "黄河站、长城站",
+      "昆仑站、中山站"
+    ],
+    "correctOption": "长城站、黄河站"
+  },
+  {
+    "id": "polar-q02",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "南极圈内外",
+    "prompt": "我国南极科考站中，位于南极圈以外的是哪一站？",
+    "answer": "长城站",
+    "explanation": "长城站位于南温带，不在南极圈以内，因此没有极昼极夜现象。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 18,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "长城站",
+      "泰山站",
+      "昆仑站",
+      "中山站"
+    ],
+    "correctOption": "长城站"
+  },
+  {
+    "id": "polar-q03",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "昆仑站地形",
+    "prompt": "昆仑站所处的地形类型是什么？",
+    "answer": "高原",
+    "explanation": "昆仑站位于南极内陆高原地带，地势高，环境极端。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 19,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "平原",
+      "高原",
+      "盆地",
+      "丘陵"
+    ],
+    "correctOption": "高原"
+  },
+  {
+    "id": "polar-q04",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "气候变暖影响",
+    "prompt": "近年来极地地区气候变暖趋势明显，最可能带来什么结果？",
+    "answer": "北极航道通航时间增加",
+    "explanation": "气候变暖会加快海冰融化，使北极部分航道的通航时间变长。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 20,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "极地冰川消融速度减缓",
+      "北极航道通航时间增加",
+      "北极熊的生存范围扩大",
+      "石油泄漏污染事件多发"
+    ],
+    "correctOption": "北极航道通航时间增加"
+  },
+  {
+    "id": "polar-q05",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "环绕北冰洋的大洲",
+    "prompt": "环绕北冰洋的三大洲依次是什么？",
+    "answer": "北美洲、亚洲、欧洲",
+    "explanation": "北冰洋周围分布着北美洲、亚洲和欧洲的部分地区。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 22,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "北美洲、亚洲、欧洲",
+      "非洲、亚洲、北美洲",
+      "大洋洲、北美洲、南美洲",
+      "非洲、欧洲、南美洲"
+    ],
+    "correctOption": "北美洲、亚洲、欧洲"
+  },
+  {
+    "id": "polar-q06",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "秦岭站最佳考察时间",
+    "prompt": "中国科考队到秦岭站进行科学考察的最佳时间是什么时候？",
+    "answer": "12月至次年2月",
+    "explanation": "这一时段是南极暖季，气温相对较高，并且白昼较长，更利于科考活动。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 24,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "3—5月",
+      "6—8月",
+      "9—11月",
+      "12月至次年2月"
+    ],
+    "correctOption": "12月至次年2月"
+  },
+  {
+    "id": "polar-q07",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "绿色考察能源",
+    "prompt": "秦岭站利用的新能源最有可能是哪一种？",
+    "answer": "风能",
+    "explanation": "南极地区风力强劲，风能是最现实的清洁能源之一；题目为单选时最典型答案是风能。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 25,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "水能",
+      "地热能",
+      "风能",
+      "核能"
+    ],
+    "correctOption": "风能"
+  },
+  {
+    "id": "polar-q08",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "新能源意义",
+    "prompt": "秦岭站启用规模化新能源系统的积极意义主要是什么？",
+    "answer": "对南极生态环境起到保护作用",
+    "explanation": "新能源系统能够减少化石燃料使用和污染排放，有利于保护南极脆弱生态环境。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 26,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "增加秦岭站的运营成本",
+      "对南极生态环境起到保护作用",
+      "促进南极化石能源的开发",
+      "彻底解决南极科考能源供应"
+    ],
+    "correctOption": "对南极生态环境起到保护作用"
+  },
+  {
+    "id": "polar-q09",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "跨经纬度最广大洲",
+    "prompt": "跨经度最广和跨纬度最广的大洲分别是什么？",
+    "answer": "南极洲、亚洲",
+    "explanation": "南极洲环绕南极点，跨经度最广；亚洲南北跨度大，是跨纬度最广的大洲。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 27,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "南极洲、亚洲",
+      "亚洲、非洲",
+      "南美洲、南极洲",
+      "北美洲、亚洲"
+    ],
+    "correctOption": "南极洲、亚洲"
+  },
+  {
+    "id": "polar-q10",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "世界三极共同特点",
+    "prompt": "南极、北极和珠穆朗玛峰被称为“世界三极”，它们的共同特点是什么？",
+    "answer": "气候严寒",
+    "explanation": "“三极”都具有气温低的特点，但并不是都海拔最高、纬度最高或人口较多。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 28,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "气候严寒",
+      "海拔最高",
+      "纬度最高",
+      "人口较多"
+    ],
+    "correctOption": "气候严寒"
+  },
+  {
+    "id": "polar-q11",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "极昼极夜站点数量",
+    "prompt": "我国南极科学考察站中，有极昼极夜现象的有几个？",
+    "answer": "4个",
+    "explanation": "除长城站位于南极圈外，昆仑站、中山站、泰山站和秦岭站都位于南极圈内，因此共有4个。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 30,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "2个",
+      "3个",
+      "4个",
+      "5个"
+    ],
+    "correctOption": "4个"
+  },
+  {
+    "id": "polar-q12",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "架空建筑作用",
+    "prompt": "秦岭站主体建筑底层架空，主要是为了什么？",
+    "answer": "防积雪掩埋，抗大风",
+    "explanation": "架空设计有利于减少积雪堆积，也能更好适应极地强风环境。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 31,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "防积雪掩埋，抗大风",
+      "防极地动物侵袭",
+      "防止沙尘暴，抗严寒",
+      "防暴雨洪涝灾害"
+    ],
+    "correctOption": "防积雪掩埋，抗大风"
+  },
+  {
+    "id": "polar-q13",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "北冰洋周边大洲",
+    "prompt": "环绕北冰洋的大洲有几个？亚洲与北美洲的分界线是什么海峡？",
+    "answer": "环绕北冰洋的大洲有3个，分别是亚洲、欧洲和北美洲；亚洲与北美洲的分界线是白令海峡。",
+    "explanation": "北极识图题里，“三大洲+白令海峡”是最基本的定位组合。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 34,
+      "note": "素养提升第9题第(1)问"
+    }
+  },
+  {
+    "id": "polar-q14",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "全球变暖影响链",
+    "prompt": "说明全球变暖对北极地区的影响链条。",
+    "answer": "全球变暖会使北极冰川和海冰融化加剧，进而导致海平面上升，并威胁沿海地区和沿海城市。",
+    "explanation": "作答时按“变暖—融化加剧—海平面上升—沿海受威胁”的顺序表达最清晰。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 34,
+      "note": "素养提升第9题第(2)问"
+    }
+  },
+  {
+    "id": "polar-q15",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "北极科考困难",
+    "prompt": "在北极地区进行科学考察会遇到哪些困难？",
+    "answer": "在北极地区进行科学考察会遇到极寒、黑夜、大雾、海冰断裂和野生动物攻击等困难。",
+    "explanation": "极地科考困难题通常同时考自然环境和野外安全风险。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 35,
+      "note": "素养提升第9题第(3)问"
+    }
+  },
+  {
+    "id": "polar-q16",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "第十一章 极地地区",
+    "knowledgePoint": "北极环境保护",
+    "prompt": "为了保护北极地区的环境，我们应该怎么做？",
+    "answer": "应回收垃圾，保护北极地区动物，减少化石燃料使用，并推广清洁能源。",
+    "explanation": "保护极地环境的核心思路是减少污染、降低扰动并控制全球变暖。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第十一章　极地地区.pptx",
+      "slide": 35,
+      "note": "素养提升第9题第(4)问"
+    }
+  },
+  {
+    "id": "polar-q17",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "北极旅游时间",
+    "prompt": "每年7、8月份去北极地区旅游最合适，原因是什么？",
+    "answer": "北极地区处于暖季，气温较高；处于极昼时期，游览时间长",
+    "explanation": "7、8月北极光照条件和气温条件都相对更适合旅游活动。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 6,
+      "note": "章末作业第1题"
+    },
+    "options": [
+      "北极地区处于暖季，气温较高；北极地区处于极夜时期，能看到极光",
+      "北极地区处于极夜时期，能看到极光；北极熊处于冬眠期，旅行安全",
+      "北极熊处于冬眠期，旅行安全；北极地区处于极昼时期，游览时间长",
+      "北极地区处于暖季，气温较高；北极地区处于极昼时期，游览时间长"
+    ],
+    "correctOption": "北极地区处于暖季，气温较高；北极地区处于极昼时期，游览时间长"
+  },
+  {
+    "id": "polar-q18",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "南极最丰富资源",
+    "prompt": "南极洲最丰富的自然资源是什么？",
+    "answer": "淡水资源",
+    "explanation": "南极冰层厚、储量大，是地球重要的固体淡水宝库。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 7,
+      "note": "章末作业第2题"
+    },
+    "options": [
+      "煤炭",
+      "铁矿",
+      "生物资源",
+      "淡水资源"
+    ],
+    "correctOption": "淡水资源"
+  },
+  {
+    "id": "polar-q19",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "南极旅游用品",
+    "prompt": "到南极地区旅游，下列用品中必不可少的是哪一项？",
+    "answer": "墨镜",
+    "explanation": "南极冰雪反射强，强光刺眼，墨镜是必备物品。",
+    "difficulty": "easy",
+    "importance": "low",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 8,
+      "note": "章末作业第3题"
+    },
+    "options": [
+      "墨镜",
+      "泳衣",
+      "雨伞",
+      "创可贴"
+    ],
+    "correctOption": "墨镜"
+  },
+  {
+    "id": "polar-q20",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "南极现象判断",
+    "prompt": "在南极地区，可能看到的现象有哪些？",
+    "answer": "南极大陆冰雪广布，降水却十分稀少；常有鲸在南极大陆周围海域出没",
+    "explanation": "6月份南极处于极夜，不会出现终日不落；极点附近风向也不能简单说“迎着西风向东飘扬”。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 9,
+      "note": "章末作业第4题"
+    },
+    "options": [
+      "6月份太阳在南极大陆上空终日不落；插在极点的旗帜迎着西风向东飘扬",
+      "插在极点的旗帜迎着西风向东飘扬；南极大陆冰雪广布，降水却十分稀少",
+      "南极大陆冰雪广布，降水却十分稀少；常有鲸在南极大陆周围海域出没",
+      "6月份太阳在南极大陆上空终日不落；常有鲸在南极大陆周围海域出没"
+    ],
+    "correctOption": "南极大陆冰雪广布，降水却十分稀少；常有鲸在南极大陆周围海域出没"
+  },
+  {
+    "id": "polar-q21",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "中山站濒临大洋",
+    "prompt": "中国南极中山站濒临哪一大洋？",
+    "answer": "印度洋",
+    "explanation": "中山站位于东南极靠近印度洋一侧，是极地识图高频考点。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 11,
+      "note": "章末作业第5题"
+    },
+    "options": [
+      "太平洋",
+      "印度洋",
+      "大西洋",
+      "北冰洋"
+    ],
+    "correctOption": "印度洋"
+  },
+  {
+    "id": "polar-q22",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "南美洲与南极洲海峡",
+    "prompt": "南美洲与南极洲之间的海峡是什么？",
+    "answer": "德雷克海峡",
+    "explanation": "德雷克海峡位于南美洲最南端与南极半岛之间，是重要地理分界海峡。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 12,
+      "note": "章末作业第6题"
+    },
+    "options": [
+      "土耳其海峡",
+      "德雷克海峡",
+      "霍尔木兹海峡",
+      "白令海峡"
+    ],
+    "correctOption": "德雷克海峡"
+  },
+  {
+    "id": "polar-q23",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "南极半岛两侧大洋",
+    "prompt": "中国南极长城站邻近的南极半岛，其东侧和西侧分别濒临什么大洋？",
+    "answer": "东临大西洋，西临太平洋",
+    "explanation": "南极半岛东侧属于大西洋扇区，西侧属于太平洋扇区。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 13,
+      "note": "章末作业第7题"
+    },
+    "options": [
+      "东临太平洋，西临大西洋",
+      "东临印度洋，西临大西洋",
+      "东临印度洋，西临太平洋",
+      "东临大西洋，西临太平洋"
+    ],
+    "correctOption": "东临大西洋，西临太平洋"
+  },
+  {
+    "id": "polar-q24",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "光伏发电时间",
+    "prompt": "秦岭站光伏发电主要集中在每年的什么时候？",
+    "answer": "12月至次年2月",
+    "explanation": "南极暖季太阳辐射更强、白昼更长，因此最适合光伏发电。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 15,
+      "note": "章末作业第8题"
+    },
+    "options": [
+      "3—5月",
+      "6—8月",
+      "9—11月",
+      "12月至次年2月"
+    ],
+    "correctOption": "12月至次年2月"
+  },
+  {
+    "id": "polar-q25",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "南极点方向判断",
+    "prompt": "秦岭站位于南极点的什么方向？",
+    "answer": "正北方",
+    "explanation": "南极点是地球最南端，从南极点出发四周都指向北方。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 16,
+      "note": "章末作业第9题"
+    },
+    "options": [
+      "正南方",
+      "西南方",
+      "正北方",
+      "东北方"
+    ],
+    "correctOption": "正北方"
+  },
+  {
+    "id": "polar-q26",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "南极工作目的",
+    "prompt": "我国科学工作者克服困难、远赴南极工作，主要是为了什么？",
+    "answer": "进行科学考察",
+    "explanation": "南极地区是科研宝地，我国科考活动的首要目标是科学考察而不是资源开发。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 17,
+      "note": "章末作业第10题"
+    },
+    "options": [
+      "获取淡水资源",
+      "进行科学考察",
+      "开发矿产资源",
+      "进行极限体验"
+    ],
+    "correctOption": "进行科学考察"
+  },
+  {
+    "id": "polar-q27",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "北极航行困难",
+    "prompt": "“天恩号”沿北极航道航行时，主要需要克服哪些困难？",
+    "answer": "气候条件恶劣，浮冰阻碍",
+    "explanation": "北极航行最大的现实困难是严寒和浮冰；题干所述航程较短，不宜把“漫长极夜”作为主要障碍。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 19,
+      "note": "章末作业第11题"
+    },
+    "options": [
+      "气候条件恶劣，通航适宜期短",
+      "气候条件恶劣，浮冰阻碍",
+      "漫长极夜，通航适宜期短",
+      "漫长极夜，浮冰阻碍"
+    ],
+    "correctOption": "气候条件恶劣，浮冰阻碍"
+  },
+  {
+    "id": "polar-q28",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "北极东北航道连接",
+    "prompt": "北极东北航道是连接哪两个经济中心的重要海上通道？",
+    "answer": "东亚、西欧",
+    "explanation": "题目中的上海和鹿特丹分别代表东亚和西欧的重要经济中心。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 20,
+      "note": "章末作业第12题"
+    },
+    "options": [
+      "北美、东亚",
+      "东亚、西欧",
+      "北美、欧洲",
+      "东亚、北亚"
+    ],
+    "correctOption": "东亚、西欧"
+  },
+  {
+    "id": "polar-q29",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "南极更冷原因",
+    "prompt": "南极洲和北冰洋都主要位于寒带，但南极洲平均气温比北冰洋低得多，主要原因有哪些？",
+    "answer": "南极洲地势比北冰洋高，南极洲被冰雪覆盖对阳光反射强，北冰洋海面吸收太阳辐射多",
+    "explanation": "比较两极气温时，要从地势高低、下垫面反射和海陆热力差异三方面综合分析。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 21,
+      "note": "章末作业第13题"
+    },
+    "options": [
+      "南极洲地势比北冰洋高，南极洲被冰雪覆盖对阳光反射强，北冰洋海面吸收太阳辐射多",
+      "北冰洋的纬度位置比南极洲低，南极洲地势比北冰洋高，南极洲被冰雪覆盖对阳光反射强",
+      "北冰洋的纬度位置比南极洲低，南极洲地势比北冰洋高，北冰洋海面吸收太阳辐射多",
+      "北冰洋的纬度位置比南极洲低，南极洲被冰雪覆盖对阳光反射强，北冰洋海面吸收太阳辐射多"
+    ],
+    "correctOption": "南极洲地势比北冰洋高，南极洲被冰雪覆盖对阳光反射强，北冰洋海面吸收太阳辐射多"
+  },
+  {
+    "id": "polar-q30",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "站点方向判断",
+    "prompt": "长城站位于中山站的什么方向？",
+    "answer": "西北",
+    "explanation": "长城站纬度更低、位置更偏西，因此相对中山站位于西北方向。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 23,
+      "note": "章末作业第14题"
+    },
+    "options": [
+      "西北",
+      "东南",
+      "正东",
+      "西南"
+    ],
+    "correctOption": "西北"
+  },
+  {
+    "id": "polar-q31",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "航道关键节点",
+    "prompt": "传统航道的必经地甲和北极航道的必经地丙分别是什么？请写出完整名称。",
+    "answer": "传统航道的必经地甲是苏伊士运河，北极航道的必经地丙是白令海峡。",
+    "explanation": "苏伊士运河和白令海峡分别是传统航道与北极航道中的关键节点。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 27,
+      "note": "章末作业第16题第(1)问"
+    }
+  },
+  {
+    "id": "polar-q32",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "航道连接大洲",
+    "prompt": "北极航道和中欧班列都连接了哪两个大洲？",
+    "answer": "北极航道和中欧班列都连接了亚洲和欧洲。",
+    "explanation": "这类题本质上是在考读图判断交通线服务的主要洲际联系。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 27,
+      "note": "章末作业第16题第(2)问"
+    }
+  },
+  {
+    "id": "polar-q33",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "北极航道经过大洋",
+    "prompt": "北极航道从大连到荷兰鹿特丹，依次经过的大洋是什么？",
+    "answer": "依次经过太平洋、北冰洋和大西洋。",
+    "explanation": "按顺序回答大洋名称是这类航线题的关键要求。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 27,
+      "note": "章末作业第16题第(3)问"
+    }
+  },
+  {
+    "id": "polar-q34",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "北极航道利弊",
+    "prompt": "与传统航道相比，北极航道的优势与不足分别有哪些？",
+    "answer": "优势是缩短航程、节省燃油和成本、无需支付昂贵运河费用，并可减少部分人为干扰；不足是通航时间短、气候严寒、冰情复杂，还可能威胁北极生态环境。",
+    "explanation": "交通通道比较题既要看时间和成本，也要看安全与环境影响。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 28,
+      "note": "章末作业第16题第(4)问"
+    }
+  },
+  {
+    "id": "polar-q35",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "南极科考时间",
+    "prompt": "我国科学考察队为什么通常选择12月至次年2月前往南极科考？",
+    "answer": "因为此时南极地区处于暖季，气温相对较高，并且白昼时间长，更便于开展科学考察。",
+    "explanation": "南极科考时间题的标准回答就是“暖季+白昼长”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 30,
+      "note": "章末作业第17题第(1)问"
+    }
+  },
+  {
+    "id": "polar-q36",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "南极新能源",
+    "prompt": "指出两种在南极地区可以大规模使用的新能源。",
+    "answer": "在南极地区可以大规模使用的新能源主要有风能和太阳能。",
+    "explanation": "极地新能源题要结合当地强风和暖季长日照特点来答。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 30,
+      "note": "章末作业第17题第(2)问"
+    }
+  },
+  {
+    "id": "polar-q37",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "极地建筑设计",
+    "prompt": "结合南极特殊自然环境，说明秦岭站采用现场模块拼装、架空离地和“夹心式”墙板设计的作用。",
+    "answer": "现场模块拼装可以缩短南极有限施工期；架空离地有利于防止风雪掩埋；“夹心式”墙板能够防寒保暖。",
+    "explanation": "极地建筑设计题要把结构特点和当地寒冷、多风、施工窗口短等环境特点对应起来。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 31,
+      "note": "章末作业第17题第(3)问"
+    }
+  },
+  {
+    "id": "polar-q38",
+    "type": "analysis",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "章末总结",
+    "knowledgePoint": "冰川减少原因与措施",
+    "prompt": "南极地区出现冰川减少的现象，原因是什么？日常生活中可以采取哪些缓解措施？",
+    "answer": "主要原因是全球变暖。日常生活中可通过绿色出行、节约水电纸张、垃圾分类、减少一次性用品使用等方式减缓这一趋势。",
+    "explanation": "开放题先答原因，再从减排和绿色生活方式两个方向提出措施最稳妥。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 32,
+      "note": "章末作业第17题第(4)问"
+    }
+  },
+  {
+    "id": "polar-q39",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "期末综合测试",
+    "knowledgePoint": "秦岭站交付时间",
+    "prompt": "秦岭站新能源系统选择在3月份交付使用，主要原因是什么？",
+    "answer": "正值暖季",
+    "explanation": "3月仍属于南极暖季末期，温度和作业条件相对较好，更适合设备交付与使用。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 期末综合测试.pptx",
+      "slide": 28,
+      "note": "期末综合测试第19题"
+    },
+    "options": [
+      "正值极夜",
+      "正值暖季",
+      "风沙较小",
+      "降水较多"
+    ],
+    "correctOption": "正值暖季"
+  },
+  {
+    "id": "polar-q40",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "期末综合测试",
+    "knowledgePoint": "清洁能源组合",
+    "prompt": "秦岭站的清洁能源系统开发利用的能源中，最可能是什么组合？",
+    "answer": "风能和太阳能",
+    "explanation": "南极地区最现实的清洁能源组合就是风能和太阳能。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 期末综合测试.pptx",
+      "slide": 29,
+      "note": "期末综合测试第20题"
+    },
+    "options": [
+      "风能和太阳能",
+      "核能和太阳能",
+      "水能和地热能",
+      "石油和天然气"
+    ],
+    "correctOption": "风能和太阳能"
+  },
+  {
+    "id": "polar-q41",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "期末综合测试",
+    "knowledgePoint": "新能源系统意义",
+    "prompt": "秦岭站新能源利用比例达到60%的主要意义是什么？",
+    "answer": "减少柴油消耗，降低运输成本；减少污染物排放，保护南极环境",
+    "explanation": "这类题要同时从经济效益和环境保护两个角度理解新能源系统的意义。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 期末综合测试.pptx",
+      "slide": 30,
+      "note": "期末综合测试第21题"
+    },
+    "options": [
+      "减少柴油消耗，降低运输成本；减少污染物排放，保护南极环境",
+      "减少柴油消耗，降低运输成本；南极自然环境优越，新能源供应更稳定",
+      "减少污染物排放，保护南极环境；新能源技术要求低，降低运行成本",
+      "南极自然环境优越，新能源供应更稳定；新能源技术要求低，降低运行成本"
+    ],
+    "correctOption": "减少柴油消耗，降低运输成本；减少污染物排放，保护南极环境"
+  },
+  {
+    "id": "polar-q42",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "期末综合测试",
+    "knowledgePoint": "极地科考环境",
+    "prompt": "科学家进行极地科学考察，最需要挑战的恶劣环境是什么？",
+    "answer": "气候寒冷",
+    "explanation": "极地最突出的环境特征就是严寒，许多科考困难都由此引出。",
+    "difficulty": "easy",
+    "importance": "low",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 期末综合测试.pptx",
+      "slide": 40,
+      "note": "期末综合测试第28题"
+    },
+    "options": [
+      "闷热潮湿",
+      "沙漠广布",
+      "淡水匮乏",
+      "气候寒冷"
+    ],
+    "correctOption": "气候寒冷"
+  },
+  {
+    "id": "polar-q43",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "期末综合测试",
+    "knowledgePoint": "极地科考内容",
+    "prompt": "下列不可能是科考人员在极地进行的科考活动的是哪一项？",
+    "answer": "考察古村落分布",
+    "explanation": "极地地区几乎无人定居，不具备古村落分布研究的条件，而气候、空间环境和冰盖变化都属于极地常见科考内容。",
+    "difficulty": "easy",
+    "importance": "low",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 期末综合测试.pptx",
+      "slide": 41,
+      "note": "期末综合测试第29题"
+    },
+    "options": [
+      "考察古村落分布",
+      "研究气候变化",
+      "开展空间环境探测",
+      "监测冰盖变化"
+    ],
+    "correctOption": "考察古村落分布"
+  },
+  {
+    "id": "polar-q44",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第十一章 极地地区",
+    "section": "期末综合测试",
+    "knowledgePoint": "保护极地正确做法",
+    "prompt": "为了保护极地地区，下列做法正确的是哪一项？",
+    "answer": "各国加强合作，保护环境",
+    "explanation": "极地保护需要国际合作，不能走大规模开发、移民或军事化道路。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 期末综合测试.pptx",
+      "slide": 42,
+      "note": "期末综合测试第30题"
+    },
+    "options": [
+      "极地资源丰富，应大力开采",
+      "在极地建设居民点，大量移民",
+      "各国加强合作，保护环境",
+      "建立军事基地，加强国防"
+    ],
+    "correctOption": "各国加强合作，保护环境"
+  }
+]
