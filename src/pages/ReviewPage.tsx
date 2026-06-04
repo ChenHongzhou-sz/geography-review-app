@@ -60,7 +60,7 @@ export function ReviewPage({ engine }: { engine: StudyEngine }) {
             </div>
             <CardTitle className="text-white">这一轮复习已经完成</CardTitle>
             <CardDescription className="mt-3 text-slate-300">
-              你可以继续进入单元训练，也可以切到亚洲闯关，把这一章再系统过一遍。
+              你可以继续进入单元训练，也可以切到单元闯关，把这一章再系统过一遍。
             </CardDescription>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link
@@ -72,7 +72,7 @@ export function ReviewPage({ engine }: { engine: StudyEngine }) {
               </Link>
               <Link to="/sprint" className={buttonVariants({ variant: "secondary", size: "lg" })}>
                 <Trophy className="mr-2 h-4 w-4" />
-                亚洲闯关
+                单元闯关
               </Link>
               <button
                 type="button"

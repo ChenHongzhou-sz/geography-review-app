@@ -40,7 +40,7 @@ export function SprintPage({ engine }: { engine: StudyEngine }) {
   if (!data || !selectedStage) {
     return (
       <AppShell
-        title="亚洲闯关"
+        title="单元闯关"
         subtitle="当前还没有可用的闯关数据。"
       >
         <Card>
@@ -60,7 +60,7 @@ export function SprintPage({ engine }: { engine: StudyEngine }) {
 
   return (
     <AppShell
-      title="亚洲闯关"
+      title="单元闯关"
       subtitle="把亚洲单元拆成六关逐步推进。每关都会从对应模块中抽取知识卡片、原题和地图题，适合考前做结构化复习。"
       headerAside={
         <div className="rounded-[1.5rem] bg-slate-950 px-5 py-4 text-white">
@@ -72,7 +72,7 @@ export function SprintPage({ engine }: { engine: StudyEngine }) {
       <div className="mx-auto max-w-5xl space-y-5">
         <Card className="bg-gradient-to-br from-slate-950 via-slate-900 to-ocean-900 text-white">
           <div className="mb-4 inline-flex rounded-full bg-white/12 px-3 py-1 text-sm font-semibold">
-            亚洲闯关路线
+            单元闯关路线
           </div>
           <CardTitle className="text-white">{unit.title}</CardTitle>
           <CardDescription className="mt-3 max-w-3xl text-slate-300">

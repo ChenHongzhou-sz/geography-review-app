@@ -57,7 +57,7 @@ export function UnitDetailPage({ engine }: { engine: StudyEngine }) {
                 </div>
                 <CardTitle className="text-2xl leading-tight text-white sm:text-3xl">{data.title}</CardTitle>
                 <CardDescription className="mt-3 hidden max-w-2xl overflow-hidden text-sm leading-6 text-white/80 sm:block sm:text-base">
-                  这个单元已经接入知识卡片、原题、地图题和亚洲闯关。后续其他章节只要沿用同样的数据结构，就能直接复用这套 UI 和训练逻辑。
+                  这个单元已经接入知识卡片、原题、地图题和单元闯关。后续其他章节只要沿用同样的数据结构，就能直接复用这套 UI 和训练逻辑。
                 </CardDescription>
               </div>
 
@@ -120,7 +120,7 @@ export function UnitDetailPage({ engine }: { engine: StudyEngine }) {
                 )}
               >
                 <Trophy className="mr-2 h-4 w-4" />
-                亚洲闯关
+                单元闯关
               </Link>
               <Link
                 to="/review"
@@ -229,7 +229,7 @@ export function UnitDetailPage({ engine }: { engine: StudyEngine }) {
               <div className="mt-4 grid grid-cols-2 gap-2 sm:hidden">
                 <Link to="/sprint" className={buttonVariants({ variant: "secondary", size: "default" })}>
                   <Trophy className="mr-2 h-4 w-4" />
-                  亚洲闯关
+                  单元闯关
                 </Link>
                 <Link to="/review" className={buttonVariants({ variant: "secondary", size: "default" })}>
                   <Sparkles className="mr-2 h-4 w-4" />

@@ -142,7 +142,7 @@ export function TrainingPage({ engine }: { engine: StudyEngine }) {
             </div>
             <CardTitle className="text-white">{unit.title} 这一轮已经练完了</CardTitle>
             <CardDescription className="mt-3 text-slate-300">
-              你可以继续去做地图挑战，或者进入亚洲闯关，把这一章按模块再过一遍。
+              你可以继续去做地图挑战，或者进入单元闯关，把这一章按模块再过一遍。
             </CardDescription>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link to={`/maps/${unit.unitId}`} className={buttonVariants({ size: "lg" })}>
@@ -151,7 +151,7 @@ export function TrainingPage({ engine }: { engine: StudyEngine }) {
               </Link>
               <Link to="/sprint" className={buttonVariants({ variant: "secondary", size: "lg" })}>
                 <Trophy className="mr-2 h-4 w-4" />
-                亚洲闯关
+                单元闯关
               </Link>
               <button
                 type="button"

@@ -82,7 +82,7 @@ export function MapPage({ engine }: { engine: StudyEngine }) {
             </div>
             <CardTitle>这一轮地图题已经完成</CardTitle>
             <CardDescription className="mt-2">
-              可以继续回到单元训练，或者进入亚洲闯关，把地图题和综合题一起带一遍。
+              可以继续回到单元训练，或者进入单元闯关，把地图题和综合题一起带一遍。
             </CardDescription>
             <div className="mt-5 flex flex-wrap gap-3">
               <Link to={`/training/${unit.unitId}`} className={buttonVariants({ size: "lg" })}>
@@ -91,7 +91,7 @@ export function MapPage({ engine }: { engine: StudyEngine }) {
               </Link>
               <Link to="/sprint" className={buttonVariants({ variant: "secondary", size: "lg" })}>
                 <Trophy className="mr-2 h-4 w-4" />
-                亚洲闯关
+                单元闯关
               </Link>
               <button
                 type="button"
