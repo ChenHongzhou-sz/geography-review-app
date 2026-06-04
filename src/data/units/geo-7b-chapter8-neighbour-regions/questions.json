@@ -1,0 +1,2432 @@
+[
+  {
+    "id": "neighbour-q01",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第一节 第1课时 地理特征与人口老龄化",
+    "knowledgePoint": "地震防灾",
+    "prompt": "日本一些传统民居采用较轻建筑材料，主要目的是为了什么？",
+    "answer": "减少地震造成的伤亡",
+    "explanation": "日本地震频繁，较轻的建筑材料有利于减轻建筑倒塌时造成的伤害。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　地理特征与人口老龄化.pptx",
+      "slide": 12,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "减少地震造成的伤亡",
+      "抵御沙尘暴侵袭",
+      "方便机械化施工",
+      "增强冬季保温效果"
+    ],
+    "correctOption": "减少地震造成的伤亡"
+  },
+  {
+    "id": "neighbour-q02",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第一节 第1课时 地理特征与人口老龄化",
+    "knowledgePoint": "岛屿位置",
+    "prompt": "日本首都东京位于哪一个大岛上？",
+    "answer": "本州",
+    "explanation": "东京位于本州岛，本州也是日本面积最大、人口最集中的大岛。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　地理特征与人口老龄化.pptx",
+      "slide": 13,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "北海道",
+      "本州",
+      "四国",
+      "九州"
+    ],
+    "correctOption": "本州"
+  },
+  {
+    "id": "neighbour-q03",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第一节 第1课时 地理特征与人口老龄化",
+    "knowledgePoint": "温泉成因",
+    "prompt": "日本温泉资源丰富，主要原因是什么？",
+    "answer": "位于板块交界地带，地热资源丰富",
+    "explanation": "日本位于火山地震带上，地壳活跃，地热资源丰富。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　地理特征与人口老龄化.pptx",
+      "slide": 14,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "深居内陆，地下水丰富",
+      "降水丰沛，河流众多",
+      "沿海平原广阔，地势低平",
+      "位于板块交界地带，地热资源丰富"
+    ],
+    "correctOption": "位于板块交界地带，地热资源丰富"
+  },
+  {
+    "id": "neighbour-q04",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第一节 第1课时 地理特征与人口老龄化",
+    "knowledgePoint": "老龄化影响",
+    "prompt": "下列哪一项不是日本人口老龄化带来的典型问题？",
+    "answer": "就业机会过剩",
+    "explanation": "日本老龄化会带来劳动力短缺，而不是就业机会过剩。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　地理特征与人口老龄化.pptx",
+      "slide": 15,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "劳动力不足",
+      "养老负担加重",
+      "社会保障支出增加",
+      "就业机会过剩"
+    ],
+    "correctOption": "就业机会过剩"
+  },
+  {
+    "id": "neighbour-q05",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第一节 第1课时 地理特征与人口老龄化",
+    "knowledgePoint": "海岸特征",
+    "prompt": "日本发展海运和对外贸易的有利自然条件是？",
+    "answer": "海岸曲折，多优良港湾",
+    "explanation": "优良港湾多，便于建设港口和发展海运。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　地理特征与人口老龄化.pptx",
+      "slide": 18,
+      "note": "课后练习第1题"
+    },
+    "options": [
+      "国土辽阔，矿产丰富",
+      "海岸曲折，多优良港湾",
+      "全部属于平原地形",
+      "终年受西风控制"
+    ],
+    "correctOption": "海岸曲折，多优良港湾"
+  },
+  {
+    "id": "neighbour-q06",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第一节 第1课时 地理特征与人口老龄化",
+    "knowledgePoint": "樱花开放",
+    "prompt": "5月初仍适合观赏樱花的日本大岛最可能是？",
+    "answer": "北海道",
+    "explanation": "纬度越高，樱花开放时间越晚，北海道最靠北。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　地理特征与人口老龄化.pptx",
+      "slide": 19,
+      "note": "课后练习第2题"
+    },
+    "options": [
+      "本州",
+      "北海道",
+      "四国",
+      "九州"
+    ],
+    "correctOption": "北海道"
+  },
+  {
+    "id": "neighbour-q07",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第一节 第1课时 地理特征与人口老龄化",
+    "knowledgePoint": "纬度差异",
+    "prompt": "日本樱花开放时间由南向北推迟，主要影响因素是什么？",
+    "answer": "纬度位置",
+    "explanation": "纬度越高，气温回升越慢，樱花开放越晚。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　地理特征与人口老龄化.pptx",
+      "slide": 20,
+      "note": "课后练习第3题"
+    },
+    "options": [
+      "纬度位置",
+      "海陆位置",
+      "地形起伏",
+      "人口分布"
+    ],
+    "correctOption": "纬度位置"
+  },
+  {
+    "id": "neighbour-q08",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第一节 第1课时 地理特征与人口老龄化",
+    "knowledgePoint": "人口问题",
+    "prompt": "日本人口老龄化最直接造成的社会经济问题之一是？",
+    "answer": "劳动力短缺",
+    "explanation": "老年人口比重上升会压缩劳动年龄人口规模。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　地理特征与人口老龄化.pptx",
+      "slide": 21,
+      "note": "能力达标第1题"
+    },
+    "options": [
+      "劳动力短缺",
+      "出生率快速上升",
+      "耕地面积扩大",
+      "资源出口增加"
+    ],
+    "correctOption": "劳动力短缺"
+  },
+  {
+    "id": "neighbour-q09",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第一节 第1课时 地理特征与人口老龄化",
+    "knowledgePoint": "应对老龄化",
+    "prompt": "下列哪项最符合日本应对人口老龄化的思路？",
+    "answer": "鼓励生育并延迟退休",
+    "explanation": "鼓励生育、延迟退休和提升技术替代，是较常见的应对办法。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　地理特征与人口老龄化.pptx",
+      "slide": 22,
+      "note": "能力达标第2题"
+    },
+    "options": [
+      "鼓励生育并延迟退休",
+      "减少教育投入",
+      "扩大高耗能产业",
+      "限制技术应用"
+    ],
+    "correctOption": "鼓励生育并延迟退休"
+  },
+  {
+    "id": "neighbour-q10",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第一节 第1课时 地理特征与人口老龄化",
+    "knowledgePoint": "大洋位置",
+    "prompt": "八丈岛位于哪个大洋？",
+    "answer": "太平洋",
+    "explanation": "八丈岛位于日本东南方向的太平洋上。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　地理特征与人口老龄化.pptx",
+      "slide": 24,
+      "note": "素养提升材料题变式"
+    },
+    "options": [
+      "大西洋",
+      "北冰洋",
+      "太平洋",
+      "印度洋"
+    ],
+    "correctOption": "太平洋"
+  },
+  {
+    "id": "neighbour-q11",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第一节 第2课时 对外依赖强的经济",
+    "knowledgePoint": "对外依赖",
+    "prompt": "日本经济对外依赖性强的主要原因是？",
+    "answer": "资源贫乏，国内供给不足",
+    "explanation": "资源贫乏是日本发展外向型经济的重要背景。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第一节　第2课时　对外依赖强的经济.pptx",
+      "slide": 16,
+      "note": "课后练习第1题"
+    },
+    "options": [
+      "人口稀少，市场狭小",
+      "资源贫乏，国内供给不足",
+      "农业发达，出口粮食多",
+      "地处热带，灾害较少"
+    ],
+    "correctOption": "资源贫乏，国内供给不足"
+  },
+  {
+    "id": "neighbour-q12",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第一节 第2课时 对外依赖强的经济",
+    "knowledgePoint": "贸易特征",
+    "prompt": "下列最符合日本对外贸易特点的是？",
+    "answer": "进口原料和燃料，出口工业制成品",
+    "explanation": "日本典型的贸易结构是“进口原料燃料，出口工业产品”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第一节　第2课时　对外依赖强的经济.pptx",
+      "slide": 17,
+      "note": "课后练习第2题"
+    },
+    "options": [
+      "出口原料和燃料，进口工业制成品",
+      "进口原料和燃料，出口工业制成品",
+      "以出口粮食和棉花为主",
+      "完全依靠国内市场销售"
+    ],
+    "correctOption": "进口原料和燃料，出口工业制成品"
+  },
+  {
+    "id": "neighbour-q13",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第一节 第2课时 对外依赖强的经济",
+    "knowledgePoint": "工业布局",
+    "prompt": "日本工业区主要集中分布在？",
+    "answer": "太平洋沿岸和濑户内海沿岸",
+    "explanation": "这里海运便利、港口条件好，便于原料输入和产品输出。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第一节　第2课时　对外依赖强的经济.pptx",
+      "slide": 10,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "日本海沿岸",
+      "北海道中部",
+      "太平洋沿岸和濑户内海沿岸",
+      "九州岛中部高原"
+    ],
+    "correctOption": "太平洋沿岸和濑户内海沿岸"
+  },
+  {
+    "id": "neighbour-q14",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第一节 第2课时 对外依赖强的经济",
+    "knowledgePoint": "布局条件",
+    "prompt": "日本工业沿海分布的重要自然条件是？",
+    "answer": "海岸曲折，多优良港湾",
+    "explanation": "良港多是沿海工业带形成的重要基础。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第一节　第2课时　对外依赖强的经济.pptx",
+      "slide": 11,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "平原广阔，耕地充足",
+      "海岸曲折，多优良港湾",
+      "矿产资源丰富",
+      "全年高温多雨"
+    ],
+    "correctOption": "海岸曲折，多优良港湾"
+  },
+  {
+    "id": "neighbour-q15",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第一节 第2课时 对外依赖强的经济",
+    "knowledgePoint": "海外投资",
+    "prompt": "日本企业到海外投资建厂，对东道国最直接的积极影响之一是？",
+    "answer": "解决资金短缺并带来先进技术",
+    "explanation": "外资和技术输入是东道国承接产业转移的重要收益。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第一节　第2课时　对外依赖强的经济.pptx",
+      "slide": 12,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "增加地震灾害",
+      "解决资金短缺并带来先进技术",
+      "减少劳动力需求",
+      "削弱工业基础"
+    ],
+    "correctOption": "解决资金短缺并带来先进技术"
+  },
+  {
+    "id": "neighbour-q16",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第一节 第2课时 对外依赖强的经济",
+    "knowledgePoint": "投资目的",
+    "prompt": "近年来日本企业在发展中国家投资建厂的重要目的之一是？",
+    "answer": "接近消费市场",
+    "explanation": "靠近市场可以降低运输成本并扩大销售。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第一节　第2课时　对外依赖强的经济.pptx",
+      "slide": 24,
+      "note": "能力达标第3题"
+    },
+    "options": [
+      "远离原料产地",
+      "接近消费市场",
+      "扩大本国耕地",
+      "减少科技投入"
+    ],
+    "correctOption": "接近消费市场"
+  },
+  {
+    "id": "neighbour-q17",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第二节 第1课时 “十字路口”的位置",
+    "knowledgePoint": "十字路口",
+    "prompt": "东南亚地理位置的重要性主要体现在？",
+    "answer": "处于亚洲与大洋洲、太平洋与印度洋的“十字路口”",
+    "explanation": "“两洲两洋十字路口”是东南亚位置重要性的标准表述。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第1课时　“十字路口”的位置.pptx",
+      "slide": 13,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "位于两极地区之间",
+      "位于南北美洲之间",
+      "连接大西洋和北冰洋",
+      "处于亚洲与大洋洲、太平洋与印度洋的“十字路口”"
+    ],
+    "correctOption": "处于亚洲与大洋洲、太平洋与印度洋的“十字路口”"
+  },
+  {
+    "id": "neighbour-q18",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第二节 第1课时 “十字路口”的位置",
+    "knowledgePoint": "海峡沟通",
+    "prompt": "马六甲海峡沟通了哪两大洋？",
+    "answer": "太平洋和印度洋",
+    "explanation": "马六甲海峡是连接太平洋和印度洋的重要通道。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第1课时　“十字路口”的位置.pptx",
+      "slide": 14,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "太平洋和印度洋",
+      "大西洋和印度洋",
+      "太平洋和北冰洋",
+      "大西洋和太平洋"
+    ],
+    "correctOption": "太平洋和印度洋"
+  },
+  {
+    "id": "neighbour-q19",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第二节 第1课时 “十字路口”的位置",
+    "knowledgePoint": "内陆国",
+    "prompt": "东南亚唯一的内陆国是？",
+    "answer": "老挝",
+    "explanation": "老挝位于中南半岛内部，不临海。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第1课时　“十字路口”的位置.pptx",
+      "slide": 15,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "缅甸",
+      "老挝",
+      "越南",
+      "泰国"
+    ],
+    "correctOption": "老挝"
+  },
+  {
+    "id": "neighbour-q20",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第二节 第1课时 “十字路口”的位置",
+    "knowledgePoint": "服饰差异",
+    "prompt": "东南亚许多地区传统服饰较轻薄，主要受哪一因素影响？",
+    "answer": "气候",
+    "explanation": "东南亚整体高温多雨，轻薄服饰更适应湿热环境。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第1课时　“十字路口”的位置.pptx",
+      "slide": 16,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "气候",
+      "宗教",
+      "矿产",
+      "地震"
+    ],
+    "correctOption": "气候"
+  },
+  {
+    "id": "neighbour-q21",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第二节 第1课时 “十字路口”的位置",
+    "knowledgePoint": "海上生命线",
+    "prompt": "被称为东亚国家“海上生命线”的海峡是？",
+    "answer": "马六甲海峡",
+    "explanation": "中国、日本、韩国从西亚进口石油多经此海峡。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第1课时　“十字路口”的位置.pptx",
+      "slide": 23,
+      "note": "课后练习第1题"
+    },
+    "options": [
+      "直布罗陀海峡",
+      "马六甲海峡",
+      "白令海峡",
+      "土耳其海峡"
+    ],
+    "correctOption": "马六甲海峡"
+  },
+  {
+    "id": "neighbour-q22",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第二节 第1课时 “十字路口”的位置",
+    "knowledgePoint": "最短航线",
+    "prompt": "从欧洲、非洲前往东亚和东南亚港口的最短海上航线通常必须经过？",
+    "answer": "马六甲海峡",
+    "explanation": "马六甲海峡在欧亚海上联系中具有不可替代的区位价值。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第1课时　“十字路口”的位置.pptx",
+      "slide": 20,
+      "note": "课后练习第2题"
+    },
+    "options": [
+      "霍尔木兹海峡",
+      "莫桑比克海峡",
+      "马六甲海峡",
+      "巴拿马运河"
+    ],
+    "correctOption": "马六甲海峡"
+  },
+  {
+    "id": "neighbour-q23",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第二节 第1课时 “十字路口”的位置",
+    "knowledgePoint": "石油运输",
+    "prompt": "我国从西亚进口石油，海运路线通常需要经过？",
+    "answer": "马六甲海峡",
+    "explanation": "这是“海上生命线”常见考法。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第1课时　“十字路口”的位置.pptx",
+      "slide": 21,
+      "note": "课后练习第3题"
+    },
+    "options": [
+      "马六甲海峡",
+      "德雷克海峡",
+      "白令海峡",
+      "直布罗陀海峡"
+    ],
+    "correctOption": "马六甲海峡"
+  },
+  {
+    "id": "neighbour-q24",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第二节 第1课时 “十字路口”的位置",
+    "knowledgePoint": "区域组成",
+    "prompt": "东南亚由哪两部分组成？",
+    "answer": "中南半岛和马来群岛",
+    "explanation": "东南亚区域组成是基础知识。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第1课时　“十字路口”的位置.pptx",
+      "slide": 22,
+      "note": "课后练习第4题"
+    },
+    "options": [
+      "阿拉伯半岛和中南半岛",
+      "中南半岛和马来群岛",
+      "印度半岛和菲律宾群岛",
+      "中亚平原和群岛"
+    ],
+    "correctOption": "中南半岛和马来群岛"
+  },
+  {
+    "id": "neighbour-q25",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第二节 第1课时 “十字路口”的位置",
+    "knowledgePoint": "经纬度判断",
+    "prompt": "新加坡的大致经纬度最接近？",
+    "answer": "1°N，104°E",
+    "explanation": "新加坡接近赤道，位于马来半岛南端附近。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第1课时　“十字路口”的位置.pptx",
+      "slide": 25,
+      "note": "能力达标第1题"
+    },
+    "options": [
+      "23°N，113°E",
+      "35°N，140°E",
+      "1°N，104°E",
+      "15°S，75°E"
+    ],
+    "correctOption": "1°N，104°E"
+  },
+  {
+    "id": "neighbour-q26",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第二节 第2课时 气候、农业与城市",
+    "knowledgePoint": "农业气候不利",
+    "prompt": "“澜湄合作”国家发展农业的不利气候条件主要是？",
+    "answer": "降水不稳定，多旱涝灾害",
+    "explanation": "热带季风气候雨季、旱季分明，降水年际变化大，易发生旱涝。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、农业与城市.pptx",
+      "slide": 15,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "气候寒冷，热量不足",
+      "终年干旱，缺乏降水",
+      "降水不稳定，多旱涝灾害",
+      "昼夜温差过大"
+    ],
+    "correctOption": "降水不稳定，多旱涝灾害"
+  },
+  {
+    "id": "neighbour-q27",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第二节 第2课时 气候、农业与城市",
+    "knowledgePoint": "热带产品",
+    "prompt": "我国从湄公河流域国家进口的热带经济作物产品可能是？",
+    "answer": "榴莲、橡胶、油棕",
+    "explanation": "东南亚主要位于热带，适合热带经济作物生长。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、农业与城市.pptx",
+      "slide": 16,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "榴莲、橡胶、油棕",
+      "苹果、甜菜、葡萄",
+      "小麦、玉米、大豆",
+      "棉花、甜菜、亚麻"
+    ],
+    "correctOption": "榴莲、橡胶、油棕"
+  },
+  {
+    "id": "neighbour-q28",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第二节 第2课时 气候、农业与城市",
+    "knowledgePoint": "城市分布",
+    "prompt": "中南半岛许多大城市分布在河流沿岸和河口三角洲的主要原因不包括？",
+    "answer": "水能丰富",
+    "explanation": "大城市多分布在平原河口地区，水能开发并不是主要原因。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、农业与城市.pptx",
+      "slide": 17,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "便于灌溉",
+      "水运便利",
+      "地形平坦",
+      "水能丰富"
+    ],
+    "correctOption": "水能丰富"
+  },
+  {
+    "id": "neighbour-q29",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第二节 第2课时 气候、农业与城市",
+    "knowledgePoint": "稻米生产",
+    "prompt": "东南亚稻米生产精耕细作、出口量大的形成条件主要有？",
+    "answer": "高温多雨和劳动力丰富",
+    "explanation": "水稻属于劳动密集型农业，东南亚既有气候优势，也有人口优势。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、农业与城市.pptx",
+      "slide": 19,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "高温多雨和劳动力丰富",
+      "全年寒冷和人口稀少",
+      "矿产丰富和机械化高",
+      "地形高峻和降水稀少"
+    ],
+    "correctOption": "高温多雨和劳动力丰富"
+  },
+  {
+    "id": "neighbour-q30",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第二节 第2课时 气候、农业与城市",
+    "knowledgePoint": "中老铁路沿线",
+    "prompt": "中老铁路沿线最可能看到的地表景观是？",
+    "answer": "山河相间",
+    "explanation": "中南半岛地形的典型特征就是山河相间、纵列分布。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、农业与城市.pptx",
+      "slide": 22,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "平原广阔",
+      "冰川广布",
+      "山河相间",
+      "海岸沙滩"
+    ],
+    "correctOption": "山河相间"
+  },
+  {
+    "id": "neighbour-q31",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第二节 第2课时 气候、农业与城市",
+    "knowledgePoint": "老挝货物",
+    "prompt": "从老挝发出的货运班列中，最可能占比较大的货物是？",
+    "answer": "咖啡",
+    "explanation": "老挝属于热带地区，热带经济作物较有优势，而高新技术产业较弱。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、农业与城市.pptx",
+      "slide": 23,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "咖啡",
+      "芯片",
+      "手机",
+      "汽车"
+    ],
+    "correctOption": "咖啡"
+  },
+  {
+    "id": "neighbour-q32",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第二节 第2课时 气候、农业与城市",
+    "knowledgePoint": "中国优势",
+    "prompt": "中老铁路建设中，我国的主要优势体现在？",
+    "answer": "资金和技术",
+    "explanation": "中国在铁路建设中通常具有较强的资金、技术和装备优势。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、农业与城市.pptx",
+      "slide": 25,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "原料和劳动力",
+      "原料和技术",
+      "资金和技术",
+      "市场和耕地"
+    ],
+    "correctOption": "资金和技术"
+  },
+  {
+    "id": "neighbour-q33",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第二节 第2课时 气候、农业与城市",
+    "knowledgePoint": "地势判断",
+    "prompt": "根据河流流向判断，缅甸的地势特征最可能是？",
+    "answer": "北高南低",
+    "explanation": "河流多自北向南流，说明地势总体北高南低。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、农业与城市.pptx",
+      "slide": 27,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "由东南向西北倾斜",
+      "中间高四周低",
+      "北高南低",
+      "南高北低"
+    ],
+    "correctOption": "北高南低"
+  },
+  {
+    "id": "neighbour-q34",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第二节 第2课时 气候、农业与城市",
+    "knowledgePoint": "修路因素",
+    "prompt": "缅甸公路多采用盘山方式修建，主要影响因素是？",
+    "answer": "地形",
+    "explanation": "山地、丘陵广布时，道路常顺山势盘旋修建。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、农业与城市.pptx",
+      "slide": 28,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "气候",
+      "地形",
+      "河流",
+      "植被"
+    ],
+    "correctOption": "地形"
+  },
+  {
+    "id": "neighbour-q35",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第1课时 世界人口大国",
+    "knowledgePoint": "纬度位置",
+    "prompt": "印度大部分地区位于哪类纬度地区？",
+    "answer": "低纬度地区",
+    "explanation": "印度大部分位于10°N到30°N之间，属于低纬度到热带、亚热带范围。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　世界人口大国.pptx",
+      "slide": 12,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "低纬度地区",
+      "中纬度地区",
+      "高纬度地区",
+      "跨中高纬度地区"
+    ],
+    "correctOption": "低纬度地区"
+  },
+  {
+    "id": "neighbour-q36",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第1课时 世界人口大国",
+    "knowledgePoint": "海陆位置",
+    "prompt": "南亚北部地形屏障主要是？",
+    "answer": "喜马拉雅山脉",
+    "explanation": "南亚北部紧靠喜马拉雅山脉。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　世界人口大国.pptx",
+      "slide": 14,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "阿尔卑斯山脉",
+      "喜马拉雅山脉",
+      "安第斯山脉",
+      "乌拉尔山脉"
+    ],
+    "correctOption": "喜马拉雅山脉"
+  },
+  {
+    "id": "neighbour-q37",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第1课时 世界人口大国",
+    "knowledgePoint": "主要河流",
+    "prompt": "流经巴基斯坦的主要河流是？",
+    "answer": "印度河",
+    "explanation": "印度河虽然名字带“印度”，但主要流经巴基斯坦。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　世界人口大国.pptx",
+      "slide": 15,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "印度河",
+      "恒河",
+      "湄公河",
+      "布拉马普特拉河"
+    ],
+    "correctOption": "印度河"
+  },
+  {
+    "id": "neighbour-q38",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第1课时 世界人口大国",
+    "knowledgePoint": "人口优势",
+    "prompt": "下列属于印度人口多所带来的优势的是？",
+    "answer": "劳动力丰富、市场广阔",
+    "explanation": "人口多会带来劳动力和市场优势，但也伴随资源与环境压力。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　世界人口大国.pptx",
+      "slide": 16,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "劳动力丰富、市场广阔",
+      "住房紧张、交通拥堵",
+      "耕地不足、资源短缺",
+      "老龄化严重、兵源不足"
+    ],
+    "correctOption": "劳动力丰富、市场广阔"
+  },
+  {
+    "id": "neighbour-q39",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第1课时 世界人口大国",
+    "knowledgePoint": "地形分布",
+    "prompt": "印度地形区分布大势正确的是？",
+    "answer": "北部山地，中部平原，南部高原",
+    "explanation": "印度地形“三大区”分布是高频基础题。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　世界人口大国.pptx",
+      "slide": 18,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "北部山地，中部平原，南部高原",
+      "北部高原，中部山地，南部平原",
+      "北部平原，中部高原，南部山地",
+      "北部盆地，中部平原，南部山地"
+    ],
+    "correctOption": "北部山地，中部平原，南部高原"
+  },
+  {
+    "id": "neighbour-q40",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第1课时 世界人口大国",
+    "knowledgePoint": "重要纬线",
+    "prompt": "经过印度中部的重要纬线是？",
+    "answer": "北回归线",
+    "explanation": "北回归线穿过印度中部，所以印度绝大部分位于热带和亚热带。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　世界人口大国.pptx",
+      "slide": 20,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "赤道",
+      "北回归线",
+      "南回归线",
+      "本初子午线"
+    ],
+    "correctOption": "北回归线"
+  },
+  {
+    "id": "neighbour-q41",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第1课时 世界人口大国",
+    "knowledgePoint": "圣河",
+    "prompt": "被印度人称为“圣河”的河流是？",
+    "answer": "恒河",
+    "explanation": "恒河对印度的农业、人口和宗教文化都非常重要。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　世界人口大国.pptx",
+      "slide": 21,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "印度河",
+      "恒河",
+      "鄂毕河",
+      "多瑙河"
+    ],
+    "correctOption": "恒河"
+  },
+  {
+    "id": "neighbour-q42",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第1课时 世界人口大国",
+    "knowledgePoint": "招商优势",
+    "prompt": "印度吸引日本、美国等企业投资的最主要优势是？",
+    "answer": "劳动力丰富而廉价",
+    "explanation": "劳动力优势是印度吸引产业转移的突出条件。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　世界人口大国.pptx",
+      "slide": 22,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "劳动力丰富而廉价",
+      "矿产资源特别丰富",
+      "生态环境优美",
+      "农业高度机械化"
+    ],
+    "correctOption": "劳动力丰富而廉价"
+  },
+  {
+    "id": "neighbour-q43",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第1课时 世界人口大国",
+    "knowledgePoint": "人口问题",
+    "prompt": "下列哪项是印度较突出的现实人口问题？",
+    "answer": "交通拥堵、就业困难",
+    "explanation": "印度当前主要问题是人口总量大、增长快带来的资源环境和就业压力。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　世界人口大国.pptx",
+      "slide": 23,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "交通拥堵、就业困难",
+      "国防兵源不足",
+      "人口普遍负增长",
+      "老龄化极其严重"
+    ],
+    "correctOption": "交通拥堵、就业困难"
+  },
+  {
+    "id": "neighbour-q44",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第1课时 世界人口大国",
+    "knowledgePoint": "板块位置",
+    "prompt": "印度和新西兰都位于板块交界处，这类地区常见形成的地形是？",
+    "answer": "山地",
+    "explanation": "板块碰撞挤压常形成山地和山脉。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　世界人口大国.pptx",
+      "slide": 26,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "平原",
+      "盆地",
+      "山地",
+      "沙漠"
+    ],
+    "correctOption": "山地"
+  },
+  {
+    "id": "neighbour-q45",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第1课时 世界人口大国",
+    "knowledgePoint": "气候类型",
+    "prompt": "印度绝大部分地区的气候类型是？",
+    "answer": "热带季风气候",
+    "explanation": "印度最主要的气候类型是热带季风气候。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　世界人口大国.pptx",
+      "slide": 27,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "热带季风气候",
+      "亚热带季风气候",
+      "热带雨林气候",
+      "热带沙漠气候"
+    ],
+    "correctOption": "热带季风气候"
+  },
+  {
+    "id": "neighbour-q46",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第2课时 气候、粮食与服务外包产业",
+    "knowledgePoint": "季风方向",
+    "prompt": "印度每年6月至9月的盛行风主要是？",
+    "answer": "西南季风",
+    "explanation": "来自印度洋的西南季风为印度带来丰沛降水。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　气候、粮食与服务外包产业.pptx",
+      "slide": 14,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "东南季风",
+      "西南季风",
+      "东北季风",
+      "西北季风"
+    ],
+    "correctOption": "西南季风"
+  },
+  {
+    "id": "neighbour-q47",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第2课时 气候、粮食与服务外包产业",
+    "knowledgePoint": "灾害原因",
+    "prompt": "印度多水旱灾害的主要原因是？",
+    "answer": "夏季风不稳定",
+    "explanation": "季风强弱和来去时间不稳定，会直接影响降水。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　气候、粮食与服务外包产业.pptx",
+      "slide": 15,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "地形封闭，空气干燥",
+      "夏季风不稳定",
+      "纬度太高，气温过低",
+      "河流短小湍急"
+    ],
+    "correctOption": "夏季风不稳定"
+  },
+  {
+    "id": "neighbour-q48",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第2课时 气候、粮食与服务外包产业",
+    "knowledgePoint": "外包市场",
+    "prompt": "印度服务外包业务的主要承接对象多来自？",
+    "answer": "北美地区",
+    "explanation": "北美尤其是美国，是印度服务外包的重要客户来源。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　气候、粮食与服务外包产业.pptx",
+      "slide": 17,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "北美地区",
+      "南美地区",
+      "非洲地区",
+      "极地地区"
+    ],
+    "correctOption": "北美地区"
+  },
+  {
+    "id": "neighbour-q49",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第2课时 气候、粮食与服务外包产业",
+    "knowledgePoint": "外包优势",
+    "prompt": "印度服务外包业快速发展的重要优势之一是？",
+    "answer": "劳动力成本较低",
+    "explanation": "加上英语普及和信息技术起步较早，共同促进外包业发展。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　气候、粮食与服务外包产业.pptx",
+      "slide": 18,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "劳动力成本较低",
+      "矿产储量世界第一",
+      "耕地面积狭小",
+      "海运条件最优"
+    ],
+    "correctOption": "劳动力成本较低"
+  },
+  {
+    "id": "neighbour-q50",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第2课时 气候、粮食与服务外包产业",
+    "knowledgePoint": "外包作用",
+    "prompt": "服务外包产业给印度带来的积极作用不包括？",
+    "answer": "减少国际联系",
+    "explanation": "服务外包会增强而不是减少国际联系。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　气候、粮食与服务外包产业.pptx",
+      "slide": 19,
+      "note": "跟踪训练第5题"
+    },
+    "options": [
+      "增加就业机会",
+      "赚取大量外汇",
+      "促进经济发展",
+      "减少国际联系"
+    ],
+    "correctOption": "减少国际联系"
+  },
+  {
+    "id": "neighbour-q51",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第2课时 气候、粮食与服务外包产业",
+    "knowledgePoint": "世界办公室",
+    "prompt": "印度被称为“世界办公室”，主要是因为？",
+    "answer": "服务外包产业发展迅速",
+    "explanation": "“世界办公室”对应的是印度信息技术和服务外包优势。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　气候、粮食与服务外包产业.pptx",
+      "slide": 21,
+      "note": "课后练习第1题"
+    },
+    "options": [
+      "服务外包产业发展迅速",
+      "农业机械化水平最高",
+      "森林覆盖率极高",
+      "石油资源最丰富"
+    ],
+    "correctOption": "服务外包产业发展迅速"
+  },
+  {
+    "id": "neighbour-q52",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第2课时 气候、粮食与服务外包产业",
+    "knowledgePoint": "水稻分布",
+    "prompt": "印度水稻主要分布在？",
+    "answer": "恒河中下游平原和半岛沿海平原",
+    "explanation": "水稻喜温喜湿，适合分布在水热条件更好的地区。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　气候、粮食与服务外包产业.pptx",
+      "slide": 22,
+      "note": "课后练习第2题"
+    },
+    "options": [
+      "德干高原西北部",
+      "恒河上游和西北部",
+      "喜马拉雅山区",
+      "恒河中下游平原和半岛沿海平原"
+    ],
+    "correctOption": "恒河中下游平原和半岛沿海平原"
+  },
+  {
+    "id": "neighbour-q53",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第2课时 气候、粮食与服务外包产业",
+    "knowledgePoint": "农业条件",
+    "prompt": "印度农业发展的有利自然条件是？",
+    "answer": "热量和水分条件较好",
+    "explanation": "印度位于热带、亚热带，热量充足，季风降水明显。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　气候、粮食与服务外包产业.pptx",
+      "slide": 23,
+      "note": "课后练习第3题"
+    },
+    "options": [
+      "热量和水分条件较好",
+      "全年寒冷干燥",
+      "山地面积极广、平原很少",
+      "河流全部结冰"
+    ],
+    "correctOption": "热量和水分条件较好"
+  },
+  {
+    "id": "neighbour-q54",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第2课时 气候、粮食与服务外包产业",
+    "knowledgePoint": "软件中心",
+    "prompt": "印度著名的软件外包中心是？",
+    "answer": "班加罗尔",
+    "explanation": "班加罗尔是印度信息技术和软件外包的重要中心。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　气候、粮食与服务外包产业.pptx",
+      "slide": 27,
+      "note": "能力达标第1题"
+    },
+    "options": [
+      "孟买",
+      "班加罗尔",
+      "新德里",
+      "加尔各答"
+    ],
+    "correctOption": "班加罗尔"
+  },
+  {
+    "id": "neighbour-q55",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第2课时 气候、粮食与服务外包产业",
+    "knowledgePoint": "洋葱产区",
+    "prompt": "印度洋葱重要产区主要位于？",
+    "answer": "德干高原",
+    "explanation": "德干高原是印度南部重要农业区之一。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　气候、粮食与服务外包产业.pptx",
+      "slide": 28,
+      "note": "能力达标第2题"
+    },
+    "options": [
+      "德干高原",
+      "喜马拉雅山区",
+      "恒河三角洲",
+      "印度河三角洲"
+    ],
+    "correctOption": "德干高原"
+  },
+  {
+    "id": "neighbour-q56",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第2课时 气候、粮食与服务外包产业",
+    "knowledgePoint": "洋葱危机",
+    "prompt": "印度出现“洋葱危机”的主要自然原因是？",
+    "answer": "西南季风不稳定",
+    "explanation": "季风异常会影响农作物产量，进而引发市场波动。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　气候、粮食与服务外包产业.pptx",
+      "slide": 29,
+      "note": "能力达标第3题"
+    },
+    "options": [
+      "西南季风不稳定",
+      "终年严寒",
+      "火山喷发频繁",
+      "河流结冰期长"
+    ],
+    "correctOption": "西南季风不稳定"
+  },
+  {
+    "id": "neighbour-q57",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第三节 第2课时 气候、粮食与服务外包产业",
+    "knowledgePoint": "根本措施",
+    "prompt": "从长远看，缓解印度农业受季风影响的根本措施是？",
+    "answer": "兴修水利并改进农业技术",
+    "explanation": "兴修水利、推广良种是提高农业稳定性的关键。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　气候、粮食与服务外包产业.pptx",
+      "slide": 30,
+      "note": "能力达标第4题"
+    },
+    "options": [
+      "兴修水利并改进农业技术",
+      "大量进口粮食",
+      "减少耕地面积",
+      "放弃种植水稻"
+    ],
+    "correctOption": "兴修水利并改进农业技术"
+  },
+  {
+    "id": "neighbour-q58",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第四节 第1课时 世界面积最大的国家",
+    "knowledgePoint": "自然地理特征",
+    "prompt": "下列属于俄罗斯自然地理特征的是？",
+    "answer": "亚洲部分河流多自南向北流",
+    "explanation": "俄罗斯亚洲部分大河多流向北冰洋，是非常典型的判读点。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　世界面积最大的国家.pptx",
+      "slide": 13,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "亚洲部分河流多自南向北流",
+      "全部位于低纬度热带地区",
+      "东临大西洋，西临太平洋",
+      "矿产资源极其贫乏"
+    ],
+    "correctOption": "亚洲部分河流多自南向北流"
+  },
+  {
+    "id": "neighbour-q59",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第四节 第1课时 世界面积最大的国家",
+    "knowledgePoint": "欧洲属性",
+    "prompt": "俄罗斯被视作传统欧洲国家的重要原因是？",
+    "answer": "人口和经济活动主要集中在欧洲部分",
+    "explanation": "俄罗斯虽然跨亚欧，但人口、城市和工业重心偏向欧洲部分。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　世界面积最大的国家.pptx",
+      "slide": 14,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "人口和经济活动主要集中在欧洲部分",
+      "全部位于欧洲大陆",
+      "与亚洲没有陆地联系",
+      "气候与西欧完全相同"
+    ],
+    "correctOption": "人口和经济活动主要集中在欧洲部分"
+  },
+  {
+    "id": "neighbour-q60",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第四节 第1课时 世界面积最大的国家",
+    "knowledgePoint": "气候影响生活",
+    "prompt": "俄罗斯传统面包保存时间较长，与哪一自然条件关系最密切？",
+    "answer": "冬季寒冷漫长",
+    "explanation": "寒冷气候可以延长食品保存时间。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　世界面积最大的国家.pptx",
+      "slide": 16,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "冬季寒冷漫长",
+      "夏季炎热多雨",
+      "全年高温干燥",
+      "海风终年强劲"
+    ],
+    "correctOption": "冬季寒冷漫长"
+  },
+  {
+    "id": "neighbour-q61",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第四节 第1课时 世界面积最大的国家",
+    "knowledgePoint": "冬季寒冷原因",
+    "prompt": "俄罗斯冬季寒冷漫长的根本原因是？",
+    "answer": "地处高纬",
+    "explanation": "纬度高是俄罗斯气候寒冷的根本原因。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　世界面积最大的国家.pptx",
+      "slide": 20,
+      "note": "课后练习第1题"
+    },
+    "options": [
+      "地处高纬",
+      "位于赤道附近",
+      "地势低平",
+      "人口稀少"
+    ],
+    "correctOption": "地处高纬"
+  },
+  {
+    "id": "neighbour-q62",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第四节 第1课时 世界面积最大的国家",
+    "knowledgePoint": "气候类型",
+    "prompt": "俄罗斯分布最广的气候类型是？",
+    "answer": "温带大陆性气候",
+    "explanation": "俄罗斯内陆广大，温带大陆性气候分布最广。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　世界面积最大的国家.pptx",
+      "slide": 21,
+      "note": "课后练习第2题"
+    },
+    "options": [
+      "温带海洋性气候",
+      "温带季风气候",
+      "温带大陆性气候",
+      "热带草原气候"
+    ],
+    "correctOption": "温带大陆性气候"
+  },
+  {
+    "id": "neighbour-q63",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第四节 第1课时 世界面积最大的国家",
+    "knowledgePoint": "农业限制",
+    "prompt": "俄罗斯农业主要分布在南部，最主要的制约因素是？",
+    "answer": "气候",
+    "explanation": "南部热量条件相对较好，更适合农业发展。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　世界面积最大的国家.pptx",
+      "slide": 22,
+      "note": "课后练习第3题"
+    },
+    "options": [
+      "气候",
+      "海洋",
+      "宗教",
+      "语言"
+    ],
+    "correctOption": "气候"
+  },
+  {
+    "id": "neighbour-q64",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第四节 第1课时 世界面积最大的国家",
+    "knowledgePoint": "水能资源",
+    "prompt": "俄罗斯亚洲部分水能资源丰富的重要原因是？",
+    "answer": "地形以高原山地为主，落差较大",
+    "explanation": "山区和高原地势起伏大，有利于水能开发。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　世界面积最大的国家.pptx",
+      "slide": 23,
+      "note": "课后练习第4题"
+    },
+    "options": [
+      "平原广阔，地势低平",
+      "地形以高原山地为主，落差较大",
+      "纬度低，蒸发旺盛",
+      "河流全部注入太平洋"
+    ],
+    "correctOption": "地形以高原山地为主，落差较大"
+  },
+  {
+    "id": "neighbour-q65",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第四节 第1课时 世界面积最大的国家",
+    "knowledgePoint": "糖料作物",
+    "prompt": "俄罗斯重要的糖料作物是？",
+    "answer": "甜菜",
+    "explanation": "高纬温带地区常见甜菜而不是甘蔗。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　世界面积最大的国家.pptx",
+      "slide": 24,
+      "note": "课后练习第5题"
+    },
+    "options": [
+      "甘蔗",
+      "甜菜",
+      "棉花",
+      "咖啡"
+    ],
+    "correctOption": "甜菜"
+  },
+  {
+    "id": "neighbour-q66",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第四节 第1课时 世界面积最大的国家",
+    "knowledgePoint": "河运价值低",
+    "prompt": "俄罗斯东部河流航运价值普遍不高，最主要的自然原因是？",
+    "answer": "结冰期长",
+    "explanation": "高纬度导致封冻期长，是东部河流航运受限的重要原因。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　世界面积最大的国家.pptx",
+      "slide": 25,
+      "note": "能力达标第1题"
+    },
+    "options": [
+      "流程太短",
+      "降水过少",
+      "结冰期长",
+      "水量太小"
+    ],
+    "correctOption": "结冰期长"
+  },
+  {
+    "id": "neighbour-q67",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第四节 第2课时 能源大国与交通运输",
+    "knowledgePoint": "合作意义",
+    "prompt": "中俄能源合作对中国的积极意义主要有？",
+    "answer": "缓解能源紧张并优化能源进口渠道",
+    "explanation": "从中国角度看，中俄合作有助于保障能源供应安全。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　能源大国与交通运输.pptx",
+      "slide": 14,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "缓解能源紧张并优化能源进口渠道",
+      "减少工业原料来源",
+      "降低交通运输技术水平",
+      "削弱能源安全"
+    ],
+    "correctOption": "缓解能源紧张并优化能源进口渠道"
+  },
+  {
+    "id": "neighbour-q68",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第四节 第2课时 能源大国与交通运输",
+    "knowledgePoint": "资源类型",
+    "prompt": "在俄罗斯的对外出口资源中，与天然气同属能源矿产的是？",
+    "answer": "石油",
+    "explanation": "石油和天然气都是俄罗斯重要的能源出口产品。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　能源大国与交通运输.pptx",
+      "slide": 17,
+      "note": "课后练习第1题"
+    },
+    "options": [
+      "铁矿石",
+      "石油",
+      "木材",
+      "小麦"
+    ],
+    "correctOption": "石油"
+  },
+  {
+    "id": "neighbour-q69",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第四节 第2课时 能源大国与交通运输",
+    "knowledgePoint": "亚马尔位置",
+    "prompt": "亚马尔液化天然气项目主要位于哪一地形区？",
+    "answer": "西西伯利亚平原",
+    "explanation": "亚马尔半岛位于西西伯利亚平原北部。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　能源大国与交通运输.pptx",
+      "slide": 18,
+      "note": "课后练习第2题"
+    },
+    "options": [
+      "东欧平原",
+      "西西伯利亚平原",
+      "中西伯利亚高原",
+      "远东山地"
+    ],
+    "correctOption": "西西伯利亚平原"
+  },
+  {
+    "id": "neighbour-q70",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第四节 第2课时 能源大国与交通运输",
+    "knowledgePoint": "开发困难",
+    "prompt": "开发亚马尔天然气资源的主要困难是？",
+    "answer": "冻土广布、冬季严寒",
+    "explanation": "高纬寒冷、冻土和沼泽广布，会增加建设难度。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　能源大国与交通运输.pptx",
+      "slide": 20,
+      "note": "课后练习第3题"
+    },
+    "options": [
+      "高温干旱",
+      "冻土广布、冬季严寒",
+      "森林过少",
+      "海岸线短"
+    ],
+    "correctOption": "冻土广布、冬季严寒"
+  },
+  {
+    "id": "neighbour-q71",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第四节 第2课时 能源大国与交通运输",
+    "knowledgePoint": "铁路密集区",
+    "prompt": "俄罗斯铁路最密集的地区主要位于？",
+    "answer": "东欧平原",
+    "explanation": "人口、城市和工业较集中的东欧平原铁路网最密。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　能源大国与交通运输.pptx",
+      "slide": 23,
+      "note": "能力达标第1题"
+    },
+    "options": [
+      "东欧平原",
+      "北冰洋沿岸",
+      "中西伯利亚高原",
+      "远东寒带地区"
+    ],
+    "correctOption": "东欧平原"
+  },
+  {
+    "id": "neighbour-q72",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第四节 第2课时 能源大国与交通运输",
+    "knowledgePoint": "天然气运输",
+    "prompt": "我国从俄罗斯进口天然气，最适合采用的运输方式是？",
+    "answer": "管道运输",
+    "explanation": "天然气适合连续、大运量的管道运输。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　能源大国与交通运输.pptx",
+      "slide": 25,
+      "note": "能力达标第2题"
+    },
+    "options": [
+      "公路运输",
+      "铁路运输",
+      "管道运输",
+      "航空运输"
+    ],
+    "correctOption": "管道运输"
+  },
+  {
+    "id": "neighbour-q73",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第四节 第2课时 能源大国与交通运输",
+    "knowledgePoint": "工程障碍",
+    "prompt": "俄罗斯境内天然气管道建设面临的突出自然障碍之一是？",
+    "answer": "广布的永久冻土",
+    "explanation": "永久冻土会增加施工和维护难度。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　能源大国与交通运输.pptx",
+      "slide": 26,
+      "note": "能力达标第3题"
+    },
+    "options": [
+      "台风频繁",
+      "广布的永久冻土",
+      "火山喷发密集",
+      "高温高湿"
+    ],
+    "correctOption": "广布的永久冻土"
+  },
+  {
+    "id": "neighbour-q74",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第四节 第2课时 能源大国与交通运输",
+    "knowledgePoint": "铁路选线",
+    "prompt": "西伯利亚大铁路沿南部修建的主要原因是？",
+    "answer": "南部气候较温和、资源和城市较多",
+    "explanation": "铁路选线要综合考虑自然条件和经济需求。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　能源大国与交通运输.pptx",
+      "slide": 30,
+      "note": "素养提升变式题"
+    },
+    "options": [
+      "北部港口更多",
+      "南部气候较温和、资源和城市较多",
+      "南部冻土更厚",
+      "北部人口更密集"
+    ],
+    "correctOption": "南部气候较温和、资源和城市较多"
+  },
+  {
+    "id": "neighbour-q75",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "第四节 第2课时 能源大国与交通运输",
+    "knowledgePoint": "河流共性",
+    "prompt": "鄂毕河、叶尼塞河、勒拿河的共同特点是？",
+    "answer": "多自南向北注入北冰洋",
+    "explanation": "这三条河流是俄罗斯亚洲部分最典型的北流大河。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　能源大国与交通运输.pptx",
+      "slide": 33,
+      "note": "素养提升变式题"
+    },
+    "options": [
+      "多自南向北注入北冰洋",
+      "都位于欧洲部分",
+      "都注入里海",
+      "都主要流向太平洋"
+    ],
+    "correctOption": "多自南向北注入北冰洋"
+  },
+  {
+    "id": "neighbour-q76",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "专题练习二 我们邻近的国家和地区",
+    "knowledgePoint": "工业集中区",
+    "prompt": "日本汽车工业集中分布在本州岛，主要是因为这里？",
+    "answer": "城市密集、交通和工业基础好",
+    "explanation": "本州岛人口和工业基础最好，是日本制造业核心区域。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "9 专题练习二　我们相邻的国家和地区.pptx",
+      "slide": 3,
+      "note": "专题练习第1题"
+    },
+    "options": [
+      "靠近热带雨林",
+      "城市密集、交通和工业基础好",
+      "全年冰雪覆盖",
+      "以畜牧业为主"
+    ],
+    "correctOption": "城市密集、交通和工业基础好"
+  },
+  {
+    "id": "neighbour-q77",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "专题练习二 我们邻近的国家和地区",
+    "knowledgePoint": "对外依赖经济",
+    "prompt": "日本工业布局在沿海地区，主要便于？",
+    "answer": "进口原料并出口工业产品",
+    "explanation": "日本沿海工业带最核心的逻辑就是依赖海运联系国际市场。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "9 专题练习二　我们相邻的国家和地区.pptx",
+      "slide": 4,
+      "note": "专题练习第2题"
+    },
+    "options": [
+      "扩大耕地面积",
+      "进口原料并出口工业产品",
+      "发展放牧业",
+      "修建水电站"
+    ],
+    "correctOption": "进口原料并出口工业产品"
+  },
+  {
+    "id": "neighbour-q78",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "专题练习二 我们邻近的国家和地区",
+    "knowledgePoint": "中南半岛地形",
+    "prompt": "中南半岛最典型的地形特征是？",
+    "answer": "山河相间，纵列分布",
+    "explanation": "这是东南亚地形考查的关键词。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "9 专题练习二　我们相邻的国家和地区.pptx",
+      "slide": 7,
+      "note": "专题练习第4题"
+    },
+    "options": [
+      "地表坦荡，草原广布",
+      "山河相间，纵列分布",
+      "千沟万壑，支离破碎",
+      "四周高、中间低"
+    ],
+    "correctOption": "山河相间，纵列分布"
+  },
+  {
+    "id": "neighbour-q79",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "专题练习二 我们邻近的国家和地区",
+    "knowledgePoint": "浮稻分布",
+    "prompt": "“浮稻”最可能出现在下列哪个地区？",
+    "answer": "东南亚",
+    "explanation": "东南亚高温多雨，部分地区易受洪涝影响，适合发展适应性强的水稻品种。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "9 专题练习二　我们相邻的国家和地区.pptx",
+      "slide": 9,
+      "note": "专题练习第5题"
+    },
+    "options": [
+      "西亚",
+      "北亚",
+      "东南亚",
+      "南极地区"
+    ],
+    "correctOption": "东南亚"
+  },
+  {
+    "id": "neighbour-q80",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "关东平原",
+    "prompt": "日本关东平原位于日本的哪一侧海岸？",
+    "answer": "太平洋沿岸",
+    "explanation": "关东平原位于本州东部太平洋沿岸，是东京所在地区。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 7,
+      "note": "章末总结第1题"
+    },
+    "options": [
+      "太平洋沿岸",
+      "日本海沿岸",
+      "鄂霍次克海沿岸",
+      "东海沿岸"
+    ],
+    "correctOption": "太平洋沿岸"
+  },
+  {
+    "id": "neighbour-q81",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "机器人产业",
+    "prompt": "关东地区发展机器人产业的突出优势是？",
+    "answer": "科技力量雄厚",
+    "explanation": "高技术产业最依赖科技、人才和创新能力。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 8,
+      "note": "章末总结第2题"
+    },
+    "options": [
+      "地势平坦",
+      "科技力量雄厚",
+      "矿产资源极多",
+      "畜牧业发达"
+    ],
+    "correctOption": "科技力量雄厚"
+  },
+  {
+    "id": "neighbour-q82",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "机器人使用",
+    "prompt": "日本广泛使用机器人、智能设备的根本社会背景是？",
+    "answer": "人口老龄化和劳动力短缺",
+    "explanation": "技术替代劳动力，是日本应对老龄化的重要方向。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 9,
+      "note": "章末总结第3题"
+    },
+    "options": [
+      "人口老龄化和劳动力短缺",
+      "耕地面积广大",
+      "气候炎热潮湿",
+      "矿产资源丰富"
+    ],
+    "correctOption": "人口老龄化和劳动力短缺"
+  },
+  {
+    "id": "neighbour-q83",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "地理位置重要性",
+    "prompt": "某区域被称为国际航运重要中转站，最能说明该区域的什么特征？",
+    "answer": "地理位置重要",
+    "explanation": "东南亚和马六甲海峡的重要性，首先体现在区位上。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 12,
+      "note": "章末总结第5题"
+    },
+    "options": [
+      "矿产资源丰富",
+      "气候寒冷",
+      "地理位置重要",
+      "人口密度低"
+    ],
+    "correctOption": "地理位置重要"
+  },
+  {
+    "id": "neighbour-q84",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "重工业区位",
+    "prompt": "俄罗斯发展重工业的最重要资源条件是？",
+    "answer": "矿产资源丰富",
+    "explanation": "重工业特别依赖煤、铁、石油、天然气等矿产资源。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 13,
+      "note": "章末总结第6题"
+    },
+    "options": [
+      "矿产资源丰富",
+      "耕地面积广大",
+      "热量充足",
+      "人口最稠密"
+    ],
+    "correctOption": "矿产资源丰富"
+  },
+  {
+    "id": "neighbour-q85",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "铁路障碍",
+    "prompt": "中老铁路建设过程中突出的自然障碍主要是？",
+    "answer": "地震频繁、地形崎岖、高温高湿",
+    "explanation": "中南半岛山高谷深、地震多发，又处于湿热环境，修路难度大。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 14,
+      "note": "章末总结第7题"
+    },
+    "options": [
+      "地震频繁、地形崎岖、高温高湿",
+      "高寒缺氧、冰川广布",
+      "沙尘暴频繁、极端干旱",
+      "终年严寒、冻土广布"
+    ],
+    "correctOption": "地震频繁、地形崎岖、高温高湿"
+  },
+  {
+    "id": "neighbour-q86",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "渔业文化",
+    "prompt": "日本形成浓厚“鱼文化”的主要自然原因是？",
+    "answer": "岛屿众多，渔业资源丰富",
+    "explanation": "日本四面环海，沿岸渔业资源丰富，海洋对饮食文化影响深。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 15,
+      "note": "章末总结第8题"
+    },
+    "options": [
+      "岛屿众多，渔业资源丰富",
+      "草原广阔，畜牧业发达",
+      "河网稠密，淡水鱼多",
+      "沙漠广布，海运不便"
+    ],
+    "correctOption": "岛屿众多，渔业资源丰富"
+  },
+  {
+    "id": "neighbour-q87",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "雨季判断",
+    "prompt": "孟加拉国的雨季主要受哪一季风影响？",
+    "answer": "西南季风",
+    "explanation": "南亚雨季主要受来自印度洋的西南季风控制。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 17,
+      "note": "章末总结第9题"
+    },
+    "options": [
+      "西南季风",
+      "东南信风",
+      "西风带",
+      "东北季风"
+    ],
+    "correctOption": "西南季风"
+  },
+  {
+    "id": "neighbour-q88",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "校舍因水而变",
+    "prompt": "孟加拉国“水上学校”开课最集中的时段最可能是？",
+    "answer": "6月至9月",
+    "explanation": "这一时期正值西南季风影响最强的雨季。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 18,
+      "note": "章末总结第10题"
+    },
+    "options": [
+      "1月至3月",
+      "4月至5月",
+      "6月至9月",
+      "11月至12月"
+    ],
+    "correctOption": "6月至9月"
+  },
+  {
+    "id": "neighbour-q89",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "市场优势",
+    "prompt": "中国企业在印度投资电动公交车工厂，看中的核心优势是？",
+    "answer": "市场广阔",
+    "explanation": "印度人口众多、市场潜力大，是吸引外资的重要原因。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 19,
+      "note": "章末总结第11题"
+    },
+    "options": [
+      "市场广阔",
+      "极地航运便利",
+      "冻土资源丰富",
+      "人口老龄化严重"
+    ],
+    "correctOption": "市场广阔"
+  },
+  {
+    "id": "neighbour-q90",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第八章 我们邻近的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "山地交通需求",
+    "prompt": "面向尼泊尔山区运行的电动公交车，应优先强化哪项性能？",
+    "answer": "爬坡能力",
+    "explanation": "尼泊尔山地地形显著，交通工具需要更强的爬坡适应能力。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 20,
+      "note": "章末总结第12题"
+    },
+    "options": [
+      "涉冰能力",
+      "爬坡能力",
+      "抗台风能力",
+      "抗沙尘能力"
+    ],
+    "correctOption": "爬坡能力"
+  }
+]

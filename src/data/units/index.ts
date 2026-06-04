@@ -2,6 +2,10 @@ import asiaUnitBase from "./geo-7b-chapter7-asia.json";
 import asiaKnowledge from "./geo-7b-chapter7-asia/knowledge.json";
 import asiaQuestions from "./geo-7b-chapter7-asia/questions.json";
 import asiaMaps from "./geo-7b-chapter7-asia/maps.json";
+import neighbourUnitBase from "./geo-7b-chapter8-neighbour-regions.json";
+import neighbourKnowledge from "./geo-7b-chapter8-neighbour-regions/knowledge.json";
+import neighbourQuestions from "./geo-7b-chapter8-neighbour-regions/questions.json";
+import neighbourMaps from "./geo-7b-chapter8-neighbour-regions/maps.json";
 import type { UnitCatalogEntry, UnitData } from "../../types";
 
 export const DEFAULT_UNIT_ID = "geo-7b-chapter7-asia";
@@ -97,7 +101,7 @@ export const unitCatalog: UnitCatalogEntry[] = [
     chapterName: "第八章 我们邻近的地区和国家",
     title: "我们邻近的地区和国家",
     description: "日本、东南亚、印度和俄罗斯等区域专题。",
-    status: "planned",
+    status: "ready",
     accent: "mint"
   },
   {
@@ -142,8 +146,16 @@ const asiaUnit: UnitData = {
   maps: asiaMaps as UnitData["maps"]
 };
 
+const neighbourUnit: UnitData = {
+  ...(neighbourUnitBase as UnitData),
+  knowledgePoints: neighbourKnowledge as UnitData["knowledgePoints"],
+  questions: neighbourQuestions as UnitData["questions"],
+  maps: neighbourMaps as UnitData["maps"]
+};
+
 const activeUnits: Record<string, UnitData> = {
-  [DEFAULT_UNIT_ID]: asiaUnit
+  [DEFAULT_UNIT_ID]: asiaUnit,
+  [neighbourUnit.unitId]: neighbourUnit
 };
 
 export function getUnitData(unitId: string) {
