@@ -6,6 +6,10 @@ import neighbourUnitBase from "./geo-7b-chapter8-neighbour-regions.json";
 import neighbourKnowledge from "./geo-7b-chapter8-neighbour-regions/knowledge.json";
 import neighbourQuestions from "./geo-7b-chapter8-neighbour-regions/questions.json";
 import neighbourMaps from "./geo-7b-chapter8-neighbour-regions/maps.json";
+import easternHemisphereUnitBase from "./geo-7b-chapter9-eastern-hemisphere.json";
+import easternHemisphereKnowledge from "./geo-7b-chapter9-eastern-hemisphere/knowledge.json";
+import easternHemisphereQuestions from "./geo-7b-chapter9-eastern-hemisphere/questions.json";
+import easternHemisphereMaps from "./geo-7b-chapter9-eastern-hemisphere/maps.json";
 import type { UnitCatalogEntry, UnitData } from "../../types";
 
 export const DEFAULT_UNIT_ID = "geo-7b-chapter7-asia";
@@ -112,7 +116,7 @@ export const unitCatalog: UnitCatalogEntry[] = [
     chapterName: "第九章 东半球其他地区和国家",
     title: "东半球其他地区和国家",
     description: "西亚、欧洲西部、撒哈拉以南非洲与澳大利亚。",
-    status: "planned",
+    status: "ready",
     accent: "sand"
   },
   {
@@ -153,9 +157,17 @@ const neighbourUnit: UnitData = {
   maps: neighbourMaps as UnitData["maps"]
 };
 
+const easternHemisphereUnit: UnitData = {
+  ...(easternHemisphereUnitBase as UnitData),
+  knowledgePoints: easternHemisphereKnowledge as UnitData["knowledgePoints"],
+  questions: easternHemisphereQuestions as UnitData["questions"],
+  maps: easternHemisphereMaps as UnitData["maps"]
+};
+
 const activeUnits: Record<string, UnitData> = {
   [DEFAULT_UNIT_ID]: asiaUnit,
-  [neighbourUnit.unitId]: neighbourUnit
+  [neighbourUnit.unitId]: neighbourUnit,
+  [easternHemisphereUnit.unitId]: easternHemisphereUnit
 };
 
 export function getUnitData(unitId: string) {

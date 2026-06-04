@@ -1,0 +1,1542 @@
+[
+  {
+    "id": "eastern-k01",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "区域位置",
+    "prompt": "西亚位于亚洲的什么部位？",
+    "answer": "西亚位于亚洲西南部。",
+    "explanation": "“亚洲西南部”是描述西亚位置的标准表述。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k02",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "两洋三洲",
+    "prompt": "西亚为什么被称为“三洲五海”之地？",
+    "answer": "因为西亚沟通大西洋和印度洋，联系亚洲、欧洲、非洲三大洲，并位于阿拉伯海、红海、地中海、黑海和里海之间。",
+    "explanation": "“两洋三洲五海”一起记，最容易建立西亚区位框架。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k03",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "五海构成",
+    "prompt": "西亚“五海”中哪一个实际上是湖泊？",
+    "answer": "里海是五海中实际属于湖泊的一处水域，也是世界最大的湖泊。",
+    "explanation": "题目常用“海中有湖”的方式考查里海。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k04",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "半球位置",
+    "prompt": "西亚位于哪两个半球？",
+    "answer": "西亚位于北半球和东半球。",
+    "explanation": "判断区域半球位置时，要先抓住赤道和20°W、160°E附近的分界思路。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 9,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k05",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "纬度位置",
+    "prompt": "西亚大致位于什么纬度范围，主要属于哪些热量带？",
+    "answer": "西亚大致位于10°N到40°N之间，大部分位于热带和亚热带。",
+    "explanation": "北回归线穿过西亚南部，是判断热量带的重要依据。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 9,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k06",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "地形特点",
+    "prompt": "西亚的地形以什么为主？",
+    "answer": "西亚大部分地区以高原为主，平原面积狭小。",
+    "explanation": "西亚地形并不平坦，地形以高原和山地边缘为主。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k07",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "最低地",
+    "prompt": "西亚著名的世界最低地是什么？",
+    "answer": "死海是世界著名的陆地最低点，海拔约为负415米。",
+    "explanation": "死海常和“高温、蒸发强、盐度大”一起出现。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k08",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "气候特点",
+    "prompt": "西亚最主要的气候类型是什么？",
+    "answer": "西亚大部分地区属于热带沙漠气候，地中海沿岸分布有地中海气候。",
+    "explanation": "“沙漠气候为主，沿海少量地中海气候”是西亚气候主线。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k09",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "交通通道",
+    "prompt": "西亚有哪些著名交通要道？",
+    "answer": "西亚的重要交通要道包括苏伊士运河、霍尔木兹海峡、曼德海峡和土耳其海峡等。",
+    "explanation": "这些通道是西亚成为世界热点地区的重要原因。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 7,
+      "note": "巧学妙记"
+    }
+  },
+  {
+    "id": "eastern-k10",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "区位意义",
+    "prompt": "西亚地理位置为什么十分重要？",
+    "answer": "因为它位于三洲交界、五海之间，又拥有多条国际海运要道，是连接东西方的重要交通枢纽。",
+    "explanation": "地理位置、交通位置和战略位置在西亚高度统一。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 11,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k11",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "石油地位",
+    "prompt": "西亚石油在世界上的地位如何？",
+    "answer": "西亚是目前世界石油储量最大、产量最多、输出量最大的地区。",
+    "explanation": "教材对西亚石油的定位非常明确，常连考储量、产量和输出量。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k12",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "石油分布",
+    "prompt": "西亚石油主要分布在哪里？",
+    "answer": "西亚石油主要分布在波斯湾及其沿岸地区。",
+    "explanation": "波斯湾沿岸是西亚石油题的核心落点。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k13",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "石油特点",
+    "prompt": "西亚石油有哪些有利于开采和出口的特点？",
+    "answer": "西亚石油埋藏浅、易开采、品质好。",
+    "explanation": "这也是西亚石油能长期大量外销的重要原因。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k14",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "石油出口方向",
+    "prompt": "西亚石油主要通过海运出口到哪些地区？",
+    "answer": "西亚石油主要通过海运出口到东亚、欧洲西部和北美等地区。",
+    "explanation": "消费量少、出口量大，是西亚石油经济的一大特征。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k15",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "非可再生资源",
+    "prompt": "为什么西亚产油国要推进经济多样化？",
+    "answer": "因为石油是非可再生资源，长期依赖石油出口不利于可持续发展。",
+    "explanation": "石油开采一点少一点，所以必须未雨绸缪。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k16",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "水资源现状",
+    "prompt": "西亚为什么普遍水资源匮乏？",
+    "answer": "因为西亚气候干燥、河流稀少，很多沙漠地区甚至没有常年河流。",
+    "explanation": "水资源短缺是西亚除石油之外的另一条主线。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k17",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "国际河流",
+    "prompt": "西亚一些主要河流为什么容易引发国家间矛盾？",
+    "answer": "因为西亚很多河流属于国际河流，流经多个国家，水资源分配容易引发冲突。",
+    "explanation": "国际河流与区域冲突是西亚水资源问题的重要表现。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k18",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "节水农业",
+    "prompt": "西亚缓解水资源紧张可以发展什么农业？",
+    "answer": "可以采用滴灌、喷灌等技术，发展节水农业。",
+    "explanation": "滴灌和喷灌是西亚节水农业的高频考点。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k19",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "海水淡化",
+    "prompt": "西亚扩大淡水供应的重要技术手段是什么？",
+    "answer": "海水淡化是西亚扩大淡水供应的重要手段。",
+    "explanation": "沿海产油国常用能源优势支持海水淡化。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k20",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "石油航线",
+    "prompt": "西亚石油运往欧洲西部和北美的主要海运路线有什么差异？",
+    "answer": "小吨位油轮可经苏伊士运河走较短航线，大吨位油轮往往绕行好望角，航程更长。",
+    "explanation": "判断西亚石油外运路线时，要考虑船型和航道条件。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 9,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k21",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "太阳能条件",
+    "prompt": "西亚沿海国家发展光伏和海水淡化有哪些自然优势？",
+    "answer": "西亚属于热带沙漠气候，晴天多、光照强、太阳能资源丰富。",
+    "explanation": "高温少雨虽带来缺水问题，但也提供了发展太阳能的条件。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 29,
+      "note": "能力达标解析"
+    }
+  },
+  {
+    "id": "eastern-k22",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第1课时 发达国家集中的地区",
+    "knowledgePoint": "海陆位置",
+    "prompt": "欧洲西部北、西、南分别濒临哪些海洋或海域？",
+    "answer": "欧洲西部北临北冰洋，西临大西洋，南临地中海。",
+    "explanation": "欧洲西部的海陆位置决定了它海运便利、海洋影响显著。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节　第1课时　发达国家集中的地区.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k23",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第1课时 发达国家集中的地区",
+    "knowledgePoint": "发达国家集中",
+    "prompt": "欧洲西部在世界经济中的突出特点是什么？",
+    "answer": "欧洲西部是世界上发达国家最集中的地区，世界一半以上的发达国家位于这里。",
+    "explanation": "“发达国家最集中”是欧洲西部最核心的人文特征。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节　第1课时　发达国家集中的地区.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k24",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第1课时 发达国家集中的地区",
+    "knowledgePoint": "工业化起步",
+    "prompt": "为什么说欧洲西部是最早进入工业化的地区之一？",
+    "answer": "因为这里资本主义发展较早、工业革命率先兴起，科技水平和生产效率长期领先。",
+    "explanation": "工业革命和早期资本积累是欧洲西部发达的重要历史背景。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节　第1课时　发达国家集中的地区.pptx",
+      "slide": 13,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k25",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第1课时 发达国家集中的地区",
+    "knowledgePoint": "范围构成",
+    "prompt": "教材中的欧洲西部通常包括哪些分区？",
+    "answer": "欧洲西部通常包括北欧、西欧、中欧和南欧。",
+    "explanation": "这一点有助于你把欧洲西部和“整个欧洲”区分开。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节　第1课时　发达国家集中的地区.pptx",
+      "slide": 9,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k26",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第1课时 发达国家集中的地区",
+    "knowledgePoint": "纬度位置",
+    "prompt": "欧洲西部主要位于什么纬度范围和温度带？",
+    "answer": "欧洲西部主要位于36°N到71°N之间，大部分位于北温带，小部分位于北寒带。",
+    "explanation": "北极圈穿过欧洲西部北部，是判断其热量带的重要依据。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节　第1课时　发达国家集中的地区.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k27",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第1课时 发达国家集中的地区",
+    "knowledgePoint": "地形地势",
+    "prompt": "欧洲西部的地形、地势特点怎样概括？",
+    "answer": "欧洲西部以平原为主，南北多山地，地势南北高、中部低。",
+    "explanation": "这也是它河流平缓、便于航运的重要原因。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节　第1课时　发达国家集中的地区.pptx",
+      "slide": 11,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k28",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第1课时 发达国家集中的地区",
+    "knowledgePoint": "气候主线",
+    "prompt": "欧洲西部最典型的气候类型是什么？",
+    "answer": "欧洲西部大部分地区属于温带海洋性气候，地中海沿岸属于地中海气候。",
+    "explanation": "欧洲西部气候题常围绕“温带海洋性气候”展开。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节　第1课时　发达国家集中的地区.pptx",
+      "slide": 11,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k29",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第1课时 发达国家集中的地区",
+    "knowledgePoint": "河流特点",
+    "prompt": "欧洲西部的河流有哪些共同特征？",
+    "answer": "欧洲西部河网密布，水流平缓，航运价值高。",
+    "explanation": "地形平坦、降水均匀、无明显结冰期，是河运发达的重要原因。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节　第1课时　发达国家集中的地区.pptx",
+      "slide": 11,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k30",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第1课时 发达国家集中的地区",
+    "knowledgePoint": "多瑙河",
+    "prompt": "多瑙河在欧洲河流中有什么重要地位？",
+    "answer": "多瑙河是欧洲第二长河，也是世界上流经国家最多的河流。",
+    "explanation": "“第二长”与“流经国家最多”是多瑙河的两个高频标签。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节　第1课时　发达国家集中的地区.pptx",
+      "slide": 11,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k31",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第1课时 发达国家集中的地区",
+    "knowledgePoint": "人口特征",
+    "prompt": "欧洲西部人口有哪些特点？",
+    "answer": "欧洲西部人口稠密，但人口增长缓慢，部分国家甚至出现负增长。",
+    "explanation": "人口增长缓慢与经济发达、城市化水平高密切相关。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节　第1课时　发达国家集中的地区.pptx",
+      "slide": 7,
+      "note": "温馨提示"
+    }
+  },
+  {
+    "id": "eastern-k32",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "饮食与农业",
+    "prompt": "欧洲西部人们常吃牛羊肉和乳制品，反映了什么农业特征？",
+    "answer": "这反映了欧洲西部畜牧业发达。",
+    "explanation": "饮食结构常被用来反推当地农业类型。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k33",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "地形与气候",
+    "prompt": "欧洲西部为什么有利于大西洋湿润气流深入内陆？",
+    "answer": "因为欧洲西部以平原为主，地形平坦开阔。",
+    "explanation": "平原广阔使海洋湿润气流能够深入内陆，形成大范围温带海洋性气候。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k34",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "绿色金子",
+    "prompt": "欧洲西部被称为“绿色金子”的是什么？",
+    "answer": "多汁牧草被称为“绿色金子”。",
+    "explanation": "牧草好，乳畜业才有稳定的优质饲料来源。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k35",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "畜牧业特点",
+    "prompt": "欧洲西部畜牧业有哪些生产特点？",
+    "answer": "欧洲西部畜牧业机械化、自动化程度高，商品率高。",
+    "explanation": "高度现代化是欧洲西部乳畜业的重要特点。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k36",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "乳畜强国",
+    "prompt": "欧洲西部哪些国家是著名乳畜生产大国？",
+    "answer": "荷兰和丹麦是世界著名的乳畜生产大国。",
+    "explanation": "这两个国家经常作为乳畜业代表出现。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 9,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k37",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "地中海农业",
+    "prompt": "欧洲西部地中海气候区盛产哪些典型作物？",
+    "answer": "地中海气候区盛产油橄榄、无花果、柑橘等耐旱木本经济作物。",
+    "explanation": "“夏干冬雨”决定了地中海农业的作物类型。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 9,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k38",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "旅游资源",
+    "prompt": "欧洲西部旅游业为什么繁荣？",
+    "answer": "因为欧洲西部自然和人文旅游资源丰富、经济发达、交通便利、服务设施完善。",
+    "explanation": "旅游业发达不是单一自然原因，而是多条件叠加。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 11,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k39",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "统一货币",
+    "prompt": "大多数欧洲西部国家使用什么货币，这对旅游有什么帮助？",
+    "answer": "大多数欧洲西部国家使用欧元，这使跨境旅游消费更方便。",
+    "explanation": "欧元降低了跨国旅游中的货币兑换成本。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k40",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "著名景点",
+    "prompt": "说出两个欧洲西部典型旅游资源示例。",
+    "answer": "例如法国巴黎的埃菲尔铁塔、英国的大本钟、挪威的峡湾、意大利的威尼斯等。",
+    "explanation": "欧洲西部的旅游资源兼具自然景观和历史人文景观。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k41",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "海陆位置",
+    "prompt": "撒哈拉以南非洲位于撒哈拉沙漠的什么方位，濒临哪两大洋？",
+    "answer": "撒哈拉以南非洲位于撒哈拉沙漠以南，东临印度洋，西濒大西洋。",
+    "explanation": "“沙漠以南、两洋之间”是识别这一地区的基本框架。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k42",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "地形特征",
+    "prompt": "撒哈拉以南非洲的地形和地势特点是什么？",
+    "answer": "撒哈拉以南非洲以高原为主，地势大体东南高、西北低。",
+    "explanation": "教材中常把这里概括为“高原大陆”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k43",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "尼罗河",
+    "prompt": "尼罗河的发源地、流向和注入海域分别是什么？",
+    "answer": "尼罗河发源于东非高原，自南向北注入地中海。",
+    "explanation": "尼罗河是世界最长河流，也是非洲地理识图高频点。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k44",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "尼罗河与刚果河",
+    "prompt": "为什么尼罗河是世界第一长河，但水量远小于刚果河？",
+    "answer": "因为尼罗河主要流经热带草原和热带沙漠气候区，降水较少；刚果河主要流经热带雨林气候区，降水非常丰富。",
+    "explanation": "判断河流水量时，关键要看流经地区的降水条件。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 7,
+      "note": "温馨提示"
+    }
+  },
+  {
+    "id": "eastern-k45",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "气候主线",
+    "prompt": "撒哈拉以南非洲的气候类型有哪些总体特点？",
+    "answer": "撒哈拉以南非洲以热带气候为主，其中热带草原气候分布最广。",
+    "explanation": "它是世界面积最大的热带草原分布区。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k46",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "赤道影响",
+    "prompt": "撒哈拉以南非洲的气候分布有什么典型规律？",
+    "answer": "非洲气候分布以赤道为中心，南北大致对称。",
+    "explanation": "这条规律是做非洲气候判读题的关键。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 18,
+      "note": "基础巩固"
+    }
+  },
+  {
+    "id": "eastern-k47",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "热带草原气候",
+    "prompt": "热带草原气候的主要特征是什么？",
+    "answer": "热带草原气候全年高温，降水分干、湿两季。",
+    "explanation": "“干湿两季”是判断热带草原气候最重要的信号。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k48",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "茅草屋",
+    "prompt": "撒哈拉以南非洲茅草屋为什么适应当地自然环境？",
+    "answer": "茅草屋就地取材，通风透气，既能遮阴又能避雨，适应热带草原地区高温和干湿季分明的环境。",
+    "explanation": "传统民居往往是区域自然环境的直接反映。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 9,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k49",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "乞力马扎罗山",
+    "prompt": "乞力马扎罗山位于赤道附近山顶却终年积雪，主要原因是什么？",
+    "answer": "主要原因是海拔高，气温随海拔升高而降低。",
+    "explanation": "这类题本质上考查地形地势对气候的影响。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 14,
+      "note": "跟踪训练"
+    }
+  },
+  {
+    "id": "eastern-k50",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "三大问题",
+    "prompt": "撒哈拉以南非洲长期面临哪三大问题？",
+    "answer": "撒哈拉以南非洲长期面临人口、粮食和环境三大问题。",
+    "explanation": "这三者相互影响，形成恶性循环。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 6,
+      "note": "知识总结"
+    }
+  },
+  {
+    "id": "eastern-k51",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "粮食问题",
+    "prompt": "为什么撒哈拉以南非洲粮食供应不足？",
+    "answer": "因为人口增长快，而农牧业技术落后、粮食产量增长慢，难以满足需求。",
+    "explanation": "“人口增长快于粮食增长”是粮食问题的核心。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 9,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k52",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "降水不稳",
+    "prompt": "热带草原地区农业为什么容易受影响？",
+    "answer": "因为降水主要集中在湿季且年际变化不稳定，旱灾频发。",
+    "explanation": "热带草原气候并不等于降水稳定。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k53",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "根本原因",
+    "prompt": "撒哈拉以南非洲人地关系恶性循环的根本原因是什么？",
+    "answer": "根本原因是人口增长过快。",
+    "explanation": "教材特别强调“根本原因”不是环境本身，而是人口压力。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 6,
+      "note": "知识总结"
+    }
+  },
+  {
+    "id": "eastern-k54",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "环境恶化",
+    "prompt": "为什么说毁林开荒和过度放牧会加剧环境问题？",
+    "answer": "因为这些做法会导致土地肥力下降、草原退化、水土流失和土地荒漠化。",
+    "explanation": "环境恶化反过来又会进一步压低粮食产量。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k55",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "经济结构",
+    "prompt": "撒哈拉以南非洲长期以来的经济结构有什么特点？",
+    "answer": "主要出口初级农矿产品，进口工业制成品。",
+    "explanation": "这是一种典型的单一经济和不平等贸易结构。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k56",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "殖民影响",
+    "prompt": "撒哈拉以南非洲经济长期落后的历史根源是什么？",
+    "answer": "长期遭受殖民主义者占领和掠夺，是该地区经济落后的重要历史根源。",
+    "explanation": "很多题目会把“根本原因”落在殖民统治上。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k57",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "发展措施",
+    "prompt": "撒哈拉以南非洲摆脱贫困和单一经济的主要方向有哪些？",
+    "answer": "应因地制宜发展民族经济，推动产业多样化，加强区域合作和国际合作。",
+    "explanation": "发展旅游业、民族工业和现代农业都是常见答案。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 11,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k58",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "发展优势",
+    "prompt": "撒哈拉以南非洲发展经济的一项突出资源优势是什么？",
+    "answer": "撒哈拉以南非洲物产丰富，矿产和热带经济作物资源都很突出。",
+    "explanation": "资源优势明显，但关键在于把资源优势转化为经济优势。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 24,
+      "note": "能力达标"
+    }
+  },
+  {
+    "id": "eastern-k59",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第1课时 独占一个大陆的国家",
+    "knowledgePoint": "区域范围",
+    "prompt": "澳大利亚的范围包括哪些部分？",
+    "answer": "澳大利亚包括澳大利亚大陆、塔斯马尼亚岛和附近一些岛屿。",
+    "explanation": "教材中的澳大利亚不只是澳大利亚大陆。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第四节　第1课时　独占一个大陆的国家.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k60",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第1课时 独占一个大陆的国家",
+    "knowledgePoint": "国家地位",
+    "prompt": "澳大利亚在世界国家类型中的独特之处是什么？",
+    "answer": "澳大利亚是大洋洲面积最大的国家，也是世界唯一独占一个大陆的国家。",
+    "explanation": "“独占一个大陆的国家”是澳大利亚最经典的标签。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第四节　第1课时　独占一个大陆的国家.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k61",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第1课时 独占一个大陆的国家",
+    "knowledgePoint": "海陆位置",
+    "prompt": "澳大利亚位于哪两大洋之间？",
+    "answer": "澳大利亚位于太平洋和印度洋之间。",
+    "explanation": "它四面环海，但不是岛国，而是临海国。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第四节　第1课时　独占一个大陆的国家.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k62",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第1课时 独占一个大陆的国家",
+    "knowledgePoint": "地形分区",
+    "prompt": "澳大利亚自西向东三大地形区分别是什么？",
+    "answer": "澳大利亚自西向东分为西部高原、中部平原和东部山地。",
+    "explanation": "东部山地以大分水岭最著名。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第四节　第1课时　独占一个大陆的国家.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k63",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第1课时 独占一个大陆的国家",
+    "knowledgePoint": "地势特点",
+    "prompt": "澳大利亚的地势特点是什么？",
+    "answer": "澳大利亚地势较低，起伏和缓，整体表现为东西高、中部低。",
+    "explanation": "这是判断河流、人口和农业分布的重要背景。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第四节　第1课时　独占一个大陆的国家.pptx",
+      "slide": 12,
+      "note": "跟踪训练"
+    }
+  },
+  {
+    "id": "eastern-k64",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第1课时 独占一个大陆的国家",
+    "knowledgePoint": "大分水岭",
+    "prompt": "澳大利亚东部纵贯南北的重要山脉是什么？",
+    "answer": "澳大利亚东部的重要山脉是大分水岭。",
+    "explanation": "大分水岭是澳大利亚东部山地的核心骨架。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第四节　第1课时　独占一个大陆的国家.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k65",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第1课时 独占一个大陆的国家",
+    "knowledgePoint": "气候分布",
+    "prompt": "澳大利亚气候分布有什么突出特点？",
+    "answer": "澳大利亚大部分位于热带和亚热带，气候炎热干燥，气候类型呈半环状分布。",
+    "explanation": "“半环状分布”是澳大利亚气候的高频考法。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第四节　第1课时　独占一个大陆的国家.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k66",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第1课时 独占一个大陆的国家",
+    "knowledgePoint": "活化石博物馆",
+    "prompt": "澳大利亚为什么被称为“世界活化石博物馆”？",
+    "answer": "因为澳大利亚很早与其他大陆分离，长期孤立于海洋中，自然环境相对单一，保留了许多古老生物。",
+    "explanation": "长期孤立是形成特有生物群的根本原因。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第四节　第1课时　独占一个大陆的国家.pptx",
+      "slide": 9,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k67",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第1课时 独占一个大陆的国家",
+    "knowledgePoint": "特有动物",
+    "prompt": "说出两种澳大利亚特有动物。",
+    "answer": "袋鼠、鸭嘴兽、鸸鹋、树袋熊等都属于澳大利亚特有动物。",
+    "explanation": "这些动物常被用来直接识别澳大利亚。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第四节　第1课时　独占一个大陆的国家.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k68",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第1课时 独占一个大陆的国家",
+    "knowledgePoint": "人口分布",
+    "prompt": "澳大利亚人口和城市主要集中分布在哪里？",
+    "answer": "澳大利亚人口和城市主要分布在东南沿海地区。",
+    "explanation": "这里气候温暖湿润、交通便利、开发较早。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第四节　第1课时　独占一个大陆的国家.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k69",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "羊背上的国家",
+    "prompt": "澳大利亚为什么被称为“骑在羊背上的国家”？",
+    "answer": "因为澳大利亚养羊业发达，羊毛和羊肉商品率高，羊毛出口量居世界前列。",
+    "explanation": "“羊背上的国家”重点落在养羊业和羊毛出口。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k70",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "牧羊带",
+    "prompt": "澳大利亚由沿海向内陆大致形成哪三类牧羊或农牧带？",
+    "answer": "由东南和西南沿海向内陆依次形成集约农牧带、绵羊—小麦混合经营带和粗放牧羊带。",
+    "explanation": "自然条件差异决定了牧羊方式的差异。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k71",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "羊毛出口",
+    "prompt": "澳大利亚在世界羊毛贸易中有什么地位？",
+    "answer": "澳大利亚是世界羊毛出口量最多的国家。",
+    "explanation": "羊毛出口地位支撑了“骑在羊背上的国家”这一称呼。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k72",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "矿产优势",
+    "prompt": "澳大利亚矿产资源有哪些优势？",
+    "answer": "澳大利亚矿产资源丰富，品种多，铁、煤、铝土、锰等储量大，品质优，埋藏浅，易开采。",
+    "explanation": "这些优势使澳大利亚成为重要矿产出口国。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k73",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "矿车上的国家",
+    "prompt": "澳大利亚为什么被称为“坐在矿车上的国家”？",
+    "answer": "因为澳大利亚矿产品出口占商品出口总额的比重很大。",
+    "explanation": "称号的核心不是“有矿”，而是“矿产品出口比重大”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k74",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "主要出口矿产",
+    "prompt": "澳大利亚哪些矿产主要销往我国、日本等亚洲国家？",
+    "answer": "澳大利亚的煤炭和铁矿石主要销往我国、日本等亚洲国家。",
+    "explanation": "亚洲市场是澳大利亚矿产出口的重要方向。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k75",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "服务业支柱",
+    "prompt": "20世纪70年代以来，澳大利亚的经济支柱发生了什么变化？",
+    "answer": "20世纪70年代以来，澳大利亚服务业发展迅速，并超过采矿业和农牧业成为经济支柱。",
+    "explanation": "澳大利亚是发达国家，现代服务业比重很高。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "eastern-k76",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "混合农业",
+    "prompt": "澳大利亚墨累—达令盆地常见的农业经营方式是什么？",
+    "answer": "墨累—达令盆地常见绵羊与小麦混合经营的农业模式。",
+    "explanation": "混合农业能在时间和空间上更高效地利用土地和劳动力。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 8,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "eastern-k77",
+    "type": "flashcard",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "中澳经贸",
+    "prompt": "澳大利亚与中国经贸关系的互补性体现在哪里？",
+    "answer": "中国大量进口澳大利亚的农产品和矿产品，澳大利亚也从中国进口大量工业制成品。",
+    "explanation": "中澳贸易体现出资源型产品与工业制成品的互补。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  }
+]

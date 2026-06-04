@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "eastern-q01",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "三洲位置",
+    "prompt": "西亚自古以来就是东西方交通要冲，它联系的三大洲是？",
+    "answer": "亚洲、欧洲、非洲",
+    "explanation": "西亚位于亚、欧、非三洲交界地带。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 13,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "亚洲、欧洲、非洲",
+      "亚洲、大洋洲、非洲",
+      "北美洲、欧洲、亚洲",
+      "北美洲、非洲、大洋洲"
+    ],
+    "correctOption": "亚洲、欧洲、非洲"
+  },
+  {
+    "id": "eastern-q02",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "热量带",
+    "prompt": "北回归线穿过西亚南部，这说明西亚大部分地区主要位于？",
+    "answer": "热带和北温带",
+    "explanation": "北回归线穿过西亚南部，因此西亚跨热带和北温带。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 15,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "热带和北温带",
+      "南温带和南寒带",
+      "高纬寒带",
+      "中纬温带和南半球"
+    ],
+    "correctOption": "热带和北温带"
+  },
+  {
+    "id": "eastern-q03",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "海域判读",
+    "prompt": "西亚东南方向濒临的重要海域是？",
+    "answer": "阿拉伯海",
+    "explanation": "阿拉伯海属于印度洋，是西亚东南方向的重要海域。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 16,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "地中海",
+      "红海",
+      "阿拉伯海",
+      "黑海"
+    ],
+    "correctOption": "阿拉伯海"
+  },
+  {
+    "id": "eastern-q04",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "交通要道",
+    "prompt": "沟通黑海和地中海的重要通道是？",
+    "answer": "土耳其海峡",
+    "explanation": "土耳其海峡连接黑海与地中海。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 17,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "霍尔木兹海峡",
+      "土耳其海峡",
+      "白令海峡",
+      "巴拿马运河"
+    ],
+    "correctOption": "土耳其海峡"
+  },
+  {
+    "id": "eastern-q05",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "五海一湖",
+    "prompt": "“三洲五海”中的“五海”里，实际属于湖泊的是？",
+    "answer": "里海",
+    "explanation": "里海虽名为海，实为世界最大的湖泊。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 19,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "红海",
+      "阿拉伯海",
+      "黑海",
+      "里海"
+    ],
+    "correctOption": "里海"
+  },
+  {
+    "id": "eastern-q06",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "区位意义",
+    "prompt": "“三洲五海”之地反映了西亚最突出的地理优势是？",
+    "answer": "对外交往便利",
+    "explanation": "三洲交界、五海之间使西亚对外交往非常便利。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 20,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "气候寒冷",
+      "交通不便",
+      "对外交往便利",
+      "森林广布"
+    ],
+    "correctOption": "对外交往便利"
+  },
+  {
+    "id": "eastern-q07",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "气候判读",
+    "prompt": "沙特阿拉伯大陆桥铁路途经地区的主要气候类型是？",
+    "answer": "热带沙漠气候",
+    "explanation": "阿拉伯半岛大部属于热带沙漠气候。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 22,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "地中海气候",
+      "热带沙漠气候",
+      "热带草原气候",
+      "温带大陆性气候"
+    ],
+    "correctOption": "热带沙漠气候"
+  },
+  {
+    "id": "eastern-q08",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "铁路连接",
+    "prompt": "沙特阿拉伯大陆桥铁路实现了哪两处海域的直接联系？",
+    "answer": "红海和波斯湾",
+    "explanation": "大陆桥铁路横跨阿拉伯半岛，连接红海与波斯湾。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 23,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "红海和印度洋",
+      "地中海和波斯湾",
+      "地中海和红海",
+      "红海和波斯湾"
+    ],
+    "correctOption": "红海和波斯湾"
+  },
+  {
+    "id": "eastern-q09",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "施工困难",
+    "prompt": "沙特阿拉伯大陆桥铁路施工最可能遇到的困难是？",
+    "answer": "缺水严重，风沙侵袭",
+    "explanation": "热带沙漠气候区干旱少雨、风沙大。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 24,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "高寒缺氧，冻土广布",
+      "缺水严重，风沙侵袭",
+      "河流众多，洪水频发",
+      "沼泽广布，植被茂密"
+    ],
+    "correctOption": "缺水严重，风沙侵袭"
+  },
+  {
+    "id": "eastern-q10",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第1课时 “三洲五海”之地",
+    "knowledgePoint": "太阳能条件",
+    "prompt": "卡塔尔建设清洁能源电站的有利自然条件主要是？",
+    "answer": "光照充足",
+    "explanation": "卡塔尔属于热带沙漠气候，太阳能资源丰富。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　第1课时　“三洲五海”之地.pptx",
+      "slide": 27,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "资金充足",
+      "劳动力丰富",
+      "光照充足",
+      "降水充沛"
+    ],
+    "correctOption": "光照充足"
+  },
+  {
+    "id": "eastern-q11",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "水资源匮乏",
+    "prompt": "“21世纪西亚将为水而战”主要是因为该地区？",
+    "answer": "气候干燥，河流稀少",
+    "explanation": "西亚水资源匮乏的根本自然原因是气候干燥、河流稀少。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 12,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "地表水丰富",
+      "气候干燥，河流稀少",
+      "森林覆盖率高",
+      "矿产资源匮乏"
+    ],
+    "correctOption": "气候干燥，河流稀少"
+  },
+  {
+    "id": "eastern-q12",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "世界油阀",
+    "prompt": "被称为“世界油阀”的海峡是？",
+    "answer": "霍尔木兹海峡",
+    "explanation": "霍尔木兹海峡是波斯湾石油外运的咽喉。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 14,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "土耳其海峡",
+      "霍尔木兹海峡",
+      "曼德海峡",
+      "英吉利海峡"
+    ],
+    "correctOption": "霍尔木兹海峡"
+  },
+  {
+    "id": "eastern-q13",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "石油分布",
+    "prompt": "西亚石油最集中分布在？",
+    "answer": "波斯湾沿岸",
+    "explanation": "西亚石油主要分布在波斯湾及其沿岸地区。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 15,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "地中海沿岸",
+      "波斯湾沿岸",
+      "红海沿岸",
+      "黑海沿岸"
+    ],
+    "correctOption": "波斯湾沿岸"
+  },
+  {
+    "id": "eastern-q14",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "最短航线",
+    "prompt": "西亚石油运往西欧和北美的最短航运要道通常要经过？",
+    "answer": "苏伊士运河",
+    "explanation": "苏伊士运河可以明显缩短西亚到欧洲西部的航程。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 16,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "马六甲海峡",
+      "土耳其海峡",
+      "好望角航线",
+      "苏伊士运河"
+    ],
+    "correctOption": "苏伊士运河"
+  },
+  {
+    "id": "eastern-q15",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "炼油优势",
+    "prompt": "西亚发展炼油工业的最突出原料优势是？",
+    "answer": "石油资源丰富",
+    "explanation": "石油资源丰富为炼油工业提供原料基础。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 19,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "淡水丰富",
+      "石油资源丰富",
+      "煤炭资源丰富",
+      "森林面积大"
+    ],
+    "correctOption": "石油资源丰富"
+  },
+  {
+    "id": "eastern-q16",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "气候特征",
+    "prompt": "西亚大部分地区最典型的自然环境特征是？",
+    "answer": "气候炎热干燥",
+    "explanation": "西亚大部分属于热带沙漠气候。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 20,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "全年寒冷湿润",
+      "气候炎热干燥",
+      "高温多雨",
+      "草原广布"
+    ],
+    "correctOption": "气候炎热干燥"
+  },
+  {
+    "id": "eastern-q17",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "沿湾国家",
+    "prompt": "位于波斯湾沿岸的金砖新成员组合是？",
+    "answer": "阿联酋、伊朗",
+    "explanation": "阿联酋和伊朗都位于波斯湾沿岸。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 22,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "沙特阿拉伯、埃及",
+      "阿联酋、埃及",
+      "印度尼西亚、伊朗",
+      "阿联酋、伊朗"
+    ],
+    "correctOption": "阿联酋、伊朗"
+  },
+  {
+    "id": "eastern-q18",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "对华最近航线",
+    "prompt": "我国从波斯湾沿岸进口石油，最近的海运路线是？",
+    "answer": "波斯湾→印度洋→马六甲海峡→太平洋",
+    "explanation": "从波斯湾到中国东部沿海最近的海运路线要经印度洋和马六甲海峡。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 23,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "波斯湾→印度洋→马六甲海峡→太平洋",
+      "波斯湾→印度洋→苏伊士运河→大西洋",
+      "波斯湾→大西洋→马六甲海峡→太平洋",
+      "波斯湾→大西洋→巴拿马运河→太平洋"
+    ],
+    "correctOption": "波斯湾→印度洋→马六甲海峡→太平洋"
+  },
+  {
+    "id": "eastern-q19",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "可持续发展",
+    "prompt": "下列哪些措施有利于西亚实现可持续发展？",
+    "answer": "发展可再生能源、推进经济多元化、提高石油利用效率",
+    "explanation": "石油是非可再生资源，必须推进能源转型和经济多元化。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 24,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "大规模开采石油、扩大出口、依赖石油财政",
+      "发展可再生能源、推进经济多元化、提高石油利用效率",
+      "继续单一依赖原油出口",
+      "停止一切工业发展"
+    ],
+    "correctOption": "发展可再生能源、推进经济多元化、提高石油利用效率"
+  },
+  {
+    "id": "eastern-q20",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "海水淡化布局",
+    "prompt": "沙特阿拉伯海水淡化厂主要集中在沿海地区，首要原因是？",
+    "answer": "海水资源丰富且城市需水集中",
+    "explanation": "沿海便于直接取海水，同时人口和城市也更集中。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 27,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "耕地广阔",
+      "海水资源丰富且城市需水集中",
+      "高原广布",
+      "降水丰富"
+    ],
+    "correctOption": "海水资源丰富且城市需水集中"
+  },
+  {
+    "id": "eastern-q21",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第一节 第2课时 石油资源与水资源",
+    "knowledgePoint": "绿色能源",
+    "prompt": "沙特阿拉伯海水淡化可以重点利用的绿色能源是？",
+    "answer": "太阳能",
+    "explanation": "热带沙漠气候区晴天多、光照强，适合发展太阳能。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第一节　第2课时　石油资源与水资源.pptx",
+      "slide": 29,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "石油",
+      "太阳能",
+      "煤炭",
+      "水能"
+    ],
+    "correctOption": "太阳能"
+  },
+  {
+    "id": "eastern-q22",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第1课时 发达国家集中的地区",
+    "knowledgePoint": "发达国家地区",
+    "prompt": "世界上发达国家数量最多的地区是？",
+    "answer": "欧洲西部",
+    "explanation": "欧洲西部是世界发达国家最集中的地区。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第1课时　发达国家集中的地区.pptx",
+      "slide": 15,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "东亚",
+      "北美洲",
+      "欧洲西部",
+      "西亚"
+    ],
+    "correctOption": "欧洲西部"
+  },
+  {
+    "id": "eastern-q23",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第1课时 发达国家集中的地区",
+    "knowledgePoint": "地势特点",
+    "prompt": "欧洲西部的地势特点是？",
+    "answer": "南北高，中部低",
+    "explanation": "欧洲西部南北多山地，中部平原广阔。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第1课时　发达国家集中的地区.pptx",
+      "slide": 17,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "东西高，中部低",
+      "东西低，中部高",
+      "南北高，中部低",
+      "南北低，中间高"
+    ],
+    "correctOption": "南北高，中部低"
+  },
+  {
+    "id": "eastern-q24",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第1课时 发达国家集中的地区",
+    "knowledgePoint": "气候特征",
+    "prompt": "温带海洋性气候最典型的气候特征是？",
+    "answer": "全年温和湿润",
+    "explanation": "温带海洋性气候的核心特点就是全年温和湿润。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第1课时　发达国家集中的地区.pptx",
+      "slide": 18,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "全年温和湿润",
+      "冬冷夏热，降水均匀",
+      "全年炎热少雨",
+      "全年寒冷干燥"
+    ],
+    "correctOption": "全年温和湿润"
+  },
+  {
+    "id": "eastern-q25",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第1课时 发达国家集中的地区",
+    "knowledgePoint": "临海判读",
+    "prompt": "意大利南部濒临？",
+    "answer": "地中海",
+    "explanation": "意大利位于欧洲南部，南临地中海。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第1课时　发达国家集中的地区.pptx",
+      "slide": 22,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "大西洋",
+      "地中海",
+      "红海",
+      "阿拉伯海"
+    ],
+    "correctOption": "地中海"
+  },
+  {
+    "id": "eastern-q26",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第1课时 发达国家集中的地区",
+    "knowledgePoint": "冬奥会区位",
+    "prompt": "欧洲西部冬奥会举办地多分布在？",
+    "answer": "山地附近",
+    "explanation": "雪上项目多需要山地地形和较好的积雪条件。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第1课时　发达国家集中的地区.pptx",
+      "slide": 23,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "平原地区",
+      "沿海地区",
+      "山地附近",
+      "低纬地区"
+    ],
+    "correctOption": "山地附近"
+  },
+  {
+    "id": "eastern-q27",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第1课时 发达国家集中的地区",
+    "knowledgePoint": "纬度影响",
+    "prompt": "与意大利相比，挪威开展雪上项目更有优势的自然条件是？",
+    "answer": "纬度更高，气温更低",
+    "explanation": "纬度高有利于积雪形成和保存。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第1课时　发达国家集中的地区.pptx",
+      "slide": 24,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "纬度更高，气温更低",
+      "面积更大，场地更广",
+      "距海更近，降水更多",
+      "设施更好"
+    ],
+    "correctOption": "纬度更高，气温更低"
+  },
+  {
+    "id": "eastern-q28",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第1课时 发达国家集中的地区",
+    "knowledgePoint": "班列返回货物",
+    "prompt": "从欧洲返回的中欧班列装载的货物，最可能是？",
+    "answer": "德国奶酪",
+    "explanation": "德国奶酪是典型的欧洲西部产品。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第1课时　发达国家集中的地区.pptx",
+      "slide": 27,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "泰国香米",
+      "韩国泡菜",
+      "巴西咖啡",
+      "德国奶酪"
+    ],
+    "correctOption": "德国奶酪"
+  },
+  {
+    "id": "eastern-q29",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第1课时 发达国家集中的地区",
+    "knowledgePoint": "历史文化",
+    "prompt": "欧洲世界遗产丰富的主要原因是？",
+    "answer": "历史悠久，文化多样",
+    "explanation": "欧洲文化遗产多，根本原因在于历史文明积淀深厚。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "9 专题练习三　东半球的国家和地区.pptx",
+      "slide": 7,
+      "note": "专题练习第4题"
+    },
+    "options": [
+      "地形以高原山地为主",
+      "历史悠久，文化多样",
+      "人口稀少",
+      "热带景观丰富"
+    ],
+    "correctOption": "历史悠久，文化多样"
+  },
+  {
+    "id": "eastern-q30",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第1课时 发达国家集中的地区",
+    "knowledgePoint": "西欧景点",
+    "prompt": "下列世界遗产中位于欧洲西部的是？",
+    "answer": "卢浮宫",
+    "explanation": "卢浮宫位于法国巴黎，属于欧洲西部。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "9 专题练习三　东半球的国家和地区.pptx",
+      "slide": 9,
+      "note": "专题练习第6题"
+    },
+    "options": [
+      "泰姬陵",
+      "卢浮宫",
+      "吴哥窟",
+      "长城"
+    ],
+    "correctOption": "卢浮宫"
+  },
+  {
+    "id": "eastern-q31",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "畜牧业条件",
+    "prompt": "欧洲西部畜牧业广泛分布最主要的自然原因是？",
+    "answer": "温带海洋性气候适合多汁牧草生长",
+    "explanation": "自然原因核心是适宜牧草生长。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 12,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "饮食习惯特殊",
+      "海岸线曲折",
+      "经济发达",
+      "温带海洋性气候适合多汁牧草生长"
+    ],
+    "correctOption": "温带海洋性气候适合多汁牧草生长"
+  },
+  {
+    "id": "eastern-q32",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "绿色金子",
+    "prompt": "在欧洲西部被称为“绿色金子”的是？",
+    "answer": "牧草",
+    "explanation": "欧洲西部乳畜业发达，优质牧草价值很高。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 13,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "牧草",
+      "玉米",
+      "小麦",
+      "水稻"
+    ],
+    "correctOption": "牧草"
+  },
+  {
+    "id": "eastern-q33",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "旅游资源辨识",
+    "prompt": "下列不属于欧洲西部旅游资源的是？",
+    "answer": "印度泰姬陵",
+    "explanation": "泰姬陵位于印度，不在欧洲西部。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 14,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "挪威峡湾",
+      "西班牙海滩",
+      "德国慕尼黑啤酒节",
+      "印度泰姬陵"
+    ],
+    "correctOption": "印度泰姬陵"
+  },
+  {
+    "id": "eastern-q34",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "旅游优势",
+    "prompt": "欧洲西部发展国际旅游业的突出优势包括？",
+    "answer": "自然和人文旅游资源丰富、经济发达、交通便利",
+    "explanation": "欧洲西部旅游业发达是资源、经济和交通共同作用的结果。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 15,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "全部使用英语、都位于热带",
+      "自然和人文旅游资源丰富、经济发达、交通便利",
+      "矿产极丰富、价格低廉",
+      "人口稀少、地广人稀"
+    ],
+    "correctOption": "自然和人文旅游资源丰富、经济发达、交通便利"
+  },
+  {
+    "id": "eastern-q35",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "旅行计划",
+    "prompt": "关于欧洲西部旅游资源的旅行计划，正确的是？",
+    "answer": "去法国东南部攀登阿尔卑斯雪山",
+    "explanation": "阿尔卑斯山主要分布在法国东南部、瑞士等地。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 18,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "去英国参观卢浮宫",
+      "去法国东南部攀登阿尔卑斯雪山",
+      "去挪威晒地中海日光浴",
+      "去地中海沿岸看北欧峡湾"
+    ],
+    "correctOption": "去法国东南部攀登阿尔卑斯雪山"
+  },
+  {
+    "id": "eastern-q36",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "旅途见闻",
+    "prompt": "在欧洲西部旅行时，最可信的见闻是？",
+    "answer": "许多城市沿河流分布",
+    "explanation": "欧洲西部河流航运发达，很多城市沿河形成。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 19,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "黑种人为主",
+      "米饭是主食",
+      "人口稀少",
+      "许多城市沿河流分布"
+    ],
+    "correctOption": "许多城市沿河流分布"
+  },
+  {
+    "id": "eastern-q37",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "乳畜区位",
+    "prompt": "图示四地中最适宜发展乳畜业的是哪类地区？",
+    "answer": "大西洋沿岸温带海洋性气候区",
+    "explanation": "温带海洋性气候全年温和湿润，最利于牧草生长。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 21,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "寒带气候区",
+      "大西洋沿岸温带海洋性气候区",
+      "大陆内部温带大陆性气候区",
+      "地中海沿岸"
+    ],
+    "correctOption": "大西洋沿岸温带海洋性气候区"
+  },
+  {
+    "id": "eastern-q38",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "乳畜社会条件",
+    "prompt": "欧洲西部乳畜业发达的社会经济条件包括？",
+    "answer": "鲜奶冷藏技术高、居民有乳肉消费习惯、加工技术先进",
+    "explanation": "技术、市场和饮食习惯属于社会经济条件。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 22,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "气候温和湿润",
+      "鲜奶冷藏技术高、居民有乳肉消费习惯、加工技术先进",
+      "河流结冰期短",
+      "地势低平"
+    ],
+    "correctOption": "鲜奶冷藏技术高、居民有乳肉消费习惯、加工技术先进"
+  },
+  {
+    "id": "eastern-q39",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "英国游客去向",
+    "prompt": "夏季，英国游客大量前往意大利地中海沿岸海滩，最主要是为了？",
+    "answer": "日光浴和海滨旅游",
+    "explanation": "地中海沿岸夏季炎热干燥、阳光充足，适合海滨度假。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 23,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "发展滑雪",
+      "观看极光",
+      "日光浴和海滨旅游",
+      "避寒取暖"
+    ],
+    "correctOption": "日光浴和海滨旅游"
+  },
+  {
+    "id": "eastern-q40",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "柏林气候",
+    "prompt": "柏林最典型的气候特征是？",
+    "answer": "全年温和湿润",
+    "explanation": "教材题目把柏林作为温带海洋性气候特征示例处理。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 25,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "全年温和湿润",
+      "全年寒冷干燥",
+      "全年高温多雨",
+      "全年炎热干燥"
+    ],
+    "correctOption": "全年温和湿润"
+  },
+  {
+    "id": "eastern-q41",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "德国景点",
+    "prompt": "中国游客在德国最可能参观到的景点是？",
+    "answer": "柏林大教堂",
+    "explanation": "柏林大教堂位于德国首都柏林。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 26,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "长城",
+      "古罗马斗兽场",
+      "柏林大教堂",
+      "悉尼歌剧院"
+    ],
+    "correctOption": "柏林大教堂"
+  },
+  {
+    "id": "eastern-q42",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第二节 第2课时 气候、畜牧业与旅游业",
+    "knowledgePoint": "德国吸引力",
+    "prompt": "德国吸引中国游客的原因包括？",
+    "answer": "基础设施完善、旅游形式创新、旅游资源丰富",
+    "explanation": "现代旅游吸引力通常来自资源、服务和体验创新。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节　第2课时　气候、畜牧业与旅游业.pptx",
+      "slide": 27,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "基础设施完善、旅游形式创新、旅游资源丰富",
+      "经济落后、劳动力廉价",
+      "全年高温多雨",
+      "矿产资源稀少"
+    ],
+    "correctOption": "基础设施完善、旅游形式创新、旅游资源丰富"
+  },
+  {
+    "id": "eastern-q43",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "动物景观",
+    "prompt": "羚羊、斑马、狮子和猎豹成群活动的典型景观最可能出现在？",
+    "answer": "热带草原",
+    "explanation": "这种大型食草、食肉动物共存的场景最典型地出现在非洲热带草原。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 11,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "亚寒带针叶林",
+      "热带草原",
+      "热带雨林",
+      "温带草原"
+    ],
+    "correctOption": "热带草原"
+  },
+  {
+    "id": "eastern-q44",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "地形地势",
+    "prompt": "关于撒哈拉以南非洲地形地势的说法，正确的是？",
+    "answer": "以高原为主，东南高、西北低",
+    "explanation": "撒哈拉以南非洲地形以高原为主，被称为“高原大陆”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 13,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "东临太平洋，西临印度洋",
+      "海岸线曲折，多优良港湾",
+      "位于热带，普遍湿润",
+      "以高原为主，东南高、西北低"
+    ],
+    "correctOption": "以高原为主，东南高、西北低"
+  },
+  {
+    "id": "eastern-q45",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "山顶积雪",
+    "prompt": "乞力马扎罗山位于赤道附近却终年积雪，主要影响因素是？",
+    "answer": "地形地势",
+    "explanation": "海拔高导致气温低，是山顶积雪的主要原因。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 14,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "海陆位置",
+      "地形地势",
+      "纬度位置",
+      "人类活动"
+    ],
+    "correctOption": "地形地势"
+  },
+  {
+    "id": "eastern-q46",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "非洲风情",
+    "prompt": "下列景观与非洲自然人文风情不相符的是？",
+    "answer": "熊猫竹林",
+    "explanation": "熊猫是中国特有动物，不是非洲典型景观。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 15,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "击鼓文化",
+      "茅草屋",
+      "熊猫竹林",
+      "咖啡树"
+    ],
+    "correctOption": "熊猫竹林"
+  },
+  {
+    "id": "eastern-q47",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "世界之最",
+    "prompt": "下列地理事物中既是非洲之最，又是世界之最的是？",
+    "answer": "尼罗河",
+    "explanation": "尼罗河是非洲最长河流，也是世界第一长河。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 17,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "维多利亚湖",
+      "尼罗河",
+      "乞力马扎罗山",
+      "南非高原"
+    ],
+    "correctOption": "尼罗河"
+  },
+  {
+    "id": "eastern-q48",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "气候分布规律",
+    "prompt": "撒哈拉以南非洲气候分布的主要特点是？",
+    "answer": "以赤道为中心，南北对称",
+    "explanation": "非洲气候分布高度规律化。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 18,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "以赤道为中心，南北对称",
+      "东西对称",
+      "南北纵列",
+      "呈半环状分布"
+    ],
+    "correctOption": "以赤道为中心，南北对称"
+  },
+  {
+    "id": "eastern-q49",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "苏库尔气候",
+    "prompt": "苏库尔文化景观所在地最可能属于哪种气候？",
+    "answer": "热带草原气候",
+    "explanation": "材料中的“全年高温、干湿季分明”对应热带草原气候。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 20,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "热带雨林气候",
+      "热带沙漠气候",
+      "热带季风气候",
+      "热带草原气候"
+    ],
+    "correctOption": "热带草原气候"
+  },
+  {
+    "id": "eastern-q50",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "屋顶坡度",
+    "prompt": "热带草原区传统民居屋顶坡度较大的主要作用是？",
+    "answer": "排泄雨水",
+    "explanation": "湿季降水较多，坡屋顶利于雨水排泄。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 21,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "晾晒谷物",
+      "通风散热",
+      "排泄雨水",
+      "积雪下滑"
+    ],
+    "correctOption": "排泄雨水"
+  },
+  {
+    "id": "eastern-q51",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "旅游优势",
+    "prompt": "苏库尔文化景观发展旅游业的主要优势是？",
+    "answer": "地域文化独特",
+    "explanation": "其核心吸引力在于传统村落和梯田文化。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 22,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "海滨风光迷人",
+      "建设资金充足",
+      "交通极其发达",
+      "地域文化独特"
+    ],
+    "correctOption": "地域文化独特"
+  },
+  {
+    "id": "eastern-q52",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "岩画动物",
+    "prompt": "纳米比亚岩画中最可能出现的动物是？",
+    "answer": "长颈鹿",
+    "explanation": "长颈鹿是非洲草原代表动物。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 25,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "藏羚羊",
+      "北极熊",
+      "鸭嘴兽",
+      "长颈鹿"
+    ],
+    "correctOption": "长颈鹿"
+  },
+  {
+    "id": "eastern-q53",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第1课时 热带草原广布",
+    "knowledgePoint": "岩画保存",
+    "prompt": "纳米比亚岩画至今仍较清晰，主要得益于当地气候？",
+    "answer": "干旱",
+    "explanation": "干旱环境有利于岩画长期保存。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第1课时　热带草原广布.pptx",
+      "slide": 26,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "干旱",
+      "湿润",
+      "高寒",
+      "多雨"
+    ],
+    "correctOption": "干旱"
+  },
+  {
+    "id": "eastern-q54",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "人口增长影响",
+    "prompt": "撒哈拉以南非洲人口增长过快带来的突出影响有？",
+    "answer": "社会经济压力大，就业和教育问题突出",
+    "explanation": "人口增长过快会加剧就业、教育、医疗和粮食压力。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 12,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "劳动力短缺、人口老龄化",
+      "社会经济压力大，就业和教育问题突出",
+      "粮食充足、环境改善",
+      "城市空心化"
+    ],
+    "correctOption": "社会经济压力大，就业和教育问题突出"
+  },
+  {
+    "id": "eastern-q55",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "关键对策",
+    "prompt": "解决撒哈拉以南非洲人口、粮食和环境问题最有效的方向是？",
+    "answer": "控制人口并走科技兴农道路",
+    "explanation": "控制人口增长和提高农业科技是关键。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 13,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "继续扩大耕地",
+      "大量出口矿产换粮",
+      "控制人口并走科技兴农道路",
+      "单纯加大劳务输出"
+    ],
+    "correctOption": "控制人口并走科技兴农道路"
+  },
+  {
+    "id": "eastern-q56",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "区域判断",
+    "prompt": "西临大西洋、居民多为黑种人、种植可可较多的区域最可能位于？",
+    "answer": "撒哈拉以南非洲",
+    "explanation": "可可、咖啡等热带经济作物是撒哈拉以南非洲常见出口农产品。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 15,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "北非",
+      "撒哈拉以南非洲",
+      "印度",
+      "美国"
+    ],
+    "correctOption": "撒哈拉以南非洲"
+  },
+  {
+    "id": "eastern-q57",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "经济特点",
+    "prompt": "汤姆家乡“靠卖可可买粮食”的现象，反映了当地什么经济特点？",
+    "answer": "以出口初级农矿产品为主",
+    "explanation": "这是撒哈拉以南非洲传统单一经济结构的典型体现。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 16,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "进口—加工—出口型",
+      "以加工贸易为主",
+      "以出口初级农矿产品为主",
+      "高新技术出口导向型"
+    ],
+    "correctOption": "以出口初级农矿产品为主"
+  },
+  {
+    "id": "eastern-q58",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "三大问题",
+    "prompt": "撒哈拉以南非洲目前面临的主要问题是？",
+    "answer": "人口、粮食和环境",
+    "explanation": "这三大问题彼此交织、互相强化。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 18,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "教育、医疗、住房",
+      "宗教、资源和环境",
+      "土地、粮食和能源",
+      "人口、粮食和环境"
+    ],
+    "correctOption": "人口、粮食和环境"
+  },
+  {
+    "id": "eastern-q59",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "特色农产品",
+    "prompt": "来自撒哈拉以南非洲的典型农产品是？",
+    "answer": "可可、咖啡",
+    "explanation": "可可和咖啡都是该地区常见热带经济作物。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 19,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "茶叶、甜菜",
+      "苹果、杏仁",
+      "可可、咖啡",
+      "菠萝、水稻"
+    ],
+    "correctOption": "可可、咖啡"
+  },
+  {
+    "id": "eastern-q60",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "落后根源",
+    "prompt": "撒哈拉以南非洲经济落后的根本历史原因是？",
+    "answer": "长期遭受殖民统治",
+    "explanation": "殖民掠夺造成单一经济结构和长期贫困。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 20,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "自然条件恶劣",
+      "资源贫乏",
+      "长期遭受殖民统治",
+      "人口过于稠密"
+    ],
+    "correctOption": "长期遭受殖民统治"
+  },
+  {
+    "id": "eastern-q61",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "摆脱贫困",
+    "prompt": "为摆脱贫困，撒哈拉以南非洲国家应重点？",
+    "answer": "努力发展民族经济",
+    "explanation": "发展民族经济和产业多样化是正确方向。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 21,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "继续大量出口初级农矿产品",
+      "努力发展民族经济",
+      "单纯扩大粮食种植面积",
+      "大量进口工业制成品"
+    ],
+    "correctOption": "努力发展民族经济"
+  },
+  {
+    "id": "eastern-q62",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "历史根源",
+    "prompt": "撒哈拉以南非洲农牧业生产落后的历史根源是？",
+    "answer": "长期殖民统治",
+    "explanation": "生产落后与殖民地经济结构长期固化密切相关。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 22,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "人口增长过快",
+      "政局不稳",
+      "长期殖民统治",
+      "畜牧业比重过大"
+    ],
+    "correctOption": "长期殖民统治"
+  },
+  {
+    "id": "eastern-q63",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "发展优势",
+    "prompt": "撒哈拉以南非洲经济发展的突出优势是？",
+    "answer": "物产丰富",
+    "explanation": "丰富的矿产和热带经济作物资源是其发展基础。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 24,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "河流众多",
+      "地势起伏大",
+      "沙漠广布",
+      "物产丰富"
+    ],
+    "correctOption": "物产丰富"
+  },
+  {
+    "id": "eastern-q64",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "恶性循环根源",
+    "prompt": "造成人地关系恶性循环的根本原因是？",
+    "answer": "人口增长过快",
+    "explanation": "人口压力是粮食不足与环境恶化背后的根本驱动。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 25,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "人口增长过快",
+      "粮食产量下降",
+      "毁林毁草开荒",
+      "自然灾害频发"
+    ],
+    "correctOption": "人口增长过快"
+  },
+  {
+    "id": "eastern-q65",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第三节 第2课时 人地关系与经济发展",
+    "knowledgePoint": "协调发展",
+    "prompt": "下列措施中有利于促进当地经济与环境协调发展的是？",
+    "answer": "控制人口增长、保护生态环境、发展加工工业",
+    "explanation": "协调发展要同时兼顾人口、产业和生态。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节　第2课时　人地关系与经济发展.pptx",
+      "slide": 26,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "开垦草原扩大耕地",
+      "控制人口增长、保护生态环境、发展加工工业",
+      "继续单一出口原料",
+      "大量砍伐森林"
+    ],
+    "correctOption": "控制人口增长、保护生态环境、发展加工工业"
+  },
+  {
+    "id": "eastern-q66",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第1课时 独占一个大陆的国家",
+    "knowledgePoint": "地势特征",
+    "prompt": "澳大利亚的地势特征是？",
+    "answer": "东西高，中部低",
+    "explanation": "澳大利亚自西向东是高原、平原、山地，整体表现为东西高、中部低。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　独占一个大陆的国家.pptx",
+      "slide": 12,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "高原和山地面积都很广",
+      "东部低，西部高",
+      "东部沿海平原广布",
+      "东西高，中部低"
+    ],
+    "correctOption": "东西高，中部低"
+  },
+  {
+    "id": "eastern-q67",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第1课时 独占一个大陆的国家",
+    "knowledgePoint": "图中信息",
+    "prompt": "从澳大利亚示意图中最容易直接获取的信息是？",
+    "answer": "城市多分布在东南沿海",
+    "explanation": "城市和人口的分布位置常能直接从示意图中识别。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　独占一个大陆的国家.pptx",
+      "slide": 13,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "世界的办公室",
+      "骑在羊背上的国家",
+      "澳大利亚为岛国",
+      "城市多分布在东南沿海"
+    ],
+    "correctOption": "城市多分布在东南沿海"
+  },
+  {
+    "id": "eastern-q68",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第1课时 独占一个大陆的国家",
+    "knowledgePoint": "特有生物成因",
+    "prompt": "澳大利亚特有生物众多的根本原因是？",
+    "answer": "长期孤立在海洋上",
+    "explanation": "澳大利亚早与其他大陆分离，长期孤立演化。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　独占一个大陆的国家.pptx",
+      "slide": 14,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "热带气候广布",
+      "长期孤立在海洋上",
+      "地壳运动活跃",
+      "紧邻南极洲"
+    ],
+    "correctOption": "长期孤立在海洋上"
+  },
+  {
+    "id": "eastern-q69",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第1课时 独占一个大陆的国家",
+    "knowledgePoint": "气候分布",
+    "prompt": "澳大利亚的气候类型总体呈什么分布？",
+    "answer": "半环状分布",
+    "explanation": "澳大利亚气候“以热带沙漠为中心、向周边呈半环状分布”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　独占一个大陆的国家.pptx",
+      "slide": 15,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "不对称分布",
+      "南北对称分布",
+      "半环状分布",
+      "东西对称分布"
+    ],
+    "correctOption": "半环状分布"
+  },
+  {
+    "id": "eastern-q70",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第1课时 独占一个大陆的国家",
+    "knowledgePoint": "综合判断",
+    "prompt": "下列关于澳大利亚的说法，正确的是？",
+    "answer": "位于南半球",
+    "explanation": "澳大利亚位于南半球，东临太平洋，西临印度洋。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　独占一个大陆的国家.pptx",
+      "slide": 22,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "位于亚洲西北部",
+      "地跨热带和北温带",
+      "东临太平洋，西临大西洋",
+      "位于南半球"
+    ],
+    "correctOption": "位于南半球"
+  },
+  {
+    "id": "eastern-q71",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第1课时 独占一个大陆的国家",
+    "knowledgePoint": "作物习性",
+    "prompt": "根据牛油果在澳大利亚的种植区判断，它最可能属于哪类作物？",
+    "answer": "喜温热",
+    "explanation": "牛油果主要分布在热带、亚热带较湿润地区，说明其喜温热。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　独占一个大陆的国家.pptx",
+      "slide": 23,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "较耐旱",
+      "较耐寒",
+      "喜温凉",
+      "喜温热"
+    ],
+    "correctOption": "喜温热"
+  },
+  {
+    "id": "eastern-q72",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第1课时 独占一个大陆的国家",
+    "knowledgePoint": "地势起伏",
+    "prompt": "下列关于澳大利亚自然环境的说法，正确的是？",
+    "answer": "地势较低，起伏和缓",
+    "explanation": "澳大利亚地形整体较低平，气候呈半环状分布。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　独占一个大陆的国家.pptx",
+      "slide": 25,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "地势较低，起伏和缓",
+      "气候以南回归线为中心南北对称",
+      "犀牛是其特有动物",
+      "是亚洲面积最大的国家"
+    ],
+    "correctOption": "地势较低，起伏和缓"
+  },
+  {
+    "id": "eastern-q73",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第1课时 独占一个大陆的国家",
+    "knowledgePoint": "人口分布",
+    "prompt": "澳大利亚人口最集中分布在？",
+    "answer": "东南沿海地区",
+    "explanation": "东南沿海气候温暖湿润、交通便利、经济发达。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　独占一个大陆的国家.pptx",
+      "slide": 26,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "中部平原",
+      "东南沿海地区",
+      "西部高原",
+      "南回归线附近"
+    ],
+    "correctOption": "东南沿海地区"
+  },
+  {
+    "id": "eastern-q74",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第1课时 独占一个大陆的国家",
+    "knowledgePoint": "树屋区位",
+    "prompt": "树屋最可能分布在澳大利亚哪类气候区？",
+    "answer": "热带雨林区",
+    "explanation": "树屋适宜分布在降水丰富、森林茂密的热带雨林区。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　独占一个大陆的国家.pptx",
+      "slide": 27,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "热带草原区",
+      "热带沙漠区",
+      "热带雨林区",
+      "温带大陆性气候区"
+    ],
+    "correctOption": "热带雨林区"
+  },
+  {
+    "id": "eastern-q75",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "矿产丰富",
+    "prompt": "从澳大利亚气候和矿产分布图可知，澳大利亚？",
+    "answer": "矿产资源丰富",
+    "explanation": "澳大利亚矿产种类多、分布广。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 12,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "不适宜养殖牛羊",
+      "经济落后",
+      "人口稠密",
+      "矿产资源丰富"
+    ],
+    "correctOption": "矿产资源丰富"
+  },
+  {
+    "id": "eastern-q76",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "地下水利用",
+    "prompt": "大自流盆地丰富的地下水主要有利于澳大利亚发展？",
+    "answer": "畜牧业",
+    "explanation": "干旱内陆地区依靠地下水发展畜牧业。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 13,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "渔业",
+      "畜牧业",
+      "林业",
+      "航运"
+    ],
+    "correctOption": "畜牧业"
+  },
+  {
+    "id": "eastern-q77",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "经济支柱",
+    "prompt": "目前澳大利亚的经济支柱产业是？",
+    "answer": "服务业",
+    "explanation": "20世纪70年代以来服务业成为澳大利亚经济支柱。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 14,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "农牧业",
+      "采矿业",
+      "服务业",
+      "冶金业"
+    ],
+    "correctOption": "服务业"
+  },
+  {
+    "id": "eastern-q78",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "矿车上的国家",
+    "prompt": "澳大利亚被称为“坐在矿车上的国家”，主要因为？",
+    "answer": "矿产品出口占商品出口总额比重大",
+    "explanation": "称号的关键在于出口结构。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 15,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "农牧产品出口量大",
+      "自然环境单一",
+      "四周环海",
+      "矿产品出口占商品出口总额比重大"
+    ],
+    "correctOption": "矿产品出口占商品出口总额比重大"
+  },
+  {
+    "id": "eastern-q79",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "称号判断",
+    "prompt": "澳大利亚由于矿产品出口比重大而得到的称号是？",
+    "answer": "坐在矿车上的国家",
+    "explanation": "矿产品出口比重高对应“坐在矿车上的国家”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 18,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "世界活化石博物馆",
+      "坐在矿车上的国家",
+      "骑在羊背上的国家",
+      "世界加油站"
+    ],
+    "correctOption": "坐在矿车上的国家"
+  },
+  {
+    "id": "eastern-q80",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "煤炭分布",
+    "prompt": "澳大利亚煤矿主要分布在？",
+    "answer": "东部沿海地区",
+    "explanation": "澳大利亚东部沿海地区煤炭资源较为集中。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 19,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "内陆地区",
+      "南回归线附近",
+      "东部沿海地区",
+      "北部地区"
+    ],
+    "correctOption": "东部沿海地区"
+  },
+  {
+    "id": "eastern-q81",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "矿产优势辨析",
+    "prompt": "下列哪项不属于澳大利亚矿产资源优势？",
+    "answer": "工业落后，煤炭没有市场",
+    "explanation": "澳大利亚工业并不落后，而且煤炭国际市场广阔。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 20,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "埋藏浅，易开采",
+      "储量大，品质优",
+      "矿产丰富，品种多",
+      "工业落后，煤炭没有市场"
+    ],
+    "correctOption": "工业落后，煤炭没有市场"
+  },
+  {
+    "id": "eastern-q82",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "混合农业时间",
+    "prompt": "绵羊与小麦混合经营中，牧场放牧农闲时，小麦通常处于？",
+    "answer": "播种期",
+    "explanation": "澳大利亚混合农业通过错峰安排提高土地和劳力利用率。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 25,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "育种期",
+      "播种期",
+      "生长期",
+      "收割期"
+    ],
+    "correctOption": "播种期"
+  },
+  {
+    "id": "eastern-q83",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "混合农业优势",
+    "prompt": "绵羊与小麦混合经营模式的优点包括？",
+    "answer": "秸秆可作饲料，粪便可作肥料，并有助于改善牧草品质",
+    "explanation": "混合农业的核心是资源循环利用和经营互补。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 26,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "增加闲暇时间",
+      "秸秆可作饲料，粪便可作肥料，并有助于改善牧草品质",
+      "只利于小麦种植，不利于养羊",
+      "只能降低产量"
+    ],
+    "correctOption": "秸秆可作饲料，粪便可作肥料，并有助于改善牧草品质"
+  },
+  {
+    "id": "eastern-q84",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "中澳贸易",
+    "prompt": "中国赴澳大利亚订货时，最可能采购的商品是？",
+    "answer": "小麦、铁矿石",
+    "explanation": "小麦和铁矿石都是澳大利亚优势出口产品。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 27,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "玉米、椰子",
+      "小麦、铁矿石",
+      "棉花、花生",
+      "石油、大米"
+    ],
+    "correctOption": "小麦、铁矿石"
+  },
+  {
+    "id": "eastern-q85",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "第四节 第2课时 养羊大国与矿产大国",
+    "knowledgePoint": "澳洲见闻",
+    "prompt": "下列关于在澳大利亚的见闻，最可信的是？",
+    "answer": "郊外可看到袋鼠、鸸鹋等特有动物",
+    "explanation": "袋鼠、鸸鹋都是澳大利亚代表性特有动物。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　养羊大国与矿产大国.pptx",
+      "slide": 28,
+      "note": "能力达标第9题"
+    },
+    "options": [
+      "棉衣是居民不可缺少的衣服",
+      "居民主要是黑皮肤",
+      "大量从中国进口羊毛衫",
+      "郊外可看到袋鼠、鸸鹋等特有动物"
+    ],
+    "correctOption": "郊外可看到袋鼠、鸸鹋等特有动物"
+  },
+  {
+    "id": "eastern-q86",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "专题练习三 东半球的国家和地区",
+    "knowledgePoint": "卡塔尔气候",
+    "prompt": "卡塔尔的气候特征最符合？",
+    "answer": "全年高温干燥",
+    "explanation": "卡塔尔位于热带沙漠气候区，全年炎热干燥。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "9 专题练习三　东半球的国家和地区.pptx",
+      "slide": 3,
+      "note": "专题练习第1题"
+    },
+    "options": [
+      "全年高温多雨",
+      "全年高温，分干湿两季",
+      "冬冷夏热，降水稀少",
+      "全年高温干燥"
+    ],
+    "correctOption": "全年高温干燥"
+  },
+  {
+    "id": "eastern-q87",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "专题练习三 东半球的国家和地区",
+    "knowledgePoint": "世界杯时间",
+    "prompt": "卡塔尔世界杯安排在11—12月举行，主要是因为当地这时？",
+    "answer": "气温相对较低，较凉爽",
+    "explanation": "卡塔尔夏季过于炎热，冬季举办更适合户外比赛。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "9 专题练习三　东半球的国家和地区.pptx",
+      "slide": 4,
+      "note": "专题练习第2题"
+    },
+    "options": [
+      "常年无夏",
+      "风沙最强",
+      "进入地中海气候多雨季",
+      "气温相对较低，较凉爽"
+    ],
+    "correctOption": "气温相对较低，较凉爽"
+  },
+  {
+    "id": "eastern-q88",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "专题练习三 东半球的国家和地区",
+    "knowledgePoint": "高收入原因",
+    "prompt": "卡塔尔人均国内生产总值居世界前列的首要原因是？",
+    "answer": "石油资源丰富",
+    "explanation": "卡塔尔的高收入首先建立在丰富的油气资源基础上。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "9 专题练习三　东半球的国家和地区.pptx",
+      "slide": 5,
+      "note": "专题练习第3题"
+    },
+    "options": [
+      "旅游业发达",
+      "工业基础雄厚",
+      "石油资源丰富",
+      "高新技术产业发达"
+    ],
+    "correctOption": "石油资源丰富"
+  },
+  {
+    "id": "eastern-q89",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "专题练习三 东半球的国家和地区",
+    "knowledgePoint": "欧洲旅游",
+    "prompt": "下列属于欧洲旅游业发达原因的是？",
+    "answer": "自然风光多样、基础设施完善、交通便利",
+    "explanation": "资源、服务和交通共同支撑欧洲旅游业。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "9 专题练习三　东半球的国家和地区.pptx",
+      "slide": 8,
+      "note": "专题练习第5题"
+    },
+    "options": [
+      "自然风光多样、基础设施完善、交通便利",
+      "工业基础薄弱、劳动力廉价",
+      "普遍位于热带",
+      "人口极少"
+    ],
+    "correctOption": "自然风光多样、基础设施完善、交通便利"
+  },
+  {
+    "id": "eastern-q90",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "专题练习三 东半球的国家和地区",
+    "knowledgePoint": "海陆差异",
+    "prompt": "欧洲西部因海陆位置差异形成的两种典型气候类型是？",
+    "answer": "温带海洋性气候和温带大陆性气候",
+    "explanation": "从大西洋沿岸到内陆，海洋影响逐渐减弱。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "9 专题练习三　东半球的国家和地区.pptx",
+      "slide": 11,
+      "note": "专题练习第7题"
+    },
+    "options": [
+      "温带海洋性气候和温带大陆性气候",
+      "温带大陆性气候和热带草原气候",
+      "地中海气候和寒带气候",
+      "高原山地气候和热带季风气候"
+    ],
+    "correctOption": "温带海洋性气候和温带大陆性气候"
+  },
+  {
+    "id": "eastern-q91",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "石油航线",
+    "prompt": "西亚石油运输航线A没有经过下列哪一交通要道？",
+    "answer": "土耳其海峡",
+    "explanation": "西亚石油外运的主要航线一般不会经过土耳其海峡。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 8,
+      "note": "章末总结第1题"
+    },
+    "options": [
+      "霍尔木兹海峡",
+      "苏伊士运河",
+      "土耳其海峡",
+      "直布罗陀海峡"
+    ],
+    "correctOption": "土耳其海峡"
+  },
+  {
+    "id": "eastern-q92",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "热点成因",
+    "prompt": "下列哪项不是西亚成为世界热点地区的主要原因？",
+    "answer": "国家之间贫富差距大",
+    "explanation": "西亚成为热点地区主要与区位、石油和宗教文化复杂有关。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 9,
+      "note": "章末总结第2题"
+    },
+    "options": [
+      "三洲五海之地",
+      "世界石油宝库",
+      "国家之间贫富差距大",
+      "复杂的宗教背景"
+    ],
+    "correctOption": "国家之间贫富差距大"
+  },
+  {
+    "id": "eastern-q93",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "三大洋判断",
+    "prompt": "西亚石油三条主要外运航线都不会经过的大洋是？",
+    "answer": "北冰洋",
+    "explanation": "西亚石油外运不会北上进入北冰洋。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 10,
+      "note": "章末总结第3题"
+    },
+    "options": [
+      "太平洋",
+      "北冰洋",
+      "大西洋",
+      "印度洋"
+    ],
+    "correctOption": "北冰洋"
+  },
+  {
+    "id": "eastern-q94",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "澳洲称号",
+    "prompt": "根据澳大利亚矿产分布图，下列美称与图示信息最相符的是？",
+    "answer": "坐在矿车上的国家",
+    "explanation": "图中矿产资源丰富，最直接对应“坐在矿车上的国家”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 15,
+      "note": "章末总结第6题"
+    },
+    "options": [
+      "世界活化石博物馆",
+      "经济高度发达的国家",
+      "坐在矿车上的国家",
+      "世界加油站"
+    ],
+    "correctOption": "坐在矿车上的国家"
+  },
+  {
+    "id": "eastern-q95",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "荷兰木鞋",
+    "prompt": "荷兰木鞋防潮、易清洗的特点，主要反映了当地？",
+    "answer": "地势低平，排水不畅",
+    "explanation": "地势低平、排水不畅，地表容易潮湿，木鞋更适用。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 19,
+      "note": "章末总结第9题"
+    },
+    "options": [
+      "纬度较高，热量不足",
+      "河流众多，水网发达",
+      "全年温和",
+      "地势低平，排水不畅"
+    ],
+    "correctOption": "地势低平，排水不畅"
+  },
+  {
+    "id": "eastern-q96",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "荷兰风车",
+    "prompt": "荷兰风车主要利用了当地？",
+    "answer": "常年盛行西风",
+    "explanation": "荷兰位于西风带，风力稳定，利于风车工作。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 20,
+      "note": "章末总结第10题"
+    },
+    "options": [
+      "温带海洋性气候",
+      "北海海浪大",
+      "常年盛行西风",
+      "草地资源丰富"
+    ],
+    "correctOption": "常年盛行西风"
+  },
+  {
+    "id": "eastern-q97",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "气候图判断",
+    "prompt": "图乙和图丙对应的气候类型都属于？",
+    "answer": "热带草原气候",
+    "explanation": "非洲热带草原两侧因南北半球季节相反，降水峰值月份不同。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 22,
+      "note": "章末总结第11题"
+    },
+    "options": [
+      "热带草原气候",
+      "热带季风气候",
+      "地中海气候",
+      "温带海洋性气候"
+    ],
+    "correctOption": "热带草原气候"
+  },
+  {
+    "id": "eastern-q98",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "动物迁徙",
+    "prompt": "非洲热带草原动物周期性迁徙的最主要原因是？",
+    "answer": "降水变化",
+    "explanation": "降水变化决定水草分布，从而驱动动物随季节迁徙。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 24,
+      "note": "章末总结第13题"
+    },
+    "options": [
+      "气温变化",
+      "人类驱赶",
+      "降水变化",
+      "动物异常行为"
+    ],
+    "correctOption": "降水变化"
+  },
+  {
+    "id": "eastern-q99",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "经济特点",
+    "prompt": "撒哈拉以南非洲不少国家出口结构最典型的特点是？",
+    "answer": "以出口农矿产品为主",
+    "explanation": "初级农矿产品出口是该地区传统经济结构的典型表现。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 26,
+      "note": "章末总结第14题"
+    },
+    "options": [
+      "制造业发达",
+      "以出口农矿产品为主",
+      "工矿业高度现代化",
+      "以出口工业制成品为主"
+    ],
+    "correctOption": "以出口农矿产品为主"
+  },
+  {
+    "id": "eastern-q100",
+    "type": "choice",
+    "bookCode": "grade7-semester2",
+    "bookLabel": "七年级下册",
+    "chapter": "第九章 东半球其他的地区和国家",
+    "section": "章末总结",
+    "knowledgePoint": "经济转型",
+    "prompt": "为改变撒哈拉以南非洲的经济发展现状，最合理的方向是？",
+    "answer": "建立多元化经济体系",
+    "explanation": "摆脱单一经济结构需要发展多元产业。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 27,
+      "note": "章末总结第15题"
+    },
+    "options": [
+      "继续单一出口原料",
+      "建立多元化经济体系",
+      "停止对外贸易",
+      "单纯扩大耕地"
+    ],
+    "correctOption": "建立多元化经济体系"
+  }
+]
