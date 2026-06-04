@@ -5,6 +5,7 @@ import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
 import { Card, CardDescription, CardTitle } from "../ui/card";
 import type { ReviewCard, SelfRating } from "../../types";
+import { resolvePublicAsset } from "../../utils/public-assets";
 
 const typeLabel: Record<ReviewCard["questionType"], string> = {
   flashcard: "记忆卡片",
@@ -38,7 +39,10 @@ export function StudyCard({
     revealed && selectedOption && card.correctOption
       ? selectedOption === card.correctOption
       : undefined;
-  const showImage = Boolean(card.assetPath) && (card.questionType === "map" || card.questionType === "analysis" || card.questionType === "choice");
+  const resolvedAssetPath = resolvePublicAsset(card.assetPath);
+  const showImage =
+    Boolean(resolvedAssetPath) &&
+    (card.questionType === "map" || card.questionType === "analysis" || card.questionType === "choice");
 
   return (
     <motion.div
@@ -60,9 +64,9 @@ export function StudyCard({
 
         {showImage ? (
           <div className="mb-5 overflow-hidden rounded-[1.4rem] border border-ocean-100 bg-gradient-to-br from-ocean-50 to-white">
-            {card.assetPath && !imageFailed ? (
+            {resolvedAssetPath && !imageFailed ? (
               <img
-                src={card.assetPath}
+                src={resolvedAssetPath}
                 alt={card.prompt}
                 className="aspect-[16/10] w-full object-cover"
                 onError={() => setImageFailed(true)}
