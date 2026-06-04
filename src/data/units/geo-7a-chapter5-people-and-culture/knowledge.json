@@ -1,0 +1,542 @@
+[
+  {
+    "id": "people-k01",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "世界人口数量",
+    "prompt": "世界人口在2022年11月15日达到多少？",
+    "answer": "达到80亿。",
+    "explanation": "这一数据是人口章节最直观的背景信息。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k02",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "人口增长阶段",
+    "prompt": "世界人口数量变化在不同历史阶段有什么特点？",
+    "answer": "18世纪以前增长很慢，工业革命后明显加快，二战后迅速增长，20世纪70年代后增速下降但总量仍持续增加。",
+    "explanation": "既要看“速度”，也要看“总趋势”。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k03",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "自然增长率",
+    "prompt": "人口自然增长率怎样计算？",
+    "answer": "人口自然增长率等于人口出生率减去人口死亡率。",
+    "explanation": "人口数量变化题几乎都要用到这一公式。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k04",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "人口增长区域差异",
+    "prompt": "人口自然增长率较低和较高的地区分别主要有哪些？",
+    "answer": "人口自然增长率较低的地区主要有欧洲、北美洲等；较高的地区主要有亚洲、非洲和拉丁美洲。",
+    "explanation": "人口增长快慢与经济发展水平密切相关。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k05",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "人口增长过快问题",
+    "prompt": "人口增长过快会带来哪些问题？",
+    "answer": "会造成就业困难、资源消耗增加、贫困、居住条件差和交通压力增大等问题。",
+    "explanation": "人口问题既有资源环境方面，也有社会经济方面。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k06",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "人口增长过慢问题",
+    "prompt": "人口增长过慢会带来哪些问题？",
+    "answer": "会造成劳动力短缺、国防兵力不足、社会养老负担过重等问题。",
+    "explanation": "人口过多或过少都可能形成问题。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k07",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "人口密度",
+    "prompt": "什么是人口密度，单位和公式分别是什么？",
+    "answer": "人口密度是平均每平方千米内居住的人口数，单位是人/平方千米，公式是总人口除以总面积。",
+    "explanation": "人口密度反映人口分布的疏密程度。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k08",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "人口稠密区",
+    "prompt": "世界人口稠密区主要分布在哪里？",
+    "answer": "主要分布在亚洲东部和南部、欧洲西部以及北美洲东部。",
+    "explanation": "这些地区普遍具备气候适宜、地形平坦、交通便利等条件。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k09",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "人口稀疏区",
+    "prompt": "世界人口稀疏区主要有哪些类型？",
+    "answer": "主要有极端干旱的沙漠地区、过于湿热的雨林地区、终年严寒的高纬地区和地势高峻的高原山地。",
+    "explanation": "人口稀疏区多受自然环境制约。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k10",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "人口分布影响因素",
+    "prompt": "世界人口分布受哪些因素影响？",
+    "answer": "既受气候、地形、水源等自然因素影响，也受交通、经济和社会条件等因素影响。",
+    "explanation": "人口分布不是单一因素决定的。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k11",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "人口分布一般规律",
+    "prompt": "从海拔、半球和纬度看，世界人口分布有哪些一般规律？",
+    "answer": "世界约有56%的人口分布在海拔200米以下的平原地区，主要分布在北半球中低纬度，气候多温暖湿润。",
+    "explanation": "这是对人口空间分布特点的综合概括。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 31,
+      "note": "素养提升"
+    }
+  },
+  {
+    "id": "people-k12",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "人种划分依据",
+    "prompt": "世界三大人种主要依据什么来划分？",
+    "answer": "主要依据体质特征。",
+    "explanation": "体质特征包括肤色、毛发、脸型等。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 9,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k13",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "三大人种特征",
+    "prompt": "白种人、黄种人和黑种人的主要体质特征分别是什么？",
+    "answer": "白种人肤色浅、头发波状、鼻梁高嘴唇薄；黄种人肤色淡黄、头发黑直、面庞较扁平；黑种人肤色黝黑、头发卷曲、嘴唇较厚。",
+    "explanation": "人种特征题要按成组特征记忆。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 9,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k14",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第二节 城镇与乡村",
+    "knowledgePoint": "乡村特征",
+    "prompt": "乡村有哪些主要特征？",
+    "answer": "乡村人口较少，人们主要从事耕种、放牧、捕鱼等农业生产活动，景观保留更多自然风貌。",
+    "explanation": "乡村早于城镇形成。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　城镇与乡村 .pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k15",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第二节 城镇与乡村",
+    "knowledgePoint": "城镇特征",
+    "prompt": "城镇有哪些主要特征？",
+    "answer": "城镇人口较多，人们主要从事工业和服务业等工作，原有自然环境大多已被改造。",
+    "explanation": "城镇景观通常比乡村更密集、更人工化。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　城镇与乡村 .pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k16",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第二节 城镇与乡村",
+    "knowledgePoint": "城镇乡村本质区别",
+    "prompt": "乡村和城镇的本质区别是什么？",
+    "answer": "本质区别是劳动生产方式不同。",
+    "explanation": "乡村以农业为主，城镇以工业和服务业为主。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　城镇与乡村 .pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k17",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第二节 城镇与乡村",
+    "knowledgePoint": "景观差异",
+    "prompt": "乡村和城镇在景观上有哪些典型差异？",
+    "answer": "乡村建筑低而分散、道路和公共服务设施较少、农田较多、自然环境改造较小；城镇建筑高而密集、道路与设施较多、农田较少、自然环境改造较大。",
+    "explanation": "做景观判断题时可从建筑、道路、商店学校医院和农田多少几方面入手。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　城镇与乡村 .pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k18",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第二节 城镇与乡村",
+    "knowledgePoint": "城镇发展条件",
+    "prompt": "哪些村落更容易发展为城镇？",
+    "answer": "水源充足、地形平坦、交通便利的村落更容易发展为城镇。",
+    "explanation": "城镇发展既要看自然条件，也要看社会经济条件。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　城镇与乡村 .pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k19",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第二节 城镇与乡村",
+    "knowledgePoint": "城镇和乡村的变化",
+    "prompt": "城镇和乡村分别发生了哪些变化？",
+    "answer": "城镇人口比重不断上升，绿地和休闲场所增多；乡村机械化水平和基础设施不断提高，生活方式与城镇更接近。",
+    "explanation": "城乡都在发展变化，但方向和节奏不同。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　城镇与乡村 .pptx",
+      "slide": 9,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k20",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第二节 城镇与乡村",
+    "knowledgePoint": "人口迁入城镇影响",
+    "prompt": "乡村人口迁入城镇会对城镇产生哪些影响？",
+    "answer": "能增加劳动力和消费需求，但也会带来居住、交通、就业和管理压力。",
+    "explanation": "要从积极和消极两方面全面分析。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　城镇与乡村 .pptx",
+      "slide": 11,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "people-k21",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第二节 城镇与乡村",
+    "knowledgePoint": "保护传统聚落意义",
+    "prompt": "为什么要保护有价值的古老城镇和乡村？",
+    "answer": "因为它们记录了当时的历史、政治、文化和民俗信息，是了解过去生活的“活的百科全书”。",
+    "explanation": "传统聚落兼具文化价值和历史价值。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　城镇与乡村 .pptx",
+      "slide": 12,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "people-k22",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第三节 多样的文化",
+    "knowledgePoint": "联合国工作语言",
+    "prompt": "联合国的六种工作语言是什么？",
+    "answer": "汉语、英语、法语、俄语、西班牙语和阿拉伯语。",
+    "explanation": "语言分布题与世界文化多样性密切相关。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第三节　多样的文化 .pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k23",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第三节 多样的文化",
+    "knowledgePoint": "主要语言特点",
+    "prompt": "世界主要语言中，使用人数最多和使用范围最广的分别是什么？",
+    "answer": "汉语是使用人数最多的语言，英语是使用范围最广的语言。",
+    "explanation": "这两个“最”容易混淆。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第三节　多样的文化 .pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k24",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第三节 多样的文化",
+    "knowledgePoint": "三大宗教",
+    "prompt": "世界三大宗教的发源地、主要分布区和代表建筑分别是什么？",
+    "answer": "基督教发源于亚洲西部，主要分布在欧洲、北美洲和大洋洲，代表建筑是教堂；伊斯兰教发源于阿拉伯半岛，主要分布在亚洲西部和东南部、非洲北部和东部，代表建筑是清真寺；佛教发源于亚洲南部，主要分布在亚洲东部和东南部，代表建筑是寺庙。",
+    "explanation": "三大宗教常与语言、民居一起组成综合题。",
+    "difficulty": "hard",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第三节　多样的文化 .pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k25",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第三节 多样的文化",
+    "knowledgePoint": "文化习俗与环境",
+    "prompt": "饮食、服饰和交通方式为什么会有明显地区差异？",
+    "answer": "因为不同地区自然环境差异大，农业、气候和生产生活方式不同，所以形成了不同的饮食、服饰和交通习俗。",
+    "explanation": "文化差异背后往往有自然环境因素。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第三节　多样的文化 .pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k26",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第三节 多样的文化",
+    "knowledgePoint": "传统民居形成原则",
+    "prompt": "传统民居在建筑材料和结构上通常有什么共同特点？",
+    "answer": "建筑材料往往就地取材，建筑结构通常要适应当地气候和自然环境。",
+    "explanation": "判断民居与环境关系时，关键看“就地取材”和“因地制宜”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第三节　多样的文化 .pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "people-k27",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第三节 多样的文化",
+    "knowledgePoint": "典型民居与环境",
+    "prompt": "典型传统民居与当地环境有怎样的对应关系？",
+    "answer": "如北极冰屋适应严寒、黄土高原窑洞适应干燥和黄土直立性、西双版纳竹楼与东南亚高脚楼适应炎热多雨、西亚北非碉楼和平顶屋适应高温少雨、北京四合院适应冬冷夏热和风沙环境、新疆平顶房适应干旱少雨。",
+    "explanation": "民居题往往要从气候和材料两方面作答。",
+    "difficulty": "hard",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第三节　多样的文化 .pptx",
+      "slide": 11,
+      "note": "课堂解析·重难突破"
+    }
+  }
+]

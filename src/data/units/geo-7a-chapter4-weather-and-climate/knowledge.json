@@ -1,0 +1,942 @@
+[
+  {
+    "id": "weather-k01",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第一节 多变的天气",
+    "knowledgePoint": "天气定义",
+    "prompt": "什么是天气？",
+    "answer": "天气是一个地区短时间里的大气状况，而且时刻在变化。",
+    "explanation": "判断天气还是气候，关键看“短时间、常变化”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　多变的天气.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k02",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第一节 多变的天气",
+    "knowledgePoint": "天气描述词",
+    "prompt": "人们通常用哪些词语描述天气？",
+    "answer": "常用阴晴、风雨、冷热等词语描述天气。",
+    "explanation": "这些词语强调的是短时间内的大气状况。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　多变的天气.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k03",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第一节 多变的天气",
+    "knowledgePoint": "天气影响",
+    "prompt": "天气会对人类活动产生哪些影响？",
+    "answer": "天气会影响农业生产、交通出行、户外活动、着装、旅游等。",
+    "explanation": "天气与生产生活关系十分密切。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　多变的天气.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k04",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第一节 多变的天气",
+    "knowledgePoint": "天气预报内容",
+    "prompt": "天气预报通常包括哪些主要内容？",
+    "answer": "通常包括阴晴、气温、降水和风等情况。",
+    "explanation": "读天气预报时，要把四项内容一起看。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　多变的天气.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k05",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第一节 多变的天气",
+    "knowledgePoint": "风向概念",
+    "prompt": "什么是风向？",
+    "answer": "风向是指风的来向，也就是风从哪个方向吹来。",
+    "explanation": "例如“北风”表示风来自北方。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　多变的天气.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k06",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第一节 多变的天气",
+    "knowledgePoint": "风向与风力",
+    "prompt": "天气预报中的风通常从哪两个方面描述？",
+    "answer": "通常从风向和风力两个方面描述。",
+    "explanation": "风向表示来向，风力表示风速大小。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　多变的天气.pptx",
+      "slide": 12,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "weather-k07",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第一节 多变的天气",
+    "knowledgePoint": "风力等级",
+    "prompt": "风力等级共有多少级，变化规律怎样？",
+    "answer": "风力等级共分18级，级数越大，风力越强。",
+    "explanation": "8级以上的风在天气预报中会用其他符号表示。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　多变的天气.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k08",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第一节 多变的天气",
+    "knowledgePoint": "风向标判读",
+    "prompt": "怎样通过风向标判断风向和风力？",
+    "answer": "有风尾的一头指示风吹来的方向；一道长线风尾表示2级风，一道短线风尾表示1级风。",
+    "explanation": "天气符号和风向标判读是天气预报部分的核心技能。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　多变的天气.pptx",
+      "slide": 12,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "weather-k09",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第一节 多变的天气",
+    "knowledgePoint": "天气符号变化",
+    "prompt": "天气预报中同一城市旁边出现两个天气符号，一般表示什么？",
+    "answer": "表示天气将从一种天气状况转变成另一种天气状况。",
+    "explanation": "例如“晴转小雨”“阴转多云”等。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　多变的天气.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k10",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第一节 多变的天气",
+    "knowledgePoint": "人类影响天气",
+    "prompt": "人类可以通过哪些方式影响天气？",
+    "answer": "可以进行人工降水、人工消雾、人工防雹、人工防霜冻等。",
+    "explanation": "教材强调人类可以有限度地影响局地天气。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　多变的天气.pptx",
+      "slide": 14,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "weather-k11",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "气温定义",
+    "prompt": "什么是气温？",
+    "answer": "气温是指空气的温度。",
+    "explanation": "气温不是“冷热状况”这种笼统说法，而是空气温度。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k12",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "平均气温",
+    "prompt": "描述一个地区气温时常用哪几种平均气温？",
+    "answer": "常用日平均气温、月平均气温和年平均气温。",
+    "explanation": "这些平均值是比较不同时间气温变化的重要指标。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k13",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "气温日变化",
+    "prompt": "什么叫气温日变化？",
+    "answer": "以一天为周期的气温变化叫气温日变化。",
+    "explanation": "描述一天内气温高低变化时要用“气温日变化”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k14",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "日最高最低气温",
+    "prompt": "通常情况下，一天中的最高气温和最低气温分别出现在什么时候？",
+    "answer": "最高气温通常出现在午后2时左右，最低气温通常出现在日出前后。",
+    "explanation": "这两个时间点是气温变化题的高频考点。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k15",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "气温日较差",
+    "prompt": "什么叫气温日较差？",
+    "answer": "一天中的最高气温与最低气温之差叫气温日较差。",
+    "explanation": "计算日较差时只做减法，不必求平均。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k16",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "气温年变化",
+    "prompt": "什么叫气温年变化？",
+    "answer": "以一年为周期的气温变化叫气温年变化。",
+    "explanation": "气温日变化看一天，气温年变化看一年。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k17",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "北半球气温年变化",
+    "prompt": "北半球陆地和海洋的最高月平均气温、最低月平均气温通常分别出现在哪些月份？",
+    "answer": "北半球陆地7月最高、1月最低；海洋8月最高、2月最低。",
+    "explanation": "海洋比陆地通常晚一个月左右。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k18",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "南半球气温年变化",
+    "prompt": "南半球陆地和海洋的最高月平均气温、最低月平均气温通常分别出现在哪些月份？",
+    "answer": "南半球陆地1月最高、7月最低；海洋2月最高、8月最低。",
+    "explanation": "南北半球季节相反，因此月份与北半球相反。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 11,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "weather-k19",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "气温年较差与曲线图",
+    "prompt": "什么叫气温年较差，常用什么图表示气温年变化？",
+    "answer": "一年内最高月平均气温与最低月平均气温的差叫气温年较差，常用气温曲线图表示。",
+    "explanation": "曲线弯曲程度大小还能反映年变化大小。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k20",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "正午后仍升温原因",
+    "prompt": "为什么一天中的最高气温不是出现在正午12时，而是多出现在午后2时左右？",
+    "answer": "因为空气热量主要来自地面，正午后地面获得的热量仍多于失去的热量，升温有一个滞后过程。",
+    "explanation": "这是气温变化部分最常考的原理题。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 13,
+      "note": "易混易错"
+    }
+  },
+  {
+    "id": "weather-k21",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第2课时 气温的分布",
+    "knowledgePoint": "等温线定义",
+    "prompt": "什么是等温线？",
+    "answer": "在地图上把气温相同的点依次连接成线，就是等温线。",
+    "explanation": "等温线是分析气温空间分布的重要工具。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节　第2课时　气温的分布.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k22",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第2课时 气温的分布",
+    "knowledgePoint": "等温线判读",
+    "prompt": "怎样根据等温线的延伸方向、疏密和闭合情况判读气温分布？",
+    "answer": "延伸方向可判断递变方向，疏密可判断气温差异大小，闭合形状可判断高温中心或低温中心。",
+    "explanation": "读等温线图时要先看整体再看局部。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节　第2课时　气温的分布.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k23",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第2课时 气温的分布",
+    "knowledgePoint": "世界气温水平分布",
+    "prompt": "世界年平均气温大致有什么分布规律？",
+    "answer": "世界年平均气温大致由低纬向高纬逐渐降低。",
+    "explanation": "气温分布的基本因素是纬度。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节　第2课时　气温的分布.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k24",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第2课时 气温的分布",
+    "knowledgePoint": "陆地与海洋等温线",
+    "prompt": "与海洋上等温线相比，陆地上等温线有什么特点？",
+    "answer": "陆地上等温线更曲折，说明陆地气温分布比海洋复杂。",
+    "explanation": "陆地受地形、海陆等因素影响更显著。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节　第2课时　气温的分布.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k25",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第2课时 气温的分布",
+    "knowledgePoint": "同纬度海陆温差",
+    "prompt": "同纬度地区夏季和冬季陆地与海洋气温的大小规律是什么？",
+    "answer": "同纬度地区，夏季陆地气温高于海洋，冬季海洋气温高于陆地。",
+    "explanation": "这是海陆热力性质差异的直接表现。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节　第2课时　气温的分布.pptx",
+      "slide": 9,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "weather-k26",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第2课时 气温的分布",
+    "knowledgePoint": "气温垂直递减",
+    "prompt": "山地和高原地区，气温随海拔升高有什么变化规律？",
+    "answer": "大致每升高100米，气温约下降0.6℃。",
+    "explanation": "这是地形因素影响气温的常用定量规律。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节　第2课时　气温的分布.pptx",
+      "slide": 9,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "weather-k27",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第1课时 降水的变化",
+    "knowledgePoint": "降水定义",
+    "prompt": "什么是降水？",
+    "answer": "从大气中降落的雨、雪、冰雹等，统称为降水。",
+    "explanation": "降水不只包括降雨。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第三节　第1课时　降水的变化.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k28",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第1课时 降水的变化",
+    "knowledgePoint": "降水表示图",
+    "prompt": "通常用什么图表示一个地区一年内降水的季节变化？",
+    "answer": "通常用各月降水量柱状图表示。",
+    "explanation": "降水柱状图主要看各月多少和季节分配。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第三节　第1课时　降水的变化.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k29",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第1课时 降水的变化",
+    "knowledgePoint": "降水测量",
+    "prompt": "降水量用什么仪器测量，单位是什么？",
+    "answer": "用雨量器测量，单位是毫米。",
+    "explanation": "考试常把温度计等作为干扰项。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第三节　第1课时　降水的变化.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k30",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第1课时 降水的变化",
+    "knowledgePoint": "降水等级",
+    "prompt": "按24小时降水量多少，可把降雨划分为哪些等级？",
+    "answer": "可划分为小雨、中雨、大雨、暴雨、大暴雨和特大暴雨。",
+    "explanation": "降水等级表要会看区间。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第三节　第1课时　降水的变化.pptx",
+      "slide": 8,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "weather-k31",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第1课时 降水的变化",
+    "knowledgePoint": "日月年降水量",
+    "prompt": "日降水量、月降水量和年降水量分别怎样计算？",
+    "answer": "日降水量是当天两次定时记录之和，月降水量是当月各天降水量总和，年降水量是全年各月降水量总和。",
+    "explanation": "降水总量题本质上都是求和。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第三节　第1课时　降水的变化.pptx",
+      "slide": 11,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "weather-k32",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第1课时 降水的变化",
+    "knowledgePoint": "降水影响",
+    "prompt": "降水会对哪些人类活动产生明显影响？",
+    "answer": "会影响建筑风格、农业生产、工业布局和日常生活。",
+    "explanation": "例如南方屋顶多尖顶，北方多平顶。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第三节　第1课时　降水的变化.pptx",
+      "slide": 12,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "weather-k33",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第2课时 降水的分布",
+    "knowledgePoint": "等降水量线",
+    "prompt": "什么是等降水量线图？",
+    "answer": "在等降水量线图中，同一条等降水量线上各点的降水量相同，用它可以表示降水量的空间分布。",
+    "explanation": "等降水量线图对应的是空间分布，不是时间变化。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "5 第三节　第2课时　降水的分布.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k34",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第2课时 降水的分布",
+    "knowledgePoint": "赤道与两极降水",
+    "prompt": "世界年降水量在赤道附近和两极地区有什么分布特点？",
+    "answer": "赤道附近地区降水多，两极地区降水较少。",
+    "explanation": "这是纬度因素影响降水的最典型表现。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "5 第三节　第2课时　降水的分布.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k35",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第2课时 降水的分布",
+    "knowledgePoint": "回归线与中纬度降水",
+    "prompt": "回归线附近和中纬度地区的降水分布各有什么规律？",
+    "answer": "回归线附近大陆东岸降水较多、西岸较少；中纬度沿海地区降水较多、内陆地区降水较少。",
+    "explanation": "要注意回归线附近与中纬度的规律不同。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "5 第三节　第2课时　降水的分布.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k36",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第2课时 降水的分布",
+    "knowledgePoint": "迎风坡背风坡",
+    "prompt": "山地迎风坡和背风坡的降水有什么差异？",
+    "answer": "迎风坡降水多，背风坡降水少。",
+    "explanation": "暖湿气流被迫抬升形成地形雨。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "5 第三节　第2课时　降水的分布.pptx",
+      "slide": 7,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "weather-k37",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第2课时 降水的分布",
+    "knowledgePoint": "雨极与干极",
+    "prompt": "世界“雨极”和“干极”分别是什么地方？",
+    "answer": "世界“雨极”是乞拉朋齐，世界“干极”是阿塔卡马沙漠。",
+    "explanation": "这是一组高频识记点。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "5 第三节　第2课时　降水的分布.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k38",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第1课时 气候的地区差异 世界气候类型的分布",
+    "knowledgePoint": "气候两大要素",
+    "prompt": "气候的两大要素是什么？",
+    "answer": "气候的两大要素是气温和降水。",
+    "explanation": "所有气候类型判读都离不开这两个要素。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第四节　第1课时　气候的地区差异　世界气候类型的分布.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k39",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第1课时 气候的地区差异 世界气候类型的分布",
+    "knowledgePoint": "气候带与气候类型",
+    "prompt": "热带、温带和寒带气候大致分布在哪里？",
+    "answer": "热带气候主要分布在回归线之间，寒带气候主要分布在极圈以内，亚热带和温带气候分布在回归线与极圈之间。",
+    "explanation": "先定温度带，再定具体气候类型。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第四节　第1课时　气候的地区差异　世界气候类型的分布.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k40",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第1课时 气候的地区差异 世界气候类型的分布",
+    "knowledgePoint": "热带气候类型",
+    "prompt": "热带主要有哪些气候类型及其基本特征？",
+    "answer": "有热带雨林、热带草原、热带季风和热带沙漠气候，分别表现为全年高温多雨、全年高温分干湿两季、全年高温雨季集中和全年炎热干燥。",
+    "explanation": "热带气候共同点是气温高，不同点主要在降水。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第四节　第1课时　气候的地区差异　世界气候类型的分布.pptx",
+      "slide": 13,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "weather-k41",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第1课时 气候的地区差异 世界气候类型的分布",
+    "knowledgePoint": "亚热带温带气候类型",
+    "prompt": "亚热带和温带主要有哪些气候类型及其基本特征？",
+    "answer": "主要有地中海气候、温带海洋性气候、亚热带季风和湿润气候、温带季风气候、温带大陆性气候。",
+    "explanation": "地中海夏干冬雨，温带海洋性全年湿润，季风气候雨热同期。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第四节　第1课时　气候的地区差异　世界气候类型的分布.pptx",
+      "slide": 15,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "weather-k42",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第1课时 气候的地区差异 世界气候类型的分布",
+    "knowledgePoint": "寒带和高原山地气候",
+    "prompt": "寒带气候和高原山地气候有什么特点？",
+    "answer": "寒带气候终年严寒、降水稀少；高原山地气候垂直变化明显，气温随海拔升高而降低。",
+    "explanation": "寒带看纬度，高原山地看地势。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第四节　第1课时　气候的地区差异　世界气候类型的分布.pptx",
+      "slide": 17,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "weather-k43",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第1课时 气候的地区差异 世界气候类型的分布",
+    "knowledgePoint": "气候判读步骤",
+    "prompt": "根据气温曲线和降水量柱状图判读气候类型时，一般分哪几步？",
+    "answer": "一般先定半球，再以温定带，最后以水定型。",
+    "explanation": "这是气候图判读最重要的方法总结。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第四节　第1课时　气候的地区差异　世界气候类型的分布.pptx",
+      "slide": 36,
+      "note": "素养提升"
+    }
+  },
+  {
+    "id": "weather-k44",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第2课时 影响气候的主要因素",
+    "knowledgePoint": "影响气候三大因素",
+    "prompt": "影响气候的三大主要因素是什么？",
+    "answer": "纬度位置、海陆位置和地形。",
+    "explanation": "分析气候成因时，通常先从这三项入手。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "8 第四节　第2课时　影响气候的主要因素.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "weather-k45",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第2课时 影响气候的主要因素",
+    "knowledgePoint": "纬度因素",
+    "prompt": "纬度位置怎样影响气温和降水？",
+    "answer": "纬度低的地方气温高，纬度高的地方气温低；赤道地区降水多，两极地区降水少。",
+    "explanation": "纬度因素是影响气候的基本因素。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "8 第四节　第2课时　影响气候的主要因素.pptx",
+      "slide": 9,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "weather-k46",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第2课时 影响气候的主要因素",
+    "knowledgePoint": "海陆因素",
+    "prompt": "海陆位置怎样影响气温和降水？",
+    "answer": "距海近的地方降水多、气温变化幅度小；距海远的地方降水少、气温变化幅度大。",
+    "explanation": "海陆因素在中纬度地区表现最显著。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "8 第四节　第2课时　影响气候的主要因素.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "weather-k47",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第2课时 影响气候的主要因素",
+    "knowledgePoint": "地形因素与人类活动",
+    "prompt": "地形和人类活动分别会怎样影响气候？",
+    "answer": "地形会使高海拔地区气温更低、迎风坡多雨背风坡少雨；人类活动如植树造林可改善局地小气候，过度砍伐和大量燃烧矿物燃料会导致全球变暖，还可能引发臭氧层空洞和酸雨等问题。",
+    "explanation": "气候成因和气候变化都要从自然与人为两方面综合分析。",
+    "difficulty": "hard",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "8 第四节　第2课时　影响气候的主要因素.pptx",
+      "slide": 14,
+      "note": "课堂解析·重难突破"
+    }
+  }
+]

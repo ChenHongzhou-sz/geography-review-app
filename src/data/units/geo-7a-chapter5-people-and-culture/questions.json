@@ -1,0 +1,1108 @@
+[
+  {
+    "id": "people-q01",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "人口总趋势",
+    "prompt": "下列对世界人口不同阶段增长状况的表述，正确的是（　　）",
+    "answer": "世界人口数量一直在不断增长",
+    "explanation": "世界人口总量在不断增长，只是不同时期增长速度不同。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 15,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "世界人口数量一直在不断增长",
+      "1900年以来，世界人口增长缓慢",
+      "世界人口增长速度一直都比较均匀",
+      "世界人口数量在不断减少"
+    ],
+    "correctOption": "世界人口数量一直在不断增长"
+  },
+  {
+    "id": "people-q02",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "世界人口快速增长原因",
+    "prompt": "20世纪以来，世界人口快速增长的原因叙述错误的是（　　）",
+    "answer": "出生率小于死亡率",
+    "explanation": "人口快速增长不可能建立在出生率低于死亡率的基础上。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 16,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "生活水平逐步提高",
+      "死亡率逐渐降低",
+      "出生率小于死亡率",
+      "医疗卫生事业不断进步"
+    ],
+    "correctOption": "出生率小于死亡率"
+  },
+  {
+    "id": "people-q03",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "人口增长过快问题",
+    "prompt": "下列因人口增长过快带来的问题是（　　）",
+    "answer": "就业困难",
+    "explanation": "人口过快增长会带来就业、资源和环境压力。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 17,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "劳动力短缺",
+      "就业困难",
+      "国防兵力不足",
+      "社会养老负担加重"
+    ],
+    "correctOption": "就业困难"
+  },
+  {
+    "id": "people-q04",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "人口纬度分布",
+    "prompt": "根据世界人口纬度分布图，世界人口主要分布在（　　）",
+    "answer": "北半球中低纬度地区",
+    "explanation": "气候温暖湿润、临海的中低纬地区更适合人口集中。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 18,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "沿纬度变化方向均匀分布",
+      "北半球中低纬度地区",
+      "南半球中低纬度地区",
+      "高纬度地区"
+    ],
+    "correctOption": "北半球中低纬度地区"
+  },
+  {
+    "id": "people-q05",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "自然增长率计算",
+    "prompt": "某地区一年中平均每1000人出生28人、死亡15人，则人口自然增长率是（　　）",
+    "answer": "1.3%",
+    "explanation": "自然增长率=28‰-15‰=13‰=1.3%。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 20,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "2.8%",
+      "1.59%",
+      "1.3%",
+      "4.3%"
+    ],
+    "correctOption": "1.3%"
+  },
+  {
+    "id": "people-q06",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "自然增长率最高最低大洲",
+    "prompt": "世界人口自然增长率最高和最低的大洲分别是（　　）",
+    "answer": "非洲、欧洲",
+    "explanation": "一般而言，非洲增长快，欧洲增长慢。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 21,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "非洲、欧洲",
+      "亚洲、非洲",
+      "亚洲、欧洲",
+      "非洲、大洋洲"
+    ],
+    "correctOption": "非洲、欧洲"
+  },
+  {
+    "id": "people-q07",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "人口最稀疏地区",
+    "prompt": "下列地区中，人口最稀疏的是（　　）",
+    "answer": "极地地区",
+    "explanation": "极地终年严寒，不利于人口分布。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 22,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "亚洲南部",
+      "欧洲西部",
+      "极地地区",
+      "亚洲东部"
+    ],
+    "correctOption": "极地地区"
+  },
+  {
+    "id": "people-q08",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "三大人种划分依据",
+    "prompt": "世界三大人种划分的依据是（　　）",
+    "answer": "体质特征",
+    "explanation": "教材明确以体质特征为主要依据之一。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 22,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "语言文字",
+      "体质特征",
+      "风俗习惯",
+      "肤色"
+    ],
+    "correctOption": "体质特征"
+  },
+  {
+    "id": "people-q09",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "人口问题正确观点",
+    "prompt": "下列关于目前人口问题的叙述正确的是（　　）",
+    "answer": "人口的增长必须与社会、经济发展相适应，与环境、资源相协调",
+    "explanation": "处理人口问题要强调协调发展。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 23,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "人口增长过快，是每个国家都存在的问题",
+      "人口的增长必须与社会、经济发展相适应，与环境、资源相协调",
+      "世界各国都要控制人口数量",
+      "乡村人口涌入城市的现象全部集中在发达国家"
+    ],
+    "correctOption": "人口的增长必须与社会、经济发展相适应，与环境、资源相协调"
+  },
+  {
+    "id": "people-q10",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "李村人口状况",
+    "prompt": "根据表格数据判断，下列说法正确的是（　　）",
+    "answer": "李村人口密集",
+    "explanation": "李村人口密度更大，因此人口更密集。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 24,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "李村人口总数少",
+      "李村人口密集",
+      "张村人口自然增长慢",
+      "两村人口密度相同"
+    ],
+    "correctOption": "李村人口密集"
+  },
+  {
+    "id": "people-q11",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "我国人口负增长判断",
+    "prompt": "1990年至2018年我国人口状况中，与事实不符的是（　　）",
+    "answer": "人口出现负增长",
+    "explanation": "图中出生率一直高于死亡率，因此没有负增长。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 27,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "出生率呈下降趋势",
+      "死亡率基本稳定",
+      "自然增长率不断降低",
+      "人口出现负增长"
+    ],
+    "correctOption": "人口出现负增长"
+  },
+  {
+    "id": "people-q12",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第一节 人口与人种",
+    "knowledgePoint": "三孩政策作用",
+    "prompt": "我国实施三孩政策，有利于（　　）",
+    "answer": "缓解人口老龄化",
+    "explanation": "增加出生人口有助于缓解人口老龄化趋势。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　人口与人种.pptx",
+      "slide": 28,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "人口均衡分布",
+      "提高人口素质",
+      "缓解住房紧张",
+      "缓解人口老龄化"
+    ],
+    "correctOption": "缓解人口老龄化"
+  },
+  {
+    "id": "people-q13",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第二节 城镇与乡村",
+    "knowledgePoint": "城镇与乡村景观差异",
+    "prompt": "下列关于乡村与城镇景观差异的描述，正确的是（　　）",
+    "answer": "城镇人口密度大，商店、学校多",
+    "explanation": "城镇人口和公共服务设施通常比乡村更集中。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　城镇与乡村 .pptx",
+      "slide": 15,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "城镇自然景观改变小，建筑密而高大",
+      "乡村道路纵横交错，线路密集发达",
+      "城镇人口密度大，商店、学校多",
+      "乡村工作节奏快，文化生活丰富"
+    ],
+    "correctOption": "城镇人口密度大，商店、学校多"
+  },
+  {
+    "id": "people-q14",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第二节 城镇与乡村",
+    "knowledgePoint": "四合院文化信息",
+    "prompt": "北京古老民居四合院记录的政治文化信息是（　　）",
+    "answer": "封建时代多代同居的家庭关系",
+    "explanation": "四合院布局体现了传统家庭结构和伦理关系。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　城镇与乡村 .pptx",
+      "slide": 16,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "当地的气候特点",
+      "当地当时的消费水平",
+      "当地的地形特点",
+      "封建时代多代同居的家庭关系"
+    ],
+    "correctOption": "封建时代多代同居的家庭关系"
+  },
+  {
+    "id": "people-q15",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第二节 城镇与乡村",
+    "knowledgePoint": "保护传统民居目的",
+    "prompt": "我国对传统民居加以保护的主要目的是（　　）",
+    "answer": "保护地方文化",
+    "explanation": "保护传统民居首先是为了保护地方文化和历史记忆。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　城镇与乡村 .pptx",
+      "slide": 17,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "保护地方文化",
+      "节省建筑材料",
+      "节省土地资源",
+      "解决住房拥挤的现状"
+    ],
+    "correctOption": "保护地方文化"
+  },
+  {
+    "id": "people-q16",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第二节 城镇与乡村",
+    "knowledgePoint": "乡村主要活动",
+    "prompt": "下列属于乡村从事的主要活动是（　　）",
+    "answer": "耕作业",
+    "explanation": "乡村生产活动以农业为主。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　城镇与乡村 .pptx",
+      "slide": 19,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "纺织工业",
+      "饮食服务业",
+      "耕作业",
+      "制造业"
+    ],
+    "correctOption": "耕作业"
+  },
+  {
+    "id": "people-q17",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第二节 城镇与乡村",
+    "knowledgePoint": "绍兴水乡特征",
+    "prompt": "下列关于绍兴水乡特征的描述，正确的是（　　）",
+    "answer": "①③④",
+    "explanation": "水乡民居多沿河而建，屋顶倾斜便于排水，门窗设计重视通风。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　城镇与乡村 .pptx",
+      "slide": 21,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "①②③",
+      "①②④",
+      "①③④",
+      "②③④"
+    ],
+    "correctOption": "①③④"
+  },
+  {
+    "id": "people-q18",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第二节 城镇与乡村",
+    "knowledgePoint": "保护传统聚落意义",
+    "prompt": "保护有历史价值和文化特色的传统民居，其重要意义是（　　）",
+    "answer": "使人类璀璨文化长久留存",
+    "explanation": "传统聚落保护强调文化传承价值。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　城镇与乡村 .pptx",
+      "slide": 22,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "加快当地旅游业发展",
+      "使人类璀璨文化长久留存",
+      "古建筑有很高的经济价值",
+      "衬托现代化建筑的美感"
+    ],
+    "correctOption": "使人类璀璨文化长久留存"
+  },
+  {
+    "id": "people-q19",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第二节 城镇与乡村",
+    "knowledgePoint": "乡村与城镇比较",
+    "prompt": "根据照片可以推断，乡村比城镇（　　）",
+    "answer": "贴近自然",
+    "explanation": "乡村保留了更多自然风貌。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　城镇与乡村 .pptx",
+      "slide": 23,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "贴近自然",
+      "建筑物高大",
+      "交通便利",
+      "经济繁荣"
+    ],
+    "correctOption": "贴近自然"
+  },
+  {
+    "id": "people-q20",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第二节 城镇与乡村",
+    "knowledgePoint": "不利于城乡形成发展",
+    "prompt": "下列区域中，不利于乡村和城镇形成发展的是（　　）",
+    "answer": "空气清新的山区、山地",
+    "explanation": "山区山地地形崎岖，交通和开发都受限制。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　城镇与乡村 .pptx",
+      "slide": 25,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "水陆交通便利的河口地区",
+      "土壤肥沃的平原地区",
+      "空气清新的山区、山地",
+      "自然资源丰富的丘陵地区"
+    ],
+    "correctOption": "空气清新的山区、山地"
+  },
+  {
+    "id": "people-q21",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第二节 城镇与乡村",
+    "knowledgePoint": "高脚屋环境",
+    "prompt": "如果四处乡村房屋建筑均为高脚屋，则图示区域最可能位于（　　）",
+    "answer": "炎热多雨地区",
+    "explanation": "高脚屋有利于通风、防潮、防虫蛇，典型分布在炎热多雨地区。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案改编训练",
+      "file": "2 第二节　城镇与乡村 .pptx",
+      "slide": 26,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "寒冷干燥地区",
+      "炎热多雨地区",
+      "高寒山区",
+      "温带草原地区"
+    ],
+    "correctOption": "炎热多雨地区"
+  },
+  {
+    "id": "people-q22",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第二节 城镇与乡村",
+    "knowledgePoint": "乡村沿河分布",
+    "prompt": "读南方某地乡村分布图，回答：A、B、C三个乡村都是沿什么分布？这说明河流具有什么作用？哪一处最可能发展为城镇，理由是什么？",
+    "answer": "A、B、C三个乡村都沿河流分布，说明河流的供水和运输功能影响了乡村形成；B处最可能发展为城镇，因为地形平坦，位于两条河流交汇处，是物资交流和人口流动的重要区域。",
+    "explanation": "这类题要把自然条件和交通区位一起分析。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　城镇与乡村 .pptx",
+      "slide": 28,
+      "note": "能力达标第8题"
+    }
+  },
+  {
+    "id": "people-q23",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第二节 城镇与乡村",
+    "knowledgePoint": "深圳演变",
+    "prompt": "根据乡村演变为城镇的一般规律，深圳市三幅不同时期景观照片的拍摄顺序是怎样？哪一张属于乡村景观，昔日深圳最可能是什么类型的村落？",
+    "answer": "拍摄顺序依次是乙、甲、丙；乙属于乡村景观；昔日深圳最可能是渔村。",
+    "explanation": "景观演变题要抓住建筑密度、高度和基础设施变化。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　城镇与乡村 .pptx",
+      "slide": 29,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "people-q24",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第三节 多样的文化",
+    "knowledgePoint": "使用最广语言",
+    "prompt": "在当今世界，使用最广泛的语言是（　　）",
+    "answer": "英语",
+    "explanation": "英语是使用范围最广的语言。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第三节　多样的文化 .pptx",
+      "slide": 15,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "法语",
+      "汉语",
+      "英语",
+      "西班牙语"
+    ],
+    "correctOption": "英语"
+  },
+  {
+    "id": "people-q25",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第三节 多样的文化",
+    "knowledgePoint": "教堂礼拜宗教",
+    "prompt": "“每个礼拜日都去教堂做礼拜”描述的宗教活动属于（　　）",
+    "answer": "基督教",
+    "explanation": "教堂是基督教的代表建筑。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第三节　多样的文化 .pptx",
+      "slide": 15,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "伊斯兰教",
+      "基督教",
+      "印度教",
+      "佛教"
+    ],
+    "correctOption": "基督教"
+  },
+  {
+    "id": "people-q26",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第三节 多样的文化",
+    "knowledgePoint": "窑洞反映气候",
+    "prompt": "黄土高原窑洞式建筑反映出当地（　　）",
+    "answer": "干旱少雨",
+    "explanation": "窑洞适应冬冷夏热、较干燥的环境。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第三节　多样的文化 .pptx",
+      "slide": 16,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "高温多雨",
+      "干旱少雨",
+      "冬季温暖",
+      "终年湿润"
+    ],
+    "correctOption": "干旱少雨"
+  },
+  {
+    "id": "people-q27",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第三节 多样的文化",
+    "knowledgePoint": "阿拉伯语地区",
+    "prompt": "下列地区通用阿拉伯语的是（　　）",
+    "answer": "阿拉伯半岛",
+    "explanation": "阿拉伯半岛和西亚北非许多国家通用阿拉伯语。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第三节　多样的文化 .pptx",
+      "slide": 20,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "阿拉伯半岛",
+      "北美洲东北部",
+      "非洲南部、亚洲南部",
+      "非洲中部"
+    ],
+    "correctOption": "阿拉伯半岛"
+  },
+  {
+    "id": "people-q28",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第三节 多样的文化",
+    "knowledgePoint": "不通用英语地区",
+    "prompt": "下列哪一个国家或地区不通用英语（　　）",
+    "answer": "韩国",
+    "explanation": "英语分布广，但韩国不属于通用英语地区。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第三节　多样的文化 .pptx",
+      "slide": 21,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "美国",
+      "澳大利亚",
+      "加拿大",
+      "韩国"
+    ],
+    "correctOption": "韩国"
+  },
+  {
+    "id": "people-q29",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第三节 多样的文化",
+    "knowledgePoint": "宗教连线错误",
+    "prompt": "下列连线错误的是（　　）",
+    "answer": "犹太教主要分布——印度",
+    "explanation": "犹太教主要分布在西亚地区，而不是印度。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第三节　多样的文化 .pptx",
+      "slide": 22,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "伊斯兰教教徒——穆斯林",
+      "佛教主要分布——东亚、东南亚",
+      "基督教主要分布——欧洲、北美洲和大洋洲",
+      "犹太教主要分布——印度"
+    ],
+    "correctOption": "犹太教主要分布——印度"
+  },
+  {
+    "id": "people-q30",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第三节 多样的文化",
+    "knowledgePoint": "喀纳斯木屋功能",
+    "prompt": "新疆喀纳斯地区“人”字形屋顶、窗户较小的木屋，其主要功能是（　　）",
+    "answer": "防御风雪",
+    "explanation": "喀纳斯多雪，尖顶和小窗更有利于防风雪。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第三节　多样的文化 .pptx",
+      "slide": 23,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "防御风沙",
+      "防御台风",
+      "防御风雪",
+      "防御寒潮"
+    ],
+    "correctOption": "防御风雪"
+  },
+  {
+    "id": "people-q31",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第三节 多样的文化",
+    "knowledgePoint": "联合国其他四种语言",
+    "prompt": "除英语、法语外，联合国另外四种工作语言是（　　）",
+    "answer": "汉语、西班牙语、阿拉伯语和俄语",
+    "explanation": "联合国六种工作语言必须能完整识记。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第三节　多样的文化 .pptx",
+      "slide": 26,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "日语、汉语、西班牙语和俄语",
+      "汉语、俄语、德语和阿拉伯语",
+      "汉语、日语、德语和阿拉伯语",
+      "汉语、西班牙语、阿拉伯语和俄语"
+    ],
+    "correctOption": "汉语、西班牙语、阿拉伯语和俄语"
+  },
+  {
+    "id": "people-q32",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第三节 多样的文化",
+    "knowledgePoint": "历史文化古迹",
+    "prompt": "四幅景观图所示建筑中，不属于著名历史文化古迹的是（　　）",
+    "answer": "③",
+    "explanation": "迪拜“帆船”酒店是现代建筑，不属于历史文化古迹。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第三节　多样的文化 .pptx",
+      "slide": 29,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "①",
+      "②",
+      "③",
+      "④"
+    ],
+    "correctOption": "③"
+  },
+  {
+    "id": "people-q33",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "第三节 多样的文化",
+    "knowledgePoint": "意大利古建筑",
+    "prompt": "若去意大利旅游，可以欣赏到上面图片中的哪种古建筑景观（　　）",
+    "answer": "①",
+    "explanation": "古罗马竞技场位于意大利。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第三节　多样的文化 .pptx",
+      "slide": 29,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "①",
+      "②",
+      "③",
+      "④"
+    ],
+    "correctOption": "①"
+  },
+  {
+    "id": "people-q34",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "章末总结",
+    "knowledgePoint": "人口密度含义",
+    "prompt": "下列关于人口问题的叙述，正确的是（　　）",
+    "answer": "人口密度大小反映了一个地区人口分布的疏密状况",
+    "explanation": "人口密度反映的是疏密，并不直接反映自然增长率或总量。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 6,
+      "note": "章末作业第1题"
+    },
+    "options": [
+      "人口密度大的地方，人口自然增长率高",
+      "人口自然增长率高的地区，必定人口总量也大",
+      "人口自然增长率下降，必定导致负增长",
+      "人口密度大小反映了一个地区人口分布的疏密状况"
+    ],
+    "correctOption": "人口密度大小反映了一个地区人口分布的疏密状况"
+  },
+  {
+    "id": "people-q35",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "章末总结",
+    "knowledgePoint": "人口分布海拔",
+    "prompt": "世界人口主要分布在（　　）",
+    "answer": "200米以下的平原地区",
+    "explanation": "低平、温暖湿润的地区更适合大量人口分布。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 13,
+      "note": "章末作业第6题"
+    },
+    "options": [
+      "200米以上的高原地区",
+      "1000米以上的山地地区",
+      "200米以上的丘陵地区",
+      "200米以下的平原地区"
+    ],
+    "correctOption": "200米以下的平原地区"
+  },
+  {
+    "id": "people-q36",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "章末总结",
+    "knowledgePoint": "阿拉伯半岛宗教",
+    "prompt": "阿拉伯半岛清真寺众多，反映当地居民多信奉（　　）",
+    "answer": "伊斯兰教",
+    "explanation": "清真寺是伊斯兰教的代表建筑。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 8,
+      "note": "章末作业第3题"
+    },
+    "options": [
+      "基督教",
+      "伊斯兰教",
+      "犹太教",
+      "道教"
+    ],
+    "correctOption": "伊斯兰教"
+  },
+  {
+    "id": "people-q37",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "章末总结",
+    "knowledgePoint": "阿拉伯半岛人种语言",
+    "prompt": "阿拉伯半岛当地居民大多所属的人种和使用的语言是（　　）",
+    "answer": "白种人，阿拉伯语",
+    "explanation": "西亚、北非阿拉伯国家居民多为白种人，通用阿拉伯语。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 9,
+      "note": "章末作业第4题"
+    },
+    "options": [
+      "白种人，英语",
+      "黑种人，阿拉伯语",
+      "黄种人，英语",
+      "白种人，阿拉伯语"
+    ],
+    "correctOption": "白种人，阿拉伯语"
+  },
+  {
+    "id": "people-q38",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "章末总结",
+    "knowledgePoint": "泰国水上市场自然原因",
+    "prompt": "泰国形成繁忙水上市场的自然原因是（　　）",
+    "answer": "降水充沛，河网密布",
+    "explanation": "东南亚降水丰富、河流众多，利于形成水上交通与市场。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 15,
+      "note": "章末作业第8题"
+    },
+    "options": [
+      "经济发达，需求量大",
+      "温带海洋性气候，全年多雨",
+      "降水充沛，河网密布",
+      "人口密集，地价昂贵"
+    ],
+    "correctOption": "降水充沛，河网密布"
+  },
+  {
+    "id": "people-q39",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "章末总结",
+    "knowledgePoint": "乡村人口迁城错误原因",
+    "prompt": "下列关于乡村人口迁往城市原因的表述，错误的是（　　）",
+    "answer": "人口增长太快，乡村人口密度大",
+    "explanation": "人口迁城主要是发展机会、教育医疗和生活条件吸引，不是简单因为乡村人口密度大。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 16,
+      "note": "章末作业第9题"
+    },
+    "options": [
+      "经济水平提高，乡村有剩余劳动力",
+      "人口增长太快，乡村人口密度大",
+      "城里有更多更好的发展机会",
+      "城里教育、医疗、生活条件好"
+    ],
+    "correctOption": "人口增长太快，乡村人口密度大"
+  },
+  {
+    "id": "people-q40",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "章末总结",
+    "knowledgePoint": "三大宗教起源",
+    "prompt": "世界三大宗教都起源于（　　）",
+    "answer": "亚洲",
+    "explanation": "基督教、伊斯兰教和佛教都发源于亚洲。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 23,
+      "note": "章末作业第15题"
+    },
+    "options": [
+      "亚洲",
+      "欧洲",
+      "非洲",
+      "北美洲"
+    ],
+    "correctOption": "亚洲"
+  },
+  {
+    "id": "people-q41",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "章末总结",
+    "knowledgePoint": "三大半岛文化综合",
+    "prompt": "读亚洲三大半岛图回答：A半岛是哪种宗教的发源地，当地主要使用什么语言？B半岛叫什么，居民以什么人种和什么语言为主？C半岛叫什么，属于哪一洲，人们大多信奉什么宗教？",
+    "answer": "A半岛是佛教的发源地，当地主要使用英语或印地语；B半岛是阿拉伯半岛，居民以白种人为主，多讲阿拉伯语；C半岛是中南半岛，属于亚洲，人们大多信奉佛教。",
+    "explanation": "这道题把语言、宗教、人种和区域位置放在一起考查。",
+    "difficulty": "hard",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 25,
+      "note": "非选择题第16题"
+    }
+  },
+  {
+    "id": "people-q42",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第五章 居民与文化",
+    "section": "章末总结",
+    "knowledgePoint": "民居与环境综合",
+    "prompt": "读民居与自然环境材料回答：竹楼和窑洞分别位于图中的哪一地？窑洞与当地自然环境有什么关系？竹楼与窑洞在建筑取材上的共同点是什么？",
+    "answer": "竹楼位于甲地，窑洞位于乙地；窑洞所在地区气候干旱、冬冷夏热，黄土深厚且直立性强，适合挖掘窑洞，窑洞也有冬暖夏凉的作用；两类民居都体现了就地取材。",
+    "explanation": "民居综合题通常要从气候、材料和功能三方面作答。",
+    "difficulty": "hard",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 章末总结.pptx",
+      "slide": 30,
+      "note": "非选择题第18题"
+    }
+  }
+]

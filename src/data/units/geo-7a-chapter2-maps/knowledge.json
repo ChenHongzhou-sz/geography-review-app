@@ -1,0 +1,502 @@
+[
+  {
+    "id": "maps-k01",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第一节 地图的阅读",
+    "knowledgePoint": "地图三要素",
+    "prompt": "地图的基本要素是什么？",
+    "answer": "比例尺、方向和图例。",
+    "explanation": "地图阅读题几乎都要先看三要素是否齐全。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地图的阅读.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "maps-k02",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第一节 地图的阅读",
+    "knowledgePoint": "地图定向方法",
+    "prompt": "常见地图判断方向的三种基本方法是什么？",
+    "answer": "一般定向法、指向标定向法和经纬网定向法。",
+    "explanation": "普通地图、带指向标地图和经纬网地图的定向依据不同。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地图的阅读.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "maps-k03",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第一节 地图的阅读",
+    "knowledgePoint": "一般定向法",
+    "prompt": "在没有指向标和经纬网的地图上，方向怎样判断？",
+    "answer": "通常按照上北下南、左西右东判断。",
+    "explanation": "这是最常见也最基础的定向方法。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地图的阅读.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "maps-k04",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第一节 地图的阅读",
+    "knowledgePoint": "指向标定向法",
+    "prompt": "有指向标的地图上怎样判断方向？",
+    "answer": "指向标箭头通常指向北方，再据此判断其他方向。",
+    "explanation": "看到指向标时，不能再直接套用上北下南。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地图的阅读.pptx",
+      "slide": 6,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "maps-k05",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第一节 地图的阅读",
+    "knowledgePoint": "经纬网定向法",
+    "prompt": "在经纬网地图上，经线和纬线分别指示什么方向？",
+    "answer": "经线指示南北方向，纬线指示东西方向。",
+    "explanation": "经纬网定向的核心就是先分清经线和纬线各自表示的方向。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地图的阅读.pptx",
+      "slide": 6,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "maps-k06",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第一节 地图的阅读",
+    "knowledgePoint": "同一经线方向",
+    "prompt": "位于同一条经线上的两点，方向关系有什么特点？",
+    "answer": "只有南北之分，没有东西之别。",
+    "explanation": "这是经纬网判向题的高频设问。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地图的阅读.pptx",
+      "slide": 7,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "maps-k07",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第一节 地图的阅读",
+    "knowledgePoint": "极地定向口诀",
+    "prompt": "极地俯视图中常用什么口诀判断转向和方位？",
+    "answer": "常用“北逆南顺”来判断。",
+    "explanation": "从北极上空看呈逆时针，从南极上空看呈顺时针。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地图的阅读.pptx",
+      "slide": 28,
+      "note": "素养提升"
+    }
+  },
+  {
+    "id": "maps-k08",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第一节 地图的阅读",
+    "knowledgePoint": "比例尺公式",
+    "prompt": "比例尺如何表示图上距离与实地距离的关系？",
+    "answer": "比例尺等于图上距离比实地距离。",
+    "explanation": "解比例尺计算题时，关键是先统一单位。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地图的阅读.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "maps-k09",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第一节 地图的阅读",
+    "knowledgePoint": "比例尺表示方式",
+    "prompt": "比例尺常见的三种表示方式是什么？",
+    "answer": "文字式、数字式和线段式。",
+    "explanation": "同一幅地图的三种比例尺本质相同，只是表达形式不同。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地图的阅读.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "maps-k10",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第一节 地图的阅读",
+    "knowledgePoint": "比例尺大小规律",
+    "prompt": "比例尺的分母大小与比例尺大小有什么关系？",
+    "answer": "分母越大，比例尺越小；分母越小，比例尺越大。",
+    "explanation": "判断比例尺大小时，不要被分母数值“越大越大”误导。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地图的阅读.pptx",
+      "slide": 9,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "maps-k11",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第一节 地图的阅读",
+    "knowledgePoint": "比例尺与范围详略",
+    "prompt": "在图幅相同的条件下，比例尺大小与表示范围、内容详略有什么关系？",
+    "answer": "比例尺越大，表示范围越小，内容越详细；比例尺越小，表示范围越大，内容越简略。",
+    "explanation": "这是选图题和排序题的核心规律。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地图的阅读.pptx",
+      "slide": 9,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "maps-k12",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第二节 地形图的判读",
+    "knowledgePoint": "海拔",
+    "prompt": "什么是海拔？",
+    "answer": "地面某个地点高出海平面的垂直距离叫海拔。",
+    "explanation": "海拔的参照面是海平面。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　地形图的判读.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "maps-k13",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第二节 地形图的判读",
+    "knowledgePoint": "相对高度",
+    "prompt": "什么是相对高度？",
+    "answer": "某个地点高出另一地点的垂直距离叫相对高度。",
+    "explanation": "相对高度强调两地之间的高差，不是对海平面的高度。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　地形图的判读.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "maps-k14",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第二节 地形图的判读",
+    "knowledgePoint": "等高线定义",
+    "prompt": "什么是等高线？",
+    "answer": "把海拔相同的各点连接成线，就是等高线。",
+    "explanation": "等高线是山地地形判读的基本工具。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　地形图的判读.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "maps-k15",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第二节 地形图的判读",
+    "knowledgePoint": "坡度判读",
+    "prompt": "在等高线地形图上，怎样根据疏密判断坡度？",
+    "answer": "等高线密集表示坡陡，等高线稀疏表示坡缓。",
+    "explanation": "同一幅图上，疏密直接反映坡度变化。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　地形图的判读.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "maps-k16",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第二节 地形图的判读",
+    "knowledgePoint": "山顶判读",
+    "prompt": "等高线图中的山顶一般有什么特征？",
+    "answer": "山顶通常表现为闭合等高线，且海拔由外向内升高。",
+    "explanation": "封闭且数值向中心增大，是山峰的典型特征。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　地形图的判读.pptx",
+      "slide": 11,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "maps-k17",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第二节 地形图的判读",
+    "knowledgePoint": "山脊与山谷",
+    "prompt": "山脊和山谷在等高线弯曲方向上怎样区分？",
+    "answer": "山脊处等高线向低处凸，山谷处等高线向高处凸。",
+    "explanation": "记住“脊凸低、谷凸高”可以快速判别地形部位。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　地形图的判读.pptx",
+      "slide": 12,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "maps-k18",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第二节 地形图的判读",
+    "knowledgePoint": "鞍部",
+    "prompt": "鞍部在山地中通常位于哪里？",
+    "answer": "鞍部通常位于相邻两个山顶之间较低的部位。",
+    "explanation": "鞍部常出现在两山峰之间，是地形图综合题高频考点。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　地形图的判读.pptx",
+      "slide": 13,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "maps-k19",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第二节 地形图的判读",
+    "knowledgePoint": "陡崖",
+    "prompt": "陡崖在等高线图上有什么典型特征？",
+    "answer": "陡崖处等高线重合或十分密集。",
+    "explanation": "攀岩、瀑布、落差大的题目常与陡崖对应。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　地形图的判读.pptx",
+      "slide": 13,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "maps-k20",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第二节 地形图的判读",
+    "knowledgePoint": "等深线",
+    "prompt": "什么是等深线？",
+    "answer": "把海洋或湖泊中深度相同的各点连接成线，就是等深线。",
+    "explanation": "等深线与等高线原理相似，只是用于表示水域深度。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　地形图的判读.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "maps-k21",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第二节 地形图的判读",
+    "knowledgePoint": "分层设色地形图",
+    "prompt": "分层设色地形图有什么作用？",
+    "answer": "它用不同颜色表示不同高低的地形，便于直观了解地表高低起伏。",
+    "explanation": "与纯等高线图相比，分层设色地形图更便于整体观察地势。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　地形图的判读.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "maps-k22",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第三节 地图的选择和应用",
+    "knowledgePoint": "按用途选图",
+    "prompt": "根据使用目的，常见地图应怎样选择？",
+    "answer": "了解行政区划看政区图，查河湖分布看河流湖泊图，出行看交通图，了解国际时事地点看世界国家和地区图。",
+    "explanation": "选图的关键是让地图内容与使用目的匹配。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第三节　地图的选择和应用.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "maps-k23",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第三节 地图的选择和应用",
+    "knowledgePoint": "按比例尺选图",
+    "prompt": "游览北京、了解北京市区、游览天安门广场时，为什么要选择不同大小的比例尺地图？",
+    "answer": "因为位置定位适合小比例尺图，了解市区和景点细节则需要更大比例尺的地图。",
+    "explanation": "选图时既要看主题，也要看比例尺能否满足信息详略需求。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第三节　地图的选择和应用.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "maps-k24",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第三节 地图的选择和应用",
+    "knowledgePoint": "数字地图应用",
+    "prompt": "数字地图和卫星导航系统给人们生活带来哪些主要便利？",
+    "answer": "可以查找站点、景点、店铺位置，并实现实时路线规划与导航。",
+    "explanation": "数字地图已经成为日常出行和查询信息的重要工具。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第三节　地图的选择和应用.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "maps-k25",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第三节 地图的选择和应用",
+    "knowledgePoint": "数字地图拓展用途",
+    "prompt": "数字地图除日常出行外，还广泛应用于哪些领域？",
+    "answer": "还广泛应用于城市管理、资源调查和灾害监测等领域。",
+    "explanation": "教材强调数字地图不仅方便生活，也服务管理与决策。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第三节　地图的选择和应用.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  }
+]

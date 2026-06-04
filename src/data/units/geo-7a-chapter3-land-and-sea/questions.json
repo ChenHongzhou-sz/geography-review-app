@@ -1,0 +1,1209 @@
+[
+  {
+    "id": "landsea-q01",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "北美洲半球位置",
+    "prompt": "下列大洲中，既位于北半球又位于西半球的是（　　）",
+    "answer": "北美洲",
+    "explanation": "北美洲大部分位于北半球和西半球。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 18,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "非洲",
+      "南极洲",
+      "北美洲",
+      "欧洲"
+    ],
+    "correctOption": "北美洲"
+  },
+  {
+    "id": "landsea-q02",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "大洲识别",
+    "prompt": "图中数字对应的大洲名称正确的是（　　）",
+    "answer": "①——亚洲",
+    "explanation": "①对应位于东半球东北部的亚洲。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 19,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "①——亚洲",
+      "②——非洲",
+      "③——南极洲",
+      "④——欧洲"
+    ],
+    "correctOption": "①——亚洲"
+  },
+  {
+    "id": "landsea-q03",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "海上航线大洋顺序",
+    "prompt": "货轮从巴西航行到我国，途经的大洋依次是（　　）",
+    "answer": "大西洋、印度洋、太平洋",
+    "explanation": "巴西东临大西洋，我国南部海域连印度洋，东部濒临太平洋。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 21,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "太平洋、印度洋、大西洋",
+      "北冰洋、太平洋、印度洋",
+      "印度洋、大西洋、太平洋",
+      "大西洋、印度洋、太平洋"
+    ],
+    "correctOption": "大西洋、印度洋、太平洋"
+  },
+  {
+    "id": "landsea-q04",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "洲界判断",
+    "prompt": "下列关于世界大洲分界线的叙述，正确的是（　　）",
+    "answer": "亚洲和北美洲的分界线是白令海峡",
+    "explanation": "白令海峡是亚洲和北美洲的分界线。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 22,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "南美洲和北美洲的分界线是苏伊士运河",
+      "亚洲和非洲的分界线是巴拿马运河",
+      "非洲和欧洲的分界线是土耳其海峡",
+      "亚洲和北美洲的分界线是白令海峡"
+    ],
+    "correctOption": "亚洲和北美洲的分界线是白令海峡"
+  },
+  {
+    "id": "landsea-q05",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "海陆分布特点",
+    "prompt": "下列关于海陆分布的叙述，正确的是（　　）",
+    "answer": "七分海洋，三分陆地",
+    "explanation": "地球表面海洋面积始终大于陆地面积。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 24,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "陆地主要集中在南半球",
+      "北半球的陆地面积大于海洋面积",
+      "七分海洋，三分陆地",
+      "全球海洋面积约占29%，陆地面积约占71%"
+    ],
+    "correctOption": "七分海洋，三分陆地"
+  },
+  {
+    "id": "landsea-q06",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "任意半球海陆大小",
+    "prompt": "关于东西半球海陆面积的关系，正确的是（　　）",
+    "answer": "东西半球海洋的面积均大于陆地",
+    "explanation": "无论怎样分半球，海洋面积都大于陆地面积。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 25,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "北半球陆地面积大于海洋面积",
+      "西半球陆地面积大于海洋面积",
+      "东半球陆地面积大于海洋面积",
+      "东西半球海洋的面积均大于陆地"
+    ],
+    "correctOption": "东西半球海洋的面积均大于陆地"
+  },
+  {
+    "id": "landsea-q07",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "北冰洋周边大洲",
+    "prompt": "北冰洋被哪三个大洲环绕？",
+    "answer": "亚洲、欧洲、北美洲",
+    "explanation": "北冰洋位于亚洲、欧洲和北美洲之间。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 27,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "亚洲、欧洲、南极洲",
+      "亚洲、非洲、大洋洲",
+      "北美洲、大洋洲、南美洲",
+      "亚洲、欧洲、北美洲"
+    ],
+    "correctOption": "亚洲、欧洲、北美洲"
+  },
+  {
+    "id": "landsea-q08",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "全部位于北半球的大洲",
+    "prompt": "全部位于北半球的大洲是（　　）",
+    "answer": "欧洲、北美洲",
+    "explanation": "欧洲和北美洲都没有被赤道穿过。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 28,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "欧洲、北美洲",
+      "欧洲、亚洲",
+      "非洲、南美洲",
+      "亚洲、大洋洲"
+    ],
+    "correctOption": "欧洲、北美洲"
+  },
+  {
+    "id": "landsea-q09",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "陆地相对集中半球",
+    "prompt": "从图中可以看出，陆地相对集中在（　　）",
+    "answer": "北半球和东半球",
+    "explanation": "这是教材总结海陆分布特点的重要结论。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 29,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "北半球和西半球",
+      "南半球和东半球",
+      "北半球和东半球",
+      "南半球和西半球"
+    ],
+    "correctOption": "北半球和东半球"
+  },
+  {
+    "id": "landsea-q10",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "海峡半岛大陆岛屿",
+    "prompt": "图中甲、乙、丙、丁分别表示（　　）",
+    "answer": "海峡、半岛、大陆、岛屿",
+    "explanation": "甲是莫桑比克海峡，乙是印度半岛，丙是非洲大陆，丁是马达加斯加岛。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 30,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "海峡、岛屿、大陆、半岛",
+      "海洋、大陆、岛屿、半岛",
+      "海洋、半岛、岛屿、大陆",
+      "海峡、半岛、大陆、岛屿"
+    ],
+    "correctOption": "海峡、半岛、大陆、岛屿"
+  },
+  {
+    "id": "landsea-q11",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "世界第二大洲",
+    "prompt": "关于图中四个大洲的表述，正确的是（　　）",
+    "answer": "④大洲是世界第二大洲",
+    "explanation": "图中的④是非洲，非洲是世界第二大洲。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 32,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "④大洲是世界第二大洲",
+      "③是跨经度最广的大洲",
+      "②是面积最小的大洲",
+      "①大洲和③大洲的分界线是苏伊士运河"
+    ],
+    "correctOption": "④大洲是世界第二大洲"
+  },
+  {
+    "id": "landsea-q12",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "环球旅行顺序",
+    "prompt": "从亚洲出发，按地球自转方向大致沿30°N环球旅行，依次经过的大洲和大洋是（　　）",
+    "answer": "太平洋、北美洲、大西洋、非洲、亚洲",
+    "explanation": "沿30°N自西向东大致会依次经过太平洋、北美洲、大西洋、非洲，再回到亚洲。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 35,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "太平洋、大西洋、北美洲、印度洋、亚洲",
+      "太平洋、北美洲、大西洋、非洲、亚洲",
+      "非洲、大西洋、北美洲、太平洋、亚洲",
+      "印度洋、非洲、大西洋、太平洋、亚洲"
+    ],
+    "correctOption": "太平洋、北美洲、大西洋、非洲、亚洲"
+  },
+  {
+    "id": "landsea-q13",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "一笔画世界",
+    "prompt": "读“一笔画世界”示意图回答：佳佳从哪个大洲起笔？该洲西侧是什么洋？作品中遗漏了哪个大洲？图示大洲中大部分位于热带的是哪一洲？",
+    "answer": "佳佳从欧洲起笔，该洲西侧是大西洋；作品中遗漏了大洋洲；图示大洲中大部分位于热带的是非洲。",
+    "explanation": "这道题把大洲轮廓、相对位置和纬度分布放在一张简图里综合考查。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 37,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "landsea-q14",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "盆地特征",
+    "prompt": "下列对陆地基本地形特征的叙述，正确的是（　　）",
+    "answer": "盆地是四周高、中间低的地形",
+    "explanation": "盆地的核心特征是四周高、中间低。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 14,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "地面广阔平坦的一定是平原",
+      "地面连绵起伏的一定是山地",
+      "高原相对高度大，但海拔低",
+      "盆地是四周高、中间低的地形"
+    ],
+    "correctOption": "盆地是四周高、中间低的地形"
+  },
+  {
+    "id": "landsea-q15",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "大地骨架",
+    "prompt": "被称为“大地的骨架”的地形是（　　）",
+    "answer": "山地",
+    "explanation": "山地常作为地形骨架，其他地形镶嵌其中。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 15,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "丘陵",
+      "盆地",
+      "高原",
+      "山地"
+    ],
+    "correctOption": "山地"
+  },
+  {
+    "id": "landsea-q16",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "海底地形识别",
+    "prompt": "某海域海底地形示意图中，甲、乙、丙、丁四处地形依次是（　　）",
+    "answer": "大陆架、大陆坡、海沟、洋中脊",
+    "explanation": "由近岸向外海依次可识别为大陆架、大陆坡、海沟、洋中脊。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 16,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "大陆架、大陆坡、海沟、洋中脊",
+      "大陆架、大陆坡、洋盆、洋中脊",
+      "大陆坡、大陆架、海沟、洋中脊",
+      "大陆坡、大陆架、洋盆、洋中脊"
+    ],
+    "correctOption": "大陆架、大陆坡、海沟、洋中脊"
+  },
+  {
+    "id": "landsea-q17",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "丘陵描述错误",
+    "prompt": "下列有关陆地表面地形类型的描述，错误的是（　　）",
+    "answer": "丘陵海拔在500米以上，相对高度较大",
+    "explanation": "丘陵海拔一般在500米以下，因此该说法错误。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 18,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "平原海拔一般在200米以下，宽广平坦；盆地四周高，中间低",
+      "山地海拔在500米以上，具有耸立的山峰、陡峭的山坡",
+      "高原海拔在500米以上，面积较大，外围较陡，内部起伏较为和缓",
+      "丘陵海拔在500米以上，相对高度较大"
+    ],
+    "correctOption": "丘陵海拔在500米以上，相对高度较大"
+  },
+  {
+    "id": "landsea-q18",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "海牛Ⅱ号深度",
+    "prompt": "“海牛Ⅱ号”在距海面2000米的海底又钻深231米，则钻机深度距离海平面约为（　　）",
+    "answer": "2231米",
+    "explanation": "海底深度与钻入地层深度相加即可。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 19,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "2000米",
+      "2231米",
+      "231米",
+      "11034米"
+    ],
+    "correctOption": "2231米"
+  },
+  {
+    "id": "landsea-q19",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "山地和丘陵共同点",
+    "prompt": "山地和丘陵的共同点是（　　）",
+    "answer": "地面崎岖不平",
+    "explanation": "两者都表现为地表起伏明显。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 21,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "相对高度小",
+      "地面起伏小",
+      "地面崎岖不平",
+      "多被高原环绕"
+    ],
+    "correctOption": "地面崎岖不平"
+  },
+  {
+    "id": "landsea-q20",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "四地地形判断",
+    "prompt": "图中①②③④四处的地形类型依次是（　　）",
+    "answer": "高原、山地、丘陵、平原",
+    "explanation": "根据海拔和起伏状况依次判断即可。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 22,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "高原、山地、丘陵、盆地",
+      "山地、高原、平原、丘陵",
+      "高原、山地、丘陵、平原",
+      "丘陵、山地、高原、平原"
+    ],
+    "correctOption": "高原、山地、丘陵、平原"
+  },
+  {
+    "id": "landsea-q21",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "山地判断",
+    "prompt": "“海拔一般在500米以上，坡度较陡，沟谷较深”的地形是（　　）",
+    "answer": "山地",
+    "explanation": "这是山地的标准描述。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 24,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "山地",
+      "平原",
+      "高原",
+      "丘陵"
+    ],
+    "correctOption": "山地"
+  },
+  {
+    "id": "landsea-q22",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "海沟识别",
+    "prompt": "“奋斗者”号成功坐底的海底地形在图中对应的序号是（　　）",
+    "answer": "d",
+    "explanation": "马里亚纳海沟对应海洋最深处，因此应选表示海沟的位置。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 26,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "correctOption": "d"
+  },
+  {
+    "id": "landsea-q23",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "大洲地形以平原为主",
+    "prompt": "某大洲不同海拔陆地面积所占比重示意图中，若200米以下面积占大部分，则该洲主要地形类型是（　　）",
+    "answer": "平原",
+    "explanation": "平原海拔一般在200米以下。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 27,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "高原",
+      "山地",
+      "丘陵",
+      "平原"
+    ],
+    "correctOption": "平原"
+  },
+  {
+    "id": "landsea-q24",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "丘陵海拔范围",
+    "prompt": "海拔一般在200～500米、地面起伏较为和缓的陆地地形是（　　）",
+    "answer": "丘陵",
+    "explanation": "丘陵介于山地和平原之间。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 28,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "高原",
+      "平原",
+      "丘陵",
+      "山地"
+    ],
+    "correctOption": "丘陵"
+  },
+  {
+    "id": "landsea-q25",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "台湾地形剖面",
+    "prompt": "读台湾省沿北回归线地形剖面示意图，回答：台湾省地跨哪两个温度带？一年中有无太阳直射现象？地形以什么为主？向西可看到什么水域，向东面向什么大洋？",
+    "answer": "台湾省地跨热带和北温带，一年中有太阳直射现象；地形以山地为主，平原面积狭小；向西可看到台湾海峡，向东可眺望太平洋。",
+    "explanation": "这道题综合了五带、地形和海陆位置知识。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 29,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "landsea-q26",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "化石说明",
+    "prompt": "在西藏发现鱼龙化石，说明该地（　　）",
+    "answer": "此地曾经是一片汪洋",
+    "explanation": "在高山地区发现海洋生物化石，说明这里曾是海洋。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 专题练习四　海陆的变迁.pptx",
+      "slide": 2,
+      "note": "专题练习第1题"
+    },
+    "options": [
+      "人类把鱼龙化石带到陆地",
+      "此地曾经是一片汪洋",
+      "鱼龙曾经生活在陆地",
+      "海平面上升淹没此地"
+    ],
+    "correctOption": "此地曾经是一片汪洋"
+  },
+  {
+    "id": "landsea-q27",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "沧海桑田",
+    "prompt": "能反映海陆变迁现象的词语是（　　）",
+    "answer": "沧海桑田",
+    "explanation": "“沧海桑田”原意就是海陆变迁。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 专题练习四　海陆的变迁.pptx",
+      "slide": 3,
+      "note": "专题练习第2题"
+    },
+    "options": [
+      "斗转星移",
+      "精卫填海",
+      "沧海桑田",
+      "刻舟求剑"
+    ],
+    "correctOption": "沧海桑田"
+  },
+  {
+    "id": "landsea-q28",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "海陆变迁根本原因",
+    "prompt": "造成西藏鱼龙化石所反映地理现象的根本原因是（　　）",
+    "answer": "地壳运动",
+    "explanation": "海洋变陆地最根本的内力原因是地壳运动。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 专题练习四　海陆的变迁.pptx",
+      "slide": 4,
+      "note": "专题练习第3题"
+    },
+    "options": [
+      "地壳运动",
+      "流水侵蚀",
+      "季节变化",
+      "风力堆积"
+    ],
+    "correctOption": "地壳运动"
+  },
+  {
+    "id": "landsea-q29",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "土耳其地震原因",
+    "prompt": "土耳其地震多发的主要原因是该国位于（　　）",
+    "answer": "亚欧板块、非洲板块和印度洋板块交界处",
+    "explanation": "土耳其位于多板块交界处，因此地壳活跃。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 专题练习四　海陆的变迁.pptx",
+      "slide": 6,
+      "note": "专题练习第4题"
+    },
+    "options": [
+      "亚欧板块内部",
+      "亚欧板块与非洲板块交界处",
+      "亚欧板块、非洲板块与印度洋板块交界处",
+      "亚欧板块与印度洋板块交界处"
+    ],
+    "correctOption": "亚欧板块、非洲板块与印度洋板块交界处"
+  },
+  {
+    "id": "landsea-q30",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "印尼震中附近岛屿",
+    "prompt": "位于(6.3°S，111.20°E)附近的震中最接近（　　）",
+    "answer": "爪哇岛",
+    "explanation": "根据经纬度位置可判断震中最接近爪哇岛。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 专题练习四　海陆的变迁.pptx",
+      "slide": 9,
+      "note": "专题练习第6题"
+    },
+    "options": [
+      "苏门答腊岛",
+      "爪哇岛",
+      "苏拉威西岛",
+      "加里曼丹岛"
+    ],
+    "correctOption": "爪哇岛"
+  },
+  {
+    "id": "landsea-q31",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "印尼地震板块原因",
+    "prompt": "该地区地震频发，是因为位于（　　）",
+    "answer": "亚欧板块与印度洋板块交界处",
+    "explanation": "印度尼西亚多火山地震，重要原因就是位于板块交界处。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 专题练习四　海陆的变迁.pptx",
+      "slide": 10,
+      "note": "专题练习第7题"
+    },
+    "options": [
+      "太平洋板块与印度洋板块交界处",
+      "非洲板块与印度洋板块交界处",
+      "亚欧板块与印度洋板块交界处",
+      "亚欧板块与太平洋板块交界处"
+    ],
+    "correctOption": "亚欧板块与印度洋板块交界处"
+  },
+  {
+    "id": "landsea-q32",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "板块生长边界",
+    "prompt": "下列地区为板块生长边界的是（　　）",
+    "answer": "红海",
+    "explanation": "板块张裂形成的生长边界典型代表是红海。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 专题练习四　海陆的变迁.pptx",
+      "slide": 12,
+      "note": "专题练习第8题"
+    },
+    "options": [
+      "地中海",
+      "红海",
+      "安第斯山区",
+      "喜马拉雅山区"
+    ],
+    "correctOption": "红海"
+  },
+  {
+    "id": "landsea-q33",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "未被赤道穿过的板块",
+    "prompt": "没有被赤道穿过的板块是（　　）",
+    "answer": "南极洲板块",
+    "explanation": "赤道不经过南极洲板块。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 专题练习四　海陆的变迁.pptx",
+      "slide": 13,
+      "note": "专题练习第9题"
+    },
+    "options": [
+      "印度洋板块",
+      "亚欧板块",
+      "太平洋板块",
+      "南极洲板块"
+    ],
+    "correctOption": "南极洲板块"
+  },
+  {
+    "id": "landsea-q34",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "不能说明海陆变迁",
+    "prompt": "下列实例中，不能说明海陆变迁的是（　　）",
+    "answer": "飓风“丽塔”在美国南部沿海登陆，引起洪涝灾害",
+    "explanation": "暴风雨引发洪涝是短时天气灾害，不属于海陆变迁。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 章末总结.pptx",
+      "slide": 16,
+      "note": "章末作业第10题"
+    },
+    "options": [
+      "台湾海峡的底部有古代森林的遗迹",
+      "喜马拉雅山山顶上有海螺、海藻等海洋生物的化石",
+      "飓风“丽塔”在美国南部沿海登陆，引起洪涝灾害",
+      "在我国东部海域的海底发现了古河道和古森林的遗迹"
+    ],
+    "correctOption": "飓风“丽塔”在美国南部沿海登陆，引起洪涝灾害"
+  },
+  {
+    "id": "landsea-q35",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "美国西部地震活跃",
+    "prompt": "美国本土西部地壳运动比较活跃，是因为其地处（　　）",
+    "answer": "美洲板块与太平洋板块交界地带",
+    "explanation": "板块交界处地壳活跃，火山地震多。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第三节　海陆的变迁.pptx",
+      "slide": 23,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "美洲板块与太平洋板块交界地带",
+      "亚欧板块与太平洋板块交界地带",
+      "美洲板块与亚欧板块交界地带",
+      "非洲板块与南极洲板块交界地带"
+    ],
+    "correctOption": "美洲板块与太平洋板块交界地带"
+  },
+  {
+    "id": "landsea-q36",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "堪察加火山原因",
+    "prompt": "堪察加半岛火山活动频繁，主要因为受到（　　）",
+    "answer": "太平洋板块挤压的影响",
+    "explanation": "堪察加半岛位于亚欧板块与太平洋板块交界地带。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第三节　海陆的变迁.pptx",
+      "slide": 26,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "美洲板块张裂的影响",
+      "印度洋板块张裂的影响",
+      "太平洋板块挤压的影响",
+      "非洲板块挤压的影响"
+    ],
+    "correctOption": "太平洋板块挤压的影响"
+  },
+  {
+    "id": "landsea-q37",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "板块构造错误说法",
+    "prompt": "下列有关板块构造学说的表述，不正确的是（　　）",
+    "answer": "板块始终固定不变",
+    "explanation": "板块是在不断运动的，“固定不变”是错误说法。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第三节　海陆的变迁.pptx",
+      "slide": 30,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "在板块的交界处，两个板块发生张裂，常常形成裂谷或海洋",
+      "全球大致划分为六大板块和若干小板块，板块始终固定不变",
+      "一般来说，板块内部地壳比较稳定；板块与板块交界地带，地壳比较活跃",
+      "红海在不断扩张，几千万年后可能成为新的大洋"
+    ],
+    "correctOption": "全球大致划分为六大板块和若干小板块，板块始终固定不变"
+  },
+  {
+    "id": "landsea-q38",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "防震错误做法",
+    "prompt": "下列防震短信中不可相信的是（　　）",
+    "answer": "在街上，应迅速躲在电线杆下",
+    "explanation": "地震时应远离电线杆、广告牌等易倒塌物。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第三节　海陆的变迁.pptx",
+      "slide": 31,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "在家中，应在厕所躲避",
+      "在教室用书包护住头部，躲在课桌底下",
+      "地震时，千万不要乘坐电梯下楼",
+      "在街上，应迅速躲在电线杆下"
+    ],
+    "correctOption": "在街上，应迅速躲在电线杆下"
+  },
+  {
+    "id": "landsea-q39",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "章末总结",
+    "knowledgePoint": "陆地海洋面积之比",
+    "prompt": "运用图中数据可以算出地球上陆地与海洋的面积之比是（　　）",
+    "answer": "29∶71",
+    "explanation": "地球表面海陆面积比约为29∶71。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 章末总结.pptx",
+      "slide": 6,
+      "note": "章末作业第1题"
+    },
+    "options": [
+      "39∶61",
+      "20∶80",
+      "29∶71",
+      "30∶70"
+    ],
+    "correctOption": "29∶71"
+  },
+  {
+    "id": "landsea-q40",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "章末总结",
+    "knowledgePoint": "亚洲与非洲分界线",
+    "prompt": "亚洲和非洲的分界线是（　　）",
+    "answer": "苏伊士运河",
+    "explanation": "苏伊士运河是亚非两洲分界线。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 章末总结.pptx",
+      "slide": 10,
+      "note": "章末作业第4题"
+    },
+    "options": [
+      "白令海峡",
+      "巴拿马运河",
+      "苏伊士运河",
+      "土耳其海峡"
+    ],
+    "correctOption": "苏伊士运河"
+  },
+  {
+    "id": "landsea-q41",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "章末总结",
+    "knowledgePoint": "世界著名滑雪场分布",
+    "prompt": "世界著名滑雪场集中分布在（　　）",
+    "answer": "北美洲、欧洲",
+    "explanation": "中高纬度、山地较多的北美洲和欧洲滑雪场分布最集中。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 章末总结.pptx",
+      "slide": 18,
+      "note": "章末作业第11题"
+    },
+    "options": [
+      "亚洲、大洋洲",
+      "北美洲、欧洲",
+      "南美洲、非洲",
+      "南极洲、欧洲"
+    ],
+    "correctOption": "北美洲、欧洲"
+  },
+  {
+    "id": "landsea-q42",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "章末总结",
+    "knowledgePoint": "地震与雪崩风险地",
+    "prompt": "图中甲、乙、丙、丁四处滑雪场中，易受地震影响并可能引发雪崩的是（　　）",
+    "answer": "丁",
+    "explanation": "丁处位于板块活动较强、山地积雪较多的地区，风险更高。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 章末总结.pptx",
+      "slide": 18,
+      "note": "章末作业第12题"
+    },
+    "options": [
+      "甲",
+      "乙",
+      "丙",
+      "丁"
+    ],
+    "correctOption": "丁"
+  },
+  {
+    "id": "landsea-q43",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "章末总结",
+    "knowledgePoint": "洲际地形描述",
+    "prompt": "下列关于大洲地形的描述，正确的是（　　）",
+    "answer": "南美洲西部是高大的山脉，东部平原与高原相间分布",
+    "explanation": "南美洲的典型地形结构就是“西部山地、东部高原平原相间”。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 章末总结.pptx",
+      "slide": 22,
+      "note": "章末作业第15题"
+    },
+    "options": [
+      "亚洲分为三大南北纵列带，地势东西高，中部低",
+      "北美洲的地形以高原为主，地势东南高，西北低",
+      "南美洲西部是高大的山脉，东部平原与高原相间分布",
+      "非洲的地形以平原为主且是平均海拔最低的大洲"
+    ],
+    "correctOption": "南美洲西部是高大的山脉，东部平原与高原相间分布"
+  },
+  {
+    "id": "landsea-q44",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "章末总结",
+    "knowledgePoint": "海陆分布综合",
+    "prompt": "读章末非选择题第16题，回答：面积较大的是陆地还是海洋？陆地主要集中在哪两个半球？完全位于南半球的大洲和完全位于北半球的大洋分别是什么？被赤道穿过的两个大陆是什么？",
+    "answer": "面积较大的是海洋；陆地主要集中在北半球和东半球；完全位于南半球的大洲是南极洲，完全位于北半球的大洋是北冰洋；被赤道穿过的两个大陆是非洲大陆和南美大陆。",
+    "explanation": "这道题把海陆比例、半球分布、大洲大洋和赤道穿越大陆知识串联了起来。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 章末总结.pptx",
+      "slide": 24,
+      "note": "非选择题第16题"
+    }
+  },
+  {
+    "id": "landsea-q45",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "章末总结",
+    "knowledgePoint": "板块构造综合",
+    "prompt": "读章末非选择题第17题，回答：①②③分别是什么板块？几乎全部被海洋覆盖的是哪一板块？A地地壳活跃的主要原因是什么？",
+    "answer": "①是亚欧板块，②是非洲板块，③是印度洋板块；几乎全部被海洋覆盖的是⑤太平洋板块；A地地壳活跃是因为它位于亚欧板块与太平洋板块交界地带。",
+    "explanation": "板块名称、特殊板块和交界带活动性是板块图综合题的核心。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 章末总结.pptx",
+      "slide": 25,
+      "note": "非选择题第17题"
+    }
+  },
+  {
+    "id": "landsea-q46",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "章末总结",
+    "knowledgePoint": "防震减灾措施",
+    "prompt": "结合章末材料，概括两条防震减灾措施和我国地震常伴生滑坡、泥石流等次生灾害的原因。",
+    "answer": "防震减灾可采用较轻的建筑材料、开展防震演习等；我国地震常伴生滑坡、泥石流，是因为山地多、地势起伏大、降水较多，加上地震使土层松动。",
+    "explanation": "开放题作答时，一般要分别从工程措施和应急教育两方面回答。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 章末总结.pptx",
+      "slide": 29,
+      "note": "非选择题第18题"
+    }
+  }
+]

@@ -1,0 +1,1046 @@
+[
+  {
+    "id": "maps-q01",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第一节 地图的阅读",
+    "knowledgePoint": "地图三要素",
+    "prompt": "地图的基本要素是（　　）",
+    "answer": "比例尺、方向、图例",
+    "explanation": "地图阅读的起点就是先看比例尺、方向和图例是否齐全。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地图的阅读.pptx",
+      "slide": 13,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "比例尺、方向、图例",
+      "经纬线、图名、图例",
+      "比例尺、海拔、图例",
+      "方向、河流、道路"
+    ],
+    "correctOption": "比例尺、方向、图例"
+  },
+  {
+    "id": "maps-q02",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第一节 地图的阅读",
+    "knowledgePoint": "同一经线方向",
+    "prompt": "在经纬网地图上，位于同一条经线上的两点之间只有（　　）",
+    "answer": "南北之分",
+    "explanation": "经线表示南北方向，因此同一经线上的两点只有南北之分。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地图的阅读.pptx",
+      "slide": 18,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "南北之分",
+      "东西之分",
+      "东北与西南之分",
+      "西北与东南之分"
+    ],
+    "correctOption": "南北之分"
+  },
+  {
+    "id": "maps-q03",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第一节 地图的阅读",
+    "knowledgePoint": "北极方向",
+    "prompt": "站在北极点上，四周的方向都是（　　）",
+    "answer": "南方",
+    "explanation": "北极点是地球最北端，从该点向任何方向前进都是向南。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地图的阅读.pptx",
+      "slide": 19,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "北方",
+      "南方",
+      "东方",
+      "西方"
+    ],
+    "correctOption": "南方"
+  },
+  {
+    "id": "maps-q04",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第一节 地图的阅读",
+    "knowledgePoint": "比例尺与内容详略",
+    "prompt": "与中国地图相比，福建省地图的主要特点是（　　）",
+    "answer": "比例尺更大，内容更详细",
+    "explanation": "同样图幅下，表示范围越小的地图，比例尺越大，内容越详细。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地图的阅读.pptx",
+      "slide": 22,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "比例尺更小，内容更详细",
+      "比例尺更大，内容更详细",
+      "比例尺更大，内容更简略",
+      "比例尺相同，内容更详细"
+    ],
+    "correctOption": "比例尺更大，内容更详细"
+  },
+  {
+    "id": "maps-q05",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第一节 地图的阅读",
+    "knowledgePoint": "一般定向法",
+    "prompt": "在校园平面图上，若没有指向标和经纬网，运动场位于教学楼的（　　）",
+    "answer": "正南",
+    "explanation": "普通平面图默认上北下南、左西右东。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地图的阅读.pptx",
+      "slide": 24,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "正北",
+      "正南",
+      "正东",
+      "正西"
+    ],
+    "correctOption": "正南"
+  },
+  {
+    "id": "maps-q06",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第一节 地图的阅读",
+    "knowledgePoint": "比例尺计算",
+    "prompt": "某图中1厘米代表实地50米，则图上宽1厘米的绿地实际宽度是（　　）",
+    "answer": "50米",
+    "explanation": "按照题意直接把图上1厘米换算成实地50米即可。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地图的阅读.pptx",
+      "slide": 25,
+      "note": "基础巩固第6题"
+    },
+    "options": [
+      "5米",
+      "50米",
+      "500米",
+      "5千米"
+    ],
+    "correctOption": "50米"
+  },
+  {
+    "id": "maps-q07",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第一节 地图的阅读",
+    "knowledgePoint": "数字式比例尺",
+    "prompt": "若图上20厘米代表实地200千米，则该图的比例尺是（　　）",
+    "answer": "1∶1 000 000",
+    "explanation": "先把200千米化成20 000 000厘米，再写成20∶20 000 000，化简得1∶1 000 000。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地图的阅读.pptx",
+      "slide": 26,
+      "note": "基础巩固第7题"
+    },
+    "options": [
+      "1∶100 000",
+      "1∶1 000 000",
+      "1∶10 000 000",
+      "1∶100"
+    ],
+    "correctOption": "1∶1 000 000"
+  },
+  {
+    "id": "maps-q08",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第一节 地图的阅读",
+    "knowledgePoint": "极地定向",
+    "prompt": "根据课件中的极地地图判向方法，概括北极俯视图和南极俯视图判断东西方向时最关键的口诀。",
+    "answer": "北极俯视图通常按逆时针判断方向，南极俯视图通常按顺时针判断方向，可概括为“北逆南顺”。",
+    "explanation": "极地定向题的关键不是上北下南，而是先判断所处极点，再结合旋转方向判东西。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地图的阅读.pptx",
+      "slide": 28,
+      "note": "素养提升"
+    }
+  },
+  {
+    "id": "maps-q09",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第二节 地形图的判读",
+    "knowledgePoint": "陡崖应用",
+    "prompt": "在等高线地形图中，最适合开发为攀岩比赛场地的是（　　）",
+    "answer": "陡崖所在地",
+    "explanation": "攀岩需要坡陡、落差大，等高线重合或极密集的陡崖最合适。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　地形图的判读.pptx",
+      "slide": 19,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "山谷所在地",
+      "山脊所在地",
+      "陡崖所在地",
+      "鞍部所在地"
+    ],
+    "correctOption": "陡崖所在地"
+  },
+  {
+    "id": "maps-q10",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第二节 地形图的判读",
+    "knowledgePoint": "等高线疏密",
+    "prompt": "关于等高线地形图的叙述，错误的是（　　）",
+    "answer": "等高线稀疏，地面坡度大",
+    "explanation": "等高线越稀疏，说明坡越缓，因此这项说法错误。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　地形图的判读.pptx",
+      "slide": 22,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "等高线密集，地面坡度大",
+      "等高线稀疏，地面坡度小",
+      "等高线闭合处可能是山顶",
+      "等高线稀疏，地面坡度大"
+    ],
+    "correctOption": "等高线稀疏，地面坡度大"
+  },
+  {
+    "id": "maps-q11",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第二节 地形图的判读",
+    "knowledgePoint": "山顶海拔范围",
+    "prompt": "若某山峰外围等高线数值依次升高，图中山峰海拔最有可能是（　　）",
+    "answer": "279米",
+    "explanation": "山顶海拔应高于外层等高线、低于下一条未画出的更高等高线。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　地形图的判读.pptx",
+      "slide": 23,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "199米",
+      "279米",
+      "380米",
+      "500米"
+    ],
+    "correctOption": "279米"
+  },
+  {
+    "id": "maps-q12",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第二节 地形图的判读",
+    "knowledgePoint": "相对高度",
+    "prompt": "图中A、B两地的相对高度是（　　）",
+    "answer": "40米",
+    "explanation": "相对高度等于两地海拔之差。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　地形图的判读.pptx",
+      "slide": 24,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "20米",
+      "40米",
+      "80米",
+      "400米"
+    ],
+    "correctOption": "40米"
+  },
+  {
+    "id": "maps-q13",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第二节 地形图的判读",
+    "knowledgePoint": "登山路线选择",
+    "prompt": "在同一座山上选择徒步登山路线时，通常最省力的是（　　）",
+    "answer": "等高线较稀疏、坡度较缓的路线",
+    "explanation": "等高线越稀疏，坡度越缓，爬山更省力。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案改编训练",
+      "file": "2 第二节　地形图的判读.pptx",
+      "slide": 26,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "穿越陡崖的路线",
+      "等高线较稀疏、坡度较缓的路线",
+      "跨越多条河谷且坡陡的路线",
+      "海拔差最大的路线"
+    ],
+    "correctOption": "等高线较稀疏、坡度较缓的路线"
+  },
+  {
+    "id": "maps-q14",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第二节 地形图的判读",
+    "knowledgePoint": "海拔范围与等高距",
+    "prompt": "根据课件中的等高线图，写出C地可能的海拔范围，并判断该图的等高距。",
+    "answer": "C地海拔可能在400米到500米之间，该图等高距为100米。",
+    "explanation": "判海拔范围时要看该点位于哪两条等高线之间；相邻两条等高线的差就是等高距。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　地形图的判读.pptx",
+      "slide": 27,
+      "note": "基础巩固第6题"
+    }
+  },
+  {
+    "id": "maps-q15",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第二节 地形图的判读",
+    "knowledgePoint": "河流流向",
+    "prompt": "根据章末同类等高线图的判读方法，概括图中小河的大致流向。",
+    "answer": "小河大致由东北流向西南。",
+    "explanation": "河流总是从高处流向低处，结合等高线弯曲方向可以反推流向。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　地形图的判读.pptx",
+      "slide": 28,
+      "note": "能力达标第7题"
+    }
+  },
+  {
+    "id": "maps-q16",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第二节 地形图的判读",
+    "knowledgePoint": "坡度比较",
+    "prompt": "若比较图中两处山坡的陡缓，坡度更缓的是（　　）",
+    "answer": "等高线较稀疏的那一处",
+    "explanation": "坡度大小取决于等高线疏密，等高线越稀疏越平缓。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案改编训练",
+      "file": "2 第二节　地形图的判读.pptx",
+      "slide": 28,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "等高线较密的一处",
+      "等高线较稀疏的一处",
+      "海拔更高的一处",
+      "河流附近的一处"
+    ],
+    "correctOption": "等高线较稀疏的一处"
+  },
+  {
+    "id": "maps-q17",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第二节 地形图的判读",
+    "knowledgePoint": "居民点选址",
+    "prompt": "甲村适合作为居民点发展的位置优势有哪些？",
+    "answer": "甲村地形平坦开阔，且靠近河流，水源较充足。",
+    "explanation": "居民点选址通常要综合考虑地形、供水和交通等条件。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　地形图的判读.pptx",
+      "slide": 29,
+      "note": "能力达标第8题"
+    }
+  },
+  {
+    "id": "maps-q18",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "专题练习三 地形图的判读",
+    "knowledgePoint": "海拔含义",
+    "prompt": "珠穆朗玛峰海拔8848.86米中的“海拔”是指（　　）",
+    "answer": "高出海平面的垂直距离",
+    "explanation": "海拔始终以海平面为统一参照。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 专题练习三　地形图的判读.pptx",
+      "slide": 4,
+      "note": "专题练习第1题"
+    },
+    "options": [
+      "高出海平面的垂直距离",
+      "相对山脚的高度",
+      "相对周围地面的高度",
+      "山体的总落差"
+    ],
+    "correctOption": "高出海平面的垂直距离"
+  },
+  {
+    "id": "maps-q19",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "专题练习三 地形图的判读",
+    "knowledgePoint": "地图内容详略",
+    "prompt": "关于不同地图的说法，正确的是（　　）",
+    "answer": "比例尺大小不同，地图内容详略不同",
+    "explanation": "比例尺越大内容越详细，比例尺越小内容越简略。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 专题练习三　地形图的判读.pptx",
+      "slide": 6,
+      "note": "专题练习第2题"
+    },
+    "options": [
+      "所有地图比例尺都相同",
+      "比例尺大小不同，地图内容详略不同",
+      "图幅越大比例尺一定越大",
+      "地形图不能表示方位"
+    ],
+    "correctOption": "比例尺大小不同，地图内容详略不同"
+  },
+  {
+    "id": "maps-q20",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "专题练习三 地形图的判读",
+    "knowledgePoint": "高原特征",
+    "prompt": "“内部较平坦、边缘较陡峭”的地形类型是（　　）",
+    "answer": "高原",
+    "explanation": "高原的典型特征就是海拔较高、内部起伏较小、边缘较陡。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 专题练习三　地形图的判读.pptx",
+      "slide": 8,
+      "note": "专题练习第3题"
+    },
+    "options": [
+      "平原",
+      "丘陵",
+      "高原",
+      "盆地"
+    ],
+    "correctOption": "高原"
+  },
+  {
+    "id": "maps-q21",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "专题练习三 地形图的判读",
+    "knowledgePoint": "山洪风险",
+    "prompt": "在山区遇到暴雨时，最容易发生山洪的地形部位是（　　）",
+    "answer": "山谷",
+    "explanation": "山谷容易汇集地表径流，因此更易形成山洪。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 专题练习三　地形图的判读.pptx",
+      "slide": 10,
+      "note": "专题练习第4题"
+    },
+    "options": [
+      "山脊",
+      "鞍部",
+      "山谷",
+      "山顶"
+    ],
+    "correctOption": "山谷"
+  },
+  {
+    "id": "maps-q22",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "专题练习三 地形图的判读",
+    "knowledgePoint": "地形部位综合判读",
+    "prompt": "读专题练习三中的等高线图，写出A、B两处所代表的地形部位。",
+    "answer": "A处是鞍部，B处是陡崖。",
+    "explanation": "鞍部位于两山峰之间的低地，陡崖则表现为等高线重合或特别密集。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 专题练习三　地形图的判读.pptx",
+      "slide": 16,
+      "note": "综合题第8题"
+    }
+  },
+  {
+    "id": "maps-q23",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "专题练习三 地形图的判读",
+    "knowledgePoint": "方位判定",
+    "prompt": "在专题练习三综合图中，张村位于李庄的什么方向？",
+    "answer": "张村位于李庄的西北方向。",
+    "explanation": "先依据地图定向，再比较南北和东西位置。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 专题练习三　地形图的判读.pptx",
+      "slide": 16,
+      "note": "综合题第8题"
+    }
+  },
+  {
+    "id": "maps-q24",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "专题练习三 地形图的判读",
+    "knowledgePoint": "省力路线",
+    "prompt": "专题练习三综合图中，若从村庄出发上山，较省力的路线是哪一条？",
+    "answer": "较省力的是①路线。",
+    "explanation": "省力路线通常沿等高线较稀疏、坡度较缓的一侧上山。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 专题练习三　地形图的判读.pptx",
+      "slide": 16,
+      "note": "综合题第8题"
+    }
+  },
+  {
+    "id": "maps-q25",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第三节 地图的选择和应用",
+    "knowledgePoint": "电子地图",
+    "prompt": "目前人们借助哪种地图可以快捷地找到具体地点？",
+    "answer": "电子地图",
+    "explanation": "数字地图和卫星导航系统的结合，使查找地点和路线更高效。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第三节　地图的选择和应用.pptx",
+      "slide": 12,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "等高线地形图",
+      "电子地图",
+      "交通图",
+      "等深线地形图"
+    ],
+    "correctOption": "电子地图"
+  },
+  {
+    "id": "maps-q26",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第三节 地图的选择和应用",
+    "knowledgePoint": "按用途选图",
+    "prompt": "某同学想了解发射神舟二十号载人飞船的酒泉基地在哪里，他应查阅（　　）",
+    "answer": "中国政区图",
+    "explanation": "确定一个地点位于我国什么位置，最适合查阅中国政区图。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第三节　地图的选择和应用.pptx",
+      "slide": 13,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "中国政区图",
+      "城市导游图",
+      "中国气候图",
+      "世界政治地图"
+    ],
+    "correctOption": "中国政区图"
+  },
+  {
+    "id": "maps-q27",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第三节 地图的选择和应用",
+    "knowledgePoint": "地图利用正误",
+    "prompt": "下列对地图利用不正确的是（　　）",
+    "answer": "绘制学校地图采用小比例尺",
+    "explanation": "学校范围小，绘制学校地图应采用大比例尺，内容才更详细。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第三节　地图的选择和应用.pptx",
+      "slide": 14,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "旅游时带好旅游交通图",
+      "查找山脉时用地形图",
+      "网上查找公交线路用电子地图",
+      "绘制学校地图采用小比例尺"
+    ],
+    "correctOption": "绘制学校地图采用小比例尺"
+  },
+  {
+    "id": "maps-q28",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第三节 地图的选择和应用",
+    "knowledgePoint": "自驾出行选图",
+    "prompt": "国庆期间自驾从兰州到西宁等地出游，较适合使用的地图是（　　）",
+    "answer": "中国旅游交通图",
+    "explanation": "跨城市自驾需要重点关注线路和景点，交通旅游图更实用。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第三节　地图的选择和应用.pptx",
+      "slide": 17,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "中国政区图",
+      "数字地图",
+      "中国旅游交通图",
+      "中国地形图"
+    ],
+    "correctOption": "中国旅游交通图"
+  },
+  {
+    "id": "maps-q29",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第三节 地图的选择和应用",
+    "knowledgePoint": "北京旅游选图",
+    "prompt": "去北京参观故宫、天安门等景点，应优先选择（　　）",
+    "answer": "北京市交通旅游图",
+    "explanation": "旅游路线与景点位置最适合通过交通旅游图获取。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第三节　地图的选择和应用.pptx",
+      "slide": 18,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "北京市人口分布图",
+      "北京市地形图",
+      "北京市交通旅游图",
+      "中国地形图"
+    ],
+    "correctOption": "北京市交通旅游图"
+  },
+  {
+    "id": "maps-q30",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第三节 地图的选择和应用",
+    "knowledgePoint": "陌生城市选图",
+    "prompt": "到一个陌生城市旅游时，应选择（　　）",
+    "answer": "城市旅游交通地图",
+    "explanation": "陌生城市出行最需要的是交通线路和主要景点信息。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第三节　地图的选择和应用.pptx",
+      "slide": 19,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "世界气候图",
+      "世界政区图",
+      "山东地形图",
+      "城市旅游交通地图"
+    ],
+    "correctOption": "城市旅游交通地图"
+  },
+  {
+    "id": "maps-q31",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第三节 地图的选择和应用",
+    "knowledgePoint": "郊外爬山选图",
+    "prompt": "周末到郊外爬山，活动前最应参考的地图是（　　）",
+    "answer": "大比例尺郊区地形图",
+    "explanation": "爬山要关注地势起伏和详细路线，因此要选大比例尺地形图。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第三节　地图的选择和应用.pptx",
+      "slide": 20,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "市区交通图",
+      "小比例尺郊区旅游图",
+      "大比例尺郊区地形图",
+      "山西省旅游图"
+    ],
+    "correctOption": "大比例尺郊区地形图"
+  },
+  {
+    "id": "maps-q32",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第三节 地图的选择和应用",
+    "knowledgePoint": "组合选图",
+    "prompt": "郊外考察、查巴基斯坦位置、乘车去博物馆三种活动分别应选择的地图组合是（　　）",
+    "answer": "地形图、世界地图、交通图",
+    "explanation": "野外考察看地形，找国家位置看世界地图，乘车出行看交通图。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第三节　地图的选择和应用.pptx",
+      "slide": 21,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "交通图、世界地图、地形图",
+      "地形图、交通图、人口分布图",
+      "地形图、世界地图、交通图",
+      "水文图、人口分布图、交通图"
+    ],
+    "correctOption": "地形图、世界地图、交通图"
+  },
+  {
+    "id": "maps-q33",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第三节 地图的选择和应用",
+    "knowledgePoint": "导览图三要素",
+    "prompt": "北京世园公园导览图若缺少比例尺，小明无法做到的是（　　）",
+    "answer": "估算场馆间距离",
+    "explanation": "缺少比例尺时无法把图上距离换算成实地距离。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第三节　地图的选择和应用.pptx",
+      "slide": 25,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "辨别场馆方位",
+      "区分场馆与道路",
+      "估算场馆间距离",
+      "确定各场馆主题"
+    ],
+    "correctOption": "估算场馆间距离"
+  },
+  {
+    "id": "maps-q34",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "第三节 地图的选择和应用",
+    "knowledgePoint": "指向标判向",
+    "prompt": "从4号门进入，先后游览国际馆、中国馆、植物馆，该路线的大致方向是（　　）",
+    "answer": "向西南方向走",
+    "explanation": "此题要先看指向标，再判断几个场馆的大致连线方向。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第三节　地图的选择和应用.pptx",
+      "slide": 26,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "向西北方向走",
+      "向正西方向走",
+      "向东南方向走",
+      "向西南方向走"
+    ],
+    "correctOption": "向西南方向走"
+  },
+  {
+    "id": "maps-q35",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "章末总结",
+    "knowledgePoint": "晨起辨向",
+    "prompt": "晴朗的早晨在太原面向太阳升起的方向站立，此刻右边的方向可能是（　　）",
+    "answer": "南方",
+    "explanation": "面向东方时，右手边是南方。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 章末总结.pptx",
+      "slide": 6,
+      "note": "章末作业第1题"
+    },
+    "options": [
+      "东方",
+      "南方",
+      "西方",
+      "不能确定"
+    ],
+    "correctOption": "南方"
+  },
+  {
+    "id": "maps-q36",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "章末总结",
+    "knowledgePoint": "定向方法",
+    "prompt": "在给出的河流地形图上判定方向，应用的方法是（　　）",
+    "answer": "指向标定向法",
+    "explanation": "图中有指向标时，应以指向标所指的北方为基准判断方向。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 章末总结.pptx",
+      "slide": 8,
+      "note": "章末作业第3题"
+    },
+    "options": [
+      "一般定向法",
+      "经纬网定向法",
+      "指向标定向法",
+      "上北下南，左西右东"
+    ],
+    "correctOption": "指向标定向法"
+  },
+  {
+    "id": "maps-q37",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "章末总结",
+    "knowledgePoint": "河流流向",
+    "prompt": "章末图中清水河的流向大致是（　　）",
+    "answer": "由东北向西南",
+    "explanation": "河流流向要结合地势高低和等高线弯曲方向判断。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 章末总结.pptx",
+      "slide": 9,
+      "note": "章末作业第4题"
+    },
+    "options": [
+      "由东北向西南",
+      "由西向东",
+      "由东向西",
+      "由东南向西北"
+    ],
+    "correctOption": "由东北向西南"
+  },
+  {
+    "id": "maps-q38",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "章末总结",
+    "knowledgePoint": "比例尺换算",
+    "prompt": "若图中A、B两点的图上距离约1.5厘米，实地距离约0.75千米，则该图比例尺为（　　）",
+    "answer": "1∶50 000",
+    "explanation": "0.75千米等于75 000厘米，1.5∶75 000化简得1∶50 000。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 章末总结.pptx",
+      "slide": 9,
+      "note": "章末作业第5题"
+    },
+    "options": [
+      "1∶50",
+      "1∶5 000",
+      "1∶50 000",
+      "1∶500 000"
+    ],
+    "correctOption": "1∶50 000"
+  },
+  {
+    "id": "maps-q39",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "章末总结",
+    "knowledgePoint": "图幅相同比例尺",
+    "prompt": "图幅大小相等时，表示地理事物最详细的地图是（　　）",
+    "answer": "西双版纳景区导游图",
+    "explanation": "同样图幅下，景区导游图表示范围最小，比例尺最大，内容也最详细。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 章末总结.pptx",
+      "slide": 15,
+      "note": "章末作业第11题"
+    },
+    "options": [
+      "世界政治地图",
+      "中国行政区划图",
+      "云南省区划图",
+      "西双版纳景区导游图"
+    ],
+    "correctOption": "西双版纳景区导游图"
+  },
+  {
+    "id": "maps-q40",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "章末总结",
+    "knowledgePoint": "山脊判读",
+    "prompt": "读章末非选择题第16题，虚线m表示山地的什么部位？",
+    "answer": "虚线m表示山脊。",
+    "explanation": "等高线向低处凸出的部位是山脊。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 章末总结.pptx",
+      "slide": 21,
+      "note": "非选择题第16题"
+    }
+  },
+  {
+    "id": "maps-q41",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第二章 地图",
+    "section": "章末总结",
+    "knowledgePoint": "综合等高线判读",
+    "prompt": "读章末非选择题第18题，回答：A、B两点相对高度是多少？桃溪a→b段流向怎样？哪一处适合攀岩？甲村和丙村中谁更易遭受洪涝？",
+    "answer": "A、B两点相对高度为150米；桃溪a→b段由西北流向东南；D处适合攀岩，因为等高线重合形成陡崖；甲村更易遭受洪涝，因为地势低平且位于两河汇合处。",
+    "explanation": "这道题综合考查了相对高度、河流流向、地形部位和自然灾害风险判断。",
+    "difficulty": "hard",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 章末总结.pptx",
+      "slide": 25,
+      "note": "非选择题第18题"
+    }
+  }
+]

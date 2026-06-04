@@ -1,0 +1,101 @@
+{
+  "unitId": "geo-7a-chapter6-development-and-cooperation",
+  "bookCode": "grade7-semester1",
+  "bookLabel": "七年级上册",
+  "chapter": "第六章",
+  "chapterName": "第六章 发展与合作",
+  "title": "发展与合作",
+  "description": "基于金版学案系统整理国家发展差异、经济全球化与国际合作内容，暂不包含地图挑战。",
+  "sections": [
+    "第六章 发展与合作",
+    "章末总结"
+  ],
+  "knowledgePoints": [],
+  "questions": [],
+  "maps": [],
+  "stages": [
+    {
+      "id": "devco-stage-gap",
+      "title": "发展差异闯关",
+      "description": "掌握发达国家与发展中国家的划分、分布和差异。",
+      "focus": "经济发展水平、空间分布和南北关系。",
+      "itemIds": [
+        "devco-k01",
+        "devco-k02",
+        "devco-k03",
+        "devco-k04",
+        "devco-k05",
+        "devco-k06",
+        "devco-q01",
+        "devco-q02",
+        "devco-q03",
+        "devco-q04",
+        "devco-q05",
+        "devco-q06",
+        "devco-q07",
+        "devco-q08"
+      ],
+      "passThreshold": 75
+    },
+    {
+      "id": "devco-stage-globalization",
+      "title": "全球经济闯关",
+      "description": "理解经济全球化、交通通信发展和国际分工。",
+      "focus": "全球联系、产品分工和资源互补。",
+      "itemIds": [
+        "devco-k07",
+        "devco-k08",
+        "devco-k09",
+        "devco-k10",
+        "devco-k11",
+        "devco-k12",
+        "devco-q09",
+        "devco-q10",
+        "devco-q11",
+        "devco-q12",
+        "devco-q13",
+        "devco-q14"
+      ],
+      "passThreshold": 75
+    },
+    {
+      "id": "devco-stage-cooperation",
+      "title": "国际合作闯关",
+      "description": "理解国际合作的必要性、重要性和南北对话南南合作。",
+      "focus": "全球问题、国际合作和共同发展。",
+      "itemIds": [
+        "devco-k13",
+        "devco-k14",
+        "devco-k15",
+        "devco-k16",
+        "devco-k17",
+        "devco-k18",
+        "devco-q15",
+        "devco-q16",
+        "devco-q17",
+        "devco-q18",
+        "devco-q19",
+        "devco-q20"
+      ],
+      "passThreshold": 75
+    },
+    {
+      "id": "devco-stage-summary",
+      "title": "综合提升闯关",
+      "description": "用章末总结强化发展与合作的综合理解。",
+      "focus": "发展水平差异、全球化和国际合作综合分析。",
+      "itemIds": [
+        "devco-k03",
+        "devco-k08",
+        "devco-k15",
+        "devco-q21",
+        "devco-q22",
+        "devco-q23",
+        "devco-q24",
+        "devco-q25",
+        "devco-q26"
+      ],
+      "passThreshold": 80
+    }
+  ]
+}

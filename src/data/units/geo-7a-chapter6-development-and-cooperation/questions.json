@@ -1,0 +1,690 @@
+[
+  {
+    "id": "devco-q01",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "划分依据题",
+    "prompt": "下列关于发达国家和发展中国家的叙述，正确的是（　　）",
+    "answer": "它们是根据发展水平的差异划分的",
+    "explanation": "划分发达国家和发展中国家的核心依据是经济发展水平。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 13,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "发展中国家的技术水平高",
+      "它们是根据发展水平的差异划分的",
+      "发展中国家受教育水平高",
+      "发达国家文娱活动不丰富"
+    ],
+    "correctOption": "它们是根据发展水平的差异划分的"
+  },
+  {
+    "id": "devco-q02",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "平均发展水平最高大洲",
+    "prompt": "平均发展水平最高的大洲是（　　）",
+    "answer": "欧洲",
+    "explanation": "欧洲发达国家最集中，平均发展水平最高。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 15,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "亚洲",
+      "南美洲",
+      "非洲",
+      "欧洲"
+    ],
+    "correctOption": "欧洲"
+  },
+  {
+    "id": "devco-q03",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "发达国家集中地区",
+    "prompt": "世界上发达国家最为集中的地区是（　　）",
+    "answer": "欧洲西部",
+    "explanation": "欧洲西部是发达国家分布最密集的地区。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 16,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "东南亚",
+      "欧洲西部",
+      "中东地区",
+      "撒哈拉以南非洲"
+    ],
+    "correctOption": "欧洲西部"
+  },
+  {
+    "id": "devco-q04",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "南北对话概念",
+    "prompt": "发展中国家与发达国家之间围绕国际经济旧秩序等问题展开的谈判和斗争被称为（　　）",
+    "answer": "南北对话",
+    "explanation": "发展中国家和发达国家之间的商谈叫“南北对话”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 17,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "南北对话",
+      "南南合作",
+      "南北合作",
+      "南南对话"
+    ],
+    "correctOption": "南北对话"
+  },
+  {
+    "id": "devco-q05",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "中东欧国家类型",
+    "prompt": "从经济发展水平来看，中东欧国家大多属于（　　）",
+    "answer": "发达国家",
+    "explanation": "中东欧国家多已进入发达国家行列。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 19,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "发达国家",
+      "发展中国家",
+      "资本主义国家",
+      "社会主义国家"
+    ],
+    "correctOption": "发达国家"
+  },
+  {
+    "id": "devco-q06",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "发展中国家分布",
+    "prompt": "下列关于发达国家与发展中国家分布地区的说法正确的是（　　）",
+    "answer": "发展中国家多分布在非洲、南美洲、亚洲",
+    "explanation": "发展中国家主要分布在亚洲、非洲和拉丁美洲。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 20,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "发达国家多分布在北美洲、欧洲、亚洲",
+      "发展中国家多分布在非洲、南美洲、亚洲",
+      "发达国家主要分布在南半球",
+      "发展中国家全部分布在北半球"
+    ],
+    "correctOption": "发展中国家多分布在非洲、南美洲、亚洲"
+  },
+  {
+    "id": "devco-q07",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "交流合作错误说法",
+    "prompt": "下列关于发展中国家和发达国家的叙述，不正确的是（　　）",
+    "answer": "发展中国家与发达国家的合作只会使发展中国家变得更加落后",
+    "explanation": "交流与合作可以实现优势互补，不是单向受损。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 21,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "发展中国家与发达国家的合作只会使发展中国家变得更加落后",
+      "发达国家向发展中国家出售的工业产品一般技术含量高",
+      "发达国家从发展中国家购买廉价原料",
+      "许多发展中国家历史上长期遭受掠夺，经济水平较低"
+    ],
+    "correctOption": "发展中国家与发达国家的合作只会使发展中国家变得更加落后"
+  },
+  {
+    "id": "devco-q08",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "南南合作判断",
+    "prompt": "下列叙述正确的是（　　）",
+    "answer": "通常把发展中国家之间的互助合作称为“南南合作”",
+    "explanation": "“南南合作”强调发展中国家之间的合作。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 22,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "发达国家主要分布在亚洲、拉丁美洲和非洲",
+      "发展中国家主要分布在欧洲、北美洲和大洋洲",
+      "发达国家主要分布在北半球南部和南半球",
+      "通常把发展中国家之间的互助合作称为“南南合作”"
+    ],
+    "correctOption": "通常把发展中国家之间的互助合作称为“南南合作”"
+  },
+  {
+    "id": "devco-q09",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "汽车生产全球化",
+    "prompt": "美国某汽车公司生产的轿车零部件来自多国，这说明了（　　）",
+    "answer": "各国经济相互依赖，相互融合",
+    "explanation": "全球化背景下产品生产分工协作越来越明显。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 24,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "中国占据国际市场有利地位",
+      "美国缺少组装生产的技术",
+      "各国经济相互依赖，相互融合",
+      "国家与国家间经济依然封闭"
+    ],
+    "correctOption": "各国经济相互依赖，相互融合"
+  },
+  {
+    "id": "devco-q10",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "发达国家人口占比",
+    "prompt": "在世界人口中，发达国家所占比例约为（　　）",
+    "answer": "16%",
+    "explanation": "教材图示中发达国家人口占世界人口比例约16%。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 26,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "84%",
+      "16%",
+      "20%",
+      "80%"
+    ],
+    "correctOption": "16%"
+  },
+  {
+    "id": "devco-q11",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "发展中国家举例",
+    "prompt": "下列国家中属于发展中国家的是（　　）",
+    "answer": "巴西",
+    "explanation": "巴西是典型的发展中国家。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 27,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "德国",
+      "法国",
+      "巴西",
+      "日本"
+    ],
+    "correctOption": "巴西"
+  },
+  {
+    "id": "devco-q12",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "章末总结",
+    "knowledgePoint": "跨境电商条件",
+    "prompt": "阿根廷与中国开展跨境电子商务合作的社会经济条件是（　　）",
+    "answer": "②③④",
+    "explanation": "政策支持、通信技术和广阔市场都属于社会经济条件。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 7,
+      "note": "章末作业第1题"
+    },
+    "options": [
+      "①②③",
+      "①③④",
+      "②③④",
+      "①②④"
+    ],
+    "correctOption": "②③④"
+  },
+  {
+    "id": "devco-q13",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "章末总结",
+    "knowledgePoint": "跨境电商作用",
+    "prompt": "中国与阿根廷之间的跨境电子商务有利于（　　）",
+    "answer": "促进区域经济合作",
+    "explanation": "跨境电商本质上加强了地区间经济联系与合作。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 8,
+      "note": "章末作业第2题"
+    },
+    "options": [
+      "降低运输费用",
+      "降低劳动力成本",
+      "加强土地荒漠化治理",
+      "促进区域经济合作"
+    ],
+    "correctOption": "促进区域经济合作"
+  },
+  {
+    "id": "devco-q14",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "章末总结",
+    "knowledgePoint": "发达国家空间分布",
+    "prompt": "下列说法中正确的是（　　）",
+    "answer": "欧洲西部发达国家集中",
+    "explanation": "欧洲西部是发达国家最集中的区域。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 9,
+      "note": "章末作业第3题"
+    },
+    "options": [
+      "发达国家多位于南半球",
+      "北美洲均为发达国家",
+      "亚洲均为发展中国家",
+      "欧洲西部发达国家集中"
+    ],
+    "correctOption": "欧洲西部发达国家集中"
+  },
+  {
+    "id": "devco-q15",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "章末总结",
+    "knowledgePoint": "发达国家主要分布",
+    "prompt": "发达国家大多分布在（　　）",
+    "answer": "欧洲、北美洲、大洋洲",
+    "explanation": "这三大洲集中了世界上大多数发达国家。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 11,
+      "note": "章末作业第4题"
+    },
+    "options": [
+      "亚洲、欧洲、南美洲",
+      "欧洲、北美洲、大洋洲",
+      "亚洲、非洲、拉丁美洲",
+      "北美洲、南美洲、非洲"
+    ],
+    "correctOption": "欧洲、北美洲、大洋洲"
+  },
+  {
+    "id": "devco-q16",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "章末总结",
+    "knowledgePoint": "欧盟与南南合作",
+    "prompt": "下列组织最不能体现“南南合作”的是（　　）",
+    "answer": "欧盟",
+    "explanation": "欧盟成员国大多是发达国家，不属于“南南合作”。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 15,
+      "note": "章末作业第7题"
+    },
+    "options": [
+      "东盟",
+      "上海合作组织",
+      "欧盟",
+      "金砖国家"
+    ],
+    "correctOption": "欧盟"
+  },
+  {
+    "id": "devco-q17",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "章末总结",
+    "knowledgePoint": "中国发展状况错误说法",
+    "prompt": "以下对我国目前发展状况的描述，不正确的是（　　）",
+    "answer": "我国经济实力全球领先，已跨入发达国家行列",
+    "explanation": "我国仍属于发展中国家。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 17,
+      "note": "章末作业第8题"
+    },
+    "options": [
+      "我国经济发展很不平衡，仍属于发展中国家",
+      "我国虽然出口量全球第一，但以附加值较低的加工制造业为主",
+      "我国经济实力全球领先，已跨入发达国家行列",
+      "要大力发展科学技术，提高我国工业的竞争力"
+    ],
+    "correctOption": "我国经济实力全球领先，已跨入发达国家行列"
+  },
+  {
+    "id": "devco-q18",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "章末总结",
+    "knowledgePoint": "韩国成发达国家依据",
+    "prompt": "认定韩国成为发达国家的主要依据是（　　）",
+    "answer": "经济发展水平",
+    "explanation": "发达国家与发展中国家的划分依据始终是经济发展水平。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 18,
+      "note": "章末作业第9题"
+    },
+    "options": [
+      "人口素质高低",
+      "经济发展水平",
+      "军事武器数量",
+      "自然资源总量"
+    ],
+    "correctOption": "经济发展水平"
+  },
+  {
+    "id": "devco-q19",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "章末总结",
+    "knowledgePoint": "亚投行意义",
+    "prompt": "亚投行的建立会使各成员之间（　　）",
+    "answer": "加强合作与联系，并加强“南南合作”和“南北对话”",
+    "explanation": "亚投行成员既有发展中国家，也有发达国家。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案改编训练",
+      "file": "2 章末总结.pptx",
+      "slide": 21,
+      "note": "章末作业第10题"
+    },
+    "options": [
+      "加强合作与联系，并加强“南南合作”和“南北对话”",
+      "消除经济发展水平的差别并实现资源和资金共享",
+      "只加强发达国家之间合作",
+      "使各国完全摆脱国际合作"
+    ],
+    "correctOption": "加强合作与联系，并加强“南南合作”和“南北对话”"
+  },
+  {
+    "id": "devco-q20",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "章末总结",
+    "knowledgePoint": "未加入亚投行国家",
+    "prompt": "图中显示没有成为亚投行意向创始成员的国家是（　　）",
+    "answer": "美国",
+    "explanation": "图中北美洲的美国未加入。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 23,
+      "note": "章末作业第11题"
+    },
+    "options": [
+      "俄罗斯",
+      "美国",
+      "巴西",
+      "澳大利亚"
+    ],
+    "correctOption": "美国"
+  },
+  {
+    "id": "devco-q21",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "章末总结",
+    "knowledgePoint": "国际合作正确观点",
+    "prompt": "下列关于加强国际合作的叙述，正确的是（　　）",
+    "answer": "③④",
+    "explanation": "经济联系密切、资源市场分布不均，都说明需要国际合作。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 24,
+      "note": "章末作业第12题"
+    },
+    "options": [
+      "①②",
+      "①④",
+      "②③",
+      "③④"
+    ],
+    "correctOption": "③④"
+  },
+  {
+    "id": "devco-q22",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "章末总结",
+    "knowledgePoint": "贸易不平等判断",
+    "prompt": "关于国际经济秩序中的贸易关系，下列说法正确的是（　　）",
+    "answer": "发达国家主要出口工业制成品，价格高，获取利润高，使富国更富",
+    "explanation": "这正是不平等贸易的典型表现。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 25,
+      "note": "章末作业第13题"
+    },
+    "options": [
+      "撒哈拉以南非洲的国家在国际贸易中处于有利地位",
+      "发达国家主要出口工业制成品，价格高，获取利润高，使富国更富",
+      "撒哈拉以南非洲国家大量出口初级产品，经济发展水平高",
+      "发展中国家和发达国家之间的政治、经济商谈称为“南南合作”"
+    ],
+    "correctOption": "发达国家主要出口工业制成品，价格高，获取利润高，使富国更富"
+  },
+  {
+    "id": "devco-q23",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "章末总结",
+    "knowledgePoint": "全球共享财富",
+    "prompt": "随着全球化的发展，资源、技术、人才、信息将成为（　　）",
+    "answer": "全球共享的财富",
+    "explanation": "全球化背景下这些要素流动日益频繁。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 27,
+      "note": "章末作业第14题"
+    },
+    "options": [
+      "全球共享的财富",
+      "各国的手段",
+      "各国发展的秘密",
+      "跨国公司共享的财富"
+    ],
+    "correctOption": "全球共享的财富"
+  },
+  {
+    "id": "devco-q24",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "章末总结",
+    "knowledgePoint": "世界经济趋势",
+    "prompt": "下列关于世界经济发展趋势的叙述，正确的是（　　）",
+    "answer": "各国经济朝向全球化方向发展",
+    "explanation": "国家间联系越来越密切，全球化趋势明显。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 28,
+      "note": "章末作业第15题"
+    },
+    "options": [
+      "随着经济的发展，各国各成体系越来越明显",
+      "各国间产品分工协作越来越少",
+      "各国间经济相互依赖越来越少",
+      "各国经济朝向全球化方向发展"
+    ],
+    "correctOption": "各国经济朝向全球化方向发展"
+  },
+  {
+    "id": "devco-q25",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "章末总结",
+    "knowledgePoint": "南北关系解释",
+    "prompt": "读发达国家与发展中国家分布示意图回答：世界上的国家是根据什么划分的？发达国家数目最多的大洲是哪个？被亚欧大陆和北美大陆环抱的大洋是什么？为什么把发达国家与发展中国家的关系称为“南北关系”？",
+    "answer": "世界上的国家是根据经济发展水平高低来划分的；发达国家数目最多的大洲是欧洲；被亚欧大陆和北美大陆环抱的大洋是北冰洋；因为发达国家主要分布在北半球北部，发展中国家主要分布在南半球及北半球南部，所以两类国家关系常被称作“南北关系”。",
+    "explanation": "这类综合题要把发展水平差异和空间分布联系起来回答。",
+    "difficulty": "hard",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 31,
+      "note": "非选择题第16题"
+    }
+  },
+  {
+    "id": "devco-q26",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "章末总结",
+    "knowledgePoint": "缩小差距措施",
+    "prompt": "根据两类国家人口与国内生产总值构成图和文字材料，概括发展中国家应采取哪些措施来促进本国经济发展、缩小同发达国家的差距。",
+    "answer": "发展中国家应大力发展科学技术、提高生产效率，并加强国际合作与交流。",
+    "explanation": "开放题作答时，通常从“科技”“效率”“合作”三个方向概括最稳妥。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 章末总结.pptx",
+      "slide": 38,
+      "note": "非选择题第17题"
+    }
+  }
+]

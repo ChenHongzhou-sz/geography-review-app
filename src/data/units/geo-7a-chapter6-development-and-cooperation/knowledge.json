@@ -1,0 +1,362 @@
+[
+  {
+    "id": "devco-k01",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "划分依据",
+    "prompt": "世界上的国家通常根据什么差异划分为发达国家和发展中国家？",
+    "answer": "通常根据经济发展水平的差异来划分。",
+    "explanation": "这是第六章的起点概念。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "devco-k02",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "发展水平差异",
+    "prompt": "发达国家和发展中国家的差异主要体现在哪些方面？",
+    "answer": "不仅体现在经济发展水平上，还体现在生活水平、教育水平和医疗水平等方面。",
+    "explanation": "判断国家发展水平时不能只看单一指标。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "devco-k03",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "发达国家分布",
+    "prompt": "发达国家在数量和分布上有什么特点？",
+    "answer": "发达国家数量较少，主要分布在北半球的北部，最大的发达国家是美国。",
+    "explanation": "“少而北”是发达国家分布的基本特征。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "devco-k04",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "发展中国家分布",
+    "prompt": "发展中国家在数量和分布上有什么特点？",
+    "answer": "发展中国家数量较多，主要分布在南半球和北半球的南部，最大的国家是中国。",
+    "explanation": "“多而南”是发展中国家分布的基本特征。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "devco-k05",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "南北对话",
+    "prompt": "什么叫“南北对话”？",
+    "answer": "发展中国家和发达国家之间的政治、经济商谈称为“南北对话”。",
+    "explanation": "“南北”并非严格指南北半球，而是发展水平差异的代称。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "devco-k06",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "南南合作",
+    "prompt": "什么叫“南南合作”？",
+    "answer": "发展中国家之间的互助合作称为“南南合作”。",
+    "explanation": "发展中国家之间往往具有共同发展诉求。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "devco-k07",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "交通通信与全球经济",
+    "prompt": "交通运输和通信技术的发展对全球经济有什么影响？",
+    "answer": "交通运输和通信技术的发展使国际联系越来越密切，推动了全球经济发展。",
+    "explanation": "现代交通和互联网是经济全球化的重要支撑。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "devco-k08",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "经济全球化",
+    "prompt": "当今世界经济发展的重要特征是什么？",
+    "answer": "经济全球化是当今世界经济发展的重要特征。",
+    "explanation": "全球化体现为联系紧密、分工协作加强。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "devco-k09",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "发展中国家新动力",
+    "prompt": "进入21世纪后，发展中国家在全球经济中发生了什么变化？",
+    "answer": "一些发展中国家经济增长迅速，成为推动全球经济增长的重要动力。",
+    "explanation": "第六章强调世界经济格局正在发生变化。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "devco-k10",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "国际合作必要性",
+    "prompt": "为什么说全球经济发展离不开国际合作？",
+    "answer": "因为各国经济发展彼此联系，人口、资源、环境、发展等全球性问题都需要国家间合作解决。",
+    "explanation": "国际合作既是现实需要，也是长期趋势。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "devco-k11",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "环境治理合作",
+    "prompt": "为什么全球环境治理也需要国际合作？",
+    "answer": "因为全球环境问题影响范围广，不是单个国家或少数国家可以独立解决的。",
+    "explanation": "环境问题往往具有跨国性和全球性。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "devco-k12",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "中国方案",
+    "prompt": "21世纪以来，中国在全球治理中提出了什么重要理念？",
+    "answer": "中国提出了构建人类命运共同体，推动全球治理朝更加公正合理的方向发展。",
+    "explanation": "这是教材中对中国参与全球治理的概括。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "devco-k13",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "发展差异历史原因",
+    "prompt": "发达国家和发展中国家形成差异的历史原因是什么？",
+    "answer": "许多发展中国家在历史上长期遭受帝国主义和殖民主义侵略与剥削，经济基础薄弱。",
+    "explanation": "历史原因是造成发展差异的重要背景。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "devco-k14",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "发展差异贸易原因",
+    "prompt": "发达国家和发展中国家发展差异在国际经济秩序中的现实原因之一是什么？",
+    "answer": "现实原因之一是国际贸易并不平等。",
+    "explanation": "不平等贸易会进一步拉大发展差距。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "devco-k15",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "国际合作重要性",
+    "prompt": "为什么各国必须加强合作实现共同发展？",
+    "answer": "因为全球资源、能源、资金、技术和市场分布不平衡，各国既有优势也有不足，需要取长补短。",
+    "explanation": "合作可以实现资源互补和共同进步。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 12,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "devco-k16",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "贸易不平等表现",
+    "prompt": "发达国家和发展中国家在国际贸易中的典型分工差异是什么？",
+    "answer": "发展中国家多出口初级产品、价格较低；发达国家多出口工业制成品、价格较高。",
+    "explanation": "这类贸易结构使富国更富、穷国更穷。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 28,
+      "note": "素养提升"
+    }
+  },
+  {
+    "id": "devco-k17",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "互补优势",
+    "prompt": "在国际合作中，发展中国家和发达国家分别对对方有什么吸引力？",
+    "answer": "发展中国家对发达国家的吸引力主要是丰富资源和低成本劳动力；发达国家对发展中国家的吸引力主要是雄厚资金和先进科技。",
+    "explanation": "国际合作往往建立在互补优势基础上。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第六章　发展与合作.pptx",
+      "slide": 29,
+      "note": "素养提升"
+    }
+  },
+  {
+    "id": "devco-k18",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第六章 发展与合作",
+    "section": "第六章 发展与合作",
+    "knowledgePoint": "世界经济发展趋势",
+    "prompt": "世界经济发展的总体趋势是什么？",
+    "answer": "世界经济朝全球化方向发展，各国联系越来越密切。",
+    "explanation": "这是章末总结反复强调的结论。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 章末总结.pptx",
+      "slide": 28,
+      "note": "章末作业第15题"
+    }
+  }
+]

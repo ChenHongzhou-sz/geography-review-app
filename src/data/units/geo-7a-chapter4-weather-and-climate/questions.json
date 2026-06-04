@@ -1,0 +1,2229 @@
+[
+  {
+    "id": "weather-q01",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第一节 多变的天气",
+    "knowledgePoint": "天气与气候区分",
+    "prompt": "下列语句描述天气的是（　　）",
+    "answer": "明天大风、降温",
+    "explanation": "“明天”体现短时间变化，因此描述的是天气。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　多变的天气.pptx",
+      "slide": 15,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "明天大风、降温",
+      "极地全年严寒",
+      "天津夏季高温多雨",
+      "西双版纳四季如春"
+    ],
+    "correctOption": "明天大风、降温"
+  },
+  {
+    "id": "weather-q02",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第一节 多变的天气",
+    "knowledgePoint": "天气预报判读",
+    "prompt": "济南市某天的天气情况如图所示，下列判读正确的是（　　）",
+    "answer": "阴转多云，西北风4级",
+    "explanation": "图中两个天气符号表示天气转变，风尾数量可判断风力。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　多变的天气.pptx",
+      "slide": 17,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "阴转多云，西北风4级",
+      "多云转晴，西北风4级",
+      "阴转多云，西北风6级",
+      "多云转晴，西北风6级"
+    ],
+    "correctOption": "阴转多云，西北风4级"
+  },
+  {
+    "id": "weather-q03",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第一节 多变的天气",
+    "knowledgePoint": "天气特点",
+    "prompt": "天气的特点是（　　）",
+    "answer": "短时间、常变化",
+    "explanation": "天气强调的是短时间内的大气状况，而且经常变化。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　多变的天气.pptx",
+      "slide": 19,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "长时期、少变化",
+      "短时间、常变化",
+      "长时期、常变化",
+      "短时间、少变化"
+    ],
+    "correctOption": "短时间、常变化"
+  },
+  {
+    "id": "weather-q04",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第一节 多变的天气",
+    "knowledgePoint": "天气影响生活",
+    "prompt": "“未来两天内将有寒潮影响本市，提醒市民添衣预防感冒”说明天气与（　　）关系密切。",
+    "answer": "人们生活",
+    "explanation": "寒潮直接影响人们穿衣、出行和健康。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　多变的天气.pptx",
+      "slide": 20,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "交通",
+      "人们生活",
+      "旅游",
+      "农业生产"
+    ],
+    "correctOption": "人们生活"
+  },
+  {
+    "id": "weather-q05",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第一节 多变的天气",
+    "knowledgePoint": "天气符号变化",
+    "prompt": "根据课件解析，表示“晴转小雨”的天气符号对应的是（　　）",
+    "answer": "B",
+    "explanation": "课件明确指出B表示晴转小雨。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　多变的天气.pptx",
+      "slide": 22,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctOption": "B"
+  },
+  {
+    "id": "weather-q06",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第一节 多变的天气",
+    "knowledgePoint": "适宜野餐天气",
+    "prompt": "周末去公园野餐，最适宜选择的天气是（　　）",
+    "answer": "晴朗、风力较小的天气",
+    "explanation": "野餐适合无明显降水、风力较小的晴好天气。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案改编训练",
+      "file": "1 第一节　多变的天气.pptx",
+      "slide": 25,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "暴雨大风天气",
+      "晴朗、风力较小的天气",
+      "沙尘暴天气",
+      "大雾天气"
+    ],
+    "correctOption": "晴朗、风力较小的天气"
+  },
+  {
+    "id": "weather-q07",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第一节 多变的天气",
+    "knowledgePoint": "天气状况综合判读",
+    "prompt": "未来几天某景点天气如图所示，其天气状况是（　　）",
+    "answer": "阴转晴，西南风4级",
+    "explanation": "两个天气符号表示转变，风尾和方位结合可判断风向风力。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　多变的天气.pptx",
+      "slide": 26,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "阴转小雨，西北风4级",
+      "晴转阴，东北风6级",
+      "多云转晴，东南风6级",
+      "阴转晴，西南风4级"
+    ],
+    "correctOption": "阴转晴，西南风4级"
+  },
+  {
+    "id": "weather-q08",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "章末总结",
+    "knowledgePoint": "拍摄星空天气",
+    "prompt": "拍摄“银河落九曲”这类星空照片时，最可能的天气状况是（　　）",
+    "answer": "晴",
+    "explanation": "拍摄星空需要天空晴朗、云量少。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 6,
+      "note": "章末作业第1题"
+    },
+    "options": [
+      "晴",
+      "台风",
+      "阴",
+      "暴雨"
+    ],
+    "correctOption": "晴"
+  },
+  {
+    "id": "weather-q09",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "气温日变化概念",
+    "prompt": "以一天为周期的气温变化，称为（　　）",
+    "answer": "气温日变化",
+    "explanation": "日变化强调一天之内的规律。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 15,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "日平均气温",
+      "最高气温",
+      "气温日变化",
+      "最低气温"
+    ],
+    "correctOption": "气温日变化"
+  },
+  {
+    "id": "weather-q10",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "最高气温出现时间",
+    "prompt": "通常情况下，一天当中陆地最高气温出现在（　　）",
+    "answer": "午后2时左右",
+    "explanation": "陆地最高气温并不在正午，而在午后2时左右。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 15,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "午后2时左右",
+      "正午12时前",
+      "正午12时后不久",
+      "16时左右"
+    ],
+    "correctOption": "午后2时左右"
+  },
+  {
+    "id": "weather-q11",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "气温日较差诗句",
+    "prompt": "下列诗句中，描述气温日较差大的是（　　）",
+    "answer": "早穿皮袄午穿纱，围着火炉吃西瓜",
+    "explanation": "这句诗直接反映了一天内冷暖差异很大。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 16,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "羌笛何须怨杨柳，春风不度玉门关",
+      "人间四月芳菲尽，山寺桃花始盛开",
+      "才从塞北踏春来，又向江南看杏花",
+      "早穿皮袄午穿纱，围着火炉吃西瓜"
+    ],
+    "correctOption": "早穿皮袄午穿纱，围着火炉吃西瓜"
+  },
+  {
+    "id": "weather-q12",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "日平均气温计算",
+    "prompt": "某气象站一天四次气温分别为4℃、6℃、15℃、13℃，这一天的日平均气温是（　　）",
+    "answer": "9.5℃",
+    "explanation": "日平均气温=(4+6+15+13)÷4=9.5℃。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 18,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "5℃",
+      "8℃",
+      "15℃",
+      "9.5℃"
+    ],
+    "correctOption": "9.5℃"
+  },
+  {
+    "id": "weather-q13",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "气温错误说法",
+    "prompt": "下列关于气温的叙述，错误的是（　　）",
+    "answer": "气温是指大气的冷热状况",
+    "explanation": "教材中强调气温是空气的温度，因此A项错误。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 20,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "气温是指大气的冷热状况",
+      "世界大多数陆地的月平均最高气温，北半球出现在7月，南半球出现在1月",
+      "气温的观察通常看百叶箱中的温度计",
+      "气温年较差是最高月平均气温与最低月平均气温之差"
+    ],
+    "correctOption": "气温是指大气的冷热状况"
+  },
+  {
+    "id": "weather-q14",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "最低气温出现时间",
+    "prompt": "一天中陆地最低气温一般出现在（　　）",
+    "answer": "日出前后",
+    "explanation": "日出前地面辐射散热时间最长，因此气温最低。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 21,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "中午12时",
+      "子夜",
+      "中午14时",
+      "日出前后"
+    ],
+    "correctOption": "日出前后"
+  },
+  {
+    "id": "weather-q15",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "海洋最低月",
+    "prompt": "一年中，北半球海洋月平均气温最低一般出现在（　　）",
+    "answer": "2月",
+    "explanation": "海洋比陆地一般晚一个月左右。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 21,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "1月",
+      "2月",
+      "7月",
+      "12月"
+    ],
+    "correctOption": "2月"
+  },
+  {
+    "id": "weather-q16",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "气温日较差计算",
+    "prompt": "若某日最高气温约16℃、最低气温约6℃，则该日气温日较差约为（　　）",
+    "answer": "10℃",
+    "explanation": "日较差=16-6=10℃。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 22,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "10℃",
+      "20℃",
+      "38℃",
+      "8℃"
+    ],
+    "correctOption": "10℃"
+  },
+  {
+    "id": "weather-q17",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "半球和海陆判断",
+    "prompt": "某地月平均气温统计中1月最低、7月最高，据此判断该地位于（　　）",
+    "answer": "北半球陆地",
+    "explanation": "1月最低、7月最高说明位于北半球且更符合陆地年变化。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 25,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "北半球陆地",
+      "南半球海洋",
+      "北半球海洋",
+      "南半球陆地"
+    ],
+    "correctOption": "北半球陆地"
+  },
+  {
+    "id": "weather-q18",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "最高月判断",
+    "prompt": "从表中可以看出，该地一年中的最高气温出现在（　　）",
+    "answer": "7月",
+    "explanation": "表中7月气温最高。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 26,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "8月",
+      "7月",
+      "1月",
+      "2月"
+    ],
+    "correctOption": "7月"
+  },
+  {
+    "id": "weather-q19",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第1课时 气温的变化",
+    "knowledgePoint": "气温年较差综合",
+    "prompt": "读A、B、C三地气温曲线图回答：气温年较差最小的是哪一地？其年较差约多少？B地最冷月和最热月平均气温各约多少？A、B分别位于什么温度带？",
+    "answer": "气温年较差最小的是A地，约5℃；B地最冷月平均气温约-5℃，最热月约25℃；A位于热带，B位于北温带。",
+    "explanation": "这类题要同时会看曲线极值、算差值并判断温度带。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节　第1课时　气温的变化.pptx",
+      "slide": 28,
+      "note": "能力达标第8题"
+    }
+  },
+  {
+    "id": "weather-q20",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第2课时 气温的分布",
+    "knowledgePoint": "等温线疏密",
+    "prompt": "等温线密集的地方（　　）",
+    "answer": "气温变化大",
+    "explanation": "等温线越密，说明温差越大。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第2课时　气温的分布.pptx",
+      "slide": 11,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "气温变化不大",
+      "气温变化大",
+      "气温低",
+      "气温高"
+    ],
+    "correctOption": "气温变化大"
+  },
+  {
+    "id": "weather-q21",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第2课时 气温的分布",
+    "knowledgePoint": "世界气温递变规律",
+    "prompt": "关于北半球年平均气温分布，能够总结出的规律是（　　）",
+    "answer": "从低纬度向高纬度递减",
+    "explanation": "纬度越高，获得太阳光热越少。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第2课时　气温的分布.pptx",
+      "slide": 12,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "高海拔向低海拔递减",
+      "从北向南递减",
+      "从内陆向沿海递减",
+      "从低纬度向高纬度递减"
+    ],
+    "correctOption": "从低纬度向高纬度递减"
+  },
+  {
+    "id": "weather-q22",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第2课时 气温的分布",
+    "knowledgePoint": "同纬度冬季海陆温差",
+    "prompt": "一般而言，北温带同纬度的1月平均气温（　　）",
+    "answer": "海洋高于陆地",
+    "explanation": "冬季海洋降温慢，因此同纬度海洋较暖。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第2课时　气温的分布.pptx",
+      "slide": 14,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "海洋高于陆地",
+      "高原高于平原",
+      "陆地高于海洋",
+      "荒漠高于森林"
+    ],
+    "correctOption": "海洋高于陆地"
+  },
+  {
+    "id": "weather-q23",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第2课时 气温的分布",
+    "knowledgePoint": "7月海陆判断",
+    "prompt": "读某地7月等温线分布图，甲、乙两地中有一地为海洋，下列叙述正确的是（　　）",
+    "answer": "甲地位于陆地",
+    "explanation": "图示位于南半球的7月，此时陆地气温低、海洋气温高，因此甲为陆地。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第2课时　气温的分布.pptx",
+      "slide": 15,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "甲地为海洋",
+      "甲地位于陆地",
+      "乙地位于北半球",
+      "乙地为陆地"
+    ],
+    "correctOption": "甲地位于陆地"
+  },
+  {
+    "id": "weather-q24",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第2课时 气温的分布",
+    "knowledgePoint": "北京最高气温时间",
+    "prompt": "北京市某日气温变化图中，一天中最高气温出现在（　　）",
+    "answer": "14时左右",
+    "explanation": "一天中最高气温一般出现在午后2时左右。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第2课时　气温的分布.pptx",
+      "slide": 18,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "上午10时左右",
+      "14时左右",
+      "日出前后",
+      "子夜"
+    ],
+    "correctOption": "14时左右"
+  },
+  {
+    "id": "weather-q25",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第2课时 气温的分布",
+    "knowledgePoint": "北京日较差",
+    "prompt": "该日北京市的气温日较差是（　　）",
+    "answer": "11.5℃",
+    "explanation": "根据最高、最低气温相减可得11.5℃。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第2课时　气温的分布.pptx",
+      "slide": 19,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "10.5℃",
+      "9℃",
+      "11.5℃",
+      "8℃"
+    ],
+    "correctOption": "11.5℃"
+  },
+  {
+    "id": "weather-q26",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第2课时 气温的分布",
+    "knowledgePoint": "气温水平分布",
+    "prompt": "下列关于气温水平分布的叙述正确的是（　　）",
+    "answer": "一般来说，低纬度气温高，高纬度气温低",
+    "explanation": "这是世界气温分布的基本规律。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第2课时　气温的分布.pptx",
+      "slide": 20,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "地球上的极端最低气温出现在北冰洋",
+      "一般来说，低纬度气温高，高纬度气温低",
+      "7月世界最热的地方在赤道地区",
+      "在北半球气温从低纬向高纬递减，南半球相反"
+    ],
+    "correctOption": "一般来说，低纬度气温高，高纬度气温低"
+  },
+  {
+    "id": "weather-q27",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第2课时 气温的分布",
+    "knowledgePoint": "青藏高原低温原因",
+    "prompt": "甲区域年平均气温较周边地区低的主要影响因素是（　　）",
+    "answer": "地形因素",
+    "explanation": "青藏高原海拔高，气温低。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第2课时　气温的分布.pptx",
+      "slide": 23,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "海陆分布",
+      "纬度位置",
+      "地形因素",
+      "人为因素"
+    ],
+    "correctOption": "地形因素"
+  },
+  {
+    "id": "weather-q28",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第2课时 气温的分布",
+    "knowledgePoint": "四点气温比较",
+    "prompt": "图中①②③④四点气温的比较，正确的是（　　）",
+    "answer": "③<④",
+    "explanation": "由等温线数值可读出③地气温低于④地。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第2课时　气温的分布.pptx",
+      "slide": 24,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "①<②",
+      "①>④",
+      "③<④",
+      "②>③"
+    ],
+    "correctOption": "③<④"
+  },
+  {
+    "id": "weather-q29",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第2课时 气温的分布",
+    "knowledgePoint": "低温中心",
+    "prompt": "某地等温线图中的低温中心是（　　）",
+    "answer": "①处",
+    "explanation": "闭合等温线中心数值最低的是低温中心。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第2课时　气温的分布.pptx",
+      "slide": 26,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "①处",
+      "②处",
+      "③处",
+      "④处"
+    ],
+    "correctOption": "①处"
+  },
+  {
+    "id": "weather-q30",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第2课时 气温的分布",
+    "knowledgePoint": "温差最大区域",
+    "prompt": "关于图中气温分布的描述，正确的是（　　）",
+    "answer": "气温差异最大的地方是②处",
+    "explanation": "②处等温线最密集，说明气温差异最大。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第2课时　气温的分布.pptx",
+      "slide": 27,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "相邻两条等温线的温度差是4℃",
+      "③处气温高于-2℃",
+      "气温差异最小的地方是④处",
+      "气温差异最大的地方是②处"
+    ],
+    "correctOption": "气温差异最大的地方是②处"
+  },
+  {
+    "id": "weather-q31",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第二节 气温的变化与分布·第2课时 气温的分布",
+    "knowledgePoint": "沙石和水实验",
+    "prompt": "结合沙石和水升温降温实验，概括夏季和冬季同纬度陆地与海洋气温大小规律，并判断图示应位于哪个半球、哪个月份。",
+    "answer": "实验表明沙石升温、降温都比水快，因此夏季陆地气温高于海洋，冬季陆地气温低于海洋；图示应位于南半球1月。",
+    "explanation": "这类实验题本质是在解释海陆热力性质差异。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节　第2课时　气温的分布.pptx",
+      "slide": 29,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "weather-q32",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第1课时 降水的变化",
+    "knowledgePoint": "降水季节变化图",
+    "prompt": "通常用来表示一个地区一年内降水季节变化的图是（　　）",
+    "answer": "各月降水量柱状图",
+    "explanation": "降水柱状图最适合看时间变化。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第三节　第1课时　降水的变化.pptx",
+      "slide": 13,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "各月降水量柱状图",
+      "日降水量柱状图",
+      "降水最多月份的降水量柱状图",
+      "多年平均年降水量图"
+    ],
+    "correctOption": "各月降水量柱状图"
+  },
+  {
+    "id": "weather-q33",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第1课时 降水的变化",
+    "knowledgePoint": "南京降水最大值",
+    "prompt": "南京市月降水量最大值大概是（　　）",
+    "answer": "190毫米",
+    "explanation": "读柱状图可得南京月降水量最大值约190毫米。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第三节　第1课时　降水的变化.pptx",
+      "slide": 15,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "50毫米",
+      "100毫米",
+      "150毫米",
+      "190毫米"
+    ],
+    "correctOption": "190毫米"
+  },
+  {
+    "id": "weather-q34",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第1课时 降水的变化",
+    "knowledgePoint": "风调雨顺影响",
+    "prompt": "“风调雨顺，五谷丰登”说明受降水影响最大的是（　　）",
+    "answer": "农业生产",
+    "explanation": "农业最直接受降水多少和季节分配影响。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第三节　第1课时　降水的变化.pptx",
+      "slide": 17,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "日常生活",
+      "工业生产",
+      "交通出行",
+      "农业生产"
+    ],
+    "correctOption": "农业生产"
+  },
+  {
+    "id": "weather-q35",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第1课时 降水的变化",
+    "knowledgePoint": "降水形式",
+    "prompt": "下列关于大气降水的说法，正确的是（　　）",
+    "answer": "雨、雪、冰雹等都是降水形式",
+    "explanation": "降水不只包括降雨，还包括雪和冰雹等。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第三节　第1课时　降水的变化.pptx",
+      "slide": 18,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "降水的形式只包括降雨",
+      "只有降水才会出现打雷现象",
+      "雨、雪、冰雹等都是降水形式",
+      "大气中只要有水汽就一定有降水"
+    ],
+    "correctOption": "雨、雪、冰雹等都是降水形式"
+  },
+  {
+    "id": "weather-q36",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第1课时 降水的变化",
+    "knowledgePoint": "多雨月份数量",
+    "prompt": "通常把降水量超过100毫米称为多雨，图示地区多雨的月份有（　　）",
+    "answer": "6个",
+    "explanation": "图中4月至9月共有6个月降水量超过100毫米。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第三节　第1课时　降水的变化.pptx",
+      "slide": 20,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "2个",
+      "5个",
+      "6个",
+      "9个"
+    ],
+    "correctOption": "6个"
+  },
+  {
+    "id": "weather-q37",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第1课时 降水的变化",
+    "knowledgePoint": "年降水量范围",
+    "prompt": "图示地区年降水量大约是（　　）",
+    "answer": "1000～2000毫米",
+    "explanation": "把各月降水量相加可估算出年降水量在1000～2000毫米之间。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第三节　第1课时　降水的变化.pptx",
+      "slide": 21,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "0～200毫米",
+      "500～1000毫米",
+      "200～500毫米",
+      "1000～2000毫米"
+    ],
+    "correctOption": "1000～2000毫米"
+  },
+  {
+    "id": "weather-q38",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第1课时 降水的变化",
+    "knowledgePoint": "月降水量计算",
+    "prompt": "某地一个月内五次降水量分别为15、21、25、153、41毫米，则该月降水量为（　　）",
+    "answer": "255毫米",
+    "explanation": "月降水量就是本月各次降水量总和。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第三节　第1课时　降水的变化.pptx",
+      "slide": 24,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "51毫米",
+      "255毫米",
+      "41毫米",
+      "1100毫米"
+    ],
+    "correctOption": "255毫米"
+  },
+  {
+    "id": "weather-q39",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第1课时 降水的变化",
+    "knowledgePoint": "持续降水过程",
+    "prompt": "关于该地当月降水过程的说法，正确的是（　　）",
+    "answer": "该地当月中下旬持续降水时间长",
+    "explanation": "材料显示15日至27日持续降水。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第三节　第1课时　降水的变化.pptx",
+      "slide": 25,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "测量降水量的工具是温度计",
+      "该地当月处于旱季",
+      "该地当月中下旬持续降水时间长",
+      "该地当月第2次降水强度最大"
+    ],
+    "correctOption": "该地当月中下旬持续降水时间长"
+  },
+  {
+    "id": "weather-q40",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第1课时 降水的变化",
+    "knowledgePoint": "夏季多雨",
+    "prompt": "下面关于北半球甲、乙两地降水的叙述，正确的是（　　）",
+    "answer": "乙地夏季多雨",
+    "explanation": "乙地7、8月降水多，说明降水集中在夏季。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第三节　第1课时　降水的变化.pptx",
+      "slide": 27,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "甲地比乙地降水的季节变化大",
+      "甲地冬季多雨",
+      "甲地夏季少雨",
+      "乙地夏季多雨"
+    ],
+    "correctOption": "乙地夏季多雨"
+  },
+  {
+    "id": "weather-q41",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第2课时 降水的分布",
+    "knowledgePoint": "迎风坡降水",
+    "prompt": "读图比较甲坡与乙坡降水多少，应是（　　）",
+    "answer": "甲坡降水多",
+    "explanation": "甲坡是迎风坡，暖湿气流抬升形成更多降水。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第2课时　降水的分布.pptx",
+      "slide": 10,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "甲坡降水多",
+      "乙坡降水多",
+      "一样多",
+      "无法确定"
+    ],
+    "correctOption": "甲坡降水多"
+  },
+  {
+    "id": "weather-q42",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第2课时 降水的分布",
+    "knowledgePoint": "世界雨极",
+    "prompt": "有世界“雨极”之称的是（　　）",
+    "answer": "乞拉朋齐",
+    "explanation": "乞拉朋齐位于印度东北部，是世界著名多雨地。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第2课时　降水的分布.pptx",
+      "slide": 11,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "火烧寮",
+      "乞拉朋齐",
+      "奥伊米亚康",
+      "阿塔卡马沙漠"
+    ],
+    "correctOption": "乞拉朋齐"
+  },
+  {
+    "id": "weather-q43",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第2课时 降水的分布",
+    "knowledgePoint": "温带西岸降水",
+    "prompt": "南北纬40°～60°的大陆西岸降水按时间变化规律属于（　　）",
+    "answer": "全年湿润区",
+    "explanation": "该区域多为温带海洋性气候，全年温和湿润。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第2课时　降水的分布.pptx",
+      "slide": 13,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "冬季多雨区",
+      "夏季多雨区",
+      "全年湿润区",
+      "全年少雨区"
+    ],
+    "correctOption": "全年湿润区"
+  },
+  {
+    "id": "weather-q44",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第2课时 降水的分布",
+    "knowledgePoint": "世界降水正确说法",
+    "prompt": "下列关于世界降水分布，说法正确的是（　　）",
+    "answer": "年降水量2000毫米以上的地区主要集中在赤道附近",
+    "explanation": "赤道附近的热带雨林区年降水量往往在2000毫米以上。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第2课时　降水的分布.pptx",
+      "slide": 14,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "年降水量2000毫米以上的地区主要集中在赤道附近",
+      "中纬度地区大陆东岸降水多，西岸降水少",
+      "回归线附近沿海降水多，内陆降水少",
+      "两极地区年降水量多在200毫米以上"
+    ],
+    "correctOption": "年降水量2000毫米以上的地区主要集中在赤道附近"
+  },
+  {
+    "id": "weather-q45",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第2课时 降水的分布",
+    "knowledgePoint": "甲地年降水量",
+    "prompt": "图中甲地年降水量范围是（　　）",
+    "answer": "1000～2000毫米",
+    "explanation": "根据等降水量线范围可判断甲地在1000～2000毫米之间。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第2课时　降水的分布.pptx",
+      "slide": 18,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "200毫米以下",
+      "2000毫米以上",
+      "500～1000毫米",
+      "1000～2000毫米"
+    ],
+    "correctOption": "1000～2000毫米"
+  },
+  {
+    "id": "weather-q46",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第2课时 降水的分布",
+    "knowledgePoint": "降水变化趋势",
+    "prompt": "①→②→③→④四地年降水量变化情况是（　　）",
+    "answer": "先减少后增多",
+    "explanation": "四地从沿海进入内陆再向沿海，降水表现为先少后多。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第2课时　降水的分布.pptx",
+      "slide": 19,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "逐渐增多",
+      "逐渐减少",
+      "先减少后增多",
+      "先增多后减少"
+    ],
+    "correctOption": "先减少后增多"
+  },
+  {
+    "id": "weather-q47",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第2课时 降水的分布",
+    "knowledgePoint": "海陆位置影响降水",
+    "prompt": "①→②→③→④四地年降水量变化的主要影响因素是（　　）",
+    "answer": "海陆位置",
+    "explanation": "沿海多雨、内陆少雨体现的是海陆位置影响。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第2课时　降水的分布.pptx",
+      "slide": 21,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "人为因素",
+      "海陆位置",
+      "地形因素",
+      "纬度位置"
+    ],
+    "correctOption": "海陆位置"
+  },
+  {
+    "id": "weather-q48",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第2课时 降水的分布",
+    "knowledgePoint": "亚欧大陆温带降水",
+    "prompt": "亚欧大陆温带地区自西向东降水变化规律是（　　）",
+    "answer": "多—少—多",
+    "explanation": "沿海降水多，深入内陆减少，接近另一侧海岸又增多。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第2课时　降水的分布.pptx",
+      "slide": 23,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "逐渐增多",
+      "逐渐减少",
+      "多—少—多",
+      "少—多—少"
+    ],
+    "correctOption": "多—少—多"
+  },
+  {
+    "id": "weather-q49",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第2课时 降水的分布",
+    "knowledgePoint": "降水差异主因",
+    "prompt": "M地降水多、N地降水少，其主要影响因素是（　　）",
+    "answer": "纬度位置",
+    "explanation": "赤道附近降水多，两极附近降水少，主要受纬度影响。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第2课时　降水的分布.pptx",
+      "slide": 24,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "纬度位置",
+      "地形因素",
+      "海陆位置",
+      "人为因素"
+    ],
+    "correctOption": "纬度位置"
+  },
+  {
+    "id": "weather-q50",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第2课时 降水的分布",
+    "knowledgePoint": "冬雨型气候城市",
+    "prompt": "四地中，属于冬雨型气候的是（　　）",
+    "answer": "罗马",
+    "explanation": "罗马属地中海气候，冬季多雨。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第2课时　降水的分布.pptx",
+      "slide": 26,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "新加坡",
+      "北京",
+      "伦敦",
+      "罗马"
+    ],
+    "correctOption": "罗马"
+  },
+  {
+    "id": "weather-q51",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第2课时 降水的分布",
+    "knowledgePoint": "全年均匀且最多",
+    "prompt": "四地中，降水季节分配均匀且年降水量最多的是（　　）",
+    "answer": "新加坡",
+    "explanation": "新加坡全年多雨，且总量最大。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第2课时　降水的分布.pptx",
+      "slide": 27,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "新加坡",
+      "北京",
+      "伦敦",
+      "罗马"
+    ],
+    "correctOption": "新加坡"
+  },
+  {
+    "id": "weather-q52",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第三节 降水的变化与分布·第2课时 降水的分布",
+    "knowledgePoint": "旱涝灾害易发地",
+    "prompt": "通过降水量季节变化可知，四地中容易发生旱涝灾害的是（　　）",
+    "answer": "北京和罗马",
+    "explanation": "季节分配越不均，越容易出现旱涝不均。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 第三节　第2课时　降水的分布.pptx",
+      "slide": 28,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "新加坡和北京",
+      "伦敦和罗马",
+      "北京和罗马",
+      "北京和伦敦"
+    ],
+    "correctOption": "北京和罗马"
+  },
+  {
+    "id": "weather-q53",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第1课时 气候的地区差异 世界气候类型的分布",
+    "knowledgePoint": "气候分布温度带",
+    "prompt": "图中所示的气候类型分布在（　　）",
+    "answer": "北温带",
+    "explanation": "最高温出现在7月，且气温状况符合北温带。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　气候的地区差异　世界气候类型的分布.pptx",
+      "slide": 21,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "北温带",
+      "南温带",
+      "北寒带",
+      "热带"
+    ],
+    "correctOption": "北温带"
+  },
+  {
+    "id": "weather-q54",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第1课时 气候的地区差异 世界气候类型的分布",
+    "knowledgePoint": "地中海气候特征",
+    "prompt": "下列关于图示气候的描述，正确的是（　　）",
+    "answer": "这种气候冬季温和多雨，夏季炎热干燥",
+    "explanation": "冬雨夏干是地中海气候最典型特征。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　气候的地区差异　世界气候类型的分布.pptx",
+      "slide": 22,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "此气候类型为温带大陆性气候",
+      "此气候类型为温带海洋性气候",
+      "这种气候全年温和湿润",
+      "这种气候冬季温和多雨，夏季炎热干燥"
+    ],
+    "correctOption": "这种气候冬季温和多雨，夏季炎热干燥"
+  },
+  {
+    "id": "weather-q55",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第1课时 气候的地区差异 世界气候类型的分布",
+    "knowledgePoint": "识别地中海气候图",
+    "prompt": "以下四种气候资料图中，属于地中海气候的是（　　）",
+    "answer": "A",
+    "explanation": "地中海气候应表现为冬季多雨、夏季少雨。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　气候的地区差异　世界气候类型的分布.pptx",
+      "slide": 23,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctOption": "A"
+  },
+  {
+    "id": "weather-q56",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第1课时 气候的地区差异 世界气候类型的分布",
+    "knowledgePoint": "温带东西岸气候",
+    "prompt": "温带地区亚欧大陆东岸、西岸的气候类型分别为（　　）",
+    "answer": "温带季风气候、温带海洋性气候",
+    "explanation": "亚欧大陆温带东岸受季风影响，西岸受西风影响。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　气候的地区差异　世界气候类型的分布.pptx",
+      "slide": 24,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "温带季风气候、温带海洋性气候",
+      "温带季风气候、温带大陆性气候",
+      "温带大陆性气候、温带海洋性气候",
+      "温带海洋性气候、温带季风气候"
+    ],
+    "correctOption": "温带季风气候、温带海洋性气候"
+  },
+  {
+    "id": "weather-q57",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第1课时 气候的地区差异 世界气候类型的分布",
+    "knowledgePoint": "气候基本要素",
+    "prompt": "气候的两个基本要素是（　　）",
+    "answer": "气温和降水",
+    "explanation": "气候分析离不开气温和降水。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　气候的地区差异　世界气候类型的分布.pptx",
+      "slide": 26,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "纬度、气温",
+      "纬度、降水",
+      "气温、地形",
+      "气温、降水"
+    ],
+    "correctOption": "气温、降水"
+  },
+  {
+    "id": "weather-q58",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第1课时 气候的地区差异 世界气候类型的分布",
+    "knowledgePoint": "亚洲最广气候",
+    "prompt": "亚洲分布面积最广的气候类型是（　　）",
+    "answer": "温带大陆性气候",
+    "explanation": "亚洲内部广阔，因此温带大陆性气候分布最广。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案改编训练",
+      "file": "7 第四节　第1课时　气候的地区差异　世界气候类型的分布.pptx",
+      "slide": 27,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "热带雨林气候",
+      "地中海气候",
+      "温带海洋性气候",
+      "温带大陆性气候"
+    ],
+    "correctOption": "温带大陆性气候"
+  },
+  {
+    "id": "weather-q59",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第1课时 气候的地区差异 世界气候类型的分布",
+    "knowledgePoint": "气候类型匹配",
+    "prompt": "与图中的气温、降水资料相对应的气候类型是（　　）",
+    "answer": "温带大陆性气候",
+    "explanation": "题图气温年较差大、降水较少，符合温带大陆性气候。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　气候的地区差异　世界气候类型的分布.pptx",
+      "slide": 28,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "热带雨林气候",
+      "热带草原气候",
+      "热带沙漠气候",
+      "温带大陆性气候"
+    ],
+    "correctOption": "温带大陆性气候"
+  },
+  {
+    "id": "weather-q60",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第1课时 气候的地区差异 世界气候类型的分布",
+    "knowledgePoint": "季风气候共同特点",
+    "prompt": "季风气候的共同特点是（　　）",
+    "answer": "雨热同期",
+    "explanation": "季风气候显著特征就是高温时期降水也较多。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　气候的地区差异　世界气候类型的分布.pptx",
+      "slide": 29,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "雨热同期",
+      "降水少的时候气温高",
+      "全年高温少雨",
+      "全年降水均匀"
+    ],
+    "correctOption": "雨热同期"
+  },
+  {
+    "id": "weather-q61",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第1课时 气候的地区差异 世界气候类型的分布",
+    "knowledgePoint": "孟买气温降水特点",
+    "prompt": "读孟买气温曲线和降水量柱状图可知，其变化特点是（　　）",
+    "answer": "全年高温，降水量季节变化大",
+    "explanation": "孟买属于热带季风气候，气温高、雨季集中。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　气候的地区差异　世界气候类型的分布.pptx",
+      "slide": 30,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "全年高温，降水量季节变化大",
+      "全年高温，降水量年际变化大",
+      "全年温和，降水量季节变化大",
+      "全年温和，降水量年际变化大"
+    ],
+    "correctOption": "全年高温，降水量季节变化大"
+  },
+  {
+    "id": "weather-q62",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第1课时 气候的地区差异 世界气候类型的分布",
+    "knowledgePoint": "非洲7月景观判断",
+    "prompt": "小曹7月到非洲旅游，四个地点中描述正确的是（　　）",
+    "answer": "②地阳光明媚，种植着葡萄、柑橘等作物",
+    "explanation": "②地属于地中海气候，适宜葡萄、柑橘等亚热带作物生长。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　气候的地区差异　世界气候类型的分布.pptx",
+      "slide": 31,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "①地很热，滴雨未下，满眼是沙漠",
+      "②地阳光明媚，种植着葡萄、柑橘等作物",
+      "③地很闷热，几乎天天下雨，到处是茂密的森林",
+      "④地正值冬季，千里冰封，万里雪飘"
+    ],
+    "correctOption": "②地阳光明媚，种植着葡萄、柑橘等作物"
+  },
+  {
+    "id": "weather-q63",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第1课时 气候的地区差异 世界气候类型的分布",
+    "knowledgePoint": "同类气候分布",
+    "prompt": "读世界局部地区气候分布示意图，甲、乙、丙三地的气候类型都是（　　）",
+    "answer": "地中海气候",
+    "explanation": "三地都位于30°～40°大陆西岸的地中海气候带。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第四节　第1课时　气候的地区差异　世界气候类型的分布.pptx",
+      "slide": 33,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "热带雨林气候",
+      "温带海洋性气候",
+      "地中海气候",
+      "热带草原气候"
+    ],
+    "correctOption": "地中海气候"
+  },
+  {
+    "id": "weather-q64",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第1课时 气候的地区差异 世界气候类型的分布",
+    "knowledgePoint": "热带草原景观",
+    "prompt": "“湿季草原葱绿、旱季满目枯黄并有稀树”的景观对应的气候区是（　　）",
+    "answer": "热带草原气候区",
+    "explanation": "热带草原气候最显著的就是干湿两季分明。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案改编训练",
+      "file": "7 第四节　第1课时　气候的地区差异　世界气候类型的分布.pptx",
+      "slide": 34,
+      "note": "能力达标第8题"
+    },
+    "options": [
+      "热带草原气候区",
+      "热带季风气候区",
+      "热带雨林气候区",
+      "热带沙漠气候区"
+    ],
+    "correctOption": "热带草原气候区"
+  },
+  {
+    "id": "weather-q65",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第2课时 影响气候的主要因素",
+    "knowledgePoint": "地形影响气候",
+    "prompt": "下列语句中，主要反映地形对气候影响的是（　　）",
+    "answer": "一山有四季，十里不同天",
+    "explanation": "山地气温随海拔变化，造成明显垂直差异。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　影响气候的主要因素.pptx",
+      "slide": 16,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "一山有四季，十里不同天",
+      "清明时节雨纷纷，路上行人欲断魂",
+      "台风“山竹”影响浙江沿岸地区",
+      "随风潜入夜，润物细无声"
+    ],
+    "correctOption": "一山有四季，十里不同天"
+  },
+  {
+    "id": "weather-q66",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第2课时 影响气候的主要因素",
+    "knowledgePoint": "现象与因素匹配",
+    "prompt": "下列气候现象与其主要影响因素组合正确的是（　　）",
+    "answer": "青藏高原是我国夏季气温最低的地方——地形因素",
+    "explanation": "青藏高原海拔高，因此夏季气温仍较低。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　影响气候的主要因素.pptx",
+      "slide": 17,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "羌笛何须怨杨柳，春风不度玉门关——地形因素",
+      "人间四月芳菲尽，山寺桃花始盛开——纬度因素",
+      "海南岛是我国著名的避寒胜地——海陆因素",
+      "青藏高原是我国夏季气温最低的地方——地形因素"
+    ],
+    "correctOption": "青藏高原是我国夏季气温最低的地方——地形因素"
+  },
+  {
+    "id": "weather-q67",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第2课时 影响气候的主要因素",
+    "knowledgePoint": "热带雨林气候环境",
+    "prompt": "胡椒只能生长在年降水量2500毫米以上的热带地区，因此最适合它生长的气候环境是（　　）",
+    "answer": "全年高温多雨的热带雨林气候",
+    "explanation": "胡椒需要高温多雨环境，因此对应热带雨林气候。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案改编训练",
+      "file": "8 第四节　第2课时　影响气候的主要因素.pptx",
+      "slide": 18,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "全年高温多雨的热带雨林气候",
+      "全年高温、干湿分明的热带草原气候",
+      "全年温和湿润的温带海洋性气候",
+      "夏干冬雨的地中海气候"
+    ],
+    "correctOption": "全年高温多雨的热带雨林气候"
+  },
+  {
+    "id": "weather-q68",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第2课时 影响气候的主要因素",
+    "knowledgePoint": "迎风坡降水多原因",
+    "prompt": "图中降水量②地多于①地的影响因素是（　　）",
+    "answer": "地形因素",
+    "explanation": "②地处迎风坡，暖湿气流抬升后形成更多降水。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　影响气候的主要因素.pptx",
+      "slide": 21,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "人类活动",
+      "海陆因素",
+      "地形因素",
+      "纬度因素"
+    ],
+    "correctOption": "地形因素"
+  },
+  {
+    "id": "weather-q69",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第2课时 影响气候的主要因素",
+    "knowledgePoint": "哈尔滨与海南差异",
+    "prompt": "寒假期间哈尔滨和海南岛气候差异明显，造成这种差异的主要因素是（　　）",
+    "answer": "纬度位置",
+    "explanation": "哈尔滨纬度高，海南纬度低，两地热量差异显著。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　影响气候的主要因素.pptx",
+      "slide": 22,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "地形的影响",
+      "人类活动",
+      "海陆位置",
+      "纬度位置"
+    ],
+    "correctOption": "纬度位置"
+  },
+  {
+    "id": "weather-q70",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第2课时 影响气候的主要因素",
+    "knowledgePoint": "不利于减排的行为",
+    "prompt": "下列生活行为中，不利于减少二氧化碳排放的是（　　）",
+    "answer": "时时刻刻使用空调",
+    "explanation": "长时间使用空调会增加能源消耗，不利于减排。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　影响气候的主要因素.pptx",
+      "slide": 23,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "作业本双面使用，节约纸张",
+      "骑自行车上、下学",
+      "时时刻刻使用空调",
+      "电脑不用时及时关机断电"
+    ],
+    "correctOption": "时时刻刻使用空调"
+  },
+  {
+    "id": "weather-q71",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第2课时 影响气候的主要因素",
+    "knowledgePoint": "两地气候类型",
+    "prompt": "关于甲、乙两地的气候类型和特征，叙述正确的是（　　）",
+    "answer": "甲地为地中海气候，乙地为温带大陆性气候",
+    "explanation": "甲地夏干冬雨，乙地全年少雨且年较差较大。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　影响气候的主要因素.pptx",
+      "slide": 25,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "甲地为地中海气候，乙地为温带大陆性气候",
+      "甲地为温带海洋性气候，乙地为温带季风气候",
+      "甲地夏季高温多雨，冬季温和少雨",
+      "乙地终年寒冷，干燥"
+    ],
+    "correctOption": "甲地为地中海气候，乙地为温带大陆性气候"
+  },
+  {
+    "id": "weather-q72",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第2课时 影响气候的主要因素",
+    "knowledgePoint": "两地差异主因",
+    "prompt": "造成甲、乙两地气候差异的主要影响因素是（　　）",
+    "answer": "地形因素",
+    "explanation": "安第斯山脉对来自海洋的水汽有明显阻挡和抬升作用。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　影响气候的主要因素.pptx",
+      "slide": 27,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "纬度因素",
+      "海陆位置",
+      "地形因素",
+      "人类活动"
+    ],
+    "correctOption": "地形因素"
+  },
+  {
+    "id": "weather-q73",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第2课时 影响气候的主要因素",
+    "knowledgePoint": "南极寒冷主因",
+    "prompt": "南极地区气候寒冷的主要原因是（　　）",
+    "answer": "纬度较高",
+    "explanation": "南极纬度最高，太阳高度角很小。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　影响气候的主要因素.pptx",
+      "slide": 28,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "纬度较高",
+      "海拔较高",
+      "距海较近",
+      "人类活动少"
+    ],
+    "correctOption": "纬度较高"
+  },
+  {
+    "id": "weather-q74",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "第四节 世界的气候·第2课时 影响气候的主要因素",
+    "knowledgePoint": "庐山气温低原因",
+    "prompt": "庐山山上气温比山下低，形成这种现象的主要原因是（　　）",
+    "answer": "地形差异",
+    "explanation": "海拔越高，气温越低。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 第四节　第2课时　影响气候的主要因素.pptx",
+      "slide": 29,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "经度差异",
+      "纬度差异",
+      "地形差异",
+      "海陆差异"
+    ],
+    "correctOption": "地形差异"
+  },
+  {
+    "id": "weather-q75",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "章末总结",
+    "knowledgePoint": "天气与气候区分",
+    "prompt": "古诗词中蕴含丰富地理知识，下列诗句中反映天气的是（　　）",
+    "answer": "东边日出西边雨，道是无晴却有晴",
+    "explanation": "天气描述的是短时间变化，诗句体现的是同一时刻天气变化。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 9,
+      "note": "章末作业第4题"
+    },
+    "options": [
+      "竹外桃花三两枝，春江水暖鸭先知",
+      "东边日出西边雨，道是无晴却有晴",
+      "人间四月芳菲尽，山寺桃花始盛开",
+      "二月江南花满枝，他乡寒食远堪悲"
+    ],
+    "correctOption": "东边日出西边雨，道是无晴却有晴"
+  },
+  {
+    "id": "weather-q76",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "章末总结",
+    "knowledgePoint": "气候描述",
+    "prompt": "下列语句描述气候的是（　　）",
+    "answer": "春暖花开",
+    "explanation": "气候反映一个地区长期稳定的天气特征。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 13,
+      "note": "章末作业第8题"
+    },
+    "options": [
+      "风和日丽",
+      "雨过天晴",
+      "春暖花开",
+      "倾盆大雨"
+    ],
+    "correctOption": "春暖花开"
+  },
+  {
+    "id": "weather-q77",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "章末总结",
+    "knowledgePoint": "地中海气候判断",
+    "prompt": "下列气温年变化曲线和逐月降水量图，符合地中海气候特征的是（　　）",
+    "answer": "冬季温和多雨、夏季炎热干燥的那一图",
+    "explanation": "地中海气候的判图关键就是“夏干冬雨”。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案改编训练",
+      "file": "10 章末总结.pptx",
+      "slide": 14,
+      "note": "章末作业第9题"
+    },
+    "options": [
+      "A图",
+      "B图",
+      "C图",
+      "D图"
+    ],
+    "correctOption": "A图"
+  },
+  {
+    "id": "weather-q78",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "章末总结",
+    "knowledgePoint": "城市气候特征",
+    "prompt": "某城市气候资料显示1月气温高、7月气温低，且冬季多雨、夏季少雨，该气候主要特征是（　　）",
+    "answer": "冬季温和多雨，夏季炎热干燥",
+    "explanation": "气温和降水组合符合地中海气候。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 16,
+      "note": "章末作业第10题"
+    },
+    "options": [
+      "终年温暖湿润",
+      "冬季温和多雨，夏季炎热干燥",
+      "终年炎热干燥",
+      "冬季低温少雨，夏季高温多雨"
+    ],
+    "correctOption": "冬季温和多雨，夏季炎热干燥"
+  },
+  {
+    "id": "weather-q79",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "章末总结",
+    "knowledgePoint": "城市可能位置",
+    "prompt": "上述城市最有可能位于（　　）",
+    "answer": "非洲南端",
+    "explanation": "南半球地中海气候的典型地区之一是非洲南端。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 17,
+      "note": "章末作业第11题"
+    },
+    "options": [
+      "我国东南地区",
+      "美国西部沿海",
+      "非洲南端",
+      "青藏高原"
+    ],
+    "correctOption": "非洲南端"
+  },
+  {
+    "id": "weather-q80",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "章末总结",
+    "knowledgePoint": "热带草原气候匹配",
+    "prompt": "与上图气候特点相匹配的气候类型是（　　）",
+    "answer": "热带草原气候",
+    "explanation": "全年高温且有明显干湿季，是热带草原气候。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 19,
+      "note": "章末作业第12题"
+    },
+    "options": [
+      "热带季风气候",
+      "热带草原气候",
+      "热带雨林气候",
+      "温带海洋性气候"
+    ],
+    "correctOption": "热带草原气候"
+  },
+  {
+    "id": "weather-q81",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "章末总结",
+    "knowledgePoint": "热带草原动物",
+    "prompt": "生活在热带草原气候区的动物有（　　）",
+    "answer": "长颈鹿、斑马、大象",
+    "explanation": "长颈鹿、斑马和大象是非洲热带草原代表动物。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 20,
+      "note": "章末作业第13题"
+    },
+    "options": [
+      "长颈鹿、斑马、大象",
+      "斑马、长臂猿、大象",
+      "长颈鹿、斑马、长臂猿",
+      "斑马、大象、骆驼"
+    ],
+    "correctOption": "长颈鹿、斑马、大象"
+  },
+  {
+    "id": "weather-q82",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "章末总结",
+    "knowledgePoint": "猴面包树气候",
+    "prompt": "根据猴面包树的生长习性，推断当地的气候特征是（　　）",
+    "answer": "全年高温，分干湿两季",
+    "explanation": "猴面包树耐旱、能储水，适应热带草原气候。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 22,
+      "note": "章末作业第14题"
+    },
+    "options": [
+      "全年高温少雨",
+      "夏季炎热干燥，冬季温和多雨",
+      "全年高温多雨",
+      "全年高温，分干湿两季"
+    ],
+    "correctOption": "全年高温，分干湿两季"
+  },
+  {
+    "id": "weather-q83",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第四章 天气与气候",
+    "section": "章末总结",
+    "knowledgePoint": "甲乙气候差异主因",
+    "prompt": "造成甲、乙两地气候差异显著的主要因素是（　　）",
+    "answer": "海陆位置",
+    "explanation": "同纬度但距海远近不同，会造成降水和气温年较差差异。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "10 章末总结.pptx",
+      "slide": 22,
+      "note": "章末作业第15题"
+    },
+    "options": [
+      "纬度位置",
+      "人类活动",
+      "地形地势",
+      "海陆位置"
+    ],
+    "correctOption": "海陆位置"
+  }
+]

@@ -1,0 +1,982 @@
+[
+  {
+    "id": "landsea-k01",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "海陆面积比例",
+    "prompt": "地球表面海洋和陆地面积各约占多少？",
+    "answer": "海洋约占71%，陆地约占29%。",
+    "explanation": "教材常概括为“七分海洋，三分陆地”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k02",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "海陆半球分布",
+    "prompt": "陆地和海洋分别主要集中在哪个半球？",
+    "answer": "陆地主要集中在北半球，海洋主要集中在南半球。",
+    "explanation": "判断海陆分布特点时，南北半球是最基础的切入角度。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k03",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "陆地集中半球",
+    "prompt": "从东西半球看，陆地相对集中在哪个半球？",
+    "answer": "陆地相对集中在东半球。",
+    "explanation": "结合南北半球可概括为“陆地集中在北半球和东半球”。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 29,
+      "note": "基础巩固第5题"
+    }
+  },
+  {
+    "id": "landsea-k04",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "大陆定义",
+    "prompt": "什么叫大陆？",
+    "answer": "面积广大的陆地叫大陆。",
+    "explanation": "大陆、大洲、岛屿是容易混淆的三个概念。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k05",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "大洲定义",
+    "prompt": "什么叫大洲？",
+    "answer": "大陆与它周围的岛屿合起来叫大洲。",
+    "explanation": "判断“大洲”时要注意它不仅包括大陆本体。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k06",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "岛屿定义",
+    "prompt": "什么叫岛屿？",
+    "answer": "面积较小的陆地叫岛屿。",
+    "explanation": "岛屿通常四面环水，但大小明显小于大陆。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k07",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "最大大陆大洲岛屿",
+    "prompt": "世界上面积最大的大陆、大洲、岛屿分别是什么？",
+    "answer": "分别是亚欧大陆、亚洲和格陵兰岛。",
+    "explanation": "这组三项常放在同一道题里考。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k08",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "七大洲名称",
+    "prompt": "七大洲的名称依次是什么？",
+    "answer": "亚洲、非洲、北美洲、南美洲、南极洲、欧洲和大洋洲。",
+    "explanation": "识图和填图时必须能完整写出七大洲名称。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k09",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "亚欧分界线",
+    "prompt": "亚洲和欧洲的分界线由哪些地理事物组成？",
+    "answer": "乌拉尔山、乌拉尔河、里海、大高加索山脉、黑海和土耳其海峡。",
+    "explanation": "这是七大洲分界线中最长、最复杂的一条。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k10",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "亚非分界线",
+    "prompt": "亚洲和非洲的分界线是什么？",
+    "answer": "苏伊士运河。",
+    "explanation": "苏伊士运河沟通地中海和红海。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k11",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "亚北美分界线",
+    "prompt": "亚洲和北美洲的分界线是什么？",
+    "answer": "白令海峡。",
+    "explanation": "白令海峡既是洲界，也是沟通北冰洋与太平洋的重要海峡。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k12",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "南北美分界线",
+    "prompt": "南美洲和北美洲的分界线是什么？",
+    "answer": "巴拿马运河。",
+    "explanation": "巴拿马运河也是沟通太平洋和大西洋的重要航运通道。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k13",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "其他洲界",
+    "prompt": "欧洲和非洲、南美洲和南极洲、北美洲和欧洲分别以什么为界？",
+    "answer": "欧洲和非洲以地中海和直布罗陀海峡为界，南美洲和南极洲以德雷克海峡为界，北美洲和欧洲以丹麦海峡为界。",
+    "explanation": "这类洲界常在章末综合题中出现。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 14,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "landsea-k14",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "赤道穿过大陆",
+    "prompt": "被赤道穿过的两个大陆是什么？",
+    "answer": "非洲大陆和南美大陆。",
+    "explanation": "教材强调的是“大陆”而不是“大洲”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k15",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "海与洋的关系",
+    "prompt": "海和洋有什么关系与区别？",
+    "answer": "海洋是海和洋的总称；洋是广阔连续的海洋主体，海是洋的边缘部分，通常靠近大陆。",
+    "explanation": "区分海和洋时，要抓住“边缘部分”和“靠近大陆”两个特点。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k16",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "四大洋名称",
+    "prompt": "四大洋的名称是什么？",
+    "answer": "太平洋、大西洋、印度洋、北冰洋。",
+    "explanation": "四大洋位置判断是世界地理入门。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k17",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "太平洋特征",
+    "prompt": "太平洋有哪些突出特点？",
+    "answer": "太平洋面积最大、深度最深、岛屿最多，几乎占世界海洋面积的一半。",
+    "explanation": "太平洋是四大洋中综合规模最大的一个。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 15,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "landsea-k18",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "大西洋特征",
+    "prompt": "大西洋有哪些突出特点？",
+    "answer": "大西洋形状略呈S形，面积第二，深度第三。",
+    "explanation": "大西洋的“S形”外形是识图高频点。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 15,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "landsea-k19",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "印度洋特征",
+    "prompt": "印度洋有哪些突出特点？",
+    "answer": "印度洋面积第三、深度第二，大部分位于南半球，全部位于东半球。",
+    "explanation": "印度洋是唯一全部位于东半球的大洋。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 16,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "landsea-k20",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "北冰洋特征",
+    "prompt": "北冰洋有哪些突出特点？",
+    "answer": "北冰洋面积最小、深度最浅、水温最低，是跨经度最广、纬度最高的大洋。",
+    "explanation": "北冰洋的“最小、最浅、最冷”要成组记忆。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 16,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "landsea-k21",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "南极洲与三大洋",
+    "prompt": "南极洲周围依次被哪三大洋环绕？",
+    "answer": "以太平洋为起点按自西向东依次是太平洋、大西洋、印度洋。",
+    "explanation": "南极洲被三大洋环绕，是识图和填空高频考点。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 17,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "landsea-k22",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第一节 大洲和大洋",
+    "knowledgePoint": "北冰洋与三大洲",
+    "prompt": "北冰洋周围依次被哪三大洲环绕？",
+    "answer": "以亚洲为起点按自西向东依次是亚洲、北美洲、欧洲。",
+    "explanation": "北极识图题经常把北冰洋和三大洲放在一起考。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　大洲和大洋.pptx",
+      "slide": 17,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "landsea-k23",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "陆地五种基本地形",
+    "prompt": "陆地地形主要分为哪五种？",
+    "answer": "高原、山地、盆地、丘陵和平原。",
+    "explanation": "后续所有地形图和剖面图题都建立在这五种基本类型之上。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k24",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "高原特征",
+    "prompt": "高原有哪些主要特征？",
+    "answer": "高原海拔一般在500米以上，面积较大，外围较陡，内部起伏较为和缓。",
+    "explanation": "高原和平原都较平坦，但海拔高低不同。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k25",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "山地特征",
+    "prompt": "山地有哪些主要特征？",
+    "answer": "山地海拔一般在500米以上，具有耸立的山峰和陡峭的山坡。",
+    "explanation": "山地常被称为“大地的骨架”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k26",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "盆地特征",
+    "prompt": "盆地有哪些主要特征？",
+    "answer": "盆地的主要特征是四周高、中间低。",
+    "explanation": "盆地没有统一海拔标准，关键看地势形态。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k27",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "丘陵特征",
+    "prompt": "丘陵有哪些主要特征？",
+    "answer": "丘陵海拔一般在500米以下，相对高度较山地小，起伏较大。",
+    "explanation": "丘陵比山地低缓，但仍表现为地面崎岖不平。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k28",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "平原特征",
+    "prompt": "平原有哪些主要特征？",
+    "answer": "平原海拔一般在200米以下，宽广平坦。",
+    "explanation": "平原是世界上分布人口和耕地最集中的地形之一。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k29",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "海底地形类型",
+    "prompt": "海底地形主要有哪些类型？",
+    "answer": "主要有大陆架、大陆坡、海沟、洋盆和洋中脊。",
+    "explanation": "海底地形题常要求按近岸到远洋的顺序识别。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k30",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "大陆架",
+    "prompt": "大陆架有什么特点？",
+    "answer": "大陆架是大陆向海洋的自然延伸部分，坡度较缓，海水深度一般不超过200米。",
+    "explanation": "大陆架是人类海上活动最频繁、油气资源也较丰富的海底地形。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k31",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "大陆坡",
+    "prompt": "大陆坡有什么特点？",
+    "answer": "大陆坡是大陆架外缘的巨大陡坡，海水深度会从几百米迅速增加到几千米。",
+    "explanation": "大陆坡是近海向深海过渡的显著地带。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k32",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "海沟",
+    "prompt": "海沟有什么特点？",
+    "answer": "海沟是海洋底部最深的地方，常出现在大陆坡和洋盆交界处。",
+    "explanation": "马里亚纳海沟是世界最深的海沟。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k33",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "洋盆",
+    "prompt": "洋盆有什么特点？",
+    "answer": "洋盆是宽广而又相对平坦的大洋底部。",
+    "explanation": "洋盆占据海底很大面积。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k34",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "洋中脊",
+    "prompt": "洋中脊有什么特点？",
+    "answer": "洋中脊是分布在大洋中部的海底山脉，也是新海底诞生和火山活动较强烈的地带。",
+    "explanation": "洋中脊是板块张裂活动的重要表现。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k35",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "主要地形区",
+    "prompt": "教材列举的世界主要山脉、高原、平原和盆地有哪些代表？",
+    "answer": "如喜马拉雅山脉、阿尔卑斯山脉、落基山脉、安第斯山脉、巴西高原、青藏高原、亚马孙平原、东欧平原和刚果盆地等。",
+    "explanation": "记忆主要地形区时要把名称和大致位置对应起来。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 10,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "landsea-k36",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "亚洲地形特征",
+    "prompt": "亚洲的地形地势特点怎样概括？",
+    "answer": "亚洲地形复杂多样，地势起伏很大，中部高、四周低，高原和山地面积广大。",
+    "explanation": "亚洲是地形最复杂的大洲之一。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 12,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "landsea-k37",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "非洲地形特征",
+    "prompt": "非洲的地形地势特点怎样概括？",
+    "answer": "非洲以高原为主，地势东南高、西北低。",
+    "explanation": "非洲常被称为“高原大陆”。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 12,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "landsea-k38",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "欧洲和南极洲地形特征",
+    "prompt": "欧洲和南极洲的地形特征分别是什么？",
+    "answer": "欧洲以平原为主，是平均海拔最低的大洲；南极洲是冰雪大陆，是平均海拔最高的大洲。",
+    "explanation": "这两洲的“最低”和“最高”容易成对考查。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 12,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "landsea-k39",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "北美洲地形特征",
+    "prompt": "北美洲的地形特征怎样概括？",
+    "answer": "北美洲地形分为三个南北纵列带：西部山地、中部平原、东部高原山地。",
+    "explanation": "北美洲地形结构很有规律，常用于区域对比。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 12,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "landsea-k40",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第二节 世界的地形",
+    "knowledgePoint": "南美洲和大洋洲地形特征",
+    "prompt": "南美洲和大洋洲的地形特征分别是什么？",
+    "answer": "南美洲西部是山地，东部高原与平原相间分布；大洋洲可分为西部高原、中部平原和东部山地三大地形区。",
+    "explanation": "这两个大洲都适合用“西高东低”或“西中东”结构来概括。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节　世界的地形.pptx",
+      "slide": 12,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "landsea-k41",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "海陆变迁原因",
+    "prompt": "海陆变迁的主要原因有哪些？",
+    "answer": "主要有地壳运动、海平面升降和人类活动。",
+    "explanation": "“沧海桑田”现象需要从自然和人类活动两方面理解。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第三节　海陆的变迁.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k42",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "大陆漂移说",
+    "prompt": "大陆漂移说的主要内容是什么？",
+    "answer": "大约2亿年前，各大洲原来连成一块大陆，后来分裂并缓慢漂移，逐渐形成今天七大洲、四大洋的分布。",
+    "explanation": "大陆漂移说解释了大洲轮廓和古生物化石相似等现象。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第三节　海陆的变迁.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k43",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "大陆漂移证据",
+    "prompt": "教材列举了哪些大陆漂移说的证据？",
+    "answer": "南美洲和非洲大陆轮廓可以吻合，两洲古老地层相似，古生物具有一致性，大西洋扩张、太平洋收缩，红海扩张、地中海收缩等都可作证据。",
+    "explanation": "证据题往往要从轮廓、地层、生物和现代测量现象几方面回答。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第三节　海陆的变迁.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k44",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "六大板块",
+    "prompt": "全球大致划分为哪六大板块？",
+    "answer": "亚欧板块、印度洋板块、非洲板块、太平洋板块、美洲板块和南极洲板块。",
+    "explanation": "六大板块名称是板块构造学说的基础识记内容。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第三节　海陆的变迁.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k45",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "板块活动规律",
+    "prompt": "板块内部和板块交界地带的地壳活动有什么差别？",
+    "answer": "一般来说板块内部地壳比较稳定，板块交界地带地壳比较活跃。",
+    "explanation": "火山和地震多分布在板块交界处。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第三节　海陆的变迁.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k46",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "张裂与碰撞",
+    "prompt": "板块张裂和碰撞分别会形成什么地貌？",
+    "answer": "板块张裂常形成裂谷或海洋，板块碰撞在陆地上常形成山脉。",
+    "explanation": "红海、东非大裂谷和喜马拉雅山脉都能用这条规律解释。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第三节　海陆的变迁.pptx",
+      "slide": 14,
+      "note": "课堂解析·重难突破"
+    }
+  },
+  {
+    "id": "landsea-k47",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "主要山脉形成",
+    "prompt": "喜马拉雅山脉、阿尔卑斯山脉、安第斯山脉和落基山脉分别由哪些板块作用形成？",
+    "answer": "喜马拉雅山脉由亚欧板块和印度洋板块碰撞形成，阿尔卑斯山脉由亚欧板块和非洲板块碰撞形成，安第斯山脉由美洲板块和南极洲板块碰撞形成，落基山脉由美洲板块和太平洋板块碰撞形成。",
+    "explanation": "山脉形成题的关键是把山脉名称与对应板块组合记牢。",
+    "difficulty": "hard",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第三节　海陆的变迁.pptx",
+      "slide": 9,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k48",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "两大火山地震带",
+    "prompt": "世界两大火山、地震带分别是什么？",
+    "answer": "分别是环太平洋火山、地震带和地中海—喜马拉雅火山、地震带。",
+    "explanation": "这两大地带都位于板块交界处。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第三节　海陆的变迁.pptx",
+      "slide": 10,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "landsea-k49",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第三章 陆地和海洋",
+    "section": "第三节 海陆的变迁",
+    "knowledgePoint": "板块实例解释",
+    "prompt": "怎样用板块构造学说解释红海扩张、地中海缩小、日本多地震和英国少地震？",
+    "answer": "红海位于非洲板块和印度洋板块张裂地带，所以不断扩张；地中海位于亚欧板块和非洲板块碰撞地带，所以不断缩小；日本位于板块交界处所以地震频繁；英国位于亚欧板块内部所以地震较少。",
+    "explanation": "板块构造学说最重要的价值就是解释现实地理现象。",
+    "difficulty": "hard",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第三节　海陆的变迁.pptx",
+      "slide": 15,
+      "note": "课堂解析·重难突破"
+    }
+  }
+]
