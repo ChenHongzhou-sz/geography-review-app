@@ -3,6 +3,7 @@ export type Difficulty = "easy" | "medium" | "hard";
 export type Importance = "high" | "medium" | "low";
 export type QuestionType = "select" | "judge" | "fill" | "map" | "flashcard";
 export type SelfRating = "again" | "hard" | "good";
+export type UnitStatus = "ready" | "planned";
 
 export interface KnowledgeSource {
   label: string;
@@ -22,13 +23,6 @@ export interface KnowledgeCard {
   difficulty: Difficulty;
   importance: Importance;
   source: KnowledgeSource;
-}
-
-export interface ChapterInfo {
-  book: BookCode;
-  chapter: string;
-  sections: string[];
-  pageSpan: string;
 }
 
 export interface MapChallenge {
@@ -103,11 +97,38 @@ export interface SprintPreset {
   itemCount: number;
 }
 
-export interface ChapterRate {
-  book: BookCode;
+export interface UnitCatalogEntry {
+  unitId: string;
+  bookCode: BookCode;
+  bookLabel: string;
   chapter: string;
+  chapterName: string;
+  title: string;
+  description: string;
+  status: UnitStatus;
+  accent: "ocean" | "mint" | "sand" | "slate";
+}
+
+export interface UnitData {
+  unitId: string;
+  bookCode: BookCode;
+  bookLabel: string;
+  chapter: string;
+  chapterName: string;
+  title: string;
+  description: string;
+  sections: string[];
+  knowledgePoints: KnowledgeCard[];
+  maps: MapChallenge[];
+}
+
+export interface UnitSummary extends UnitCatalogEntry {
+  knowledgeCount: number;
+  questionCount: number;
+  mapCount: number;
   masteryRate: number;
   dueCount: number;
+  ready: boolean;
 }
 
 export interface StudyStats {
@@ -119,5 +140,6 @@ export interface StudyStats {
   streakDays: number;
   todayMinutes: number;
   totalMinutes: number;
-  chapterRates: ChapterRate[];
+  readyUnits: number;
+  totalUnits: number;
 }

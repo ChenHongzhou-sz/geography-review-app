@@ -1,120 +1,93 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
 import { AlertTriangle, RotateCcw } from "lucide-react";
 import { Link } from "react-router-dom";
 import { AppShell } from "../components/layout/app-shell";
 import { Badge } from "../components/ui/badge";
 import { buttonVariants } from "../components/ui/button";
 import { Card, CardDescription, CardTitle } from "../components/ui/card";
-import { StudyCard } from "../components/study/study-card";
-import { createReviewCard } from "../utils/review";
-import type { ReviewCard } from "../types";
+import { cn } from "../utils/cn";
 import type { StudyEngine } from "../hooks/useStudyEngine";
 
 export function MistakesPage({ engine }: { engine: StudyEngine }) {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [sessionCards, setSessionCards] = useState<ReviewCard[]>([]);
-  const activeCard = sessionCards[currentIndex];
-
-  const startMistakeSession = (itemIds?: string[]) => {
-    const selectedItems = itemIds?.length
-      ? engine.wrongItems.filter((item) => itemIds.includes(item.id))
-      : engine.wrongItems;
-
-    setSessionCards(
-      selectedItems.map((item) => createReviewCard(item, "select", engine.knowledgeBase))
-    );
-    setCurrentIndex(0);
-  };
+  const readyUnits = engine.units.filter((unit) => unit.ready);
+  const [selectedUnitId, setSelectedUnitId] = useState<string>("all");
+  const displayedItems =
+    selectedUnitId === "all"
+      ? engine.wrongItems
+      : engine.getUnitWrongItems(selectedUnitId);
 
   return (
-    <AppShell pathname="/mistakes">
+    <AppShell
+      title="错题本"
+      subtitle="错题页现在也已经准备好按单元筛选。等后续单元继续加入后，这里会自动汇总各单元的易错点。"
+      headerAside={
+        <div className="rounded-[1.5rem] bg-amber-50 px-5 py-4 text-amber-900">
+          <div className="text-sm">待回炉错题</div>
+          <div className="mt-2 text-3xl font-bold">{displayedItems.length}</div>
+        </div>
+      }
+    >
       <div className="mx-auto max-w-5xl space-y-5">
         <Card>
           <div className="flex flex-wrap items-center justify-between gap-4">
             <div>
-              <CardTitle>错题回炉区</CardTitle>
+              <CardTitle>按单元查看错题</CardTitle>
               <CardDescription className="mt-2">
-                自动记录错误次数、所属章节和知识点解析，适合每天花几分钟补漏洞。
+                当前先支持亚洲单元，后续其它单元接入后会自动出现在这里。
               </CardDescription>
             </div>
-            <Badge variant="sand">共 {engine.wrongItems.length} 个待回炉知识点</Badge>
+            <Badge variant="sand">共 {engine.wrongItems.length} 个易错点</Badge>
           </div>
-          {engine.wrongItems.length ? (
-            <div className="mt-5 flex flex-wrap gap-3">
+
+          <div className="mt-5 flex flex-wrap gap-3">
+            <button
+              type="button"
+              onClick={() => setSelectedUnitId("all")}
+              className={cn(
+                buttonVariants({ variant: selectedUnitId === "all" ? "default" : "secondary", size: "sm" })
+              )}
+            >
+              全部错题
+            </button>
+            {readyUnits.map((unit) => (
               <button
+                key={unit.unitId}
                 type="button"
-                onClick={() => startMistakeSession()}
-                className={buttonVariants({ size: "lg" })}
+                onClick={() => setSelectedUnitId(unit.unitId)}
+                className={cn(
+                  buttonVariants({
+                    variant: selectedUnitId === unit.unitId ? "default" : "secondary",
+                    size: "sm"
+                  })
+                )}
               >
-                全部重做
+                {unit.title}
               </button>
-              <Link
-                to="/review"
-                className={buttonVariants({ variant: "secondary", size: "lg" })}
-              >
-                去单元练习
-              </Link>
-            </div>
-          ) : null}
+            ))}
+          </div>
         </Card>
 
-        {activeCard ? (
-          <StudyCard
-            card={activeCard}
-            indexLabel={`${currentIndex + 1} / ${sessionCards.length}`}
-            onRate={(rating) => {
-              engine.reviewKnowledge(activeCard, rating);
-              setCurrentIndex((value) => value + 1);
-            }}
-          />
-        ) : sessionCards.length > 0 ? (
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-            <Card className="bg-slate-950 text-white">
-              <div className="mb-4 inline-flex rounded-full bg-white/12 px-3 py-1 text-sm font-semibold">
-                错题重做完成
-              </div>
-              <CardTitle className="text-white">这一轮错题已经练完了</CardTitle>
-              <CardDescription className="mt-3 text-slate-300">
-                标记为“会”的题会逐步从错题本中移出；仍然模糊的题会保留，方便下次继续补。
-              </CardDescription>
-              <div className="mt-6 flex flex-wrap gap-3">
-                <button
-                  type="button"
-                  onClick={() => startMistakeSession()}
-                  className={buttonVariants({ size: "lg" })}
-                >
-                  再做一轮
-                </button>
-                <Link
-                  to="/review"
-                  className={buttonVariants({ variant: "secondary", size: "lg" })}
-                >
-                  回到训练
-                </Link>
-              </div>
-            </Card>
-          </motion.div>
-        ) : engine.wrongItems.length === 0 ? (
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-            <Card className="text-center">
-              <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-mint-100">
-                <RotateCcw className="h-6 w-6 text-mint-700" />
-              </div>
-              <CardTitle>错题本暂时清空了</CardTitle>
-              <CardDescription className="mt-2">
-                继续做题后，这里会自动汇总最近出错的知识点。
-              </CardDescription>
-              <div className="mt-5">
-                <Link to="/review" className={buttonVariants({ size: "lg" })}>
-                  回到训练
-                </Link>
-              </div>
-            </Card>
-          </motion.div>
+        {displayedItems.length === 0 ? (
+          <Card className="text-center">
+            <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-mint-100">
+              <RotateCcw className="h-6 w-6 text-mint-700" />
+            </div>
+            <CardTitle>这一栏暂时是空的</CardTitle>
+            <CardDescription className="mt-2">
+              继续做题后，这里会自动记录最近做错的知识点和解析。
+            </CardDescription>
+            <div className="mt-5">
+              <Link
+                to={`/training/${engine.featuredUnit.unitId}`}
+                className={buttonVariants({ size: "lg" })}
+              >
+                回到训练
+              </Link>
+            </div>
+          </Card>
         ) : (
           <div className="grid gap-4 lg:grid-cols-2">
-            {engine.wrongItems.map((item) => (
+            {displayedItems.map((item) => (
               <Card key={item.id}>
                 <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
                   <div className="flex flex-wrap gap-2">
@@ -128,25 +101,14 @@ export function MistakesPage({ engine }: { engine: StudyEngine }) {
                 </div>
 
                 <CardTitle>{item.knowledgePoint}</CardTitle>
-                <CardDescription className="mt-2 text-base">
-                  {item.question}
-                </CardDescription>
+                <CardDescription className="mt-2 text-base">{item.question}</CardDescription>
+
                 <div className="mt-4 rounded-[1.2rem] bg-slate-50 p-4">
                   <div className="text-sm font-semibold text-ocean-700">正确答案</div>
                   <div className="mt-2 text-lg font-semibold text-ink">{item.answer}</div>
-                  <div className="mt-3 text-sm leading-7 text-slate-600">
-                    {item.explanation}
-                  </div>
+                  <div className="mt-3 text-sm leading-7 text-slate-600">{item.explanation}</div>
                 </div>
-                <div className="mt-4">
-                  <button
-                    type="button"
-                    onClick={() => startMistakeSession([item.id])}
-                    className={buttonVariants({ variant: "secondary", size: "lg" })}
-                  >
-                    重做这题
-                  </button>
-                </div>
+
                 <div className="mt-4 flex items-center justify-between gap-3 text-sm text-slate-500">
                   <span>{item.chapter}</span>
                   <span>

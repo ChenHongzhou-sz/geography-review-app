@@ -5,14 +5,13 @@ import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
 import { Card, CardDescription, CardTitle } from "../ui/card";
 import type { ReviewCard, SelfRating } from "../../types";
-import { resolvePublicAsset } from "../../utils/public-assets";
 
 const typeLabel: Record<ReviewCard["questionType"], string> = {
   select: "选择题",
   judge: "判断题",
   fill: "填空题",
   map: "地图题",
-  flashcard: "记忆卡片"
+  flashcard: "记忆卡"
 };
 
 export function StudyCard({
@@ -38,7 +37,6 @@ export function StudyCard({
     revealed && selectedOption && card.correctOption
       ? selectedOption === card.correctOption
       : undefined;
-  const imageSrc = resolvePublicAsset(card.assetPath);
 
   return (
     <motion.div
@@ -60,9 +58,9 @@ export function StudyCard({
 
         {card.questionType === "map" ? (
           <div className="mb-5 overflow-hidden rounded-[1.4rem] border border-ocean-100 bg-gradient-to-br from-ocean-50 to-white">
-            {imageSrc && !imageFailed ? (
+            {card.assetPath && !imageFailed ? (
               <img
-                src={imageSrc}
+                src={card.assetPath}
                 alt={card.prompt}
                 className="aspect-[16/10] w-full object-cover"
                 onError={() => setImageFailed(true)}
@@ -70,9 +68,10 @@ export function StudyCard({
             ) : (
               <div className="flex aspect-[16/10] flex-col items-center justify-center gap-3 px-5 text-center">
                 <MapPinned className="h-9 w-9 text-ocean-500" />
-                <div className="text-base font-semibold text-ink">待接入教材/课件原图</div>
+                <div className="text-base font-semibold text-ink">待接入教材或课件原图</div>
                 <div className="max-w-md text-sm leading-6 text-slate-600">
-                  {card.extractionNote ?? "当前版本保留了来源页码与路径说明，等待执行图片抽取脚本。"}
+                  {card.extractionNote ??
+                    "当前版本保留了地图来源与说明，后续可以继续补充原图素材。"}
                 </div>
               </div>
             )}
@@ -177,7 +176,7 @@ export function StudyCard({
                   模糊
                 </Button>
                 <Button variant="success" className="w-full" onClick={() => onRate("good")}>
-                  会
+                  会了
                 </Button>
               </div>
             </div>

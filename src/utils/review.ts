@@ -1,4 +1,4 @@
-import type {
+﻿import type {
   KnowledgeCard,
   MapChallenge,
   RecentHistoryState,
@@ -501,10 +501,6 @@ export function buildReviewDeck(
   history: RecentHistoryState,
   targetSize = 20
 ) {
-  if (!knowledgeBase.length) {
-    return buildMapDeck(mapChallenges, progressMap, history, targetSize);
-  }
-
   const rankedKnowledge = rankKnowledge(knowledgeBase, progressMap, history);
   const reviewHistory = recentEntriesByType(history, "review");
   const recentReviewCardIds = new Set(reviewHistory.map((entry) => entry.cardId));
@@ -550,3 +546,4 @@ export function buildReviewDeck(
 
   return deck;
 }
+
