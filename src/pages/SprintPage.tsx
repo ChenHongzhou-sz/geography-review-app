@@ -1,96 +1,177 @@
-import { ArrowRight, Sparkles, TimerReset } from "lucide-react";
+import { useEffect, useMemo, useState } from "react";
+import { ArrowRight, RotateCcw, Trophy } from "lucide-react";
 import { Link } from "react-router-dom";
 import { AppShell } from "../components/layout/app-shell";
+import { StudyCard } from "../components/study/study-card";
 import { Badge } from "../components/ui/badge";
 import { buttonVariants } from "../components/ui/button";
 import { Card, CardDescription, CardTitle } from "../components/ui/card";
+import { Progress } from "../components/ui/progress";
 import { cn } from "../utils/cn";
+import type { ReviewCard } from "../types";
 import type { StudyEngine } from "../hooks/useStudyEngine";
 
 export function SprintPage({ engine }: { engine: StudyEngine }) {
+  const unit = engine.featuredUnit;
+  const data = engine.getUnitData(unit.unitId);
+  const stages = engine.getUnitStages(unit.unitId);
+  const [selectedStageId, setSelectedStageId] = useState(stages[0]?.id ?? "");
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [sessionCards, setSessionCards] = useState<ReviewCard[]>(() =>
+    stages[0] ? engine.getUnitChallengeDeck(unit.unitId, stages[0].id) : []
+  );
+
+  const selectedStage = useMemo(
+    () => stages.find((stage) => stage.id === selectedStageId) ?? stages[0],
+    [selectedStageId, stages]
+  );
+
+  useEffect(() => {
+    if (!selectedStage) {
+      setSessionCards([]);
+      setCurrentIndex(0);
+      return;
+    }
+
+    setSessionCards(engine.getUnitChallengeDeck(unit.unitId, selectedStage.id));
+    setCurrentIndex(0);
+  }, [selectedStageId, unit.unitId]);
+
+  if (!data || !selectedStage) {
+    return (
+      <AppShell
+        title="亚洲闯关"
+        subtitle="当前还没有可用的闯关数据。"
+      >
+        <Card>
+          <CardTitle>暂时还没有闯关内容</CardTitle>
+          <CardDescription className="mt-2">
+            等单元数据接入后，这里会自动生成按模块闯关的训练流程。
+          </CardDescription>
+        </Card>
+      </AppShell>
+    );
+  }
+
+  const card = sessionCards[currentIndex];
+  const stageIndex = stages.findIndex((stage) => stage.id === selectedStage.id);
+  const nextStage = stages[stageIndex + 1];
+  const stageMastery = engine.getStageMastery(unit.unitId, selectedStage.id);
+
   return (
     <AppShell
-      title="考前冲刺"
-      subtitle="冲刺页先作为训练节奏入口保留下来。现在默认围绕亚洲单元组织，后续多个单元上线后也可以继续复用这套结构。"
+      title="亚洲闯关"
+      subtitle="把亚洲单元拆成六关逐步推进。每关都会从对应模块中抽取知识卡片、原题和地图题，适合考前做结构化复习。"
       headerAside={
         <div className="rounded-[1.5rem] bg-slate-950 px-5 py-4 text-white">
-          <div className="text-sm text-slate-300">当前主单元</div>
-          <div className="mt-2 text-2xl font-bold">{engine.featuredUnit.title}</div>
+          <div className="text-sm text-slate-300">当前关卡掌握率</div>
+          <div className="mt-2 text-3xl font-bold">{stageMastery}%</div>
         </div>
       }
     >
       <div className="mx-auto max-w-5xl space-y-5">
         <Card className="bg-gradient-to-br from-slate-950 via-slate-900 to-ocean-900 text-white">
           <div className="mb-4 inline-flex rounded-full bg-white/12 px-3 py-1 text-sm font-semibold">
-            冲刺训练策略
+            亚洲闯关路线
           </div>
-          <CardTitle className="text-white">考前这页先帮你安排训练节奏</CardTitle>
+          <CardTitle className="text-white">{unit.title}</CardTitle>
           <CardDescription className="mt-3 max-w-3xl text-slate-300">
-            当前版本先把冲刺包和单元训练打通，方便学生在短时间内集中完成亚洲单元的高频知识、地图题和错题回炉。
+            每一关都围绕一个核心模块设计，既保留原题，也穿插地图图像和记忆卡片，适合手机和 iPad 连续练习。
           </CardDescription>
         </Card>
 
         <div className="grid gap-4 lg:grid-cols-3">
-          {engine.sprintPresets.map((preset, index) => (
-            <Card key={preset.minutes} className="h-full">
-              <div className="mb-4 flex items-center justify-between">
-                <Badge variant={index === 0 ? "default" : index === 1 ? "success" : "sand"}>
-                  {preset.minutes} 分钟
-                </Badge>
-                <TimerReset className="h-5 w-5 text-slate-400" />
-              </div>
-              <CardTitle>{preset.label}</CardTitle>
-              <CardDescription className="mt-2">
-                预估完成 {preset.itemCount} 个训练项目，适合考前按时长快速切换任务。
-              </CardDescription>
+          {stages.map((stage) => {
+            const isSelected = stage.id === selectedStage.id;
+            const mastery = engine.getStageMastery(unit.unitId, stage.id);
 
-              <div className="mt-4 flex flex-wrap gap-2">
-                {preset.focus.map((focus) => (
-                  <Badge key={focus} variant="slate">
-                    {focus}
-                  </Badge>
-                ))}
-              </div>
-
-              <div className="mt-6">
-                <Link
-                  to={`/training/${engine.featuredUnit.unitId}`}
-                  className={cn(buttonVariants({ size: "lg" }), "w-full")}
-                >
-                  开始冲刺
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </div>
-            </Card>
-          ))}
+            return (
+              <button
+                key={stage.id}
+                type="button"
+                onClick={() => setSelectedStageId(stage.id)}
+                className={cn(
+                  "rounded-[1.5rem] border p-5 text-left transition",
+                  isSelected
+                    ? "border-ocean-300 bg-ocean-50 shadow-sm"
+                    : "border-slate-200 bg-white hover:border-ocean-200 hover:bg-slate-50"
+                )}
+              >
+                <div className="flex items-center justify-between gap-3">
+                  <Badge variant={isSelected ? "default" : "slate"}>{stage.title}</Badge>
+                  <div className="text-sm font-semibold text-slate-500">{mastery}%</div>
+                </div>
+                <div className="mt-3 font-semibold text-ink">{stage.description}</div>
+                <div className="mt-2 text-sm leading-6 text-slate-600">{stage.focus}</div>
+              </button>
+            );
+          })}
         </div>
 
         <Card>
-          <div className="flex items-center gap-3">
-            <Sparkles className="h-5 w-5 text-ocean-500" />
-            <CardTitle>使用建议</CardTitle>
+          <div className="flex flex-wrap items-center justify-between gap-4">
+            <div>
+              <CardTitle>{selectedStage.title}</CardTitle>
+              <CardDescription className="mt-2">{selectedStage.description}</CardDescription>
+            </div>
+            <div className="rounded-[1.4rem] bg-amber-50 px-4 py-3 text-amber-900">
+              <div className="text-sm">关卡目标</div>
+              <div className="text-2xl font-bold">{selectedStage.passThreshold}%</div>
+            </div>
           </div>
-          <div className="mt-4 grid gap-3 sm:grid-cols-3">
-            <div className="rounded-[1.3rem] bg-ocean-50 p-4">
-              <div className="text-sm font-semibold text-ocean-700">30 分钟</div>
-              <div className="mt-2 text-sm leading-7 text-slate-700">
-                适合课间或晚自习前，先把待复习知识点快速过一轮。
-              </div>
-            </div>
-            <div className="rounded-[1.3rem] bg-mint-100 p-4">
-              <div className="text-sm font-semibold text-mint-700">60 分钟</div>
-              <div className="mt-2 text-sm leading-7 text-slate-700">
-                适合周末强化，把地图题和错题本一起带上。
-              </div>
-            </div>
-            <div className="rounded-[1.3rem] bg-sand p-4">
-              <div className="text-sm font-semibold text-amber-900">90 分钟</div>
-              <div className="mt-2 text-sm leading-7 text-slate-700">
-                适合考前总复习，完整串联本章知识框架与识图能力。
-              </div>
-            </div>
+          <div className="mt-4">
+            <Progress value={(currentIndex / Math.max(sessionCards.length, 1)) * 100} />
           </div>
         </Card>
+
+        {card ? (
+          <StudyCard
+            card={card}
+            indexLabel={`${currentIndex + 1} / ${sessionCards.length}`}
+            onRate={(rating) => {
+              engine.reviewKnowledge(card, rating);
+              setCurrentIndex((value) => value + 1);
+            }}
+          />
+        ) : (
+          <Card>
+            <div className="mb-3 inline-flex rounded-full bg-ocean-50 px-3 py-1 text-sm font-semibold text-ocean-900">
+              当前关卡完成
+            </div>
+            <CardTitle>{selectedStage.title} 已完成</CardTitle>
+            <CardDescription className="mt-2">
+              可以重新练这一关，也可以直接进入下一关继续推进。
+            </CardDescription>
+            <div className="mt-5 flex flex-wrap gap-3">
+              <button
+                type="button"
+                onClick={() => {
+                  setSessionCards(engine.getUnitChallengeDeck(unit.unitId, selectedStage.id));
+                  setCurrentIndex(0);
+                }}
+                className={buttonVariants({ size: "lg" })}
+              >
+                <RotateCcw className="mr-2 h-4 w-4" />
+                重练本关
+              </button>
+              {nextStage ? (
+                <button
+                  type="button"
+                  onClick={() => setSelectedStageId(nextStage.id)}
+                  className={buttonVariants({ variant: "secondary", size: "lg" })}
+                >
+                  进入下一关
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </button>
+              ) : (
+                <Link to={`/training/${unit.unitId}`} className={buttonVariants({ variant: "secondary", size: "lg" })}>
+                  <Trophy className="mr-2 h-4 w-4" />
+                  回到单元训练
+                </Link>
+              )}
+            </div>
+          </Card>
+        )}
       </div>
     </AppShell>
   );

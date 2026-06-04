@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Compass, NotebookPen } from "lucide-react";
+import { Compass, NotebookPen, Trophy } from "lucide-react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { AppShell } from "../components/layout/app-shell";
 import { StudyCard } from "../components/study/study-card";
@@ -35,7 +35,7 @@ export function MapPage({ engine }: { engine: StudyEngine }) {
   return (
     <AppShell
       title={`${unit.title} 地图挑战`}
-      subtitle="地图挑战页也已经改成按 unitId 工作。以后每个单元都可以带自己的识图素材、区域判断题和地图资源。"
+      subtitle="地图挑战集中训练亚洲位置图、地理分区图和自然环境图。所有图片都来自你提供的课件原图，不做外部下载和重绘。"
       headerAside={
         <div className="rounded-[1.5rem] bg-mint-100 px-5 py-4 text-mint-700">
           <div className="text-sm">地图掌握率</div>
@@ -49,7 +49,7 @@ export function MapPage({ engine }: { engine: StudyEngine }) {
             <div>
               <CardTitle>{unit.title} 地图专项</CardTitle>
               <CardDescription className="mt-2">
-                当前轮次优先抽亚洲定位、分区和气候识图题，尽量减少相同原图的重复出现。
+                当前轮次优先抽取位置、分区、地形和季风相关的原图地图题，尽量避免同一张图连续重复。
               </CardDescription>
             </div>
             <div className="rounded-[1.4rem] bg-slate-950 px-4 py-3 text-white">
@@ -78,12 +78,16 @@ export function MapPage({ engine }: { engine: StudyEngine }) {
             </div>
             <CardTitle>这一轮地图题已经完成</CardTitle>
             <CardDescription className="mt-2">
-              可以继续回到单元训练，或者去错题本集中清理还没掌握稳的内容。
+              可以继续回到单元训练，或者进入亚洲闯关，把地图题和综合题一起带一遍。
             </CardDescription>
             <div className="mt-5 flex flex-wrap gap-3">
               <Link to={`/training/${unit.unitId}`} className={buttonVariants({ size: "lg" })}>
                 <Compass className="mr-2 h-4 w-4" />
                 回到单元训练
+              </Link>
+              <Link to="/sprint" className={buttonVariants({ variant: "secondary", size: "lg" })}>
+                <Trophy className="mr-2 h-4 w-4" />
+                亚洲闯关
               </Link>
               <button
                 type="button"

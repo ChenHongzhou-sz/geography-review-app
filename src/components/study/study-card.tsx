@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { CheckCircle2, Eye, FileText, ImageOff, MapPinned, XCircle } from "lucide-react";
+import { CheckCircle2, Eye, FileText, ImageOff, Link2, MapPinned, XCircle } from "lucide-react";
 import { motion } from "framer-motion";
 import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
@@ -7,11 +7,12 @@ import { Card, CardDescription, CardTitle } from "../ui/card";
 import type { ReviewCard, SelfRating } from "../../types";
 
 const typeLabel: Record<ReviewCard["questionType"], string> = {
-  select: "选择题",
+  flashcard: "记忆卡片",
+  choice: "选择题",
   judge: "判断题",
-  fill: "填空题",
-  map: "地图题",
-  flashcard: "记忆卡"
+  analysis: "分析题",
+  match: "连线题",
+  map: "地图题"
 };
 
 export function StudyCard({
@@ -37,6 +38,7 @@ export function StudyCard({
     revealed && selectedOption && card.correctOption
       ? selectedOption === card.correctOption
       : undefined;
+  const showImage = Boolean(card.assetPath) && (card.questionType === "map" || card.questionType === "analysis" || card.questionType === "choice");
 
   return (
     <motion.div
@@ -48,7 +50,7 @@ export function StudyCard({
       <Card className="overflow-hidden">
         <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
           <div className="flex flex-wrap items-center gap-2">
-            <Badge>{card.book}</Badge>
+            <Badge>{card.bookLabel}</Badge>
             <Badge variant="sand">{typeLabel[card.questionType]}</Badge>
             <Badge variant="slate">{indexLabel}</Badge>
           </div>
@@ -56,7 +58,7 @@ export function StudyCard({
           <div className="text-sm font-medium text-slate-500">{card.chapter}</div>
         </div>
 
-        {card.questionType === "map" ? (
+        {showImage ? (
           <div className="mb-5 overflow-hidden rounded-[1.4rem] border border-ocean-100 bg-gradient-to-br from-ocean-50 to-white">
             {card.assetPath && !imageFailed ? (
               <img
@@ -68,10 +70,9 @@ export function StudyCard({
             ) : (
               <div className="flex aspect-[16/10] flex-col items-center justify-center gap-3 px-5 text-center">
                 <MapPinned className="h-9 w-9 text-ocean-500" />
-                <div className="text-base font-semibold text-ink">待接入教材或课件原图</div>
+                <div className="text-base font-semibold text-ink">原图加载失败</div>
                 <div className="max-w-md text-sm leading-6 text-slate-600">
-                  {card.extractionNote ??
-                    "当前版本保留了地图来源与说明，后续可以继续补充原图素材。"}
+                  {card.extractionNote ?? "当前题目保留了原图来源信息，后续可继续补充或替换素材。"}
                 </div>
               </div>
             )}
@@ -80,12 +81,28 @@ export function StudyCard({
 
         <div className="mb-4">
           <div className="mb-2 text-sm font-medium text-ocean-700">{card.section}</div>
-          <CardTitle className="text-2xl leading-9 sm:text-[1.7rem]">
-            {card.prompt}
-          </CardTitle>
+          <CardTitle className="text-2xl leading-9 sm:text-[1.7rem]">{card.prompt}</CardTitle>
+          <CardDescription className="mt-3 text-base leading-7 text-slate-600">
+            {card.knowledgePoint}
+          </CardDescription>
         </div>
 
-        {card.options?.length ? (
+        {card.questionType === "match" && card.pairs?.length ? (
+          <div className="mb-5 grid gap-3 sm:grid-cols-2">
+            {card.pairs.map((pair) => (
+              <div
+                key={`${pair.left}-${pair.right}`}
+                className="rounded-[1.2rem] border border-slate-200 bg-white px-4 py-4"
+              >
+                <div className="text-sm font-semibold text-slate-500">{pair.left}</div>
+                <div className="mt-2 flex items-center gap-2 text-base text-ink">
+                  <Link2 className="h-4 w-4 text-ocean-500" />
+                  <span>{revealed ? pair.right : "先在脑中完成连线，再查看答案"}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : card.options?.length ? (
           <div className="mb-5 grid gap-3">
             {card.options.map((option) => {
               const isSelected = selectedOption === option;
@@ -114,7 +131,7 @@ export function StudyCard({
           </div>
         ) : (
           <CardDescription className="mb-5 rounded-[1.2rem] bg-slate-50 px-4 py-4 text-base text-slate-600">
-            先在脑中作答，再点“查看答案”核对。
+            先在脑中作答，再点“查看答案与解析”进行核对。
           </CardDescription>
         )}
 
@@ -124,10 +141,11 @@ export function StudyCard({
               <Eye className="mr-2 h-4 w-4" />
               查看答案与解析
             </Button>
-            <div className="flex items-center gap-2 text-sm text-slate-500">
+            <div className="flex flex-wrap items-center gap-2 text-sm text-slate-500">
               <FileText className="h-4 w-4" />
-              来源：{card.sourceLabel}
-              {card.sourcePage ? ` 第 ${card.sourcePage} 页` : ""}
+              <span>{card.sourceLabel}</span>
+              {card.sourceFile ? <span>{card.sourceFile}</span> : null}
+              {card.sourceSlide ? <span>第 {card.sourceSlide} 页</span> : null}
             </div>
           </div>
         ) : (
@@ -137,7 +155,7 @@ export function StudyCard({
                 正确答案
               </div>
               <div className="text-lg font-semibold leading-8 text-ink">{card.answer}</div>
-              <CardDescription className="mt-3 text-base text-slate-700">
+              <CardDescription className="mt-3 text-base leading-7 text-slate-700">
                 {card.explanation}
               </CardDescription>
 
@@ -146,28 +164,27 @@ export function StudyCard({
                   {selectedIsCorrect ? (
                     <>
                       <CheckCircle2 className="h-4 w-4 text-mint-600" />
-                      你的选择是正确的：{selectedOption}
+                      <span>你的作答正确：{selectedOption}</span>
                     </>
                   ) : (
                     <>
                       <XCircle className="h-4 w-4 text-rose-500" />
-                      你刚才选择的是：{selectedOption}
+                      <span>你刚才选择的是：{selectedOption}</span>
                     </>
                   )}
                 </div>
               ) : null}
 
-              <div className="mt-4 flex items-center gap-2 text-sm text-slate-500">
+              <div className="mt-4 flex flex-wrap items-center gap-2 text-sm text-slate-500">
                 {imageFailed ? <ImageOff className="h-4 w-4" /> : <FileText className="h-4 w-4" />}
-                来源：{card.sourceLabel}
-                {card.sourcePage ? ` 第 ${card.sourcePage} 页` : ""}
+                <span>{card.sourceLabel}</span>
+                {card.sourceFile ? <span>{card.sourceFile}</span> : null}
+                {card.sourceSlide ? <span>第 {card.sourceSlide} 页</span> : null}
               </div>
             </div>
 
             <div>
-              <div className="mb-3 text-sm font-semibold text-slate-700">
-                现在给自己一个掌握评价
-              </div>
+              <div className="mb-3 text-sm font-semibold text-slate-700">现在给自己一个掌握评价</div>
               <div className="grid gap-3 sm:grid-cols-3">
                 <Button variant="danger" className="w-full" onClick={() => onRate("again")}>
                   不会

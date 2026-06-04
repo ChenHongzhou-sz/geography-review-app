@@ -1,0 +1,242 @@
+﻿[
+    {
+        "id":  "asia-k01",
+        "type":  "flashcard",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·位置、范围和地理分区",
+        "knowledgePoint":  "世界第一大洲",
+        "prompt":  "亚洲为什么被称为“世界第一大洲”？",
+        "answer":  "亚洲是世界面积最大、跨纬度最广、东西距离最长、人口最多的大洲。",
+        "explanation":  "课件把“世界第一大洲”总结为四个证据：面积最大、跨纬度最广、东西距离最长、人口最多。",
+        "difficulty":  "easy",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案课件",
+                       "file":  "1 第一节 第1课时 位置、范围和地理分区.pptx",
+                       "slide":  7,
+                       "note":  "知识总结"
+                   }
+    },
+    {
+        "id":  "asia-k02",
+        "type":  "flashcard",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·位置、范围和地理分区",
+        "knowledgePoint":  "半球位置",
+        "prompt":  "亚洲绝大部分位于哪两个半球？",
+        "answer":  "亚洲绝大部分位于北半球和东半球。",
+        "explanation":  "判断大洲半球位置时，先看重要经纬线，亚洲大部分在赤道以北、20°W以东和160°E以西。",
+        "difficulty":  "easy",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案课件",
+                       "file":  "1 第一节 第1课时 位置、范围和地理分区.pptx",
+                       "slide":  6,
+                       "note":  "课前梳理"
+                   }
+    },
+    {
+        "id":  "asia-k03",
+        "type":  "flashcard",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·位置、范围和地理分区",
+        "knowledgePoint":  "海陆位置",
+        "prompt":  "亚洲的海陆位置应怎样表述？",
+        "answer":  "亚洲占据亚欧大陆的大部，北、东、南三面依次濒临北冰洋、太平洋和印度洋。",
+        "explanation":  "表述大洲海陆位置时，要说清所处大陆部位，以及周围大洲和海洋的方位。",
+        "difficulty":  "easy",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案课件",
+                       "file":  "1 第一节 第1课时 位置、范围和地理分区.pptx",
+                       "slide":  6,
+                       "note":  "课前梳理"
+                   }
+    },
+    {
+        "id":  "asia-k04",
+        "type":  "flashcard",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·位置、范围和地理分区",
+        "knowledgePoint":  "经纬度范围",
+        "prompt":  "亚洲大致位于怎样的经纬度范围内？",
+        "answer":  "亚洲大致位于11°S到81°N、26°E到170°W之间，是世界上跨纬度最广的大洲。",
+        "explanation":  "纬度跨度大，使亚洲同时具备寒、温、热三带；东西跨度大，使亚洲东西距离很长。",
+        "difficulty":  "medium",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案课件",
+                       "file":  "1 第一节 第1课时 位置、范围和地理分区.pptx",
+                       "slide":  6,
+                       "note":  "课前梳理"
+                   }
+    },
+    {
+        "id":  "asia-k05",
+        "type":  "flashcard",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·位置、范围和地理分区",
+        "knowledgePoint":  "亚洲地理分区",
+        "prompt":  "亚洲通常分为哪六个地理分区？",
+        "answer":  "东亚、东南亚、南亚、西亚、中亚、北亚。",
+        "explanation":  "亚洲地域辽阔，为了便于认识，通常按地理方位划分为六个地区。",
+        "difficulty":  "easy",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案课件",
+                       "file":  "1 第一节 第1课时 位置、范围和地理分区.pptx",
+                       "slide":  7,
+                       "note":  "课前梳理"
+                   }
+    },
+    {
+        "id":  "asia-k06",
+        "type":  "flashcard",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·位置、范围和地理分区",
+        "knowledgePoint":  "描述大洲位置的方法",
+        "prompt":  "描述一个大洲的地理位置，一般从哪些方面入手？",
+        "answer":  "一般从半球位置、纬度位置和海陆位置三个方面入手。",
+        "explanation":  "课件把描述方法拆成三步：先看半球位置，再看重要纬线和热量带，最后看周围大洲与海洋。",
+        "difficulty":  "medium",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案课件",
+                       "file":  "1 第一节 第1课时 位置、范围和地理分区.pptx",
+                       "slide":  9,
+                       "note":  "重难突破"
+                   }
+    },
+    {
+        "id":  "asia-k07",
+        "type":  "flashcard",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·地形、地势和气候",
+        "knowledgePoint":  "地形特点",
+        "prompt":  "亚洲地形的主要特点是什么？",
+        "answer":  "亚洲地形复杂多样，以高原、山地为主。",
+        "explanation":  "亚洲中部集中了青藏高原、帕米尔高原等高大地形，外围分布平原和半岛群岛。",
+        "difficulty":  "easy",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案课件",
+                       "file":  "2 第一节 第2课时 地形、地势和气候.pptx",
+                       "slide":  6,
+                       "note":  "课前梳理"
+                   }
+    },
+    {
+        "id":  "asia-k08",
+        "type":  "flashcard",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·地形、地势和气候",
+        "knowledgePoint":  "地势与河流",
+        "prompt":  "亚洲地势和河流流向之间有什么关系？",
+        "answer":  "亚洲地势中部高、四周低，所以河流大多发源于中部高原山地，呈放射状流向周边海洋。",
+        "explanation":  "地势决定水流方向，这是亚洲读图题最常考的因果关系。",
+        "difficulty":  "medium",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案课件",
+                       "file":  "2 第一节 第2课时 地形、地势和气候.pptx",
+                       "slide":  18,
+                       "note":  "看图分析"
+                   }
+    },
+    {
+        "id":  "asia-k09",
+        "type":  "flashcard",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·地形、地势和气候",
+        "knowledgePoint":  "气候特点",
+        "prompt":  "亚洲气候有哪些总体特点？",
+        "answer":  "亚洲气候复杂多样，季风气候显著，大陆性气候分布广。",
+        "explanation":  "面积广大、纬度跨度大、海陆差异大、地形复杂，共同造成亚洲气候多样。",
+        "difficulty":  "easy",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案课件",
+                       "file":  "2 第一节 第2课时 地形、地势和气候.pptx",
+                       "slide":  6,
+                       "note":  "课前梳理"
+                   }
+    },
+    {
+        "id":  "asia-k10",
+        "type":  "flashcard",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·地形、地势和气候",
+        "knowledgePoint":  "季风气候",
+        "prompt":  "亚洲东部和南部最突出的气候特征是什么？",
+        "answer":  "季风气候显著，夏季盛行由海洋吹向陆地的夏季风，雨热同期。",
+        "explanation":  "季风气候是亚洲东部、南部最有代表性的气候特点，也和水旱灾害紧密相关。",
+        "difficulty":  "medium",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案课件",
+                       "file":  "2 第一节 第2课时 地形、地势和气候.pptx",
+                       "slide":  13,
+                       "note":  "专题练习"
+                   }
+    },
+    {
+        "id":  "asia-k11",
+        "type":  "flashcard",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第二节 人文环境",
+        "knowledgePoint":  "人口分布",
+        "prompt":  "亚洲人口主要集中在哪些地区？为什么？",
+        "answer":  "亚洲人口主要集中在东亚、东南亚和南亚，这些地区气候适宜、地形平坦、水源充足，农业开发历史悠久。",
+        "explanation":  "人口分布题要同时看自然条件和社会条件，尤其要记住“农业开发历史悠久”是优越社会条件。",
+        "difficulty":  "medium",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案课件",
+                       "file":  "3 第二节 人文环境.pptx",
+                       "slide":  13,
+                       "note":  "重难突破"
+                   }
+    },
+    {
+        "id":  "asia-k12",
+        "type":  "flashcard",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第二节 人文环境",
+        "knowledgePoint":  "经济特点",
+        "prompt":  "亚洲经济发展的总体特点是什么？",
+        "answer":  "亚洲经济总量大、发展快，但地区差异大，人均水平并不高。",
+        "explanation":  "课件强调“经济发展快，地区差异大”，并说明亚洲经济总量排名第一但按人口平均只排第四。",
+        "difficulty":  "medium",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案课件",
+                       "file":  "3 第二节 人文环境.pptx",
+                       "slide":  8,
+                       "note":  "课前梳理"
+                   }
+    }
+]

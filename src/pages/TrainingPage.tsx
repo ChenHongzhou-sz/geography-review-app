@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Compass, MapPinned, Sparkles } from "lucide-react";
+import { Compass, MapPinned, Sparkles, Trophy } from "lucide-react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { AppShell } from "../components/layout/app-shell";
 import { StudyCard } from "../components/study/study-card";
@@ -36,7 +36,7 @@ export function TrainingPage({ engine }: { engine: StudyEngine }) {
   return (
     <AppShell
       title={`${unit.title} 单元训练`}
-      subtitle="训练页已经改成按 unitId 取数。以后新增任何单元，只要补同结构的数据文件，就能复用这套页面。"
+      subtitle="这一页已经改成按 unitId 读取真实单元数据。当前训练会混合抽取知识卡片、原题、判断题、分析题、连线题和地图题。"
       headerAside={
         <div className="rounded-[1.5rem] bg-slate-950 px-5 py-4 text-white">
           <div className="text-sm text-slate-300">本轮剩余</div>
@@ -52,12 +52,14 @@ export function TrainingPage({ engine }: { engine: StudyEngine }) {
             <div>
               <CardTitle>开始 {unit.title} 训练</CardTitle>
               <CardDescription className="mt-2">
-                当前轮次会优先覆盖待复习知识点，并混入地图题、选择题、判断题和填空题。
+                当前轮次会优先覆盖待复习项目，并混合原题与知识卡片，尽量减少刚做过内容的重复出现。
               </CardDescription>
             </div>
             <div className="rounded-[1.4rem] bg-ocean-50 px-4 py-3 text-ocean-900">
-              <div className="text-sm">知识点</div>
-              <div className="text-3xl font-bold">{unit.knowledgeCount}</div>
+              <div className="text-sm">知识点 / 原题 / 地图题</div>
+              <div className="text-3xl font-bold">
+                {unit.knowledgeCount} / {unit.questionCount} / {unit.mapCount}
+              </div>
             </div>
           </div>
           <div className="mt-4">
@@ -81,12 +83,16 @@ export function TrainingPage({ engine }: { engine: StudyEngine }) {
             </div>
             <CardTitle className="text-white">{unit.title} 这一轮已经练完了</CardTitle>
             <CardDescription className="mt-3 text-slate-300">
-              你可以继续做地图挑战，也可以重新抽一轮单元训练，让系统按最近记录避开刚做过的内容。
+              你可以继续去做地图挑战，或者进入亚洲闯关，把这一章按模块再过一遍。
             </CardDescription>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link to={`/maps/${unit.unitId}`} className={buttonVariants({ size: "lg" })}>
                 <MapPinned className="mr-2 h-4 w-4" />
                 去做地图挑战
+              </Link>
+              <Link to="/sprint" className={buttonVariants({ variant: "secondary", size: "lg" })}>
+                <Trophy className="mr-2 h-4 w-4" />
+                亚洲闯关
               </Link>
               <button
                 type="button"

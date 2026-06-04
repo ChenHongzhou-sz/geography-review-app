@@ -4,14 +4,14 @@ import type { UnitCatalogEntry, UnitData } from "../../types";
 export const DEFAULT_UNIT_ID = "geo-7b-chapter7-asia";
 
 export const semesterGroups = [
-  { bookCode: "七上", label: "七年级上册" },
-  { bookCode: "七下", label: "七年级下册" }
+  { bookCode: "grade7-semester1", label: "七年级上册" },
+  { bookCode: "grade7-semester2", label: "七年级下册" }
 ] as const;
 
 export const unitCatalog: UnitCatalogEntry[] = [
   {
     unitId: "geo-7a-chapter1-earth",
-    bookCode: "七上",
+    bookCode: "grade7-semester1",
     bookLabel: "七年级上册",
     chapter: "第一章",
     chapterName: "第一章 地球",
@@ -22,7 +22,7 @@ export const unitCatalog: UnitCatalogEntry[] = [
   },
   {
     unitId: "geo-7a-chapter2-maps",
-    bookCode: "七上",
+    bookCode: "grade7-semester1",
     bookLabel: "七年级上册",
     chapter: "第二章",
     chapterName: "第二章 地图",
@@ -33,7 +33,7 @@ export const unitCatalog: UnitCatalogEntry[] = [
   },
   {
     unitId: "geo-7a-chapter3-land-and-sea",
-    bookCode: "七上",
+    bookCode: "grade7-semester1",
     bookLabel: "七年级上册",
     chapter: "第三章",
     chapterName: "第三章 陆地和海洋",
@@ -44,7 +44,7 @@ export const unitCatalog: UnitCatalogEntry[] = [
   },
   {
     unitId: "geo-7a-chapter4-weather-and-climate",
-    bookCode: "七上",
+    bookCode: "grade7-semester1",
     bookLabel: "七年级上册",
     chapter: "第四章",
     chapterName: "第四章 天气与气候",
@@ -55,18 +55,18 @@ export const unitCatalog: UnitCatalogEntry[] = [
   },
   {
     unitId: "geo-7a-chapter5-people-and-culture",
-    bookCode: "七上",
+    bookCode: "grade7-semester1",
     bookLabel: "七年级上册",
     chapter: "第五章",
     chapterName: "第五章 居民与文化",
     title: "居民与文化",
-    description: "人口分布、城镇聚落与文化差异。",
+    description: "人口分布、聚落与文化差异。",
     status: "planned",
     accent: "ocean"
   },
   {
     unitId: "geo-7a-chapter6-development-and-cooperation",
-    bookCode: "七上",
+    bookCode: "grade7-semester1",
     bookLabel: "七年级上册",
     chapter: "第六章",
     chapterName: "第六章 发展与合作",
@@ -77,18 +77,18 @@ export const unitCatalog: UnitCatalogEntry[] = [
   },
   {
     unitId: DEFAULT_UNIT_ID,
-    bookCode: "七下",
+    bookCode: "grade7-semester2",
     bookLabel: "七年级下册",
     chapter: "第七章",
     chapterName: "第七章 我们生活的大洲——亚洲",
     title: "我们生活的大洲——亚洲",
-    description: "亚洲的位置、范围、地形、气候、人口和经济差异训练。",
+    description: "按金版学案接入亚洲位置、分区、地形、气候、人口和经济训练。",
     status: "ready",
     accent: "ocean"
   },
   {
     unitId: "geo-7b-chapter8-neighbour-regions",
-    bookCode: "七下",
+    bookCode: "grade7-semester2",
     bookLabel: "七年级下册",
     chapter: "第八章",
     chapterName: "第八章 我们邻近的地区和国家",
@@ -99,7 +99,7 @@ export const unitCatalog: UnitCatalogEntry[] = [
   },
   {
     unitId: "geo-7b-chapter9-eastern-hemisphere",
-    bookCode: "七下",
+    bookCode: "grade7-semester2",
     bookLabel: "七年级下册",
     chapter: "第九章",
     chapterName: "第九章 东半球其他地区和国家",
@@ -110,7 +110,7 @@ export const unitCatalog: UnitCatalogEntry[] = [
   },
   {
     unitId: "geo-7b-chapter10-western-hemisphere",
-    bookCode: "七下",
+    bookCode: "grade7-semester2",
     bookLabel: "七年级下册",
     chapter: "第十章",
     chapterName: "第十章 西半球的国家",
@@ -121,7 +121,7 @@ export const unitCatalog: UnitCatalogEntry[] = [
   },
   {
     unitId: "geo-7b-chapter11-polar-regions",
-    bookCode: "七下",
+    bookCode: "grade7-semester2",
     bookLabel: "七年级下册",
     chapter: "第十一章",
     chapterName: "第十一章 极地地区",

@@ -31,7 +31,7 @@ const navItems = [
   },
   {
     to: "/mistakes",
-    label: "错题",
+    label: "错题本",
     icon: NotebookPen,
     match: (pathname: string) => pathname.startsWith("/mistakes")
   }

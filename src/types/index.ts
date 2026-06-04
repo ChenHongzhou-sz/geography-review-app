@@ -1,23 +1,33 @@
-export type BookCode = "七上" | "七下";
+export type BookCode = "grade7-semester1" | "grade7-semester2";
 export type Difficulty = "easy" | "medium" | "hard";
 export type Importance = "high" | "medium" | "low";
-export type QuestionType = "select" | "judge" | "fill" | "map" | "flashcard";
+export type QuestionType =
+  | "flashcard"
+  | "choice"
+  | "judge"
+  | "analysis"
+  | "match"
+  | "map";
 export type SelfRating = "again" | "hard" | "good";
 export type UnitStatus = "ready" | "planned";
+export type MapMode = "select" | "click" | "region";
 
 export interface KnowledgeSource {
   label: string;
-  page?: number;
+  file?: string;
+  slide?: number;
   note?: string;
 }
 
-export interface KnowledgeCard {
+export interface BaseUnitItem {
   id: string;
-  book: BookCode;
+  type: QuestionType;
+  bookCode: BookCode;
+  bookLabel: string;
   chapter: string;
   section: string;
   knowledgePoint: string;
-  question: string;
+  prompt: string;
   answer: string;
   explanation: string;
   difficulty: Difficulty;
@@ -25,22 +35,67 @@ export interface KnowledgeCard {
   source: KnowledgeSource;
 }
 
-export interface MapChallenge {
+export interface KnowledgeCard extends BaseUnitItem {
+  type: "flashcard";
+}
+
+export interface ChoiceQuestion extends BaseUnitItem {
+  type: "choice";
+  options: string[];
+  correctOption: string;
+  assetPath?: string;
+}
+
+export interface JudgeQuestion extends BaseUnitItem {
+  type: "judge";
+  statement: string;
+  options: ["正确", "错误"];
+  correctOption: "正确" | "错误";
+  assetPath?: string;
+}
+
+export interface AnalysisQuestion extends BaseUnitItem {
+  type: "analysis";
+  options?: string[];
+  correctOption?: string;
+  assetPath?: string;
+}
+
+export interface MatchPair {
+  left: string;
+  right: string;
+}
+
+export interface MatchQuestion extends BaseUnitItem {
+  type: "match";
+  pairs: MatchPair[];
+}
+
+export type UnitQuestion =
+  | ChoiceQuestion
+  | JudgeQuestion
+  | AnalysisQuestion
+  | MatchQuestion;
+
+export interface MapChallenge extends BaseUnitItem {
+  type: "map";
+  mode: MapMode;
+  options?: string[];
+  correctOption?: string;
+  assetPath: string;
+  extractionNote?: string;
+  relatedIds?: string[];
+}
+
+export type UnitItem = KnowledgeCard | UnitQuestion | MapChallenge;
+
+export interface ChallengeStage {
   id: string;
   title: string;
-  book: BookCode;
-  chapter: string;
-  section: string;
-  type: "select" | "click" | "region";
-  prompt: string;
-  options?: string[];
-  correctAnswer: string;
-  explanation: string;
-  sourceLabel: string;
-  sourcePage?: number;
-  assetPath?: string;
-  extractionNote?: string;
-  knowledgePointIds: string[];
+  description: string;
+  focus: string;
+  itemIds: string[];
+  passThreshold: number;
 }
 
 export interface ReviewProgress {
@@ -62,11 +117,12 @@ export interface DashboardState {
 
 export interface ReviewCard {
   id: string;
-  knowledgeId: string;
+  itemId: string;
   questionType: QuestionType;
-  book: BookCode;
+  bookLabel: string;
   chapter: string;
   section: string;
+  knowledgePoint: string;
   prompt: string;
   answer: string;
   explanation: string;
@@ -74,13 +130,20 @@ export interface ReviewCard {
   correctOption?: string;
   assetPath?: string;
   sourceLabel?: string;
-  sourcePage?: number;
+  sourceFile?: string;
+  sourceSlide?: number;
+  sourceNote?: string;
   extractionNote?: string;
+  pairs?: MatchPair[];
+}
+
+export interface WrongItem extends ReviewCard {
+  progress: ReviewProgress;
 }
 
 export interface RecentCardEntry {
   cardId: string;
-  knowledgeId: string;
+  itemId: string;
   questionType: QuestionType;
   assetPath?: string;
   recordedAt: string;
@@ -88,13 +151,6 @@ export interface RecentCardEntry {
 
 export interface RecentHistoryState {
   entries: RecentCardEntry[];
-}
-
-export interface SprintPreset {
-  minutes: 30 | 60 | 90;
-  label: string;
-  focus: string[];
-  itemCount: number;
 }
 
 export interface UnitCatalogEntry {
@@ -119,7 +175,9 @@ export interface UnitData {
   description: string;
   sections: string[];
   knowledgePoints: KnowledgeCard[];
+  questions: UnitQuestion[];
   maps: MapChallenge[];
+  stages: ChallengeStage[];
 }
 
 export interface UnitSummary extends UnitCatalogEntry {
@@ -133,6 +191,7 @@ export interface UnitSummary extends UnitCatalogEntry {
 
 export interface StudyStats {
   totalKnowledge: number;
+  totalQuestions: number;
   masteredKnowledge: number;
   dueKnowledge: number;
   masteryRate: number;

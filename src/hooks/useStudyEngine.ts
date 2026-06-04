@@ -9,74 +9,59 @@ import { useLocalStorage } from "./useLocalStorage";
 import { STORAGE_KEYS } from "../utils/storage";
 import {
   applyReviewResult,
+  buildFocusedDeck,
   buildMapDeck,
   buildReviewDeck,
+  createMapReviewCard,
   createRecentHistory,
+  createReviewCard,
   isDue,
   recordRecentCard
 } from "../utils/review";
 import type {
+  ChallengeStage,
   DashboardState,
-  KnowledgeCard,
-  RecentHistoryState,
   ReviewCard,
   ReviewProgress,
   SelfRating,
-  SprintPreset,
   StudyStats,
   UnitData,
-  UnitSummary
+  UnitItem,
+  UnitSummary,
+  WrongItem
 } from "../types";
 
-const sprintPresets: SprintPreset[] = [
-  {
-    minutes: 30,
-    label: "30 分钟快速复盘",
-    focus: ["高频知识点", "基础选择题", "错题回看"],
-    itemCount: 14
-  },
-  {
-    minutes: 60,
-    label: "60 分钟单元强化",
-    focus: ["今日复习", "地图挑战", "易错题回炉"],
-    itemCount: 26
-  },
-  {
-    minutes: 90,
-    label: "90 分钟考前冲刺",
-    focus: ["整章串联", "地图识图", "核心问答"],
-    itemCount: 40
-  }
-];
-
 const defaultDashboard: DashboardState = {
-  streakDays: 5,
-  totalStudyMinutes: 48,
-  todayMinutes: 0,
-  lastStudyDate: new Date().toISOString()
+  streakDays: 0,
+  totalStudyMinutes: 0,
+  todayMinutes: 0
 };
 
 const activeUnitData = getActiveUnitData();
 const allKnowledgeBase = activeUnitData.flatMap((unit) => unit.knowledgePoints);
+const allQuestions = activeUnitData.flatMap((unit) => unit.questions);
 const allMapChallenges = activeUnitData.flatMap((unit) => unit.maps);
+const allReviewItems = activeUnitData.flatMap<UnitItem>((unit) => [
+  ...unit.knowledgePoints,
+  ...unit.questions,
+  ...unit.maps
+]);
 
-function daysAgo(days: number) {
-  return new Date(Date.now() - days * 24 * 60 * 60 * 1000).toISOString();
+function getUnitItems(unit: UnitData) {
+  return [...unit.knowledgePoints, ...unit.questions, ...unit.maps] as UnitItem[];
+}
+
+function normalizeCard(item: UnitItem) {
+  return item.type === "map" ? createMapReviewCard(item) : createReviewCard(item);
 }
 
 function createSeedProgress() {
-  return allKnowledgeBase.reduce<Record<string, ReviewProgress>>((result, item, index) => {
-    const mastery = index < 4 ? 4 : index < 8 ? 2 : 1;
-
+  return allReviewItems.reduce<Record<string, ReviewProgress>>((result, item) => {
     result[item.id] = {
-      mastery,
-      correctCount: mastery >= 4 ? 4 : 1,
-      wrongCount: mastery <= 1 ? 2 : 0,
-      blurCount: mastery === 2 ? 1 : 0,
-      lastRating: mastery >= 4 ? "good" : mastery === 2 ? "hard" : "again",
-      lastReviewedAt: daysAgo(index % 5),
-      nextReviewAt:
-        mastery >= 4 ? daysAgo(-3) : mastery === 2 ? daysAgo(0) : daysAgo(1)
+      mastery: 0,
+      correctCount: 0,
+      wrongCount: 0,
+      blurCount: 0
     };
 
     return result;
@@ -112,24 +97,34 @@ function ensureToday(dashboard: DashboardState) {
   };
 }
 
+function masteryRateFor(itemIds: string[], progressMap: Record<string, ReviewProgress>) {
+  if (!itemIds.length) {
+    return 0;
+  }
+
+  const total = itemIds.reduce(
+    (sum, itemId) => sum + (progressMap[itemId]?.mastery ?? 0),
+    0
+  );
+
+  return Math.round((total / (itemIds.length * 5)) * 100);
+}
+
 function createUnitSummaries(progressMap: Record<string, ReviewProgress>) {
   return unitCatalog.map<UnitSummary>((unit) => {
     const data = getUnitContent(unit.unitId);
     const knowledge = data?.knowledgePoints ?? [];
+    const questions = data?.questions ?? [];
     const maps = data?.maps ?? [];
-    const masteredKnowledge = knowledge.filter(
-      (item) => (progressMap[item.id]?.mastery ?? 0) >= 4
-    ).length;
-    const dueCount = knowledge.filter((item) => isDue(progressMap[item.id])).length;
+    const itemIds = data ? getUnitItems(data).map((item) => item.id) : [];
+    const dueCount = itemIds.filter((itemId) => isDue(progressMap[itemId])).length;
 
     return {
       ...unit,
       knowledgeCount: knowledge.length,
-      questionCount: knowledge.length * 4,
+      questionCount: questions.length,
       mapCount: maps.length,
-      masteryRate: knowledge.length
-        ? Math.round((masteredKnowledge / knowledge.length) * 100)
-        : 0,
+      masteryRate: masteryRateFor(itemIds, progressMap),
       dueCount,
       ready: Boolean(data)
     };
@@ -145,30 +140,20 @@ function createStats(
   const masteredKnowledge = allKnowledgeBase.filter(
     (item) => (progressMap[item.id]?.mastery ?? 0) >= 4
   ).length;
-  const dueKnowledge = allKnowledgeBase.filter((item) => isDue(progressMap[item.id])).length;
-  const masteryRate = totalKnowledge
-    ? Math.round((masteredKnowledge / totalKnowledge) * 100)
-    : 0;
-  const mapKnowledgeIds = Array.from(
-    new Set(allMapChallenges.flatMap((challenge) => challenge.knowledgePointIds))
-  );
-  const mapMasteryRate = mapKnowledgeIds.length
-    ? Math.round(
-        (mapKnowledgeIds.reduce(
-          (sum, id) => sum + (progressMap[id]?.mastery ?? 0),
-          0
-        ) /
-          (mapKnowledgeIds.length * 5)) *
-          100
-      )
-    : 0;
+  const dueKnowledge = allReviewItems.filter((item) => isDue(progressMap[item.id])).length;
 
   return {
     totalKnowledge,
+    totalQuestions: allQuestions.length,
     masteredKnowledge,
     dueKnowledge,
-    masteryRate,
-    mapMasteryRate,
+    masteryRate: totalKnowledge
+      ? Math.round((masteredKnowledge / totalKnowledge) * 100)
+      : 0,
+    mapMasteryRate: masteryRateFor(
+      allMapChallenges.map((item) => item.id),
+      progressMap
+    ),
     streakDays: dashboard.streakDays,
     todayMinutes: dashboard.todayMinutes,
     totalMinutes: dashboard.totalStudyMinutes,
@@ -178,48 +163,68 @@ function createStats(
 }
 
 function createWrongItems(progressMap: Record<string, ReviewProgress>) {
-  return allKnowledgeBase
+  return allReviewItems
     .filter((item) => (progressMap[item.id]?.wrongCount ?? 0) > 0)
     .sort(
       (left, right) =>
         (progressMap[right.id]?.wrongCount ?? 0) - (progressMap[left.id]?.wrongCount ?? 0)
     )
-    .map((item) => ({
-      ...item,
-      progress: progressMap[item.id]
+    .map<WrongItem>((item) => ({
+      ...normalizeCard(item),
+      progress:
+        progressMap[item.id] ??
+        {
+          mastery: 0,
+          correctCount: 0,
+          wrongCount: 0,
+          blurCount: 0
+        }
     }));
 }
 
-function getUnitWrongItems(
-  unitId: string,
-  wrongItems: Array<KnowledgeCard & { progress: ReviewProgress }>
-) {
+function getUnitWrongItems(unitId: string, wrongItems: WrongItem[]) {
   const data = getUnitContent(unitId);
 
   if (!data) {
     return [];
   }
 
-  const knowledgeIds = new Set(data.knowledgePoints.map((item) => item.id));
-  return wrongItems.filter((item) => knowledgeIds.has(item.id));
+  const itemIds = new Set(getUnitItems(data).map((item) => item.id));
+  return wrongItems.filter((item) => itemIds.has(item.itemId));
+}
+
+function getStageProgress(
+  data: UnitData | undefined,
+  stageId: string,
+  progressMap: Record<string, ReviewProgress>
+) {
+  const stage = data?.stages.find((item) => item.id === stageId);
+
+  if (!data || !stage) {
+    return 0;
+  }
+
+  return masteryRateFor(stage.itemIds, progressMap);
 }
 
 export interface StudyEngine {
   units: UnitSummary[];
   featuredUnit: UnitSummary;
-  sprintPresets: SprintPreset[];
   progressMap: Record<string, ReviewProgress>;
-  recentHistory: RecentHistoryState;
   stats: StudyStats;
+  recentHistory: ReturnType<typeof createRecentHistory>;
   reviewDeck: ReviewCard[];
-  wrongItems: Array<KnowledgeCard & { progress: ReviewProgress }>;
+  wrongItems: WrongItem[];
   reviewKnowledge: (card: ReviewCard, rating: SelfRating) => void;
   clearProgress: () => void;
   getUnit: (unitId: string) => UnitSummary | undefined;
   getUnitData: (unitId: string) => UnitData | undefined;
+  getUnitStages: (unitId: string) => ChallengeStage[];
   getUnitReviewDeck: (unitId: string, targetSize?: number) => ReviewCard[];
   getUnitMapDeck: (unitId: string, targetSize?: number) => ReviewCard[];
-  getUnitWrongItems: (unitId: string) => Array<KnowledgeCard & { progress: ReviewProgress }>;
+  getUnitChallengeDeck: (unitId: string, stageId: string, targetSize?: number) => ReviewCard[];
+  getUnitWrongItems: (unitId: string) => WrongItem[];
+  getStageMastery: (unitId: string, stageId: string) => number;
 }
 
 export function useStudyEngine(): StudyEngine {
@@ -246,8 +251,10 @@ export function useStudyEngine(): StudyEngine {
   if (!featuredUnit) {
     throw new Error("At least one unit must be configured.");
   }
+
   const reviewDeck = buildReviewDeck(
     allKnowledgeBase,
+    allQuestions,
     allMapChallenges,
     progressMap,
     recentHistory,
@@ -260,7 +267,7 @@ export function useStudyEngine(): StudyEngine {
     startTransition(() => {
       setProgressMap((currentMap) => ({
         ...currentMap,
-        [card.knowledgeId]: applyReviewResult(currentMap[card.knowledgeId], rating)
+        [card.itemId]: applyReviewResult(currentMap[card.itemId], rating)
       }));
 
       setDashboard((currentDashboard) => {
@@ -289,7 +296,6 @@ export function useStudyEngine(): StudyEngine {
   return {
     units,
     featuredUnit,
-    sprintPresets,
     progressMap,
     recentHistory,
     stats,
@@ -299,6 +305,7 @@ export function useStudyEngine(): StudyEngine {
     clearProgress,
     getUnit: (unitId) => units.find((unit) => unit.unitId === unitId),
     getUnitData: (unitId) => getUnitContent(unitId),
+    getUnitStages: (unitId) => getUnitContent(unitId)?.stages ?? [],
     getUnitReviewDeck: (unitId, targetSize = 18) => {
       const data = getUnitContent(unitId);
 
@@ -308,6 +315,7 @@ export function useStudyEngine(): StudyEngine {
 
       return buildReviewDeck(
         data.knowledgePoints,
+        data.questions,
         data.maps,
         progressMap,
         recentHistory,
@@ -323,6 +331,23 @@ export function useStudyEngine(): StudyEngine {
 
       return buildMapDeck(data.maps, progressMap, recentHistory, targetSize);
     },
-    getUnitWrongItems: (unitId) => getUnitWrongItems(unitId, wrongItems)
+    getUnitChallengeDeck: (unitId, stageId, targetSize = 12) => {
+      const data = getUnitContent(unitId);
+      const stage = data?.stages.find((item) => item.id === stageId);
+
+      if (!data || !stage) {
+        return [];
+      }
+
+      const itemLookup = new Map(getUnitItems(data).map((item) => [item.id, item]));
+      const stageItems = stage.itemIds
+        .map((itemId) => itemLookup.get(itemId))
+        .filter((item): item is UnitItem => Boolean(item));
+
+      return buildFocusedDeck(stageItems, progressMap, recentHistory, targetSize);
+    },
+    getUnitWrongItems: (unitId) => getUnitWrongItems(unitId, wrongItems),
+    getStageMastery: (unitId, stageId) =>
+      getStageProgress(getUnitContent(unitId), stageId, progressMap)
   };
 }

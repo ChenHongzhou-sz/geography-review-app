@@ -1,0 +1,704 @@
+﻿[
+    {
+        "id":  "asia-q01",
+        "type":  "choice",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·位置、范围和地理分区",
+        "knowledgePoint":  "海陆位置",
+        "prompt":  "亚洲北部濒临的大洋是（　　）",
+        "answer":  "北冰洋",
+        "explanation":  "读亚洲位置示意图可知，亚洲北部濒临北冰洋。",
+        "difficulty":  "easy",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "1 第一节 第1课时 位置、范围和地理分区.pptx",
+                       "slide":  13,
+                       "note":  "跟踪训练第1题"
+                   },
+        "options":  [
+                        "北冰洋",
+                        "大西洋",
+                        "太平洋",
+                        "印度洋"
+                    ],
+        "correctOption":  "北冰洋"
+    },
+    {
+        "id":  "asia-q02",
+        "type":  "choice",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·位置、范围和地理分区",
+        "knowledgePoint":  "洲界",
+        "prompt":  "亚洲与非洲的分界线是（　　）",
+        "answer":  "苏伊士运河",
+        "explanation":  "图中 b 大洲为非洲，亚洲与非洲的分界线是苏伊士运河。",
+        "difficulty":  "easy",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "1 第一节 第1课时 位置、范围和地理分区.pptx",
+                       "slide":  14,
+                       "note":  "跟踪训练第2题"
+                   },
+        "options":  [
+                        "巴拿马运河",
+                        "苏伊士运河",
+                        "白令海峡",
+                        "直布罗陀海峡"
+                    ],
+        "correctOption":  "苏伊士运河"
+    },
+    {
+        "id":  "asia-q03",
+        "type":  "choice",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·位置、范围和地理分区",
+        "knowledgePoint":  "纬度范围",
+        "prompt":  "亚洲纬度位置约在 11°S～81°N 之间，据此可以判断的是（　　）",
+        "answer":  "跨热带、温带、寒带，并跨南北半球",
+        "explanation":  "11°S～81°N 说明亚洲既跨南北半球，又跨寒、温、热三带。",
+        "difficulty":  "medium",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "1 第一节 第1课时 位置、范围和地理分区.pptx",
+                       "slide":  16,
+                       "note":  "跟踪训练第3题"
+                   },
+        "options":  [
+                        "跨热带、温带、寒带，并跨东西半球",
+                        "跨东西半球，且东西部时差较小",
+                        "跨热带、温带、寒带，并跨南北半球",
+                        "只跨北半球和北温带"
+                    ],
+        "correctOption":  "跨热带、温带、寒带，并跨南北半球"
+    },
+    {
+        "id":  "asia-q04",
+        "type":  "choice",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·位置、范围和地理分区",
+        "knowledgePoint":  "半球位置",
+        "prompt":  "据图可知，亚洲绝大部分地区位于（　　）",
+        "answer":  "北半球、东半球",
+        "explanation":  "亚洲绝大部分地区位于北半球、东半球。",
+        "difficulty":  "easy",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "1 第一节 第1课时 位置、范围和地理分区.pptx",
+                       "slide":  17,
+                       "note":  "跟踪训练第4题"
+                   },
+        "options":  [
+                        "北半球、东半球",
+                        "北半球、西半球",
+                        "南半球、东半球",
+                        "南半球、西半球"
+                    ],
+        "correctOption":  "北半球、东半球"
+    },
+    {
+        "id":  "asia-q05",
+        "type":  "choice",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "专题练习一 认识大洲——亚洲",
+        "knowledgePoint":  "重要纬线",
+        "prompt":  "下列重要经纬线中，没有穿过亚洲的是（　　）",
+        "answer":  "南回归线",
+        "explanation":  "穿过亚洲的是北回归线、赤道和北极圈，南回归线不穿过亚洲。",
+        "difficulty":  "easy",
+        "importance":  "medium",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "4 专题练习一 认识大洲——亚洲.pptx",
+                       "slide":  4,
+                       "note":  "选择题第2题"
+                   },
+        "options":  [
+                        "北回归线",
+                        "赤道",
+                        "北极圈",
+                        "南回归线"
+                    ],
+        "correctOption":  "南回归线"
+    },
+    {
+        "id":  "asia-q06",
+        "type":  "choice",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "专题练习一 认识大洲——亚洲",
+        "knowledgePoint":  "人口分布",
+        "prompt":  "从亚洲人口密度图可以看出，亚洲人口稠密区主要分布在（　　）",
+        "answer":  "东部和南部",
+        "explanation":  "亚洲东部和南部拥有适宜的气候、丰富的资源和较好的生产条件，因此人口最为密集。",
+        "difficulty":  "medium",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "4 专题练习一 认识大洲——亚洲.pptx",
+                       "slide":  6,
+                       "note":  "选择题第3题"
+                   },
+        "options":  [
+                        "东部和西部",
+                        "南部和北部",
+                        "东部和南部",
+                        "北部和西北部"
+                    ],
+        "correctOption":  "东部和南部"
+    },
+    {
+        "id":  "asia-q07",
+        "type":  "choice",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "专题练习一 认识大洲——亚洲",
+        "knowledgePoint":  "人口稀疏区原因",
+        "prompt":  "图中①所示地区人口稀疏，主要原因是（　　）",
+        "answer":  "地势高，气候高寒",
+        "explanation":  "图中①所在地区为高海拔地区，气温低、缺氧，不利于大量人口聚居。",
+        "difficulty":  "medium",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "4 专题练习一 认识大洲——亚洲.pptx",
+                       "slide":  7,
+                       "note":  "选择题第4题"
+                   },
+        "options":  [
+                        "纬度高，气候寒冷",
+                        "沙漠广布，干旱面积广",
+                        "地势高，气候高寒",
+                        "气候过于湿热"
+                    ],
+        "correctOption":  "地势高，气候高寒"
+    },
+    {
+        "id":  "asia-q08",
+        "type":  "choice",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·地形、地势和气候",
+        "knowledgePoint":  "季风气候分布",
+        "prompt":  "亚洲三种季风气候主要分布在（　　）",
+        "answer":  "亚洲东部、南部",
+        "explanation":  "季风气候在亚洲集中分布于东部和南部地区。",
+        "difficulty":  "easy",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "4 专题练习一 认识大洲——亚洲.pptx",
+                       "slide":  13,
+                       "note":  "选择题第8题"
+                   },
+        "options":  [
+                        "亚洲北部",
+                        "亚洲中部",
+                        "亚洲西南部",
+                        "亚洲东部、南部"
+                    ],
+        "correctOption":  "亚洲东部、南部"
+    },
+    {
+        "id":  "asia-q09",
+        "type":  "choice",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·地形、地势和气候",
+        "knowledgePoint":  "夏季风影响",
+        "prompt":  "7月盛行由海洋吹向陆地的夏季风，夏季风时强时弱容易造成的灾害是（　　）",
+        "answer":  "水旱灾害",
+        "explanation":  "夏季风过强易造成洪涝，过弱则可能造成干旱，因此常带来水旱灾害。",
+        "difficulty":  "easy",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "4 专题练习一 认识大洲——亚洲.pptx",
+                       "slide":  14,
+                       "note":  "选择题第9题"
+                   },
+        "options":  [
+                        "火山喷发",
+                        "沙尘暴",
+                        "水旱灾害",
+                        "雾霾天气"
+                    ],
+        "correctOption":  "水旱灾害"
+    },
+    {
+        "id":  "asia-q10",
+        "type":  "choice",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第二节 人文环境",
+        "knowledgePoint":  "经济发展水平",
+        "prompt":  "根据2024年亚洲部分国家人口和人均国民生产总值数据表，下列国家中经济最发达的是（　　）",
+        "answer":  "韩国",
+        "explanation":  "韩国人均国民生产总值最高，说明经济发展水平最高。",
+        "difficulty":  "medium",
+        "importance":  "medium",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "3 第二节 人文环境.pptx",
+                       "slide":  17,
+                       "note":  "跟踪训练第3题"
+                   },
+        "options":  [
+                        "中国",
+                        "韩国",
+                        "越南",
+                        "孟加拉国"
+                    ],
+        "correctOption":  "韩国"
+    },
+    {
+        "id":  "asia-q11",
+        "type":  "choice",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第二节 人文环境",
+        "knowledgePoint":  "经济总量与人均",
+        "prompt":  "在有人类定居的六个大洲中，亚洲经济总量排名第一，但人均仅排名第四，主要原因是（　　）",
+        "answer":  "人口总量多",
+        "explanation":  "亚洲总人口多，经济总量虽然大，但分摊到人均后水平并不高。",
+        "difficulty":  "easy",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "3 第二节 人文环境.pptx",
+                       "slide":  24,
+                       "note":  "地理分区示意图第4题"
+                   },
+        "options":  [
+                        "人口总量多",
+                        "国家总数最多",
+                        "陆地面积大",
+                        "地形复杂多样"
+                    ],
+        "correctOption":  "人口总量多"
+    },
+    {
+        "id":  "asia-q12",
+        "type":  "choice",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第二节 人文环境",
+        "knowledgePoint":  "发达国家",
+        "prompt":  "亚洲各国之间经济发展不平衡。甲国经济发展水平较高，与之相关的是该国（　　）",
+        "answer":  "为发达国家",
+        "explanation":  "图中甲国为日本，日本属于亚洲发达国家。",
+        "difficulty":  "easy",
+        "importance":  "medium",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "3 第二节 人文环境.pptx",
+                       "slide":  25,
+                       "note":  "地理分区示意图第5题"
+                   },
+        "options":  [
+                        "为发达国家",
+                        "耕地面积广",
+                        "出口石油多",
+                        "人口数量多"
+                    ],
+        "correctOption":  "为发达国家"
+    },
+    {
+        "id":  "asia-q13",
+        "type":  "choice",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "章末总结",
+        "knowledgePoint":  "地理多样性",
+        "prompt":  "亚洲地理多样性最丰富的原因有（　　）",
+        "answer":  "面积广大、海陆兼备、地形多样、气候类型多样",
+        "explanation":  "面积广大、海陆位置差异显著、地形和气候复杂，共同形成亚洲地理多样性。",
+        "difficulty":  "medium",
+        "importance":  "medium",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "5 章末总结.pptx",
+                       "slide":  9,
+                       "note":  "章末作业第3题"
+                   },
+        "options":  [
+                        "面积广大、地形多样、气候类型多样",
+                        "面积广大、海陆兼备、地形多样",
+                        "海陆兼备、地形多样、气候类型多样",
+                        "面积广大、海陆兼备、地形多样、气候类型多样"
+                    ],
+        "correctOption":  "面积广大、海陆兼备、地形多样、气候类型多样"
+    },
+    {
+        "id":  "asia-q14",
+        "type":  "choice",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "章末总结",
+        "knowledgePoint":  "分布最广的气候",
+        "prompt":  "亚洲气候复杂多样，其中分布最广的气候类型是（　　）",
+        "answer":  "温带大陆性气候",
+        "explanation":  "亚洲内陆广大，因此温带大陆性气候分布最广。",
+        "difficulty":  "easy",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "5 章末总结.pptx",
+                       "slide":  13,
+                       "note":  "章末作业第6题"
+                   },
+        "options":  [
+                        "热带雨林气候",
+                        "热带季风气候",
+                        "温带大陆性气候",
+                        "亚热带季风气候"
+                    ],
+        "correctOption":  "温带大陆性气候"
+    },
+    {
+        "id":  "asia-q15",
+        "type":  "choice",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "章末总结",
+        "knowledgePoint":  "寒暑并存，干湿同在",
+        "prompt":  "亚洲各地区“寒暑并存，干湿同在”，其原因是（　　）",
+        "answer":  "亚洲纬度和经度跨度大",
+        "explanation":  "纬度跨度大造成寒暑并存，东西距离长和距海远近不同造成干湿差异悬殊。",
+        "difficulty":  "medium",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "5 章末总结.pptx",
+                       "slide":  17,
+                       "note":  "章末作业第9题"
+                   },
+        "options":  [
+                        "亚洲大部分处于高纬度地区",
+                        "亚洲植被类型多样",
+                        "亚洲三面濒临海洋",
+                        "亚洲纬度和经度跨度大"
+                    ],
+        "correctOption":  "亚洲纬度和经度跨度大"
+    },
+    {
+        "id":  "asia-q16",
+        "type":  "choice",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "章末总结",
+        "knowledgePoint":  "地势特点",
+        "prompt":  "根据亚欧大陆沿30°N纬线和80°E经线地形剖面图，亚洲地势特点是（　　）",
+        "answer":  "中部高，四周低",
+        "explanation":  "两条剖面线共同反映出亚洲东西低、中部高，南北低、中部高的地势格局。",
+        "difficulty":  "medium",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "5 章末总结.pptx",
+                       "slide":  19,
+                       "note":  "章末作业第10题"
+                   },
+        "options":  [
+                        "中部高，四周低",
+                        "中部低，四周高",
+                        "西部高，东部低",
+                        "西部低，东部高"
+                    ],
+        "correctOption":  "中部高，四周低"
+    },
+    {
+        "id":  "asia-q17",
+        "type":  "choice",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "章末总结",
+        "knowledgePoint":  "人口聚集的社会条件",
+        "prompt":  "亚洲人口密度较大的地区，人口聚集的优越社会条件是（　　）",
+        "answer":  "农业开发历史悠久",
+        "explanation":  "地形平坦、热量充足、水源充足等属于自然条件，农业开发历史悠久属于社会条件。",
+        "difficulty":  "medium",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "5 章末总结.pptx",
+                       "slide":  25,
+                       "note":  "章末作业第14题"
+                   },
+        "options":  [
+                        "地形平坦，土壤肥沃",
+                        "农业开发历史悠久",
+                        "热量充足，降水充沛",
+                        "河网密布，水系发达"
+                    ],
+        "correctOption":  "农业开发历史悠久"
+    },
+    {
+        "id":  "asia-q18",
+        "type":  "choice",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "章末总结",
+        "knowledgePoint":  "经济发展状况",
+        "prompt":  "下列符合亚洲经济发展状况的是（　　）",
+        "answer":  "经济发展快，地区差异大",
+        "explanation":  "亚洲经济发展迅速，但区域差异显著，日本、韩国等较发达，许多国家仍在持续发展中。",
+        "difficulty":  "easy",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "5 章末总结.pptx",
+                       "slide":  26,
+                       "note":  "章末作业第15题"
+                   },
+        "options":  [
+                        "经济发展快，地区差异大",
+                        "大多数国家以出口高科技产品为主",
+                        "中国是亚洲唯一的发达国家",
+                        "发展中国家之间经济差异不大"
+                    ],
+        "correctOption":  "经济发展快，地区差异大"
+    },
+    {
+        "id":  "asia-q19",
+        "type":  "judge",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·位置、范围和地理分区",
+        "knowledgePoint":  "易错辨析",
+        "prompt":  "判断正误",
+        "answer":  "错误",
+        "explanation":  "跨经度最广的大洲是南极洲，不是亚洲。亚洲是跨纬度最广的大洲。",
+        "difficulty":  "easy",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案整理",
+                       "file":  "1 第一节 第1课时 位置、范围和地理分区.pptx",
+                       "slide":  7,
+                       "note":  "易混易错"
+                   },
+        "statement":  "亚洲是世界上跨经度最广的大洲。",
+        "options":  [
+                        "正确",
+                        "错误"
+                    ],
+        "correctOption":  "错误"
+    },
+    {
+        "id":  "asia-q20",
+        "type":  "judge",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·位置、范围和地理分区",
+        "knowledgePoint":  "半球位置",
+        "prompt":  "判断正误",
+        "answer":  "正确",
+        "explanation":  "亚洲大部分地区位于北半球和东半球，这是判断半球位置的核心结论。",
+        "difficulty":  "easy",
+        "importance":  "medium",
+        "source":  {
+                       "label":  "金版学案整理",
+                       "file":  "1 第一节 第1课时 位置、范围和地理分区.pptx",
+                       "slide":  17,
+                       "note":  "跟踪训练结论"
+                   },
+        "statement":  "亚洲绝大部分地区位于北半球和东半球。",
+        "options":  [
+                        "正确",
+                        "错误"
+                    ],
+        "correctOption":  "正确"
+    },
+    {
+        "id":  "asia-q21",
+        "type":  "analysis",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "专题练习一 认识大洲——亚洲",
+        "knowledgePoint":  "文明古国的纬度位置",
+        "prompt":  "分析题：描述亚洲文明古国的纬度位置（纬度带及热量带）。",
+        "answer":  "亚洲文明古国主要位于中纬度地区和北温带。",
+        "explanation":  "根据材料图可判断其主要位于中纬度和北温带，这一类题要从纬度带和热量带两个角度作答。",
+        "difficulty":  "medium",
+        "importance":  "medium",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "4 专题练习一 认识大洲——亚洲.pptx",
+                       "slide":  18,
+                       "note":  "非选择题第1问"
+                   }
+    },
+    {
+        "id":  "asia-q22",
+        "type":  "analysis",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "专题练习一 认识大洲——亚洲",
+        "knowledgePoint":  "河流对文明古国的影响",
+        "prompt":  "分析题：河流对亚洲文明古国的形成与发展创造了哪些有利条件？",
+        "answer":  "文明古国多位于河流沿岸，那里土壤肥沃、水源充足，利于农业发展和聚落形成。",
+        "explanation":  "这道题的关键词是“河流沿岸”“土壤肥沃”“水源充足”。",
+        "difficulty":  "medium",
+        "importance":  "medium",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "4 专题练习一 认识大洲——亚洲.pptx",
+                       "slide":  18,
+                       "note":  "非选择题第2问"
+                   }
+    },
+    {
+        "id":  "asia-q23",
+        "type":  "analysis",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "章末总结",
+        "knowledgePoint":  "水稻种植区",
+        "prompt":  "分析题：说出亚洲水稻的主要种植区，并概括其有利条件。",
+        "answer":  "主要种植区在亚洲东部、南部和东南部。有利条件包括地势低平、土壤肥沃、水热充足、河流密布、劳动力丰富、种植历史悠久。",
+        "explanation":  "回答这类题时，先说地区，再从自然条件和社会条件两方面概括。",
+        "difficulty":  "hard",
+        "importance":  "medium",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "5 章末总结.pptx",
+                       "slide":  30,
+                       "note":  "非选择题第16题前两问"
+                   }
+    },
+    {
+        "id":  "asia-q24",
+        "type":  "analysis",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "章末总结",
+        "knowledgePoint":  "稻米油产业",
+        "prompt":  "分析题：亚洲稻米油产业发展前景广阔的原因有哪些？",
+        "answer":  "水稻种植面积广、原料充足；稻米油营养价值高；生产成本较低、价格亲民。",
+        "explanation":  "这道题来自章末综合材料，核心抓手是“原料充足、健康油品、成本较低”。",
+        "difficulty":  "hard",
+        "importance":  "low",
+        "source":  {
+                       "label":  "金版学案原题",
+                       "file":  "5 章末总结.pptx",
+                       "slide":  31,
+                       "note":  "非选择题第16题第3问"
+                   }
+    },
+    {
+        "id":  "asia-q25",
+        "type":  "match",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·位置、范围和地理分区",
+        "knowledgePoint":  "地理分区与方位",
+        "prompt":  "连线题：把亚洲地理分区和对应方位连起来。",
+        "answer":  "东亚-亚洲东部；东南亚-亚洲东南部；南亚-亚洲南部；西亚-亚洲西南部；中亚-亚洲中部；北亚-亚洲北部。",
+        "explanation":  "先用“东、东南、南、西南、中、北”记方位，再对照六个分区名称记忆。",
+        "difficulty":  "medium",
+        "importance":  "medium",
+        "source":  {
+                       "label":  "金版学案整理",
+                       "file":  "1 第一节 第1课时 位置、范围和地理分区.pptx",
+                       "slide":  7,
+                       "note":  "课前梳理整合"
+                   },
+        "pairs":  [
+                      {
+                          "left":  "东亚",
+                          "right":  "亚洲东部"
+                      },
+                      {
+                          "left":  "东南亚",
+                          "right":  "亚洲东南部"
+                      },
+                      {
+                          "left":  "南亚",
+                          "right":  "亚洲南部"
+                      },
+                      {
+                          "left":  "西亚",
+                          "right":  "亚洲西南部"
+                      },
+                      {
+                          "left":  "中亚",
+                          "right":  "亚洲中部"
+                      },
+                      {
+                          "left":  "北亚",
+                          "right":  "亚洲北部"
+                      }
+                  ]
+    },
+    {
+        "id":  "asia-q26",
+        "type":  "match",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "章末总结",
+        "knowledgePoint":  "环境特征对应",
+        "prompt":  "连线题：把亚洲自然与人文特征和对应结论连起来。",
+        "answer":  "中部高四周低—河流呈放射状流向周边海洋；季风气候显著—东部和南部雨热同期；大陆性气候分布广—亚洲内陆地区范围大；东亚东南亚南亚—人口稠密。",
+        "explanation":  "这组连线把本章最常见的因果关系串到一起，适合考前快速总复习。",
+        "difficulty":  "medium",
+        "importance":  "medium",
+        "source":  {
+                       "label":  "金版学案整理",
+                       "file":  "5 章末总结.pptx",
+                       "slide":  19,
+                       "note":  "章末知识串联"
+                   },
+        "pairs":  [
+                      {
+                          "left":  "中部高，四周低",
+                          "right":  "河流多呈放射状流向周边海洋"
+                      },
+                      {
+                          "left":  "季风气候显著",
+                          "right":  "东部和南部雨热同期"
+                      },
+                      {
+                          "left":  "大陆性气候分布广",
+                          "right":  "内陆地区范围大"
+                      },
+                      {
+                          "left":  "东亚、东南亚、南亚",
+                          "right":  "人口稠密"
+                      }
+                  ]
+    }
+]

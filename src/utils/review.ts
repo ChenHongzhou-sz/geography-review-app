@@ -1,37 +1,39 @@
-﻿import type {
-  KnowledgeCard,
+import type {
   MapChallenge,
   RecentHistoryState,
   ReviewCard,
   ReviewProgress,
-  SelfRating
+  SelfRating,
+  UnitItem,
+  UnitQuestion
 } from "../types";
 
 export const REVIEW_INTERVALS = [0, 1, 3, 7, 15, 30] as const;
 export const QUESTION_PATTERN: ReviewCard["questionType"][] = [
-  "select",
   "flashcard",
+  "choice",
   "map",
-  "select",
+  "choice",
   "judge",
-  "select",
-  "map",
-  "fill",
   "flashcard",
+  "analysis",
   "map",
-  "judge",
-  "select"
+  "choice",
+  "match",
+  "flashcard",
+  "map"
 ];
 
 const MS_PER_DAY = 24 * 60 * 60 * 1000;
-const REVIEW_HISTORY_WINDOW = 26;
+const REVIEW_HISTORY_WINDOW = 28;
 const MAP_HISTORY_WINDOW = 14;
-const HISTORY_LIMIT = 120;
+const HISTORY_LIMIT = 160;
 const NON_MAP_TYPES: Array<Exclude<ReviewCard["questionType"], "map">> = [
-  "select",
+  "flashcard",
+  "choice",
   "judge",
-  "fill",
-  "flashcard"
+  "analysis",
+  "match"
 ];
 
 export function clampMastery(value: number) {
@@ -72,9 +74,6 @@ export function applyReviewResult(
   const mastery = clampMastery(base.mastery + masteryDelta);
   const intervalDays =
     rating === "hard" ? Math.max(1, REVIEW_INTERVALS[mastery] - 1) : REVIEW_INTERVALS[mastery];
-  const nextReviewAt = new Date(
-    now.getTime() + intervalDays * MS_PER_DAY
-  ).toISOString();
 
   return {
     mastery,
@@ -83,7 +82,7 @@ export function applyReviewResult(
     blurCount: base.blurCount + (rating === "hard" ? 1 : 0),
     lastRating: rating,
     lastReviewedAt: now.toISOString(),
-    nextReviewAt
+    nextReviewAt: new Date(now.getTime() + intervalDays * MS_PER_DAY).toISOString()
   };
 }
 
@@ -94,7 +93,7 @@ export function recordRecentCard(
 ): RecentHistoryState {
   const nextEntry = {
     cardId: card.id,
-    knowledgeId: card.knowledgeId,
+    itemId: card.itemId,
     questionType: card.questionType,
     assetPath: card.assetPath,
     recordedAt: now.toISOString()
@@ -112,101 +111,63 @@ function hashText(text: string) {
   return Array.from(text).reduce((total, char) => total + char.charCodeAt(0), 0);
 }
 
-function importanceScore(value: KnowledgeCard["importance"]) {
+function importanceScore(value: UnitItem["importance"]) {
   return value === "high" ? 0 : value === "medium" ? 1 : 2;
 }
 
-function averageMastery(
-  knowledgeIds: string[],
-  progressMap: Record<string, ReviewProgress>
-) {
-  const total = knowledgeIds.reduce(
-    (sum, knowledgeId) => sum + (progressMap[knowledgeId]?.mastery ?? 0),
-    0
-  );
-
-  return total / Math.max(knowledgeIds.length, 1);
-}
-
-function recentEntriesByType(
-  history: RecentHistoryState,
-  type: "review" | "map"
-) {
+function recentEntriesByType(history: RecentHistoryState, type: "review" | "map") {
   return history.entries
     .filter((entry) => (type === "map" ? entry.questionType === "map" : entry.questionType !== "map"))
     .slice(0, type === "map" ? MAP_HISTORY_WINDOW : REVIEW_HISTORY_WINDOW);
 }
 
-function reviewCardId(
-  itemId: string,
-  type: Exclude<ReviewCard["questionType"], "map">
-) {
-  return `${itemId}-${type}`;
-}
-
-function questionTypeOrder(
-  preferredType: Exclude<ReviewCard["questionType"], "map">
-) {
-  return [preferredType, ...NON_MAP_TYPES.filter((type) => type !== preferredType)];
-}
-
-function buildDiverseKnowledgePool(
-  rankedKnowledge: KnowledgeCard[],
-  targetSize: number
-) {
+function sectionBalancedPool(items: UnitItem[], targetSize: number) {
   const candidateLimit = Math.max(targetSize * 2, targetSize);
-  const candidates = rankedKnowledge.slice(0, candidateLimit);
-  const chapterBuckets = new Map<string, KnowledgeCard[]>();
-  const chapterOrder: string[] = [];
+  const candidates = items.slice(0, candidateLimit);
+  const sectionBuckets = new Map<string, UnitItem[]>();
+  const sectionOrder: string[] = [];
 
   for (const item of candidates) {
-    if (!chapterBuckets.has(item.chapter)) {
-      chapterBuckets.set(item.chapter, []);
-      chapterOrder.push(item.chapter);
+    if (!sectionBuckets.has(item.section)) {
+      sectionBuckets.set(item.section, []);
+      sectionOrder.push(item.section);
     }
 
-    chapterBuckets.get(item.chapter)?.push(item);
+    sectionBuckets.get(item.section)?.push(item);
   }
 
-  const pool: KnowledgeCard[] = [];
+  const pool: UnitItem[] = [];
   const selectedIds = new Set<string>();
   let cursor = 0;
 
   while (pool.length < targetSize) {
-    const availableChapters = chapterOrder.filter(
-      (chapter) => (chapterBuckets.get(chapter)?.length ?? 0) > 0
+    const availableSections = sectionOrder.filter(
+      (section) => (sectionBuckets.get(section)?.length ?? 0) > 0
     );
 
-    if (!availableChapters.length) {
+    if (!availableSections.length) {
       break;
     }
 
-    const preferredChapter = availableChapters[cursor % availableChapters.length];
-    const previousChapter =
-      pool.length > 0 ? pool[pool.length - 1]?.chapter : undefined;
-    const chapterToUse =
-      availableChapters.find((chapter) => chapter !== previousChapter) ?? preferredChapter;
-    const bucket = chapterBuckets.get(chapterToUse);
-
-    if (!bucket?.length) {
-      cursor += 1;
-      continue;
-    }
-
-    const nextItem = bucket.shift();
+    const preferredSection = availableSections[cursor % availableSections.length];
+    const previousSection = pool[pool.length - 1]?.section;
+    const nextSection =
+      availableSections.find((section) => section !== previousSection) ?? preferredSection;
+    const bucket = sectionBuckets.get(nextSection);
+    const nextItem = bucket?.shift();
 
     if (!nextItem || selectedIds.has(nextItem.id)) {
       cursor += 1;
       continue;
     }
 
-    pool.push(nextItem);
     selectedIds.add(nextItem.id);
+    pool.push(nextItem);
     cursor += 1;
   }
 
   if (pool.length < targetSize) {
-    for (const item of rankedKnowledge) {
+    for (const item of items) {
       if (selectedIds.has(item.id)) {
         continue;
       }
@@ -223,133 +184,17 @@ function buildDiverseKnowledgePool(
   return pool;
 }
 
-function rankedDistractors(item: KnowledgeCard, knowledgeBase: KnowledgeCard[]) {
-  const sameBook = knowledgeBase.filter(
-    (candidate) => candidate.id !== item.id && candidate.book === item.book
-  );
-
-  return [...sameBook, ...knowledgeBase.filter((candidate) => candidate.id !== item.id)]
-    .filter((candidate, index, array) =>
-      array.findIndex((entry) => entry.answer === candidate.answer) === index
-    )
-    .sort((left, right) => hashText(left.id) - hashText(right.id));
-}
-
-function createOptions(item: KnowledgeCard, knowledgeBase: KnowledgeCard[]) {
-  const distractors = rankedDistractors(item, knowledgeBase)
-    .slice(0, 3)
-    .map((candidate) => candidate.answer);
-  const options = [item.answer, ...distractors];
-
-  return options.sort((left, right) => hashText(item.id + left) - hashText(item.id + right));
-}
-
-export function createReviewCard(
-  item: KnowledgeCard,
-  type: ReviewCard["questionType"],
-  knowledgeBase: KnowledgeCard[]
-): ReviewCard {
-  if (type === "flashcard") {
-    return {
-      id: `${item.id}-flashcard`,
-      knowledgeId: item.id,
-      questionType: type,
-      book: item.book,
-      chapter: item.chapter,
-      section: item.section,
-      prompt: item.question,
-      answer: item.answer,
-      explanation: item.explanation,
-      sourceLabel: item.source.label,
-      sourcePage: item.source.page
-    };
-  }
-
-  if (type === "fill") {
-    return {
-      id: `${item.id}-fill`,
-      knowledgeId: item.id,
-      questionType: type,
-      book: item.book,
-      chapter: item.chapter,
-      section: item.section,
-      prompt: `填空：${item.knowledgePoint}`,
-      answer: item.answer,
-      explanation: item.explanation,
-      sourceLabel: item.source.label,
-      sourcePage: item.source.page
-    };
-  }
-
-  if (type === "judge") {
-    const distractor = rankedDistractors(item, knowledgeBase)[0];
-    const statementIsTrue = hashText(item.id) % 2 === 0 || !distractor;
-    const statementAnswer = statementIsTrue ? item.answer : distractor.answer;
-
-    return {
-      id: `${item.id}-judge`,
-      knowledgeId: item.id,
-      questionType: type,
-      book: item.book,
-      chapter: item.chapter,
-      section: item.section,
-      prompt: `判断正误：${item.knowledgePoint}是“${statementAnswer}”。`,
-      answer: statementIsTrue ? "正确" : "错误",
-      explanation: `正确表述：${item.answer}。${item.explanation}`,
-      options: ["正确", "错误"],
-      correctOption: statementIsTrue ? "正确" : "错误",
-      sourceLabel: item.source.label,
-      sourcePage: item.source.page
-    };
-  }
-
-  return {
-    id: `${item.id}-select`,
-    knowledgeId: item.id,
-    questionType: "select",
-    book: item.book,
-    chapter: item.chapter,
-    section: item.section,
-    prompt: item.question,
-    answer: item.answer,
-    explanation: item.explanation,
-    options: createOptions(item, knowledgeBase),
-    correctOption: item.answer,
-    sourceLabel: item.source.label,
-    sourcePage: item.source.page
-  };
-}
-
-export function createMapReviewCard(challenge: MapChallenge): ReviewCard {
-  return {
-    id: `${challenge.id}-map`,
-    knowledgeId: challenge.knowledgePointIds[0] ?? challenge.id,
-    questionType: "map",
-    book: challenge.book,
-    chapter: challenge.chapter,
-    section: challenge.section,
-    prompt: challenge.prompt,
-    answer: challenge.correctAnswer,
-    explanation: challenge.explanation,
-    options: challenge.options,
-    correctOption: challenge.correctAnswer,
-    assetPath: challenge.assetPath,
-    sourceLabel: challenge.sourceLabel,
-    sourcePage: challenge.sourcePage,
-    extractionNote: challenge.extractionNote
-  };
-}
-
-function rankKnowledge(
-  knowledgeBase: KnowledgeCard[],
+function rankItems(
+  items: UnitItem[],
   progressMap: Record<string, ReviewProgress>,
-  history: RecentHistoryState
+  history: RecentHistoryState,
+  mode: "review" | "map"
 ) {
-  const reviewHistory = recentEntriesByType(history, "review");
-  const recentKnowledgeIds = new Set(reviewHistory.map((entry) => entry.knowledgeId));
-  const freshnessSeed = reviewHistory.length + history.entries.length;
+  const recentHistory = recentEntriesByType(history, mode);
+  const recentItemIds = new Set(recentHistory.map((entry) => entry.itemId));
+  const freshnessSeed = recentHistory.length + history.entries.length;
 
-  return [...knowledgeBase].sort((left, right) => {
+  return [...items].sort((left, right) => {
     const leftProgress = progressMap[left.id];
     const rightProgress = progressMap[right.id];
     const leftDue = isDue(leftProgress) ? 0 : 1;
@@ -359,8 +204,8 @@ function rankKnowledge(
       return leftDue - rightDue;
     }
 
-    const leftRecent = recentKnowledgeIds.has(left.id) ? 1 : 0;
-    const rightRecent = recentKnowledgeIds.has(right.id) ? 1 : 0;
+    const leftRecent = recentItemIds.has(left.id) ? 1 : 0;
+    const rightRecent = recentItemIds.has(right.id) ? 1 : 0;
 
     if (leftRecent !== rightRecent) {
       return leftRecent - rightRecent;
@@ -387,10 +232,120 @@ function rankKnowledge(
       return leftImportance - rightImportance;
     }
 
-    return (
-      hashText(`${left.id}-${freshnessSeed}`) - hashText(`${right.id}-${freshnessSeed}`)
-    );
+    return hashText(`${left.id}-${freshnessSeed}`) - hashText(`${right.id}-${freshnessSeed}`);
   });
+}
+
+function questionTypeOrder(
+  preferredType: Exclude<ReviewCard["questionType"], "map">
+) {
+  return [preferredType, ...NON_MAP_TYPES.filter((type) => type !== preferredType)];
+}
+
+export function createReviewCard(item: Exclude<UnitItem, MapChallenge>): ReviewCard {
+  if (item.type === "judge") {
+    return {
+      id: `${item.id}-card`,
+      itemId: item.id,
+      questionType: item.type,
+      bookLabel: item.bookLabel,
+      chapter: item.chapter,
+      section: item.section,
+      knowledgePoint: item.knowledgePoint,
+      prompt: item.statement,
+      answer: item.answer,
+      explanation: item.explanation,
+      options: item.options,
+      correctOption: item.correctOption,
+      assetPath: item.assetPath,
+      sourceLabel: item.source.label,
+      sourceFile: item.source.file,
+      sourceSlide: item.source.slide,
+      sourceNote: item.source.note
+    };
+  }
+
+  if (item.type === "match") {
+    return {
+      id: `${item.id}-card`,
+      itemId: item.id,
+      questionType: item.type,
+      bookLabel: item.bookLabel,
+      chapter: item.chapter,
+      section: item.section,
+      knowledgePoint: item.knowledgePoint,
+      prompt: item.prompt,
+      answer: item.answer,
+      explanation: item.explanation,
+      pairs: item.pairs,
+      sourceLabel: item.source.label,
+      sourceFile: item.source.file,
+      sourceSlide: item.source.slide,
+      sourceNote: item.source.note
+    };
+  }
+
+  if (item.type === "choice" || item.type === "analysis") {
+    return {
+      id: `${item.id}-card`,
+      itemId: item.id,
+      questionType: item.type,
+      bookLabel: item.bookLabel,
+      chapter: item.chapter,
+      section: item.section,
+      knowledgePoint: item.knowledgePoint,
+      prompt: item.prompt,
+      answer: item.answer,
+      explanation: item.explanation,
+      options: item.options,
+      correctOption: item.correctOption,
+      assetPath: item.assetPath,
+      sourceLabel: item.source.label,
+      sourceFile: item.source.file,
+      sourceSlide: item.source.slide,
+      sourceNote: item.source.note
+    };
+  }
+
+  return {
+    id: `${item.id}-card`,
+    itemId: item.id,
+    questionType: item.type,
+    bookLabel: item.bookLabel,
+    chapter: item.chapter,
+    section: item.section,
+    knowledgePoint: item.knowledgePoint,
+    prompt: item.prompt,
+    answer: item.answer,
+    explanation: item.explanation,
+    sourceLabel: item.source.label,
+    sourceFile: item.source.file,
+    sourceSlide: item.source.slide,
+    sourceNote: item.source.note
+  };
+}
+
+export function createMapReviewCard(challenge: MapChallenge): ReviewCard {
+  return {
+    id: `${challenge.id}-card`,
+    itemId: challenge.id,
+    questionType: "map",
+    bookLabel: challenge.bookLabel,
+    chapter: challenge.chapter,
+    section: challenge.section,
+    knowledgePoint: challenge.knowledgePoint,
+    prompt: challenge.prompt,
+    answer: challenge.answer,
+    explanation: challenge.explanation,
+    options: challenge.options,
+    correctOption: challenge.correctOption,
+    assetPath: challenge.assetPath,
+    sourceLabel: challenge.source.label,
+    sourceFile: challenge.source.file,
+    sourceSlide: challenge.source.slide,
+    sourceNote: challenge.source.note,
+    extractionNote: challenge.extractionNote
+  };
 }
 
 function selectMapChallenges(
@@ -400,41 +355,35 @@ function selectMapChallenges(
   targetSize: number
 ) {
   const recentMapHistory = recentEntriesByType(history, "map");
-  const recentMapIds = new Set(recentMapHistory.map((entry) => entry.cardId));
+  const recentItemIds = new Set(recentMapHistory.map((entry) => entry.itemId));
   const recentAssets = new Set(
     recentMapHistory.map((entry) => entry.assetPath).filter(Boolean)
   );
   const freshnessSeed = recentMapHistory.length + history.entries.length;
 
   const ranked = [...mapChallenges].sort((left, right) => {
-    const leftDue = left.knowledgePointIds.some((knowledgeId) => isDue(progressMap[knowledgeId]))
-      ? 0
-      : 1;
-    const rightDue = right.knowledgePointIds.some((knowledgeId) => isDue(progressMap[knowledgeId]))
-      ? 0
-      : 1;
+    const leftDue = isDue(progressMap[left.id]) ? 0 : 1;
+    const rightDue = isDue(progressMap[right.id]) ? 0 : 1;
 
     if (leftDue !== rightDue) {
       return leftDue - rightDue;
     }
 
-    const leftRecent = recentMapIds.has(`${left.id}-map`) ? 1 : 0;
-    const rightRecent = recentMapIds.has(`${right.id}-map`) ? 1 : 0;
+    const leftRecent = recentItemIds.has(left.id) ? 1 : 0;
+    const rightRecent = recentItemIds.has(right.id) ? 1 : 0;
 
     if (leftRecent !== rightRecent) {
       return leftRecent - rightRecent;
     }
 
-    const leftMastery = averageMastery(left.knowledgePointIds, progressMap);
-    const rightMastery = averageMastery(right.knowledgePointIds, progressMap);
+    const leftMastery = progressMap[left.id]?.mastery ?? 0;
+    const rightMastery = progressMap[right.id]?.mastery ?? 0;
 
     if (leftMastery !== rightMastery) {
       return leftMastery - rightMastery;
     }
 
-    return (
-      hashText(`${left.id}-${freshnessSeed}`) - hashText(`${right.id}-${freshnessSeed}`)
-    );
+    return hashText(`${left.id}-${freshnessSeed}`) - hashText(`${right.id}-${freshnessSeed}`);
   });
 
   const selected: MapChallenge[] = [];
@@ -442,20 +391,15 @@ function selectMapChallenges(
 
   for (const challenge of ranked) {
     const assetKey = challenge.assetPath ?? challenge.id;
-    const assetRecentlyUsed = challenge.assetPath ? recentAssets.has(challenge.assetPath) : false;
-    const previousChallenge =
-      selected.length > 0 ? selected[selected.length - 1] : undefined;
+    const assetRecentlyUsed = recentAssets.has(challenge.assetPath);
+    const previousSection = selected[selected.length - 1]?.section;
 
-    if (
-      usedAssets.has(assetKey) ||
-      assetRecentlyUsed ||
-      previousChallenge?.chapter === challenge.chapter
-    ) {
+    if (usedAssets.has(assetKey) || assetRecentlyUsed || previousSection === challenge.section) {
       continue;
     }
 
-    selected.push(challenge);
     usedAssets.add(assetKey);
+    selected.push(challenge);
 
     if (selected.length >= targetSize) {
       return selected;
@@ -472,8 +416,8 @@ function selectMapChallenges(
       continue;
     }
 
-    selected.push(challenge);
     usedAssets.add(assetKey);
+    selected.push(challenge);
 
     if (selected.length >= targetSize) {
       return selected;
@@ -495,55 +439,91 @@ export function buildMapDeck(
 }
 
 export function buildReviewDeck(
-  knowledgeBase: KnowledgeCard[],
-  mapChallenges: MapChallenge[],
+  knowledgePoints: Exclude<UnitItem, MapChallenge>[],
+  questions: UnitQuestion[],
+  maps: MapChallenge[],
   progressMap: Record<string, ReviewProgress>,
   history: RecentHistoryState,
   targetSize = 20
 ) {
-  const rankedKnowledge = rankKnowledge(knowledgeBase, progressMap, history);
-  const reviewHistory = recentEntriesByType(history, "review");
-  const recentReviewCardIds = new Set(reviewHistory.map((entry) => entry.cardId));
-  const nonMapSlots = QUESTION_PATTERN.slice(0, targetSize).filter(
-    (type) => type !== "map"
-  ).length;
+  const reviewItems = [...knowledgePoints, ...questions];
+  const rankedReviewItems = rankItems(reviewItems, progressMap, history, "review");
+  const nonMapSlots = QUESTION_PATTERN.slice(0, targetSize).filter((type) => type !== "map").length;
   const mapSlots = QUESTION_PATTERN.slice(0, targetSize).filter((type) => type === "map").length;
-  const reviewPool = buildDiverseKnowledgePool(
-    rankedKnowledge,
-    Math.max(nonMapSlots, 1)
+  const reviewPool = sectionBalancedPool(
+    rankedReviewItems,
+    Math.max(nonMapSlots * 2, nonMapSlots)
   );
-  const mapPool = selectMapChallenges(
-    mapChallenges,
-    progressMap,
-    history,
-    Math.max(mapSlots, 1)
-  );
+  const mapPool = selectMapChallenges(maps, progressMap, history, Math.max(mapSlots, 1));
+  const buckets = new Map<Exclude<ReviewCard["questionType"], "map">, UnitItem[]>();
   const deck: ReviewCard[] = [];
-  let knowledgeCursor = 0;
+  const usedIds = new Set<string>();
   let mapCursor = 0;
+
+  for (const type of NON_MAP_TYPES) {
+    buckets.set(
+      type,
+      reviewPool.filter((item) => item.type === type)
+    );
+  }
+
+  const takeNextItem = (
+    preferredType: Exclude<ReviewCard["questionType"], "map">
+  ) => {
+    for (const type of questionTypeOrder(preferredType)) {
+      const bucket = buckets.get(type);
+
+      while (bucket?.length) {
+        const nextItem = bucket.shift();
+
+        if (nextItem && !usedIds.has(nextItem.id)) {
+          usedIds.add(nextItem.id);
+          return nextItem;
+        }
+      }
+    }
+
+    const fallback = rankedReviewItems.find((item) => !usedIds.has(item.id));
+
+    if (fallback) {
+      usedIds.add(fallback.id);
+    }
+
+    return fallback;
+  };
 
   for (let index = 0; index < targetSize; index += 1) {
     const questionType = QUESTION_PATTERN[index % QUESTION_PATTERN.length];
 
     if (questionType === "map" && mapCursor < mapPool.length) {
       deck.push(createMapReviewCard(mapPool[mapCursor]));
+      usedIds.add(mapPool[mapCursor].id);
       mapCursor += 1;
       continue;
     }
 
-    const item = reviewPool[knowledgeCursor % reviewPool.length];
-    const preferredType = questionType === "map" ? "select" : questionType;
-    const resolvedType =
-      questionTypeOrder(preferredType).find(
-        (type) => !recentReviewCardIds.has(reviewCardId(item.id, type))
-      ) ?? preferredType;
-    const nextCard = createReviewCard(item, resolvedType, knowledgeBase);
+    const nextItem = takeNextItem(questionType === "map" ? "choice" : questionType);
 
-    deck.push(nextCard);
-    recentReviewCardIds.add(nextCard.id);
-    knowledgeCursor += 1;
+    if (!nextItem) {
+      break;
+    }
+
+    deck.push(createReviewCard(nextItem));
   }
 
   return deck;
 }
 
+export function buildFocusedDeck(
+  items: UnitItem[],
+  progressMap: Record<string, ReviewProgress>,
+  history: RecentHistoryState,
+  targetSize = 12
+) {
+  return sectionBalancedPool(
+    rankItems(items, progressMap, history, "review"),
+    targetSize
+  )
+    .slice(0, targetSize)
+    .map((item) => (item.type === "map" ? createMapReviewCard(item) : createReviewCard(item)));
+}

@@ -1,0 +1,253 @@
+﻿[
+    {
+        "id":  "asia-map01",
+        "type":  "map",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·位置、范围和地理分区",
+        "knowledgePoint":  "亚洲位置图",
+        "prompt":  "看图选择：亚洲东临什么洋？",
+        "answer":  "太平洋",
+        "explanation":  "从亚洲位置图上可以看出，亚洲东临太平洋，北临北冰洋，南临印度洋。",
+        "difficulty":  "easy",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案课件原图",
+                       "file":  "1 第一节 第1课时 位置、范围和地理分区.pptx",
+                       "slide":  13,
+                       "note":  "亚洲位置示意图"
+                   },
+        "mode":  "select",
+        "options":  [
+                        "北冰洋",
+                        "太平洋",
+                        "大西洋",
+                        "印度洋"
+                    ],
+        "correctOption":  "太平洋",
+        "assetPath":  "/images/七下/第七章/asia-location.png",
+        "extractionNote":  "来自课件中的亚洲位置示意图。",
+        "relatedIds":  [
+                           "asia-k03",
+                           "asia-q01"
+                       ]
+    },
+    {
+        "id":  "asia-map02",
+        "type":  "map",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·位置、范围和地理分区",
+        "knowledgePoint":  "洲界判读",
+        "prompt":  "看图选择：图中 b 所示的大洲是（　　）",
+        "answer":  "非洲",
+        "explanation":  "图中 b 位于亚洲西南侧，与亚洲之间的分界线是苏伊士运河，因此是非洲。",
+        "difficulty":  "medium",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案课件原图",
+                       "file":  "1 第一节 第1课时 位置、范围和地理分区.pptx",
+                       "slide":  14,
+                       "note":  "亚洲位置示意图"
+                   },
+        "mode":  "select",
+        "options":  [
+                        "欧洲",
+                        "非洲",
+                        "北美洲",
+                        "大洋洲"
+                    ],
+        "correctOption":  "非洲",
+        "assetPath":  "/images/七下/第七章/asia-location.png",
+        "extractionNote":  "使用同一张位置图训练洲界识别。",
+        "relatedIds":  [
+                           "asia-q02"
+                       ]
+    },
+    {
+        "id":  "asia-map03",
+        "type":  "map",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·位置、范围和地理分区",
+        "knowledgePoint":  "分区定位",
+        "prompt":  "看图选择：图中 a 所在区域最接近亚洲哪个地理分区？",
+        "answer":  "东南亚",
+        "explanation":  "a 标注位置位于中南半岛附近，属于东南亚范围。",
+        "difficulty":  "medium",
+        "importance":  "medium",
+        "source":  {
+                       "label":  "金版学案课件原图",
+                       "file":  "1 第一节 第1课时 位置、范围和地理分区.pptx",
+                       "slide":  15,
+                       "note":  "亚洲地理位置图"
+                   },
+        "mode":  "select",
+        "options":  [
+                        "东亚",
+                        "东南亚",
+                        "南亚",
+                        "北亚"
+                    ],
+        "correctOption":  "东南亚",
+        "assetPath":  "/images/七下/第七章/asia-location.png",
+        "extractionNote":  "位置图中的 a 标记可用于区域判断。",
+        "relatedIds":  [
+                           "asia-k05",
+                           "asia-q25"
+                       ]
+    },
+    {
+        "id":  "asia-map04",
+        "type":  "map",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第二节 人文环境",
+        "knowledgePoint":  "东亚识别",
+        "prompt":  "区域识别：请在亚洲地理分区图上指出东亚所在区域。",
+        "answer":  "东亚位于亚洲东部、濒临太平洋西岸。",
+        "explanation":  "东亚在亚洲东部，是人口密集、经济较发达的区域之一。",
+        "difficulty":  "easy",
+        "importance":  "medium",
+        "source":  {
+                       "label":  "金版学案课件原图",
+                       "file":  "3 第二节 人文环境.pptx",
+                       "slide":  22,
+                       "note":  "亚洲地理分区示意图"
+                   },
+        "mode":  "region",
+        "assetPath":  "/images/七下/第七章/asia-regions.png",
+        "extractionNote":  "来自人文环境课件中的亚洲地理分区示意图。",
+        "relatedIds":  [
+                           "asia-k05",
+                           "asia-k11"
+                       ]
+    },
+    {
+        "id":  "asia-map05",
+        "type":  "map",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第二节 人文环境",
+        "knowledgePoint":  "南亚识别",
+        "prompt":  "区域识别：请在亚洲地理分区图上找出南亚所在区域。",
+        "answer":  "南亚位于亚洲南部、喜马拉雅山脉以南。",
+        "explanation":  "南亚位于印度半岛及其周边，是亚洲人口非常密集的地区之一。",
+        "difficulty":  "easy",
+        "importance":  "medium",
+        "source":  {
+                       "label":  "金版学案课件原图",
+                       "file":  "3 第二节 人文环境.pptx",
+                       "slide":  22,
+                       "note":  "亚洲地理分区示意图"
+                   },
+        "mode":  "region",
+        "assetPath":  "/images/七下/第七章/asia-regions.png",
+        "extractionNote":  "使用分区图训练南亚定位。",
+        "relatedIds":  [
+                           "asia-k05",
+                           "asia-k11"
+                       ]
+    },
+    {
+        "id":  "asia-map06",
+        "type":  "map",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·地形、地势和气候",
+        "knowledgePoint":  "河流流向",
+        "prompt":  "看图选择：根据图示，亚洲河流总体上多（　　）",
+        "answer":  "从中部流向四周海洋",
+        "explanation":  "亚洲地势中部高、四周低，所以河流多从中部高原山地呈放射状流向周边海洋。",
+        "difficulty":  "easy",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案课件原图",
+                       "file":  "2 第一节 第2课时 地形、地势和气候.pptx",
+                       "slide":  18,
+                       "note":  "亚洲自然环境图"
+                   },
+        "mode":  "select",
+        "options":  [
+                        "从四周流向中部",
+                        "从中部流向四周海洋",
+                        "全部自西向东流",
+                        "全部自北向南流"
+                    ],
+        "correctOption":  "从中部流向四周海洋",
+        "assetPath":  "/images/七下/第七章/asia-terrain-climate.png",
+        "extractionNote":  "自然环境图同时展示了地势、河流和季风信息。",
+        "relatedIds":  [
+                           "asia-k08",
+                           "asia-q16"
+                       ]
+    },
+    {
+        "id":  "asia-map07",
+        "type":  "map",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·地形、地势和气候",
+        "knowledgePoint":  "季风气候分布",
+        "prompt":  "看图选择：亚洲季风气候主要分布在（　　）",
+        "answer":  "亚洲东部和南部",
+        "explanation":  "从图中的季风分布与季风风向示意可判断，季风气候主要集中在东部和南部。",
+        "difficulty":  "easy",
+        "importance":  "high",
+        "source":  {
+                       "label":  "金版学案课件原图",
+                       "file":  "2 第一节 第2课时 地形、地势和气候.pptx",
+                       "slide":  13,
+                       "note":  "亚洲自然环境图"
+                   },
+        "mode":  "select",
+        "options":  [
+                        "亚洲北部",
+                        "亚洲中部",
+                        "亚洲东部和南部",
+                        "亚洲西部和北部"
+                    ],
+        "correctOption":  "亚洲东部和南部",
+        "assetPath":  "/images/七下/第七章/asia-terrain-climate.png",
+        "extractionNote":  "同一张原图可用于训练气候与风向判断。",
+        "relatedIds":  [
+                           "asia-k09",
+                           "asia-k10",
+                           "asia-q08"
+                       ]
+    },
+    {
+        "id":  "asia-map08",
+        "type":  "map",
+        "bookCode":  "grade7-semester2",
+        "bookLabel":  "七年级下册",
+        "chapter":  "第七章 我们生活的大洲——亚洲",
+        "section":  "第一节 自然环境·地形、地势和气候",
+        "knowledgePoint":  "特殊纬线判读",
+        "prompt":  "看图判断：北回归线穿过亚洲的（　　）",
+        "answer":  "南部",
+        "explanation":  "北回归线穿过亚洲南部，这也是判断亚洲热量带和季风区的重要线索。",
+        "difficulty":  "medium",
+        "importance":  "medium",
+        "source":  {
+                       "label":  "金版学案课件原图",
+                       "file":  "2 第一节 第2课时 地形、地势和气候.pptx",
+                       "slide":  6,
+                       "note":  "亚洲自然环境图"
+                   },
+        "mode":  "click",
+        "assetPath":  "/images/七下/第七章/asia-terrain-climate.png",
+        "extractionNote":  "通过同一张自然环境图训练纬线位置判断。",
+        "relatedIds":  [
+                           "asia-k04",
+                           "asia-k10"
+                       ]
+    }
+]

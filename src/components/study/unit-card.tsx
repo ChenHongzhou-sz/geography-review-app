@@ -1,4 +1,4 @@
-import { ArrowRight, Compass, Lock, MapPinned } from "lucide-react";
+import { ArrowRight, Lock, MapPinned, Trophy } from "lucide-react";
 import { Link } from "react-router-dom";
 import type { UnitSummary } from "../../types";
 import { Badge } from "../ui/badge";
@@ -34,7 +34,7 @@ export function UnitCard({
           <div className="flex flex-wrap items-center gap-2">
             <Badge>{unit.bookLabel}</Badge>
             <Badge variant={unit.ready ? "success" : "slate"}>
-              {unit.ready ? "已接入" : "规划中"}
+              {unit.ready ? "已接入" : "待接入"}
             </Badge>
           </div>
           <CardTitle className="mt-4 text-xl sm:text-2xl">
@@ -59,7 +59,7 @@ export function UnitCard({
           <div className="mt-2 text-2xl font-bold text-ink">{unit.knowledgeCount}</div>
         </div>
         <div className="rounded-[1.2rem] bg-white/82 p-4">
-          <div className="text-xs text-slate-500">训练题</div>
+          <div className="text-xs text-slate-500">原题</div>
           <div className="mt-2 text-2xl font-bold text-ink">{unit.questionCount}</div>
         </div>
         <div className="rounded-[1.2rem] bg-white/82 p-4">
@@ -108,15 +108,15 @@ export function UnitCard({
         ) : (
           <div className="inline-flex items-center rounded-[1.3rem] bg-white/80 px-4 py-3 text-sm font-medium text-slate-500">
             <Lock className="mr-2 h-4 w-4" />
-            预留入口，后续接入 JSON 即可上线
+            入口已预留，后续补充数据即可上线
           </div>
         )}
       </div>
 
       {featured ? (
         <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-ocean-50 px-3 py-1 text-sm font-medium text-ocean-800">
-          <Compass className="h-4 w-4" />
-          当前推荐作为首个完整训练单元
+          <Trophy className="h-4 w-4" />
+          当前推荐训练单元
         </div>
       ) : null}
     </Card>
