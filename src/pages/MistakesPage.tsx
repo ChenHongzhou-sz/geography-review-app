@@ -10,7 +10,7 @@ import { Progress } from "../components/ui/progress";
 import { cn } from "../utils/cn";
 import { inferAnsweredCorrectly } from "../utils/review";
 import type { StudyEngine } from "../hooks/useStudyEngine";
-import type { ReviewCard, SelfRating } from "../types";
+import type { SelfRating, WrongItem } from "../types";
 
 export function MistakesPage({ engine }: { engine: StudyEngine }) {
   const readyUnits = engine.units.filter((unit) => unit.ready);
@@ -44,7 +44,7 @@ export function MistakesPage({ engine }: { engine: StudyEngine }) {
     () =>
       practiceItemIds
         .map((itemId) => displayedItemsById.get(itemId))
-        .filter((item): item is ReviewCard => Boolean(item)),
+        .filter((item): item is WrongItem => Boolean(item)),
     [displayedItemsById, practiceItemIds]
   );
 
