@@ -29,6 +29,12 @@ export function HandbookPage({ engine }: { engine: StudyEngine }) {
   const card = cards[currentIndex];
 
   useEffect(() => {
+    if (unit) {
+      engine.setFeaturedUnit(unit.unitId);
+    }
+  }, [engine, unit]);
+
+  useEffect(() => {
     setCurrentIndex(clampIndex(storedPositions[unitId] ?? 0, cards.length));
   }, [cards.length, storedPositions, unitId]);
 

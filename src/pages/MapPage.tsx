@@ -20,9 +20,13 @@ export function MapPage({ engine }: { engine: StudyEngine }) {
   const card = sessionCards[currentIndex];
 
   useEffect(() => {
+    if (unit) {
+      engine.setFeaturedUnit(unit.unitId);
+    }
+
     setSessionCards(engine.getUnitMapDeck(unitId));
     setCurrentIndex(0);
-  }, [unitId]);
+  }, [engine, unit, unitId]);
 
   if (!unit) {
     return <Navigate to="/units" replace />;

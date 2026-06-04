@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { BookOpen, Compass, Lock, MapPinned, Sparkles, Trophy } from "lucide-react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { AppShell } from "../components/layout/app-shell";
@@ -13,6 +14,12 @@ export function UnitDetailPage({ engine }: { engine: StudyEngine }) {
   const unitId = params.unitId ?? "";
   const unit = engine.getUnit(unitId);
   const data = engine.getUnitData(unitId);
+
+  useEffect(() => {
+    if (unit) {
+      engine.setFeaturedUnit(unit.unitId);
+    }
+  }, [engine, unit]);
 
   if (!unit) {
     return <Navigate to="/units" replace />;

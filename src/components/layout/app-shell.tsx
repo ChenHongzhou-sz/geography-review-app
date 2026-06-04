@@ -1,42 +1,9 @@
-import type { ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { BookOpen, Compass, House, Map, NotebookPen } from "lucide-react";
 import { DEFAULT_UNIT_ID } from "../../data/units";
 import { cn } from "../../utils/cn";
-
-const navItems = [
-  {
-    to: "/",
-    label: "首页",
-    icon: House,
-    match: (pathname: string) => pathname === "/"
-  },
-  {
-    to: "/units",
-    label: "单元",
-    icon: BookOpen,
-    match: (pathname: string) =>
-      pathname === "/units" || pathname.startsWith("/unit/") || pathname.startsWith("/handbook/")
-  },
-  {
-    to: `/training/${DEFAULT_UNIT_ID}`,
-    label: "训练",
-    icon: Compass,
-    match: (pathname: string) => pathname.startsWith("/training/")
-  },
-  {
-    to: `/maps/${DEFAULT_UNIT_ID}`,
-    label: "地图",
-    icon: Map,
-    match: (pathname: string) => pathname.startsWith("/maps/")
-  },
-  {
-    to: "/mistakes",
-    label: "错题本",
-    icon: NotebookPen,
-    match: (pathname: string) => pathname.startsWith("/mistakes")
-  }
-];
+import { STORAGE_KEYS } from "../../utils/storage";
 
 export function AppShell({
   title,
@@ -52,6 +19,54 @@ export function AppShell({
   children: ReactNode;
 }) {
   const location = useLocation();
+  const [featuredUnitId, setFeaturedUnitId] = useState(DEFAULT_UNIT_ID);
+
+  useEffect(() => {
+    if (typeof window === "undefined") {
+      return;
+    }
+
+    try {
+      const rawValue = window.localStorage.getItem(STORAGE_KEYS.featuredUnit);
+      setFeaturedUnitId(rawValue ? (JSON.parse(rawValue) as string) : DEFAULT_UNIT_ID);
+    } catch {
+      setFeaturedUnitId(DEFAULT_UNIT_ID);
+    }
+  }, [location.pathname]);
+
+  const navItems = [
+    {
+      to: "/",
+      label: "首页",
+      icon: House,
+      match: (pathname: string) => pathname === "/"
+    },
+    {
+      to: "/units",
+      label: "单元",
+      icon: BookOpen,
+      match: (pathname: string) =>
+        pathname === "/units" || pathname.startsWith("/unit/") || pathname.startsWith("/handbook/")
+    },
+    {
+      to: `/training/${featuredUnitId}`,
+      label: "训练",
+      icon: Compass,
+      match: (pathname: string) => pathname.startsWith("/training/")
+    },
+    {
+      to: `/maps/${featuredUnitId}`,
+      label: "地图",
+      icon: Map,
+      match: (pathname: string) => pathname.startsWith("/maps/")
+    },
+    {
+      to: "/mistakes",
+      label: "错题本",
+      icon: NotebookPen,
+      match: (pathname: string) => pathname.startsWith("/mistakes")
+    }
+  ];
 
   return (
     <div className="min-h-screen px-4 pb-28 pt-5 text-ink sm:px-6 lg:px-8">

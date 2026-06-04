@@ -236,6 +236,7 @@ export interface StudyEngine {
   getUnitChallengeDeck: (unitId: string, stageId: string, targetSize?: number) => ReviewCard[];
   getUnitWrongItems: (unitId: string) => WrongItem[];
   getStageMastery: (unitId: string, stageId: string) => number;
+  setFeaturedUnit: (unitId: string) => void;
 }
 
 export function useStudyEngine(): StudyEngine {
@@ -251,10 +252,15 @@ export function useStudyEngine(): StudyEngine {
     STORAGE_KEYS.history,
     createRecentHistory()
   );
+  const [featuredUnitId, setFeaturedUnitId] = useLocalStorage(
+    STORAGE_KEYS.featuredUnit,
+    DEFAULT_UNIT_ID
+  );
 
   const normalizedDashboard = ensureToday(dashboard);
   const units = createUnitSummaries(progressMap);
   const featuredUnit =
+    units.find((unit) => unit.unitId === featuredUnitId) ??
     units.find((unit) => unit.unitId === DEFAULT_UNIT_ID) ??
     units.find((unit) => unit.ready) ??
     units[0];
@@ -366,6 +372,15 @@ export function useStudyEngine(): StudyEngine {
     },
     getUnitWrongItems: (unitId) => getUnitWrongItems(unitId, wrongItems),
     getStageMastery: (unitId, stageId) =>
-      getStageProgress(getUnitContent(unitId), stageId, progressMap)
+      getStageProgress(getUnitContent(unitId), stageId, progressMap),
+    setFeaturedUnit: (unitId) => {
+      if (featuredUnitId === unitId || !units.some((unit) => unit.unitId === unitId)) {
+        return;
+      }
+
+      startTransition(() => {
+        setFeaturedUnitId(unitId);
+      });
+    }
   };
 }

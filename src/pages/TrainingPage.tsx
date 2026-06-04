@@ -35,6 +35,12 @@ export function TrainingPage({ engine }: { engine: StudyEngine }) {
   const card = sessionCards[currentIndex];
 
   useEffect(() => {
+    if (unit) {
+      engine.setFeaturedUnit(unit.unitId);
+    }
+  }, [engine, unit]);
+
+  useEffect(() => {
     const storedSession = storedSessions[unitId];
     const availableItemIds = new Set(
       (data

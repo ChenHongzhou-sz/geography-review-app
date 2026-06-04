@@ -17,50 +17,64 @@ import { Card, CardDescription, CardTitle } from "../components/ui/card";
 import { cn } from "../utils/cn";
 import type { StudyEngine } from "../hooks/useStudyEngine";
 
-const quickActions = [
-  {
-    key: "review",
-    title: "今日复习",
-    description: "系统会优先推送到期题目和掌握度较低的内容。",
-    to: "/review",
-    icon: Sparkles
-  },
-  {
-    key: "mistakes",
-    title: "错题本",
-    description: "自动记录做错的题目，支持按单元和知识点回看。",
-    to: "/mistakes",
-    icon: NotebookPen
-  },
-  {
-    key: "maps",
-    title: "地图挑战",
-    description: "集中练亚洲位置、分区、地形和季风读图。",
-    to: "/maps/geo-7b-chapter7-asia",
-    icon: MapPinned
-  },
-  {
-    key: "challenge",
-    title: "亚洲闯关",
-    description: "按六个知识模块分关训练，适合考前冲刺。",
-    to: "/sprint",
-    icon: Trophy
-  }
-];
+function buildQuickActions(featuredUnit: StudyEngine["featuredUnit"]) {
+  return [
+    {
+      key: "review",
+      title: "今日复习",
+      description: "系统会优先推送到期内容和掌握度较低的题目。",
+      to: "/review",
+      icon: Sparkles
+    },
+    {
+      key: "mistakes",
+      title: "错题本",
+      description: "自动记录做错的题目，支持按单元和知识点回看。",
+      to: "/mistakes",
+      icon: NotebookPen
+    },
+    {
+      key: "maps",
+      title: featuredUnit.mapCount > 0 ? "地图挑战" : "地图待接入",
+      description:
+        featuredUnit.mapCount > 0
+          ? "地图入口会跟随你最近进入的单元一起切换。"
+          : "这个单元暂时还没有地图题，先用知识手册和训练题推进。",
+      to: featuredUnit.mapCount > 0 ? `/maps/${featuredUnit.unitId}` : `/unit/${featuredUnit.unitId}`,
+      icon: MapPinned
+    },
+    {
+      key: "challenge",
+      title: "单元闯关",
+      description: "闯关内容也会跟随当前主推单元自动切换。",
+      to: "/sprint",
+      icon: Trophy
+    }
+  ];
+}
 
 export function HomePage({ engine }: { engine: StudyEngine }) {
   const featuredUnit = engine.featuredUnit;
+  const featuredUnitTitle = `${featuredUnit.chapter}《${featuredUnit.title}》`;
+  const featuredMapLink =
+    featuredUnit.mapCount > 0 ? `/maps/${featuredUnit.unitId}` : `/unit/${featuredUnit.unitId}`;
+  const featuredMapLabel = featuredUnit.mapCount > 0 ? "地图挑战" : "查看单元";
+  const featuredSummary = featuredUnit.ready
+    ? "首页主推现在会跟随你最后进入的单元切换。当前这个单元已经接入知识手册、训练题、错题记录和闯关流程，可以直接继续往下学。"
+    : "首页主推现在会跟随你最后进入的单元切换。当前这个单元入口已经预留，后面补完资料后就能直接复用这套训练界面。";
+  const quickActions = buildQuickActions(featuredUnit);
   const semesterOneUnits = engine.units.filter(
     (unit) => unit.bookCode === "grade7-semester1"
   );
   const semesterTwoUnits = engine.units.filter(
     (unit) => unit.bookCode === "grade7-semester2"
   );
+  const semesterTwoReadyCount = semesterTwoUnits.filter((unit) => unit.ready).length;
 
   return (
     <AppShell
       title="GeoMemory 地理训练营"
-      subtitle="主界面已经切成“单元训练中心”。当前先完整接入七下第七章《我们生活的大洲——亚洲》，后续新增单元时只需要继续补对应数据和图片。"
+      subtitle="主界面已经改成按单元组织。你最近进入哪个单元，首页主推区就会跟着切到哪个单元。"
       headerAside={
         <div className="rounded-[1.6rem] bg-gradient-to-br from-ocean-500 via-ocean-700 to-mint-500 px-5 py-4 text-white shadow-lg">
           <div className="text-xs uppercase tracking-[0.2em] text-white/72">Study Snapshot</div>
@@ -108,15 +122,15 @@ export function HomePage({ engine }: { engine: StudyEngine }) {
               <div>
                 <Badge className="mb-3 bg-white/12 text-white">当前主推单元</Badge>
                 <h2 className="title-balance text-3xl font-bold sm:text-[2.5rem]">
-                  七下第七章《我们生活的大洲——亚洲》
+                  {featuredUnitTitle}
                 </h2>
                 <p className="mt-3 max-w-3xl text-sm leading-7 text-white/80 sm:text-base">
-                  这一章已经改成“知识点记忆 + 原题练习 + 地图训练 + 亚洲闯关 + 错题复习”的完整闭环。你后面逐章给我资料时，我们就按同样结构继续挂到这里。
+                  {featuredSummary}
                 </p>
               </div>
 
               <div className="min-w-[220px] rounded-[1.6rem] bg-black/12 p-4 backdrop-blur">
-                <div className="text-sm text-white/70">亚洲单元</div>
+                <div className="text-sm text-white/70">当前单元</div>
                 <div className="mt-2 text-3xl font-bold">{featuredUnit.masteryRate}%</div>
                 <div className="mt-4 rounded-[1.2rem] bg-white/10 px-3 py-3 text-sm text-white/80">
                   <div className="flex items-center justify-between">
@@ -124,7 +138,7 @@ export function HomePage({ engine }: { engine: StudyEngine }) {
                     <span>{featuredUnit.knowledgeCount}</span>
                   </div>
                   <div className="mt-3 flex items-center justify-between">
-                    <span>原题</span>
+                    <span>训练题</span>
                     <span>{featuredUnit.questionCount}</span>
                   </div>
                   <div className="mt-3 flex items-center justify-between">
@@ -136,37 +150,67 @@ export function HomePage({ engine }: { engine: StudyEngine }) {
             </div>
 
             <div className="mt-6 flex flex-wrap gap-3">
-              <Link
-                to={`/training/${featuredUnit.unitId}`}
-                className={cn(buttonVariants({ size: "lg" }), "bg-white text-ink hover:bg-slate-100")}
-              >
-                <Compass className="mr-2 h-4 w-4" />
-                开始训练
-              </Link>
-              <Link
-                to={`/handbook/${featuredUnit.unitId}`}
-                className={cn(buttonVariants({ variant: "secondary", size: "lg" }), "bg-white text-ink")}
-              >
-                <BookOpen className="mr-2 h-4 w-4" />
-                知识手册
-              </Link>
-              <Link
-                to={`/maps/${featuredUnit.unitId}`}
-                className={cn(buttonVariants({ variant: "secondary", size: "lg" }), "bg-white/12 text-white")}
-              >
-                <MapPinned className="mr-2 h-4 w-4" />
-                地图挑战
-              </Link>
-              <Link
-                to="/sprint"
-                className={cn(buttonVariants({ variant: "secondary", size: "lg" }), "bg-white/12 text-white")}
-              >
-                <Trophy className="mr-2 h-4 w-4" />
-                亚洲闯关
-              </Link>
+              {featuredUnit.ready ? (
+                <>
+                  <Link
+                    to={`/training/${featuredUnit.unitId}`}
+                    className={cn(
+                      buttonVariants({ size: "lg" }),
+                      "bg-white text-ink hover:bg-slate-100"
+                    )}
+                  >
+                    <Compass className="mr-2 h-4 w-4" />
+                    开始训练
+                  </Link>
+                  <Link
+                    to={`/handbook/${featuredUnit.unitId}`}
+                    className={cn(
+                      buttonVariants({ variant: "secondary", size: "lg" }),
+                      "bg-white text-ink"
+                    )}
+                  >
+                    <BookOpen className="mr-2 h-4 w-4" />
+                    知识手册
+                  </Link>
+                  <Link
+                    to={featuredMapLink}
+                    className={cn(
+                      buttonVariants({ variant: "secondary", size: "lg" }),
+                      "bg-white/12 text-white"
+                    )}
+                  >
+                    <MapPinned className="mr-2 h-4 w-4" />
+                    {featuredMapLabel}
+                  </Link>
+                  <Link
+                    to="/sprint"
+                    className={cn(
+                      buttonVariants({ variant: "secondary", size: "lg" }),
+                      "bg-white/12 text-white"
+                    )}
+                  >
+                    <Trophy className="mr-2 h-4 w-4" />
+                    单元闯关
+                  </Link>
+                </>
+              ) : (
+                <Link
+                  to={`/unit/${featuredUnit.unitId}`}
+                  className={cn(
+                    buttonVariants({ size: "lg" }),
+                    "bg-white text-ink hover:bg-slate-100"
+                  )}
+                >
+                  <BookOpen className="mr-2 h-4 w-4" />
+                  查看单元
+                </Link>
+              )}
               <Link
                 to="/mistakes"
-                className={cn(buttonVariants({ variant: "secondary", size: "lg" }), "bg-white/12 text-white")}
+                className={cn(
+                  buttonVariants({ variant: "secondary", size: "lg" }),
+                  "bg-white/12 text-white"
+                )}
               >
                 <NotebookPen className="mr-2 h-4 w-4" />
                 错题本
@@ -198,9 +242,9 @@ export function HomePage({ engine }: { engine: StudyEngine }) {
         <section>
           <div className="mb-4 flex items-center justify-between gap-4">
             <div>
-              <h3 className="text-xl font-semibold text-ink">当前可训练单元</h3>
+              <h3 className="text-xl font-semibold text-ink">当前主推单元</h3>
               <p className="mt-1 text-sm text-slate-600">
-                先把“亚洲”这一章做完整，后续章节继续按单元卡片接入。
+                这里会展示你最近进入的单元，方便回到刚才正在整理或训练的内容。
               </p>
             </div>
             <Link
@@ -221,7 +265,7 @@ export function HomePage({ engine }: { engine: StudyEngine }) {
               <div>
                 <CardTitle>七年级上册</CardTitle>
                 <CardDescription className="mt-2">
-                  这些入口已经预留好，后续只要补单元 JSON 和原图素材就能挂上来。
+                  这些入口已经预留好，后续只要补对应单元数据和素材就能继续接入。
                 </CardDescription>
               </div>
               <Badge variant="slate">{semesterOneUnits.length} 个入口</Badge>
@@ -249,10 +293,10 @@ export function HomePage({ engine }: { engine: StudyEngine }) {
               <div>
                 <CardTitle>七年级下册</CardTitle>
                 <CardDescription className="mt-2">
-                  亚洲单元已经接入原题和原图，后续其他章节保持相同接口继续扩展。
+                  已接入单元会直接复用当前这套知识手册、训练、错题和闯关流程。
                 </CardDescription>
               </div>
-              <Badge variant="success">亚洲已上线</Badge>
+              <Badge variant="success">{semesterTwoReadyCount} 个已接入</Badge>
             </div>
 
             <div className="mt-5 space-y-3">
@@ -293,7 +337,7 @@ export function HomePage({ engine }: { engine: StudyEngine }) {
                 <div className="mt-2 text-3xl font-bold text-ink">{engine.stats.mapMasteryRate}%</div>
               </div>
               <div className="rounded-[1.3rem] bg-slate-100 p-4">
-                <div className="text-sm text-slate-600">原题数量</div>
+                <div className="text-sm text-slate-600">训练题数量</div>
                 <div className="mt-2 text-3xl font-bold text-ink">{engine.stats.totalQuestions}</div>
               </div>
               <div className="rounded-[1.3rem] bg-sand p-4">
@@ -306,16 +350,16 @@ export function HomePage({ engine }: { engine: StudyEngine }) {
           <Card>
             <div className="flex items-center justify-between gap-4">
               <div>
-                <CardTitle>结构方向</CardTitle>
+                <CardTitle>当前结构</CardTitle>
                 <CardDescription className="mt-2">
-                  现在的主 UI 已经按“单元训练中心”组织。后续你给我新的课件或题目资料时，我会继续往单元数据里补，不再重做页面。
+                  首页主推、快捷入口和闯关都会优先跟随你最近进入的单元，不再固定卡在第七章。
                 </CardDescription>
               </div>
               <BookOpen className="h-6 w-6 text-ocean-500" />
             </div>
 
             <div className="mt-5 rounded-[1.25rem] bg-slate-50 p-4 text-sm leading-7 text-slate-600">
-              当前已完成的一章是《我们生活的大洲——亚洲》。这章已经具备：知识卡片、原题训练、地图挑战、错题记录、掌握度更新和亚洲闯关。后续每个新单元只要补资料，就能沿用这一套结构。
+              你后面继续补新单元时，不需要再重做首页结构。只要单元数据接入完成，这里就会自然切换到你最近打开的那一章。
             </div>
           </Card>
         </section>
