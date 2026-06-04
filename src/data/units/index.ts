@@ -1,4 +1,7 @@
-import asiaUnit from "./geo-7b-chapter7-asia.json";
+import asiaUnitBase from "./geo-7b-chapter7-asia.json";
+import asiaKnowledge from "./geo-7b-chapter7-asia/knowledge.json";
+import asiaQuestions from "./geo-7b-chapter7-asia/questions.json";
+import asiaMaps from "./geo-7b-chapter7-asia/maps.json";
 import type { UnitCatalogEntry, UnitData } from "../../types";
 
 export const DEFAULT_UNIT_ID = "geo-7b-chapter7-asia";
@@ -132,8 +135,15 @@ export const unitCatalog: UnitCatalogEntry[] = [
   }
 ];
 
+const asiaUnit: UnitData = {
+  ...(asiaUnitBase as UnitData),
+  knowledgePoints: asiaKnowledge as UnitData["knowledgePoints"],
+  questions: asiaQuestions as UnitData["questions"],
+  maps: asiaMaps as UnitData["maps"]
+};
+
 const activeUnits: Record<string, UnitData> = {
-  [DEFAULT_UNIT_ID]: asiaUnit as UnitData
+  [DEFAULT_UNIT_ID]: asiaUnit
 };
 
 export function getUnitData(unitId: string) {
