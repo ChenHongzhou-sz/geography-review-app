@@ -1,0 +1,1934 @@
+[
+  {
+    "id": "earth-q01",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "天体类型",
+    "prompt": "“太阳大，地球小，太阳带着地球跑；地球大，月亮小，地球带着月亮跑。”根据这句话，三种天体类型按先后顺序排列正确的是（　　）",
+    "answer": "恒星、行星、卫星",
+    "explanation": "太阳是恒星，地球是行星，月球是卫星，因此正确顺序为恒星、行星、卫星。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 13,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "星云、恒星、行星",
+      "恒星、行星、卫星",
+      "行星、卫星、恒星",
+      "恒星、星云、行星"
+    ],
+    "correctOption": "恒星、行星、卫星"
+  },
+  {
+    "id": "earth-q02",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "生命存在条件",
+    "prompt": "地球上存在生命的原因及条件，对应正确的是（　　）",
+    "answer": "日地距离适中——地表温度适宜",
+    "explanation": "日地距离适中使地表温度适宜；体积和质量适中主要有利于形成大气，安全稳定的宇宙环境则来自各行星各行其道。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 15,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "大小行星各行其道，互不干扰——太阳光照稳定",
+      "日地距离适中——地表温度适宜",
+      "体积和质量适中——有液态水存在",
+      "绕日运动周期适中——大气层得以形成"
+    ],
+    "correctOption": "日地距离适中——地表温度适宜"
+  },
+  {
+    "id": "earth-q03",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "地球的天体类型",
+    "prompt": "德国科学家发现的“超级地球”研究材料中，地球应属于（　　）",
+    "answer": "行星",
+    "explanation": "地球自身不发光，围绕太阳运行，所以属于行星。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 17,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "卫星",
+      "行星",
+      "恒星",
+      "河外星系"
+    ],
+    "correctOption": "行星"
+  },
+  {
+    "id": "earth-q04",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "存在大气的条件",
+    "prompt": "“超级地球”上存在大气的主要原因是它具有（　　）",
+    "answer": "适中的质量与体积",
+    "explanation": "适中的质量和体积有利于吸引并保留大气层。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 18,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "适中的质量与体积",
+      "与恒星适中的距离",
+      "适中的运动周期",
+      "液态水"
+    ],
+    "correctOption": "适中的质量与体积"
+  },
+  {
+    "id": "earth-q05",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "天文观测条件",
+    "prompt": "下列条件中，有利于建设天文观测基地的是（　　）\n①海拔高，距外太空近 ②晴天多，观测条件好 ③大气洁净，污染少 ④人迹罕至，光污染少",
+    "answer": "②③④",
+    "explanation": "天文观测最看重的是晴天多、污染少、光污染少，而不是“距外太空近”。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 20,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "①②③",
+      "①②④",
+      "①③④",
+      "②③④"
+    ],
+    "correctOption": "②③④"
+  },
+  {
+    "id": "earth-q06",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "太空垃圾影响",
+    "prompt": "报废卫星对正常工作卫星造成的最大影响是（　　）",
+    "answer": "增加撞击风险",
+    "explanation": "失效卫星数量增多会显著增加近地轨道碰撞风险。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 22,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "遮挡光线",
+      "干扰地球磁场",
+      "阻碍跟踪观测",
+      "增加撞击风险"
+    ],
+    "correctOption": "增加撞击风险"
+  },
+  {
+    "id": "earth-q07",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "离轨帆减速原理",
+    "prompt": "加快报废卫星减速降轨的动力主要来源于离轨帆受到的（　　）",
+    "answer": "大气阻力",
+    "explanation": "高层大气虽然稀薄，但仍有气体，可对离轨帆产生阻力。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 24,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "大气阻力",
+      "地球引力",
+      "太阳辐射",
+      "太阳引力"
+    ],
+    "correctOption": "大气阻力"
+  },
+  {
+    "id": "earth-q08",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "生命存在的物质条件",
+    "prompt": "地球上适宜生命物质存在的条件有（　　）\n①地球上有昼夜变化 ②地球表面温度适于液态水存在 ③地球有引力 ④地球上有适合生物呼吸的大气",
+    "answer": "②④",
+    "explanation": "生命存在最关键的物质条件是液态水和适合生物呼吸的大气。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 25,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "①②",
+      "③④",
+      "①③",
+      "②④"
+    ],
+    "correctOption": "②④"
+  },
+  {
+    "id": "earth-q09",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "当前宇宙资源开发",
+    "prompt": "目前人类对宇宙资源的开发主要是指（　　）",
+    "answer": "利用宇宙空间高真空、强辐射、失重的特殊环境",
+    "explanation": "相较于大规模太空移民、矿产开采和太阳能电站建设，目前更现实的是利用宇宙特殊环境开展实验和研发。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 26,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "开发利用辽阔的宇宙空间",
+      "利用宇宙空间高真空、强辐射、失重的特殊环境",
+      "开发宇宙中其他天体上的矿产资源",
+      "在宇宙空间建立太阳能电站"
+    ],
+    "correctOption": "利用宇宙空间高真空、强辐射、失重的特殊环境"
+  },
+  {
+    "id": "earth-q10",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "中国航天成就",
+    "prompt": "下列关于我国太空探索成就的叙述，错误的是（　　）",
+    "answer": "2010年，在我国的帮助下国际空间站正式建成",
+    "explanation": "东方红一号、神舟五号和天宫空间站建成都属于我国航天成就；国际空间站并非“在我国帮助下于2010年正式建成”。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 28,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "1970年，我国成功发射“东方红一号”",
+      "2010年，在我国的帮助下国际空间站正式建成",
+      "2003年，“神舟五号”完成我国首次载人航天飞行",
+      "2022年，我国“天宫”空间站全面建成"
+    ],
+    "correctOption": "2010年，在我国的帮助下国际空间站正式建成"
+  },
+  {
+    "id": "earth-q11",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "空间站出舱风险",
+    "prompt": "航天员在空间站出舱工作需要重点防御（　　）\n①噪声干扰 ②强重力场 ③强紫外线 ④巨大温差",
+    "answer": "③④",
+    "explanation": "太空是真空环境，没有噪声传播，也处于失重状态，但紫外线强、温差大。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 29,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "①③",
+      "②④",
+      "①④",
+      "③④"
+    ],
+    "correctOption": "③④"
+  },
+  {
+    "id": "earth-q12",
+    "type": "match",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "航天器识别",
+    "prompt": "将下列航天器与对应名称连起来。",
+    "answer": "中国自主制造的载人飞船—神舟二十号；中国空间站货运飞船—天舟八号；月球探测器—嫦娥六号；太阳探测专用卫星—夸父一号。",
+    "explanation": "这道题考查我国代表性航天器名称与用途的对应关系。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 32,
+      "note": "素养提升第9题"
+    },
+    "pairs": [
+      {
+        "left": "中国自主制造的载人飞船",
+        "right": "神舟二十号"
+      },
+      {
+        "left": "中国空间站货运飞船",
+        "right": "天舟八号"
+      },
+      {
+        "left": "月球探测器",
+        "right": "嫦娥六号"
+      },
+      {
+        "left": "太阳探测专用卫星",
+        "right": "夸父一号"
+      }
+    ]
+  },
+  {
+    "id": "earth-q13",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "认识地球过程",
+    "prompt": "关于人类认识地球过程的排序，正确的是（　　）",
+    "answer": "②③④①",
+    "explanation": "按时间先后，应是“天圆地方”→根据太阳月球推测→麦哲伦环球航行→卫星影像。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 15,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "①②③④",
+      "②③④①",
+      "④③②①",
+      "②④①③"
+    ],
+    "correctOption": "②③④①"
+  },
+  {
+    "id": "earth-q14",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "地球基本认识",
+    "prompt": "下列对地球的描述有误的是（　　）",
+    "answer": "它有一根巨大的地轴",
+    "explanation": "地轴只是人们假想的地球自转轴，并不是真实存在。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 17,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "地球平均半径约6 371千米",
+      "地球表面积约5.1亿平方千米",
+      "地球是个不规则球体",
+      "它有一根巨大的地轴"
+    ],
+    "correctOption": "它有一根巨大的地轴"
+  },
+  {
+    "id": "earth-q15",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "地球形状证据",
+    "prompt": "下列诗句描写的景象中，能反映地球形状的是（　　）",
+    "answer": "欲穷千里目，更上一层楼",
+    "explanation": "登高望远能体现地球表面是球形曲面。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 18,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "大漠孤烟直，长河落日圆",
+      "海上生明月，天涯共此时",
+      "绿树村边合，青山郭外斜",
+      "欲穷千里目，更上一层楼"
+    ],
+    "correctOption": "欲穷千里目，更上一层楼"
+  },
+  {
+    "id": "earth-q16",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "不能证明球体的现象",
+    "prompt": "下列事例不能证明地球是球体的是（　　）",
+    "answer": "日食现象",
+    "explanation": "月食时地球在月面上的影子可证明地球是球体，但日食现象不能。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 20,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "日食现象",
+      "人造卫星拍摄的地球影像",
+      "远方帆船先见桅杆后见船身",
+      "麦哲伦船队环球航行成功"
+    ],
+    "correctOption": "日食现象"
+  },
+  {
+    "id": "earth-q17",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "实验验证地球形状",
+    "prompt": "读纸片分别在桌面和伞面上后移的实验图，回答：观察到纸片慢慢消失的是哪一图？实验能证明地球是什么形状？生活中还能举出哪两个例子？",
+    "answer": "观察到纸片慢慢消失的是乙图；实验说明地球是球体；生活中的例子有远处驶来的船只先见桅杆后见船身、登高望远等。",
+    "explanation": "桌面模拟平面时纸片不会消失，伞面模拟球面时纸片会逐渐被遮挡，因此该实验可用于帮助理解球面特征。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 24,
+      "note": "课后练习第2题"
+    }
+  },
+  {
+    "id": "earth-q18",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "地球大小数据",
+    "prompt": "如果把地球比作穿“外衣”的球体，它的“腰围”约多少万千米？这件“外衣”至少需要多少亿平方千米布料？",
+    "answer": "“腰围”约4万千米；“外衣”至少需要约5.1亿平方千米布料。",
+    "explanation": "“腰围”对应赤道周长，“外衣”对应地球表面积。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 25,
+      "note": "课后练习第2题"
+    }
+  },
+  {
+    "id": "earth-q19",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "制作地球模型",
+    "prompt": "为了更好地研究地球，可以用什么物品来代表地球？",
+    "answer": "可以用篮球、足球等球状物品来代表地球。",
+    "explanation": "地球仪本质上就是按比例缩小后的球体模型。",
+    "difficulty": "easy",
+    "importance": "low",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 26,
+      "note": "课后练习第3题"
+    }
+  },
+  {
+    "id": "earth-q20",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "简易地球仪",
+    "prompt": "制作简易地球仪时，下列说法符合实际的是（　　）",
+    "answer": "地球是一个两极稍扁、赤道略鼓的不规则球体",
+    "explanation": "经线不是平行的，地轴不是实物，沿赤道环地球一周约4万千米而不是8万千米。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 30,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "地球仪上的经线是平行的",
+      "地轴是真实存在的",
+      "地球是一个两极稍扁、赤道略鼓的不规则球体",
+      "沿赤道环地球一周需要走8万千米"
+    ],
+    "correctOption": "地球是一个两极稍扁、赤道略鼓的不规则球体"
+  },
+  {
+    "id": "earth-q21",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "赤道作用",
+    "prompt": "从地球仪上看，赤道是（　　）",
+    "answer": "南北半球的分界线",
+    "explanation": "赤道是0°纬线，是南北半球的分界线，也是最长纬线。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 29,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "东西半球的分界线",
+      "地球仪上最长的经线",
+      "南北半球的分界线",
+      "过南北两极点的线圈"
+    ],
+    "correctOption": "南北半球的分界线"
+  },
+  {
+    "id": "earth-q22",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "经线标注",
+    "prompt": "读图判断四个地点所在经线两侧东经和西经的标注，正确的是（　　）",
+    "answer": "④",
+    "explanation": "0°经线东侧为东经、西侧为西经；20°W两侧仍是西经，160°E两侧仍是东经，180°经线两侧东经西经相反。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 18,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "①",
+      "②",
+      "③",
+      "④"
+    ],
+    "correctOption": "④"
+  },
+  {
+    "id": "earth-q23",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "经线与半球",
+    "prompt": "下列关于图中四个地点的描述，正确的是（　　）",
+    "answer": "沿②地所在的160°E经线向北行，若不改变方向，则不能回到出发点",
+    "explanation": "沿经线一直向北最终会到北极点，不能回到原出发点；0°经线不是东西半球分界线。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 19,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "①地所在的180°经线位于东半球",
+      "沿②地所在的160°E经线向北行，若不改变方向，则不能回到出发点",
+      "与③地所在的20°W经线组成经线圈的是160°W",
+      "0°经线是东西半球分界线"
+    ],
+    "correctOption": "沿②地所在的160°E经线向北行，若不改变方向，则不能回到出发点"
+  },
+  {
+    "id": "earth-q24",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "纬线特征",
+    "prompt": "下列关于纬线特征的叙述，正确的是（　　）",
+    "answer": "纬线指示东西方向",
+    "explanation": "纬线是圆圈，指示东西方向；赤道才是南北半球分界线。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 21,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "纬线指示东西方向",
+      "纬线的形状是半圆弧",
+      "纬线指示南北方向",
+      "纬线是南北半球的分界线"
+    ],
+    "correctOption": "纬线指示东西方向"
+  },
+  {
+    "id": "earth-q25",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "纬线错误叙述",
+    "prompt": "下列关于地球仪上纬线的叙述，不正确的是（　　）",
+    "answer": "地球仪上纬线都是半圆弧",
+    "explanation": "除了极点，纬线都是圆圈，不是半圆弧。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 22,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "地球仪上能画出无数条纬线",
+      "地球仪上纬线都是半圆弧",
+      "沿同一条纬线方向不变向前走，能回到原出发点",
+      "北半球所有纬线长度都不相等"
+    ],
+    "correctOption": "地球仪上纬线都是半圆弧"
+  },
+  {
+    "id": "earth-q26",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "经纬线应用",
+    "prompt": "“东辕西辙”理论上可以到达目的地，解释原因正确的是（　　）",
+    "answer": "②③",
+    "explanation": "东西方向可沿纬线绕地球一周而回到原地，南北方向沿经线则有始有终。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 24,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "①②",
+      "①③",
+      "①②③",
+      "②③"
+    ],
+    "correctOption": "②③"
+  },
+  {
+    "id": "earth-q27",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "经线说法",
+    "prompt": "下列关于经线的说法，不正确的是（　　）",
+    "answer": "经线绕地球一圈，自成经线圈",
+    "explanation": "单条经线是半圆弧，两条相对经线才组成一个经线圈。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 27,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "经线连接南北两极",
+      "所有经线都叫子午线",
+      "经线指示南北方向",
+      "经线绕地球一圈，自成经线圈"
+    ],
+    "correctOption": "经线绕地球一圈，自成经线圈"
+  },
+  {
+    "id": "earth-q28",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "经度说法",
+    "prompt": "下列关于经度的说法，正确的是（　　）",
+    "answer": "0°经线经过伦敦格林尼治天文台旧址",
+    "explanation": "赤道是0°纬线；0°经线以东是东经；与0°经线相对的是180°经线。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 28,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "赤道是180°经线，在经线中长度最长",
+      "0°经线经过伦敦格林尼治天文台旧址",
+      "0°经线以东至180°经线用W表示",
+      "0°经线与相对的150°E可组成经线圈"
+    ],
+    "correctOption": "0°经线经过伦敦格林尼治天文台旧址"
+  },
+  {
+    "id": "earth-q29",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "经纬线综合判断",
+    "prompt": "下列说法正确的是（　　）\n①经线长度相等，纬线长度不相等 ②经线是半圆弧，纬线是圆 ③地轴是人们假想的轴 ④经线指示南北方向，纬线指示东西方向",
+    "answer": "①③④",
+    "explanation": "纬线都是圆，但长度并非都相同；其余三项都正确。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 29,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "①②③",
+      "①③④",
+      "②③④",
+      "①②④"
+    ],
+    "correctOption": "①③④"
+  },
+  {
+    "id": "earth-q30",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "最长纬线",
+    "prompt": "地球仪上最长的纬线是（　　）",
+    "answer": "赤道",
+    "explanation": "赤道既是0°纬线，也是最长纬线。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 30,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "赤道",
+      "本初子午线",
+      "北回归线",
+      "南回归线"
+    ],
+    "correctOption": "赤道"
+  },
+  {
+    "id": "earth-q31",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "经纬线分界综合",
+    "prompt": "根据经纬网知识回答：南北半球的分界线是什么？东西半球的分界线是什么？北极点和南极点的纬度各是多少？与本初子午线相对的经线是多少度？",
+    "answer": "南北半球分界线是赤道（0°纬线）；东西半球分界线是20°W和160°E组成的经线圈；北极点为90°N，南极点为90°S；与本初子午线相对的经线是180°。",
+    "explanation": "这类题把经纬线体系中的关键界线和特殊点放在一起考查，适合集中记忆。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 35,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "earth-q32",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第3课时 利用经纬网定位",
+    "knowledgePoint": "经纬网目的",
+    "prompt": "我们利用经纬网的主要目的是（　　）",
+    "answer": "确定地球表面任一地点的位置",
+    "explanation": "经纬网最核心的功能就是定位，其次还可以定向和导航。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节   第3课时　利用经纬网定位.pptx",
+      "slide": 8,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "确定地球表面任一地点的位置",
+      "更好地认识地球的形状",
+      "了解半球是怎样划分的",
+      "认识纬线长短的变化"
+    ],
+    "correctOption": "确定地球表面任一地点的位置"
+  },
+  {
+    "id": "earth-q33",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第3课时 利用经纬网定位",
+    "knowledgePoint": "经纬线基础判断",
+    "prompt": "下列有关经纬线知识描述正确的是（　　）",
+    "answer": "25°纬线位于低纬度地区",
+    "explanation": "25°属于0°—30°，在低纬度地区；本初子午线不是东西半球分界线，经线指示南北方向。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节   第3课时　利用经纬网定位.pptx",
+      "slide": 9,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "本初子午线是东西半球的分界线",
+      "25°纬线位于低纬度地区",
+      "东经度和西经度的分界线是20°W",
+      "经线指示东西方向"
+    ],
+    "correctOption": "25°纬线位于低纬度地区"
+  },
+  {
+    "id": "earth-q34",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第3课时 利用经纬网定位",
+    "knowledgePoint": "球面路线判断",
+    "prompt": "把地球表面看作光滑球面，某人从赤道上一点出发，先向北1000千米，再向西1000千米，然后向南1000千米，最后向东1000千米，他最后的位置应在（　　）",
+    "answer": "出发点以西",
+    "explanation": "在较高纬度上，同样长度对应的经度跨度更大，因此最后回不到出发点，而会落在出发点以西。",
+    "difficulty": "hard",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节   第3课时　利用经纬网定位.pptx",
+      "slide": 10,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "出发点以东",
+      "出发点以西",
+      "回到出发点",
+      "无法确定"
+    ],
+    "correctOption": "出发点以西"
+  },
+  {
+    "id": "earth-q35",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第3课时 利用经纬网定位",
+    "knowledgePoint": "经纬度判读",
+    "prompt": "图中①地的经纬度是（　　）",
+    "answer": "(0°，100°E)",
+    "explanation": "根据图中赤道和经线刻度判读，①地位于赤道上、100°E经线上。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节   第3课时　利用经纬网定位.pptx",
+      "slide": 12,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "(0°，100°E)",
+      "(23.5°S，100°E)",
+      "(23.5°S，10°E)",
+      "(0°，100°W)"
+    ],
+    "correctOption": "(0°，100°E)"
+  },
+  {
+    "id": "earth-q36",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第3课时 利用经纬网定位",
+    "knowledgePoint": "酒泉定位",
+    "prompt": "与酒泉卫星发射中心所在地最接近的点是（　　）",
+    "answer": "①",
+    "explanation": "酒泉卫星发射中心经纬度约为40°N、100°E，因此与①点最接近。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节   第3课时　利用经纬网定位.pptx",
+      "slide": 14,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "①",
+      "②",
+      "③",
+      "④"
+    ],
+    "correctOption": "①"
+  },
+  {
+    "id": "earth-q37",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第3课时 利用经纬网定位",
+    "knowledgePoint": "甲点经纬度",
+    "prompt": "关于甲点的经纬度，下列表示正确的是（　　）",
+    "answer": "(20°N，15°E)",
+    "explanation": "读图可知，甲点位于北纬20°、东经15°。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节   第3课时　利用经纬网定位.pptx",
+      "slide": 16,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "(20°N，15°W)",
+      "(20°S，15°E)",
+      "(20°S，15°W)",
+      "(20°N，15°E)"
+    ],
+    "correctOption": "(20°N，15°E)"
+  },
+  {
+    "id": "earth-q38",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第3课时 利用经纬网定位",
+    "knowledgePoint": "位置关系判断",
+    "prompt": "下列关于乙、丙两点的位置关系，说法正确的是（　　）",
+    "answer": "乙点位于丙点的东北方",
+    "explanation": "乙点经纬度约为(20°N，35°E)，丙点约为(40°S，35°W)，因此乙点在丙点东北方。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节   第3课时　利用经纬网定位.pptx",
+      "slide": 17,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "乙点位于丙点的正南方",
+      "乙点位于丙点的西南方",
+      "乙点位于丙点的东北方",
+      "乙点位于丙点的正北方"
+    ],
+    "correctOption": "乙点位于丙点的东北方"
+  },
+  {
+    "id": "earth-q39",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第3课时 利用经纬网定位",
+    "knowledgePoint": "经纬网综合填空",
+    "prompt": "读两幅经纬网图回答：A地位于B地的什么方向？沿A、D所在经线一直向南最终会在哪里会合？经纬网2是由经纬网1中的哪块阴影区域放大得到？①点坐标是什么？位于中纬度、南半球和东半球的区域分别有哪些？甲与丙实际面积比较如何？",
+    "answer": "A地位于B地正南方向；最终在南极点会合；经纬网2来自丙区域；①点坐标为(30°S，30°E)；位于中纬度的是甲和乙，位于南半球的是丁和丙，位于东半球的是丙和乙；甲的实际面积小于丙。",
+    "explanation": "这道题把方向、坐标、半球、纬度带和面积比较放在一张经纬网图中综合考查。",
+    "difficulty": "hard",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "4 第二节   第3课时　利用经纬网定位.pptx",
+      "slide": 23,
+      "note": "素养提升第9题"
+    }
+  },
+  {
+    "id": "earth-q40",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "专题练习一 经纬网的应用",
+    "knowledgePoint": "专题练习一综合",
+    "prompt": "专题练习一中，①点处在什么纬度、位于哪个半球？②点所在经线又称什么线，位于哪个半球？③点在②点和④点的什么方向？站在北极点上四面八方都朝什么方向？",
+    "answer": "①点处在高纬度，位于北半球；②点所在经线又称本初子午线，位于东半球；③点在②点东方，在④点北方；站在北极点上四面八方都朝南。",
+    "explanation": "这道题把专题练习中的填空内容浓缩为经纬网方向与半球判断的综合复盘。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "5 专题练习一　经纬网的应用.pptx",
+      "slide": 14,
+      "note": "综合题第9题"
+    }
+  },
+  {
+    "id": "earth-q41",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第1课时 地球的自转",
+    "knowledgePoint": "演示自转",
+    "prompt": "用地球仪演示地球自转运动时，正确的做法是（　　）",
+    "answer": "地轴北端始终指向北极星",
+    "explanation": "演示地球自转时，地轴北端应始终指向北极星附近，自转应沿纬线方向自西向东。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节   第1课时　地球的自转.pptx",
+      "slide": 11,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "地轴北端始终指向北极星",
+      "沿经线方向匀速转动球体",
+      "俯视“北极”，顺时针转动球体",
+      "围绕“太阳”，地球仪做圆周运动"
+    ],
+    "correctOption": "地轴北端始终指向北极星"
+  },
+  {
+    "id": "earth-q42",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第1课时 地球的自转",
+    "knowledgePoint": "昼夜交替原因",
+    "prompt": "地球上昼夜交替现象产生的原因是（　　）",
+    "answer": "地球绕地轴不停地自转",
+    "explanation": "地球是不透明球体会产生昼夜现象，但昼夜交替的直接原因是地球自转。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节   第1课时　地球的自转.pptx",
+      "slide": 13,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "地球是一个不发光的球体",
+      "地球不停地绕太阳公转",
+      "地轴是人们假想的轴",
+      "地球绕地轴不停地自转"
+    ],
+    "correctOption": "地球绕地轴不停地自转"
+  },
+  {
+    "id": "earth-q43",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第1课时 地球的自转",
+    "knowledgePoint": "自转形成的现象",
+    "prompt": "下列现象中由地球自转形成的是（　　）\n①地球上不同地方出现时间差异 ②昼夜现象 ③昼夜交替现象",
+    "answer": "①③",
+    "explanation": "时间差异和昼夜交替源于地球自转；昼夜现象则与地球是不透明球体有关。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节   第1课时　地球的自转.pptx",
+      "slide": 14,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "①②",
+      "②③",
+      "①③",
+      "①②③"
+    ],
+    "correctOption": "①③"
+  },
+  {
+    "id": "earth-q44",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第1课时 地球的自转",
+    "knowledgePoint": "感觉不到自转",
+    "prompt": "我们感觉不到地球自转的原因是（　　）",
+    "answer": "人随地球一起运动，地球以外的参照物太远，人们感觉不到",
+    "explanation": "人类和地球一起匀速运动，且缺少近距离参照物，因此日常生活中不易直接感受到地球自转。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节   第1课时　地球的自转.pptx",
+      "slide": 16,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "地球在运动，人没有运动",
+      "人随地球一起运动，地球以外的参照物太远，人们感觉不到",
+      "地球运动太快，人们感觉不到",
+      "地球运动太慢，人们感觉不到"
+    ],
+    "correctOption": "人随地球一起运动，地球以外的参照物太远，人们感觉不到"
+  },
+  {
+    "id": "earth-q45",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第1课时 地球的自转",
+    "knowledgePoint": "自转与生活",
+    "prompt": "下列现象中，离不开地球自转的是（　　）\n①日出而作，日落而息 ②吃早餐时给美国朋友打电话要说“晚上好” ③每天读书看报学习知识 ④北京吃晚餐时新疆太阳还很高",
+    "answer": "①②④",
+    "explanation": "①反映昼夜交替，②④反映时间差异，都是地球自转的结果。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节   第1课时　地球的自转.pptx",
+      "slide": 20,
+      "note": "能力达标第5题"
+    },
+    "options": [
+      "①②③",
+      "②③④",
+      "①②④",
+      "①③④"
+    ],
+    "correctOption": "①②④"
+  },
+  {
+    "id": "earth-q46",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第1课时 地球的自转",
+    "knowledgePoint": "停止自转后的现象",
+    "prompt": "如果地球停止自转，地球上依然存在的现象是（　　）",
+    "answer": "昼夜现象",
+    "explanation": "地球是个不透明球体，即使停止自转，有太阳照射的一半仍然是白昼，另一半仍然是黑夜。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节   第1课时　地球的自转.pptx",
+      "slide": 22,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "昼夜现象",
+      "太阳每天东升西落",
+      "人类昼伏夜出的作息规律",
+      "乌苏里江清晨时帕米尔高原为黑夜"
+    ],
+    "correctOption": "昼夜现象"
+  },
+  {
+    "id": "earth-q47",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第1课时 地球的自转",
+    "knowledgePoint": "光照图判读",
+    "prompt": "读地球光照图回答：C点的经纬度位置是什么？A、B两点中谁先迎来黎明？C、D两点中谁先进入黑夜？五点中谁位于西半球？谁纬度最高？A点在E点的什么方向？",
+    "answer": "C点的经纬度是(0°，90°E)；B点先迎来黎明；D点先进入黑夜；位于西半球的是A点；纬度最高的是E点；A点在E点的西南方向。",
+    "explanation": "这道题综合考查自转方向、时间先后、半球判断和相对方向。",
+    "difficulty": "hard",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "6 第三节   第1课时　地球的自转.pptx",
+      "slide": 25,
+      "note": "素养提升第8题"
+    }
+  },
+  {
+    "id": "earth-q48",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第2课时 地球的公转",
+    "knowledgePoint": "公转中心",
+    "prompt": "地球公转围绕的中心是（　　）",
+    "answer": "太阳",
+    "explanation": "地球围绕太阳公转，而不是围绕地轴、月球或北极星。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第三节   第2课时　地球的公转.pptx",
+      "slide": 16,
+      "note": "跟踪训练第1题"
+    },
+    "options": [
+      "太阳",
+      "地轴",
+      "月球",
+      "北极星"
+    ],
+    "correctOption": "太阳"
+  },
+  {
+    "id": "earth-q49",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第2课时 地球的公转",
+    "knowledgePoint": "公转方向",
+    "prompt": "地球公转的方向为（　　）",
+    "answer": "自西向东",
+    "explanation": "地球公转方向与自转方向一致，都是自西向东。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第三节   第2课时　地球的公转.pptx",
+      "slide": 17,
+      "note": "跟踪训练第2题"
+    },
+    "options": [
+      "自西向东",
+      "自东向西",
+      "自南向北",
+      "自北向南"
+    ],
+    "correctOption": "自西向东"
+  },
+  {
+    "id": "earth-q50",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第2课时 地球的公转",
+    "knowledgePoint": "公转叙述",
+    "prompt": "下列关于地球公转的叙述，正确的是（　　）",
+    "answer": "地球公转一周的时间是一年",
+    "explanation": "地球公转方向不是自东向西，也不是围绕地轴，公转一周约365天。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第三节   第2课时　地球的公转.pptx",
+      "slide": 18,
+      "note": "跟踪训练第3题"
+    },
+    "options": [
+      "方向自东向西",
+      "与地球自转方向相反",
+      "地球公转一周的时间是一年",
+      "地轴是地球公转的轴"
+    ],
+    "correctOption": "地球公转一周的时间是一年"
+  },
+  {
+    "id": "earth-q51",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第2课时 地球的公转",
+    "knowledgePoint": "公转产生现象",
+    "prompt": "下列主要由地球公转产生的自然现象是（　　）",
+    "answer": "春、夏、秋、冬四季的变换",
+    "explanation": "四季变化属于地球公转现象；昼夜交替和时间差异则与自转有关。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第三节   第2课时　地球的公转.pptx",
+      "slide": 19,
+      "note": "跟踪训练第4题"
+    },
+    "options": [
+      "春、夏、秋、冬四季的变换",
+      "昼夜交替现象",
+      "中国和美国几乎昼夜相反，时差巨大",
+      "日月星辰的东升西落"
+    ],
+    "correctOption": "春、夏、秋、冬四季的变换"
+  },
+  {
+    "id": "earth-q52",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第2课时 地球的公转",
+    "knowledgePoint": "太阳直射点回归",
+    "prompt": "读太阳直射点回归运动示意图，关于该图的叙述正确的是（　　）",
+    "answer": "直射点在①位置时为春分日",
+    "explanation": "太阳直射点在春分、夏至、秋分、冬至之间往返移动，图中①对应春分。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第三节   第2课时　地球的公转.pptx",
+      "slide": 21,
+      "note": "基础巩固第1题"
+    },
+    "options": [
+      "直射点在①位置时为春分日",
+      "从②→③，太阳直射点向北移动",
+      "甲为太阳直射点的最南界线",
+      "从④→⑤，北京白昼时间逐渐变短"
+    ],
+    "correctOption": "直射点在①位置时为春分日"
+  },
+  {
+    "id": "earth-q53",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第2课时 地球的公转",
+    "knowledgePoint": "正午影长与节气",
+    "prompt": "当旗杆影子达到一年中最短时，我国正值（　　）",
+    "answer": "夏至日",
+    "explanation": "北半球夏至日正午太阳高度最大，影子最短。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第三节   第2课时　地球的公转.pptx",
+      "slide": 23,
+      "note": "基础巩固第2题"
+    },
+    "options": [
+      "春分日",
+      "夏至日",
+      "秋分日",
+      "冬至日"
+    ],
+    "correctOption": "夏至日"
+  },
+  {
+    "id": "earth-q54",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第2课时 地球的公转",
+    "knowledgePoint": "影长变化原因",
+    "prompt": "旗杆影子在一年中长短变化的主要原因是（　　）",
+    "answer": "地球公转",
+    "explanation": "地球公转导致太阳直射点南北移动，正午太阳高度发生周期性变化。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第三节   第2课时　地球的公转.pptx",
+      "slide": 24,
+      "note": "基础巩固第3题"
+    },
+    "options": [
+      "天气变化",
+      "旗杆长短",
+      "地球自转",
+      "地球公转"
+    ],
+    "correctOption": "地球公转"
+  },
+  {
+    "id": "earth-q55",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第2课时 地球的公转",
+    "knowledgePoint": "昼夜长短变化",
+    "prompt": "10月后太原许多学校将下午放学时间提前，主要原因是（　　）",
+    "answer": "太阳落山更早，白天变短了",
+    "explanation": "10月后太阳直射点继续南移，北半球昼短夜长且昼继续变短。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第三节   第2课时　地球的公转.pptx",
+      "slide": 25,
+      "note": "基础巩固第4题"
+    },
+    "options": [
+      "太阳落山更早，夜晚变短了",
+      "太阳落山更早，白天变短了",
+      "太阳落山更晚，夜晚变短了",
+      "太阳落山更晚，白天变短了"
+    ],
+    "correctOption": "太阳落山更早，白天变短了"
+  },
+  {
+    "id": "earth-q56",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第2课时 地球的公转",
+    "knowledgePoint": "南温带建筑朝向",
+    "prompt": "在南温带建房子，为了采光好，门窗应该（　　）",
+    "answer": "朝北",
+    "explanation": "南温带位于南回归线以南，太阳直射点位于其北侧，房屋朝北更利于采光。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第三节   第2课时　地球的公转.pptx",
+      "slide": 26,
+      "note": "基础巩固第5题"
+    },
+    "options": [
+      "朝东",
+      "朝西",
+      "朝南",
+      "朝北"
+    ],
+    "correctOption": "朝北"
+  },
+  {
+    "id": "earth-q57",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第2课时 地球的公转",
+    "knowledgePoint": "演示地球运动",
+    "prompt": "用地球仪和灯泡演示地球运动时，下列说法正确的是（　　）\n①以光源为中心沿逆时针方向移动地球仪 ②让球心与光源始终保持在同一水平面上 ③面向地球仪，沿从A到B方向拨动地球仪 ④演示公转时，地轴始终垂直桌面",
+    "answer": "①②",
+    "explanation": "演示公转时应让球心与光源在同一水平面上；演示自转时应按自西向东方向拨动地球仪。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第三节   第2课时　地球的公转.pptx",
+      "slide": 28,
+      "note": "能力达标第6题"
+    },
+    "options": [
+      "①②",
+      "②③",
+      "①④",
+      "②④"
+    ],
+    "correctOption": "①②"
+  },
+  {
+    "id": "earth-q58",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第2课时 地球的公转",
+    "knowledgePoint": "公转位置与现象",
+    "prompt": "地球在图中C、D所示位置之间公转时，可能产生的地理现象是（　　）",
+    "answer": "堪培拉正午时刻的树影逐渐变短",
+    "explanation": "该阶段太阳直射点由赤道向南回归线移动，南半球太阳高度增大，堪培拉正午树影变短。",
+    "difficulty": "hard",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "7 第三节   第2课时　地球的公转.pptx",
+      "slide": 30,
+      "note": "能力达标第7题"
+    },
+    "options": [
+      "北京获得的太阳光热越来越多",
+      "堪培拉正午时刻的树影逐渐变短",
+      "呼和浩特日落时间越来越晚",
+      "悉尼昼长夜短，但白昼逐渐变短"
+    ],
+    "correctOption": "堪培拉正午时刻的树影逐渐变短"
+  },
+  {
+    "id": "earth-q59",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "专题练习二 地球的运动",
+    "knowledgePoint": "公转综合判断",
+    "prompt": "读专题练习二中的地球公转示意图回答：11月17日时，地球公转位置应位于哪两个位置之间？当地球公转至③位置时，太阳直射在哪条重要纬线上？此时北半球是什么节气？昼夜长短情况怎样？北极圈内会出现什么现象？",
+    "answer": "11月17日时，地球公转位置应位于②③之间；当地球公转至③位置时，太阳直射南回归线上；此时北半球是冬至；北半球昼最短夜最长（昼短夜长）；北极圈内会出现极夜现象。",
+    "explanation": "这道题需要把日期、太阳直射点、节气、昼夜长短和极昼极夜现象串联判断。",
+    "difficulty": "hard",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 专题练习二　地球的运动.pptx",
+      "slide": 17,
+      "note": "综合题第11题"
+    }
+  },
+  {
+    "id": "earth-q60",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "专题练习二 地球的运动",
+    "knowledgePoint": "公转相关现象",
+    "prompt": "下列哪些现象与地球公转有关（　　）\n①四季的变换 ②太阳东升西落 ③昼夜交替 ④五带的划分",
+    "answer": "①④",
+    "explanation": "四季变化和五带划分都与地球公转有关，太阳东升西落和昼夜交替属于自转现象。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 专题练习二　地球的运动.pptx",
+      "slide": 2,
+      "note": "专题练习第1题"
+    },
+    "options": [
+      "①②",
+      "②③",
+      "③④",
+      "①④"
+    ],
+    "correctOption": "①④"
+  },
+  {
+    "id": "earth-q61",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "专题练习二 地球的运动",
+    "knowledgePoint": "地球自转说法",
+    "prompt": "下列关于地球自转的说法正确的是（　　）",
+    "answer": "自转一周的时间约是一天",
+    "explanation": "地球自转中心不是太阳，自转方向是自西向东，四季现象由公转产生。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 专题练习二　地球的运动.pptx",
+      "slide": 4,
+      "note": "专题练习第2题"
+    },
+    "options": [
+      "自转的中心是太阳",
+      "自转产生了四季现象",
+      "自转一周的时间约是一天",
+      "自转的方向是自东向西"
+    ],
+    "correctOption": "自转一周的时间约是一天"
+  },
+  {
+    "id": "earth-q62",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "专题练习二 地球的运动",
+    "knowledgePoint": "北半球节气判断",
+    "prompt": "读某日太阳光照示意图，此时为北半球的（　　）",
+    "answer": "冬至",
+    "explanation": "专题练习图中对应太阳直射南回归线，因此为北半球冬至。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 专题练习二　地球的运动.pptx",
+      "slide": 7,
+      "note": "专题练习第4题"
+    },
+    "options": [
+      "春分",
+      "夏至",
+      "秋分",
+      "冬至"
+    ],
+    "correctOption": "冬至"
+  },
+  {
+    "id": "earth-q63",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "专题练习二 地球的运动",
+    "knowledgePoint": "成都大运会昼夜长短",
+    "prompt": "2023年7月28日至8月8日成都大运会期间，成都的昼夜长短情况是（　　）",
+    "answer": "昼长夜短",
+    "explanation": "成都位于北半球中纬度，7月底至8月初仍然处于夏半年，昼长夜短。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案原题",
+      "file": "8 专题练习二　地球的运动.pptx",
+      "slide": 10,
+      "note": "专题练习第6题"
+    },
+    "options": [
+      "昼短夜长",
+      "昼长夜短",
+      "昼夜等长",
+      "昼最长，夜最短"
+    ],
+    "correctOption": "昼长夜短"
+  },
+  {
+    "id": "earth-q64",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "章末总结",
+    "knowledgePoint": "嫦娥六号意义",
+    "prompt": "嫦娥六号从月球背面采回“土特产”，对中国最主要的意义是（　　）",
+    "answer": "展现我国强大的科技实力",
+    "explanation": "月背采样返回首先体现了我国航天科技水平和综合国力。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案章末总结",
+      "file": "9 章末总结.pptx",
+      "slide": 6,
+      "note": "章末作业第1题"
+    },
+    "options": [
+      "证明月球表面有很多土壤",
+      "展现我国强大的科技实力",
+      "揭秘月球起源与演化过程",
+      "改良我国农业生产的土壤"
+    ],
+    "correctOption": "展现我国强大的科技实力"
+  },
+  {
+    "id": "earth-q65",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "章末总结",
+    "knowledgePoint": "探月工程成就",
+    "prompt": "下列属于我国探月工程成就的是（　　）",
+    "answer": "世界首次月球背面采样和起飞",
+    "explanation": "这是我国探月工程的标志性成就。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案章末总结",
+      "file": "9 章末总结.pptx",
+      "slide": 7,
+      "note": "章末作业第2题"
+    },
+    "options": [
+      "“阿波罗11号”飞船的发射",
+      "世界首次月球背面采样和起飞",
+      "探测器成功着陆火星",
+      "成功建成第二个在轨运行空间站"
+    ],
+    "correctOption": "世界首次月球背面采样和起飞"
+  },
+  {
+    "id": "earth-q66",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "章末总结",
+    "knowledgePoint": "经纬线错误叙述",
+    "prompt": "下列有关经纬线特点的叙述，错误的是（　　）",
+    "answer": "任意两条纬线长度相等且平行",
+    "explanation": "纬线虽然彼此平行，但长度并不都相等，只有同纬度南北对称的纬线长度相等。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案章末总结",
+      "file": "9 章末总结.pptx",
+      "slide": 14,
+      "note": "章末作业第7题"
+    },
+    "options": [
+      "任意两条纬线长度相等且平行",
+      "任意两条经线长度相等并相交",
+      "纬线自成圆圈，最大度数为90°",
+      "经线为半圆，最大度数为180°"
+    ],
+    "correctOption": "任意两条纬线长度相等且平行"
+  },
+  {
+    "id": "earth-q67",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "章末总结",
+    "knowledgePoint": "冬至后太阳直射点移动",
+    "prompt": "冬至过后，太阳直射点开始从（　　）向北移动。",
+    "answer": "南回归线",
+    "explanation": "冬至日太阳直射南回归线，之后太阳直射点开始北移。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案章末总结",
+      "file": "9 章末总结.pptx",
+      "slide": 17,
+      "note": "章末作业第9题"
+    },
+    "options": [
+      "北回归线",
+      "赤道",
+      "南回归线",
+      "北极圈"
+    ],
+    "correctOption": "南回归线"
+  },
+  {
+    "id": "earth-q68",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "章末总结",
+    "knowledgePoint": "冬季消费变化",
+    "prompt": "“数九”期间，网络购物平台销量明显增多的商品最有可能是（　　）\n①羽绒服 ②电风扇 ③电暖器 ④太阳镜 ⑤电热毯 ⑥凉席",
+    "answer": "①③⑤",
+    "explanation": "冬至后的“数九”时期天气寒冷，保暖御寒商品需求显著增加。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案章末总结",
+      "file": "9 章末总结.pptx",
+      "slide": 18,
+      "note": "章末作业第10题"
+    },
+    "options": [
+      "①③⑥",
+      "②④⑥",
+      "③⑤⑥",
+      "①③⑤"
+    ],
+    "correctOption": "①③⑤"
+  },
+  {
+    "id": "earth-q69",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "章末总结",
+    "knowledgePoint": "正午影子与节气",
+    "prompt": "读某日不同纬度地区正午影子漫画图，对该日太阳直射点位置及对应北半球节气判断正确的一组是（　　）",
+    "answer": "南回归线　冬至",
+    "explanation": "当太阳直射南回归线时，北半球为冬至，南半球太阳高度较大，对应影子特征也会发生变化。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案章末总结",
+      "file": "9 章末总结.pptx",
+      "slide": 19,
+      "note": "章末作业第11题"
+    },
+    "options": [
+      "赤道　春分",
+      "北回归线　夏至",
+      "赤道　秋分",
+      "南回归线　冬至"
+    ],
+    "correctOption": "南回归线　冬至"
+  },
+  {
+    "id": "earth-q70",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "章末总结",
+    "knowledgePoint": "西昌经纬度",
+    "prompt": "西昌卫星发射中心的经纬度约为（　　）",
+    "answer": "(28°N，102°E)",
+    "explanation": "西昌位于我国四川西南部，约在28°N、102°E附近。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案章末总结",
+      "file": "9 章末总结.pptx",
+      "slide": 21,
+      "note": "章末作业第12题"
+    },
+    "options": [
+      "(20°N，110°E)",
+      "(28°N，102°E)",
+      "(38°N，113°E)",
+      "(40°N，99°E)"
+    ],
+    "correctOption": "(28°N，102°E)"
+  },
+  {
+    "id": "earth-q71",
+    "type": "choice",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "章末总结",
+    "knowledgePoint": "酒泉位置描述",
+    "prompt": "下列关于酒泉卫星发射中心位置的叙述，正确的是（　　）",
+    "answer": "位于北半球，中纬度",
+    "explanation": "酒泉位于我国西北内陆，纬度约40°N，处于北半球中纬度。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案章末总结",
+      "file": "9 章末总结.pptx",
+      "slide": 21,
+      "note": "章末作业第13题"
+    },
+    "options": [
+      "位于北半球，中纬度",
+      "位于东半球，高纬度",
+      "位于西半球，中纬度",
+      "位于南半球，高纬度"
+    ],
+    "correctOption": "位于北半球，中纬度"
+  },
+  {
+    "id": "earth-q72",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "章末总结",
+    "knowledgePoint": "地球仪探究活动",
+    "prompt": "某班同学利用地球仪展开探究活动。请回答：图中过甲地的A和B分别是什么线？甲地的经纬度和纬度带怎样判断？我国位于哪个半球？我国大部分位于哪一带，依据哪些纬线判断？演示地球运动时哪些做法正确？",
+    "answer": "A是经线，B是纬线；甲地的经纬度是(0°，30°E)，位于低纬度；我国位于东半球、北半球；我国大部分位于北温带，一小部分位于热带，依据北回归线和北极圈判断；演示地球运动时正确做法是从左向右匀速拨动球体演示自转，并让地轴遥指北极星同时演示自转和公转。",
+    "explanation": "这道综合题把经纬线、经纬度、半球位置、五带和地球运动演示方法放在一起考查。",
+    "difficulty": "hard",
+    "importance": "high",
+    "source": {
+      "label": "金版学案章末总结",
+      "file": "9 章末总结.pptx",
+      "slide": 25,
+      "note": "非选择题第16题"
+    }
+  },
+  {
+    "id": "earth-q73",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "章末总结",
+    "knowledgePoint": "日照图综合",
+    "prompt": "读地球日照图回答：从北极点和南极点上空看地球自转方向分别怎样？为什么会出现昼半球和夜半球？图中C点位于哪种半球？地球自转方向和周期是什么？这种昼夜不断交替现象叫什么？E点处于什么时刻？昼夜长短变化和季节更替是不是地球自转产生的现象？",
+    "answer": "从北极点上空看呈逆时针，从南极点上空看呈顺时针；因为地球是自身不能发光且不透明的球体，所以太阳只能照亮地球一半；C点位于昼半球；地球自转方向是自西向东，周期是一天；这种现象叫昼夜交替；E点处于黄昏；昼夜长短变化和季节更替不是地球自转产生的现象。",
+    "explanation": "这道题把自转的方向、原因、现象和时刻判断放到同一幅日照图中。",
+    "difficulty": "hard",
+    "importance": "high",
+    "source": {
+      "label": "金版学案章末总结",
+      "file": "9 章末总结.pptx",
+      "slide": 27,
+      "note": "非选择题第17题"
+    }
+  },
+  {
+    "id": "earth-q74",
+    "type": "analysis",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "章末总结",
+    "knowledgePoint": "地球仪示意图综合",
+    "prompt": "读地球仪示意图回答：经线和纬线在形状上有什么差别？A点和乙点所在纬线长度关系如何？从0°经线开始向西增大的经度叫什么？南纬用什么字母表示？面对地球仪演示自转时应怎样转动？从北极上空看方向如何？当太阳直射乙点所在纬线时，北半球是什么节气？A点坐标是什么？甲点位于丁点什么方向？",
+    "answer": "经线是半圆，纬线是圆圈；A点和乙点所在纬线长度相等；从0°经线开始向西增大的经度叫西经；南纬用S表示；面对地球仪时应从左向右匀速转动球体；从北极上空看呈逆时针方向；当太阳直射乙点所在纬线时，北半球是冬至；A点坐标是(23.5°N，45°E)；甲点位于丁点正南方向。",
+    "explanation": "这道题把地球仪、经纬度和地球运动多个知识点融在同一张图里，适合作章末总复习。",
+    "difficulty": "hard",
+    "importance": "high",
+    "source": {
+      "label": "金版学案章末总结",
+      "file": "9 章末总结.pptx",
+      "slide": 29,
+      "note": "非选择题第18题"
+    }
+  }
+]

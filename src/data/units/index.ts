@@ -1,3 +1,7 @@
+import earthUnitBase from "./geo-7a-chapter1-earth.json";
+import earthKnowledge from "./geo-7a-chapter1-earth/knowledge.json";
+import earthQuestions from "./geo-7a-chapter1-earth/questions.json";
+import earthMaps from "./geo-7a-chapter1-earth/maps.json";
 import asiaUnitBase from "./geo-7b-chapter7-asia.json";
 import asiaKnowledge from "./geo-7b-chapter7-asia/knowledge.json";
 import asiaQuestions from "./geo-7b-chapter7-asia/questions.json";
@@ -35,8 +39,8 @@ export const unitCatalog: UnitCatalogEntry[] = [
     chapter: "第一章",
     chapterName: "第一章 地球",
     title: "地球",
-    description: "地球、地球仪和地球运动的基础认识。",
-    status: "planned",
+    description: "按金版学案接入宇宙环境、地球仪、经纬网和地球运动的知识手册与真题训练。",
+    status: "ready",
     accent: "ocean"
   },
   {
@@ -151,6 +155,13 @@ export const unitCatalog: UnitCatalogEntry[] = [
   }
 ];
 
+const earthUnit: UnitData = {
+  ...(earthUnitBase as UnitData),
+  knowledgePoints: earthKnowledge as UnitData["knowledgePoints"],
+  questions: earthQuestions as UnitData["questions"],
+  maps: earthMaps as UnitData["maps"]
+};
+
 const asiaUnit: UnitData = {
   ...(asiaUnitBase as UnitData),
   knowledgePoints: asiaKnowledge as UnitData["knowledgePoints"],
@@ -187,6 +198,7 @@ const polarRegionsUnit: UnitData = {
 };
 
 const activeUnits: Record<string, UnitData> = {
+  [earthUnit.unitId]: earthUnit,
   [DEFAULT_UNIT_ID]: asiaUnit,
   [neighbourUnit.unitId]: neighbourUnit,
   [easternHemisphereUnit.unitId]: easternHemisphereUnit,

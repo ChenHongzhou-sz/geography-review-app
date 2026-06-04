@@ -1,0 +1,1162 @@
+[
+  {
+    "id": "earth-k01",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "宇宙层级",
+    "prompt": "从宏观到微观，地球所在的宇宙层级关系是什么？",
+    "answer": "宇宙中包含银河系，银河系中有太阳系，太阳系中的第三颗行星就是地球。",
+    "explanation": "课件用“宇宙—银河系—太阳系—地球”的顺序帮助建立宏观空间观念。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k02",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "太阳是恒星",
+    "prompt": "太阳在太阳系中属于什么类型的天体？",
+    "answer": "太阳是一颗恒星。",
+    "explanation": "太阳自身能够发光发热，这是恒星与行星、卫星的重要区别。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k03",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "八大行星顺序",
+    "prompt": "按距太阳由近及远的顺序，太阳系八颗行星怎样排列？",
+    "answer": "水星、金星、地球、火星、木星、土星、天王星、海王星。",
+    "explanation": "这是第一章最基础的识记内容之一，常与“地球是第三颗行星”放在一起考。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k04",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "地球的天体类型",
+    "prompt": "地球在太阳系中属于什么类型的天体？",
+    "answer": "地球属于行星。",
+    "explanation": "地球自身不发光，围绕太阳运行，所以属于行星。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k05",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "地球适宜生存的条件",
+    "prompt": "课本通常从哪三个核心方面概括地球适宜生命存在的条件？",
+    "answer": "通常概括为适宜的温度、适合生物呼吸的大气和液态水。",
+    "explanation": "课件先讲日地距离、体积和质量，再落到生命存在最关键的三个条件。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k06",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "首颗人造地球卫星",
+    "prompt": "人类第一颗人造地球卫星由哪个国家在何时发射？",
+    "answer": "1957年，苏联发射了人类第一颗人造地球卫星。",
+    "explanation": "这标志着人类进入太空探索的新纪元。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k07",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "太空探索领域",
+    "prompt": "现代太空探索主要涉及哪些领域？",
+    "answer": "主要涉及太空观测、月球探测、行星际探测、火星探测和空间站建设等。",
+    "explanation": "这些领域常用于概括各国航天发展的主要方向。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k08",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "东方红一号",
+    "prompt": "我国第一颗人造地球卫星是什么，何时发射成功？",
+    "answer": "1970年，我国成功发射第一颗人造地球卫星“东方红一号”。",
+    "explanation": "这是我国航天事业的重要起点。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k09",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "神舟五号",
+    "prompt": "我国首次载人航天飞行是哪次任务，完成于哪一年？",
+    "answer": "2003年，“神舟五号”飞船圆满完成我国首次载人航天飞行。",
+    "explanation": "首次载人航天是中国航天史上的标志性成就。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k10",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "中国天眼",
+    "prompt": "我国在贵州平塘建成的世界最大单口径射电望远镜叫什么？",
+    "answer": "叫“中国天眼”。",
+    "explanation": "“中国天眼”体现了我国在太空观测领域的重要突破。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k11",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "天宫空间站",
+    "prompt": "我国“天宫”空间站全面建成于哪一年？",
+    "answer": "2022年。",
+    "explanation": "“天宫”空间站全面建成，是我国空间站建设领域的重要成就。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k12",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第一节 地球的宇宙环境",
+    "knowledgePoint": "太空探索意义",
+    "prompt": "太空探索对人类有哪些主要意义？",
+    "answer": "太空探索有助于推动科技进步、开发新资源、了解宇宙起源与演化、探索生命起源，并帮助人类更好地认识和保护地球家园。",
+    "explanation": "这类题要注意把“科技、资源、认知、保护地球”几个层次说完整。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "1 第一节　地球的宇宙环境.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k13",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "天圆地方",
+    "prompt": "古人最早对地球形状有哪些朴素认识？",
+    "answer": "古人曾提出“天圆地方”的说法。",
+    "explanation": "这是人类早期凭直觉和想象形成的认识，并不符合现代科学结论。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k14",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "由太阳月球推测地球",
+    "prompt": "人们根据太阳和月球的形状，曾推测地球是什么形状？",
+    "answer": "推测地球也是一个球体。",
+    "explanation": "这是从观察其他天体形状出发形成的早期推测。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k15",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "麦哲伦环球航行",
+    "prompt": "麦哲伦船队环球航行证明了什么？",
+    "answer": "麦哲伦船队环球航行证明地球是球体。",
+    "explanation": "环球航行结束了人们关于“地方”与“地圆”的争论。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k16",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "卫星影像确证地球形状",
+    "prompt": "20世纪太空技术的发展怎样确证了地球形状？",
+    "answer": "人类进入太空后拍摄到地球卫星影像，确证地球是一个球体。",
+    "explanation": "这是最直观、最有说服力的现代证据。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k17",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "地球形状",
+    "prompt": "地球的形状应怎样准确表述？",
+    "answer": "地球是一个两极稍扁、赤道略鼓的不规则球体。",
+    "explanation": "考试中常把“正球体”设成干扰项，需要注意“不规则”这一表述。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 17,
+      "note": "题目解析归纳"
+    }
+  },
+  {
+    "id": "earth-k18",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "地球平均半径",
+    "prompt": "地球的平均半径约是多少？",
+    "answer": "约6 371千米。",
+    "explanation": "平均半径、赤道周长和表面积是描述地球大小的三组常用数据。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 17,
+      "note": "题目解析归纳"
+    }
+  },
+  {
+    "id": "earth-k19",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "地球赤道周长",
+    "prompt": "地球赤道周长约是多少？",
+    "answer": "约4万千米。",
+    "explanation": "课件中用“腰围”形象类比地球赤道周长。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 25,
+      "note": "课后练习解析"
+    }
+  },
+  {
+    "id": "earth-k20",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "地球表面积",
+    "prompt": "地球表面积约是多少？",
+    "answer": "约5.1亿平方千米。",
+    "explanation": "表面积常和赤道周长一起出现在综合填空题里。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 25,
+      "note": "课后练习解析"
+    }
+  },
+  {
+    "id": "earth-k21",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "地球仪定义",
+    "prompt": "什么是地球仪？",
+    "answer": "地球仪是人们仿照地球形状，按一定比例缩小后制作的地球模型。",
+    "explanation": "地球仪不是地球本身，而是研究和演示地球的重要模型。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 10,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k22",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "地球仪作用",
+    "prompt": "地球仪有什么主要作用？",
+    "answer": "地球仪可以帮助我们了解地球面貌和地理事物的分布特征。",
+    "explanation": "学习经纬线、经纬网和地球运动时都要借助地球仪。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 10,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k23",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "地轴与两极",
+    "prompt": "地轴和两极分别指什么？",
+    "answer": "地轴是使地球仪转动的旋转轴；地轴与地球表面相交的两点分别是北极和南极。",
+    "explanation": "北极是对着北极星方向的点，与之相对的是南极。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 11,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k24",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "地球是球体的证据",
+    "prompt": "教材常用哪些现象证明地球是球体？",
+    "answer": "站得高看得远、月食时地球在月面投影呈圆弧形、麦哲伦环球航行、地球卫星影像、远处船只先见桅杆后见船身等。",
+    "explanation": "这几个证据既有生活现象，也有现代科技证据。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 13,
+      "note": "重难突破"
+    }
+  },
+  {
+    "id": "earth-k25",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "地轴是假想轴",
+    "prompt": "地轴是真实存在的吗？",
+    "answer": "地轴并不是真实存在，而是人们假想的地球自转轴。",
+    "explanation": "地轴是假想轴，是判断自转方向和两极位置的重要概念。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 14,
+      "note": "重难突破"
+    }
+  },
+  {
+    "id": "earth-k26",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "地轴倾斜情况",
+    "prompt": "地轴与地平面的倾斜角度大约是多少？",
+    "answer": "地轴与地平面总是呈66.5°角倾斜。",
+    "explanation": "这一数值常与23.5°互相关联，后面学习回归线时还会用到。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 14,
+      "note": "重难突破"
+    }
+  },
+  {
+    "id": "earth-k27",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第1课时 地球的形状和大小 地球的模型——地球仪",
+    "knowledgePoint": "地球与地球仪区别",
+    "prompt": "地球和地球仪在形状上有什么区别？",
+    "answer": "地球是不规则球体，而地球仪为了便于表示和研究，被制作成近似的正球体模型。",
+    "explanation": "地球仪是模型，所以不能把地球仪的形状简单等同于真实地球。",
+    "difficulty": "medium",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "2 第二节   第1课时　地球的形状和大小　地球的模型——地球仪.pptx",
+      "slide": 14,
+      "note": "重难突破"
+    }
+  },
+  {
+    "id": "earth-k28",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "经线定义",
+    "prompt": "什么是经线？",
+    "answer": "在地球仪上，连接南北两极的半圆弧叫经线，也叫子午线。",
+    "explanation": "经线是学习经度和方向判定的基础。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k29",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "经线特征",
+    "prompt": "经线有哪些主要特征？",
+    "answer": "经线都是半圆弧，长度都相等，指示南北方向，各条经线在南北极点相交。",
+    "explanation": "经线“半圆、等长、指南北、相交于两极”是高频考点。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k30",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "本初子午线",
+    "prompt": "什么是本初子午线？",
+    "answer": "0°经线叫本初子午线，它通过英国格林尼治天文台旧址。",
+    "explanation": "本初子午线是划分东经和西经的起点。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k31",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "经度划分与表示",
+    "prompt": "经度是怎样划分和表示的？",
+    "answer": "本初子午线以东为东经，用E表示；以西为西经，用W表示，向东向西各分180°。",
+    "explanation": "东西经的180°是重合的。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k32",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "东西半球划分",
+    "prompt": "东西半球的分界线是什么？",
+    "answer": "20°W和160°E组成的经线圈是东西半球的分界线。",
+    "explanation": "20°W向东到160°E为东半球，另半圈为西半球。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k33",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "赤道与纬线",
+    "prompt": "赤道和纬线分别是什么？",
+    "answer": "赤道是与南北极距离相等的大圆圈；所有与赤道平行的圆圈叫纬线。",
+    "explanation": "赤道既是0°纬线，也是南北半球的分界线。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k34",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "纬线特征",
+    "prompt": "纬线有哪些主要特征？",
+    "answer": "纬线都是圆圈，指示东西方向，长度由赤道向两极逐渐缩短，各条纬线彼此平行。",
+    "explanation": "赤道是最长纬线圈，两极缩成一点。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 7,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k35",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "纬度划分与表示",
+    "prompt": "纬度是怎样划分和表示的？",
+    "answer": "赤道是0°纬线，向北为北纬N，向南为南纬S，向南向北各分90°。",
+    "explanation": "北极点是90°N，南极点是90°S。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k36",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "高中低纬划分",
+    "prompt": "低纬、中纬、高纬地区分别怎样划分？",
+    "answer": "0°—30°为低纬度地区，30°—60°为中纬度地区，60°—90°为高纬度地区。",
+    "explanation": "判断某地所处纬度带时，先看纬度数值，再看南北半球。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 8,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k37",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "南北半球划分",
+    "prompt": "南北半球的分界线是什么？",
+    "answer": "赤道即0°纬线是南北半球的分界线。",
+    "explanation": "赤道以北为北半球，以南为南半球。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 9,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k38",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "判断东西经的方法",
+    "prompt": "怎样根据度数变化判断东经和西经？",
+    "answer": "东经越向东度数越大，西经越向西度数越大。",
+    "explanation": "记住“东经东增，西经西增”，能快速解决多数判读题。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 11,
+      "note": "重难突破"
+    }
+  },
+  {
+    "id": "earth-k39",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "判断东西半球的方法",
+    "prompt": "如何快速判断某地位于东半球还是西半球？",
+    "answer": "只要经度小于20°，一定在东半球；只要经度大于160°，一定在西半球；其他情况再结合东经或西经判断。",
+    "explanation": "这是课件总结的半球判断快捷方法。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 16,
+      "note": "重难突破"
+    }
+  },
+  {
+    "id": "earth-k40",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第2课时 经线和经度 纬线和纬度",
+    "knowledgePoint": "判断南北半球的方法",
+    "prompt": "如何判断某地位于南半球还是北半球？",
+    "answer": "看纬度是否在赤道以北或以南，北纬都在北半球，南纬都在南半球。",
+    "explanation": "南北半球判断比东西半球简单，抓住赤道即可。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "3 第二节   第2课时　经线和经度　纬线和纬度.pptx",
+      "slide": 16,
+      "note": "重难突破"
+    }
+  },
+  {
+    "id": "earth-k41",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第3课时 利用经纬网定位",
+    "knowledgePoint": "经纬网定义",
+    "prompt": "什么是经纬网？",
+    "answer": "在地球仪上，经线和纬线相互交织，形成经纬网。",
+    "explanation": "经纬网是地理定位和定向的重要工具。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第二节   第3课时　利用经纬网定位.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k42",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第3课时 利用经纬网定位",
+    "knowledgePoint": "经纬网作用",
+    "prompt": "经纬网有什么主要作用？",
+    "answer": "经纬网可以定位、定向，并广泛用于导航和生产生活。",
+    "explanation": "定位是用经纬度确定位置，定向是利用经线和纬线判断方向。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第二节   第3课时　利用经纬网定位.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k43",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第3课时 利用经纬网定位",
+    "knowledgePoint": "经纬网定向",
+    "prompt": "在经纬网中，经线和纬线分别指示什么方向？",
+    "answer": "经线指示南北方向，纬线指示东西方向。",
+    "explanation": "所有经纬网定向题都建立在这个基础上。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第二节   第3课时　利用经纬网定位.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k44",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第3课时 利用经纬网定位",
+    "knowledgePoint": "确定纬度步骤",
+    "prompt": "在经纬网地图上确定某点纬度时，第一步通常做什么？",
+    "answer": "先找0°纬线即赤道，再判断该点在赤道以北还是以南。",
+    "explanation": "赤道是判断南北纬最直接的界线。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第二节   第3课时　利用经纬网定位.pptx",
+      "slide": 6,
+      "note": "重难突破"
+    }
+  },
+  {
+    "id": "earth-k45",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第二节 地球与地球仪·第3课时 利用经纬网定位",
+    "knowledgePoint": "确定经度步骤",
+    "prompt": "在经纬网地图上确定某点经度时，关键要先找哪些经线？",
+    "answer": "关键要先找0°经线和180°经线，再判断该点位于它们的哪一侧。",
+    "explanation": "0°经线和180°经线出现时，东经西经的判断规则不同，要特别注意。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "4 第二节   第3课时　利用经纬网定位.pptx",
+      "slide": 6,
+      "note": "重难突破"
+    }
+  },
+  {
+    "id": "earth-k46",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第1课时 地球的自转",
+    "knowledgePoint": "地球自转定义",
+    "prompt": "什么是地球自转？",
+    "answer": "地球绕着地轴的旋转运动叫地球自转。",
+    "explanation": "自转是解释昼夜交替和时间差异的核心。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "6 第三节   第1课时　地球的自转.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k47",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第1课时 地球的自转",
+    "knowledgePoint": "自转方向和周期",
+    "prompt": "地球自转的方向和周期分别是什么？",
+    "answer": "方向是自西向东，周期是一天。",
+    "explanation": "自转方向、周期和现象常常结合在选择题中一起考。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "6 第三节   第1课时　地球的自转.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k48",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第1课时 地球的自转",
+    "knowledgePoint": "昼半球和夜半球",
+    "prompt": "什么是昼半球和夜半球？",
+    "answer": "被太阳照亮的半球叫昼半球，未被太阳照亮的半球叫夜半球。",
+    "explanation": "因为地球是不透明球体，所以任何时刻只有一半被照亮。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "6 第三节   第1课时　地球的自转.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k49",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第1课时 地球的自转",
+    "knowledgePoint": "昼夜交替和时间差异",
+    "prompt": "地球自转会产生哪两类最直接的地理现象？",
+    "answer": "会产生昼夜交替和不同经度地区的时间差异。",
+    "explanation": "这两个现象都与地球自西向东自转直接相关。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "6 第三节   第1课时　地球的自转.pptx",
+      "slide": 6,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k50",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第1课时 地球的自转",
+    "knowledgePoint": "北逆南顺与东早西晚",
+    "prompt": "从南北两极上空观察地球自转，方向各有什么特点？时间差异又怎样概括？",
+    "answer": "从北极上空看呈逆时针，从南极上空看呈顺时针；时间差异可概括为东早西晚。",
+    "explanation": "“北逆南顺、东早西晚”是自转部分最常见的口诀。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "6 第三节   第1课时　地球的自转.pptx",
+      "slide": 8,
+      "note": "重难突破"
+    }
+  },
+  {
+    "id": "earth-k51",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第2课时 地球的公转",
+    "knowledgePoint": "地球公转定义",
+    "prompt": "什么是地球公转？",
+    "answer": "地球在自转的同时，还围绕太阳不停地公转。",
+    "explanation": "公转是解释季节变化、五带和正午太阳高度变化的关键。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第三节   第2课时　地球的公转.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k52",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第2课时 地球的公转",
+    "knowledgePoint": "公转方向和周期",
+    "prompt": "地球公转的方向和周期分别是什么？",
+    "answer": "地球公转方向也是自西向东，周期是一年。",
+    "explanation": "公转方向与自转方向一致，是常见考点。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第三节   第2课时　地球的公转.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k53",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第2课时 地球的公转",
+    "knowledgePoint": "季节变化与南北相反",
+    "prompt": "地球公转会带来怎样的季节变化特征？",
+    "answer": "地球公转会产生春夏秋冬四季变化，且南半球季节与北半球相反。",
+    "explanation": "这是因为地球斜着身子绕太阳公转，且地轴倾斜方向保持不变。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第三节   第2课时　地球的公转.pptx",
+      "slide": 4,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k54",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第2课时 地球的公转",
+    "knowledgePoint": "重要纬线",
+    "prompt": "地球上与五带划分密切相关的四条重要纬线是什么？",
+    "answer": "北回归线23.5°N、南回归线23.5°S、北极圈66.5°N、南极圈66.5°S。",
+    "explanation": "回归线和极圈是五带分界与太阳直射、极昼极夜现象判断的基础。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第三节   第2课时　地球的公转.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k55",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第2课时 地球的公转",
+    "knowledgePoint": "五带划分",
+    "prompt": "地球表面按获得太阳光热多少可分为哪五个带？",
+    "answer": "热带、北温带、南温带、北寒带和南寒带。",
+    "explanation": "五带是本章和后续区域地理学习的重要基础。",
+    "difficulty": "easy",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第三节   第2课时　地球的公转.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k56",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第2课时 地球的公转",
+    "knowledgePoint": "五带气候特点",
+    "prompt": "热带、温带和寒带在气候上的基本特征分别是什么？",
+    "answer": "热带终年炎热，温带四季变化明显，寒带终年寒冷。",
+    "explanation": "五带气候特征要和五带分界一起记忆。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第三节   第2课时　地球的公转.pptx",
+      "slide": 5,
+      "note": "课前梳理"
+    }
+  },
+  {
+    "id": "earth-k57",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第2课时 地球的公转",
+    "knowledgePoint": "北半球四季月份",
+    "prompt": "北半球四季通常分别对应哪些月份？",
+    "answer": "春季3—5月，夏季6—8月，秋季9—11月，冬季12—2月。",
+    "explanation": "这组月份常用于判断节气与地球公转位置。",
+    "difficulty": "easy",
+    "importance": "medium",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第三节   第2课时　地球的公转.pptx",
+      "slide": 7,
+      "note": "重难突破"
+    }
+  },
+  {
+    "id": "earth-k58",
+    "type": "flashcard",
+    "bookCode": "grade7-semester1",
+    "bookLabel": "七年级上册",
+    "chapter": "第一章 地球",
+    "section": "第三节 地球的运动·第2课时 地球的公转",
+    "knowledgePoint": "地球公转的地理意义",
+    "prompt": "课件重点强调的地球公转地理意义主要有哪些？",
+    "answer": "主要有四季交替、五带形成、太阳直射点回归运动、正午太阳高度变化和昼夜长短变化等。",
+    "explanation": "公转部分做题时，常要把“现象—原因—季节/纬度差异”连起来。",
+    "difficulty": "medium",
+    "importance": "high",
+    "source": {
+      "label": "金版学案课件",
+      "file": "7 第三节   第2课时　地球的公转.pptx",
+      "slide": 7,
+      "note": "重难突破"
+    }
+  }
+]
