@@ -24,7 +24,8 @@
             "太平洋",
             "印度洋"
         ],
-        "correctOption": "北冰洋"
+        "correctOption": "北冰洋",
+        "assetPath": "/images/七下/第七章/asia-location.png"
     },
     {
         "id": "asia-q02",
@@ -51,7 +52,8 @@
             "白令海峡",
             "直布罗陀海峡"
         ],
-        "correctOption": "苏伊士运河"
+        "correctOption": "苏伊士运河",
+        "assetPath": "/images/七下/第七章/asia-location.png"
     },
     {
         "id": "asia-q03",
@@ -105,7 +107,8 @@
             "南半球、东半球",
             "南半球、西半球"
         ],
-        "correctOption": "北半球、东半球"
+        "correctOption": "北半球、东半球",
+        "assetPath": "/images/七下/第七章/asia-location.png"
     },
     {
         "id": "asia-q05",
@@ -159,7 +162,8 @@
             "东部和南部",
             "北部和西北部"
         ],
-        "correctOption": "东部和南部"
+        "correctOption": "东部和南部",
+        "assetPath": "/images/七下/第七章/asia-population-density.png"
     },
     {
         "id": "asia-q07",
@@ -186,7 +190,8 @@
             "地势高，气候高寒",
             "气候过于湿热"
         ],
-        "correctOption": "地势高，气候高寒"
+        "correctOption": "地势高，气候高寒",
+        "assetPath": "/images/七下/第七章/asia-population-density.png"
     },
     {
         "id": "asia-q08",
@@ -429,7 +434,8 @@
             "地形地势",
             "人类活动"
         ],
-        "correctOption": "海陆位置"
+        "correctOption": "海陆位置",
+        "assetPath": "/images/七下/第七章/asia-climate.png"
     },
     {
         "id": "asia-q39",
@@ -564,7 +570,8 @@
             "出口石油多",
             "人口数量多"
         ],
-        "correctOption": "为发达国家"
+        "correctOption": "为发达国家",
+        "assetPath": "/images/七下/第七章/asia-regions.png"
     },
     {
         "id": "asia-q41",
@@ -699,7 +706,8 @@
             "甲和丁",
             "乙和丙"
         ],
-        "correctOption": "乙和丙"
+        "correctOption": "乙和丙",
+        "assetPath": "/images/七下/第七章/asia-regions.png"
     },
     {
         "id": "asia-q46",
@@ -1090,6 +1098,7 @@
         "explanation": "根据材料图可判断其主要位于中纬度和北温带，这一类题要从纬度带和热量带两个角度作答。",
         "difficulty": "medium",
         "importance": "medium",
+        "assetPath": "/images/七下/第七章/asia-river-basins.png",
         "source": {
             "label": "金版学案原题",
             "file": "4 专题练习一 认识大洲——亚洲.pptx",
