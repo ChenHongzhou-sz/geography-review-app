@@ -3,18 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GeoMemory</title>
+    <title>GeoMemory Redirecting</title>
   </head>
   <body>
     <script>
       (function () {
-        var segments = window.location.pathname.split("/").filter(Boolean);
-        var projectBase = segments.length > 0 ? "/" + segments[0] + "/" : "/";
-        var hashPath = segments.length > 1 ? "/" + segments.slice(1).join("/") : "/";
-        var search = window.location.search || "";
+        var basePath = "/geography-review-app/";
+        var relativePath = window.location.pathname.startsWith(basePath)
+          ? window.location.pathname.slice(basePath.length)
+          : window.location.pathname.replace(/^\/+/, "");
+        var redirectTarget =
+          relativePath + window.location.search + window.location.hash;
 
         window.location.replace(
-          window.location.origin + projectBase + "#" + hashPath + search
+          window.location.origin +
+            basePath +
+            "?redirect=" +
+            encodeURIComponent(redirectTarget)
         );
       })();
     </script>

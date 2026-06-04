@@ -5,9 +5,10 @@ import "./index.css";
 
 if (import.meta.env.PROD && "serviceWorker" in navigator) {
   window.addEventListener("load", () => {
-    const swUrl = new URL("sw.js", window.location.href);
+    const appBase = new URL(import.meta.env.BASE_URL, window.location.origin);
+    const swUrl = new URL("sw.js", appBase);
 
-    navigator.serviceWorker.register(swUrl, { scope: "./" }).catch(() => {
+    navigator.serviceWorker.register(swUrl, { scope: import.meta.env.BASE_URL }).catch(() => {
       // Ignore failed registration in unsupported or local preview contexts.
     });
   });

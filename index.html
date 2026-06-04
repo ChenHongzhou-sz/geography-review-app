@@ -2,22 +2,35 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      (function () {
+        var url = new URL(window.location.href);
+        var redirectPath = url.searchParams.get("redirect");
+
+        if (!redirectPath) {
+          return;
+        }
+
+        var nextPath = redirectPath.replace(/^\/+/, "");
+        window.history.replaceState(null, "", nextPath);
+      })();
+    </script>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
     <meta
       name="description"
-      content="GeoMemory 七年级地理记忆训练营，面向手机与 iPad 的离线学习系统。"
+      content="GeoMemory 地理训练营，一个面向手机与 iPad 的七年级地理单元训练 Web App。"
     />
     <meta name="theme-color" content="#2284ff" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="apple-mobile-web-app-title" content="GeoMemory" />
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <link rel="manifest" href="./manifest.webmanifest" />
-    <link rel="apple-touch-icon" href="./app-icon.svg" />
-    <title>GeoMemory</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/app-icon.svg" />
+    <title>GeoMemory 地理训练营</title>
   </head>
   <body>
     <div id="root"></div>

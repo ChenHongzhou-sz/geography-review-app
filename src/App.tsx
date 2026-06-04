@@ -1,4 +1,4 @@
-import { HashRouter, Navigate, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { useStudyEngine } from "./hooks/useStudyEngine";
 import { HomePage } from "./pages/HomePage";
 import { MapPage } from "./pages/MapPage";
@@ -27,10 +27,20 @@ function RoutedApp() {
   );
 }
 
+function getRouterBase() {
+  const base = import.meta.env.BASE_URL;
+
+  if (base === "/") {
+    return "/";
+  }
+
+  return base.endsWith("/") ? base.slice(0, -1) : base;
+}
+
 export default function App() {
   return (
-    <HashRouter>
+    <BrowserRouter basename={getRouterBase()}>
       <RoutedApp />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
