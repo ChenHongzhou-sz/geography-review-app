@@ -27,7 +27,13 @@ export function UnitDetailPage({ engine }: { engine: StudyEngine }) {
 
   return (
     <AppShell
-      title={`${unit.chapter} ${unit.title}`}
+      title={
+        <>
+          <span className="block sm:inline">{unit.chapter}</span>
+          <span className="hidden sm:inline"> </span>
+          <span className="block sm:inline">{unit.title}</span>
+        </>
+      }
       subtitle={unit.description}
       headerAside={
         <div className="w-full max-w-[240px] rounded-[1.6rem] bg-gradient-to-br from-ocean-500 via-ocean-700 to-mint-500 px-5 py-4 text-white shadow-lg">

@@ -12,7 +12,7 @@ export function AppShell({
   headerAside,
   children
 }: {
-  title: string;
+  title: ReactNode;
   subtitle: string;
   badge?: string;
   headerAside?: ReactNode;
