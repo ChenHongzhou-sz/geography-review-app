@@ -15,6 +15,88 @@
         window.history.replaceState(null, "", nextPath);
       })();
     </script>
+    <script>
+      (function () {
+        var basePath = "%BASE_URL%";
+        var normalizedBase = basePath.charAt(basePath.length - 1) === "/" ? basePath : basePath + "/";
+        var reloadFlag = "geomemory-sw-cleanup-v1";
+
+        function markReloaded() {
+          try {
+            if (window.sessionStorage.getItem(reloadFlag)) {
+              return false;
+            }
+
+            window.sessionStorage.setItem(reloadFlag, "1");
+            return true;
+          } catch (_error) {
+            return false;
+          }
+        }
+
+        function clearMatchingCaches() {
+          if (!("caches" in window)) {
+            return Promise.resolve(false);
+          }
+
+          return caches.keys().then(function (keys) {
+            var matchedKeys = keys.filter(function (key) {
+              return key.indexOf("geomemory-shell-") === 0;
+            });
+
+            if (matchedKeys.length === 0) {
+              return false;
+            }
+
+            return Promise.all(
+              matchedKeys.map(function (key) {
+                return caches.delete(key);
+              })
+            ).then(function () {
+              return true;
+            });
+          });
+        }
+
+        function unregisterMatchingWorkers() {
+          if (!("serviceWorker" in navigator)) {
+            return Promise.resolve(false);
+          }
+
+          return navigator.serviceWorker.getRegistrations().then(function (registrations) {
+            var matched = registrations.filter(function (registration) {
+              try {
+                return new URL(registration.scope).pathname.indexOf(normalizedBase) === 0;
+              } catch (_error) {
+                return false;
+              }
+            });
+
+            if (matched.length === 0) {
+              return false;
+            }
+
+            return Promise.all(
+              matched.map(function (registration) {
+                return registration.unregister();
+              })
+            ).then(function () {
+              return true;
+            });
+          });
+        }
+
+        Promise.all([unregisterMatchingWorkers(), clearMatchingCaches()])
+          .then(function (results) {
+            if ((results[0] || results[1]) && markReloaded()) {
+              window.location.reload();
+            }
+          })
+          .catch(function () {
+            // Ignore partially-cached mobile browser states.
+          });
+      })();
+    </script>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"

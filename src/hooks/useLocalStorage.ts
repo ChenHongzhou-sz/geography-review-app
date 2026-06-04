@@ -9,7 +9,7 @@ export function useLocalStorage<T>(key: string, initialValue: T) {
     try {
       const rawValue = window.localStorage.getItem(key);
       return rawValue ? (JSON.parse(rawValue) as T) : initialValue;
-    } catch {
+    } catch (_error) {
       return initialValue;
     }
   });

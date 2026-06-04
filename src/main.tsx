@@ -5,24 +5,38 @@ import "./index.css";
 
 if (import.meta.env.PROD && "serviceWorker" in navigator) {
   window.addEventListener("load", () => {
-    const appBase = new URL(import.meta.env.BASE_URL, window.location.origin);
-    const swUrl = new URL("sw.js", appBase);
-    let hasRefreshedForNewWorker = false;
-
-    navigator.serviceWorker.addEventListener("controllerchange", () => {
-      if (hasRefreshedForNewWorker) {
-        return;
-      }
-
-      hasRefreshedForNewWorker = true;
-      window.location.reload();
-    });
-
     navigator.serviceWorker
-      .register(swUrl, { scope: import.meta.env.BASE_URL })
-      .then((registration) => registration.update())
+      .getRegistrations()
+      .then((registrations) => {
+        const appBase = new URL(import.meta.env.BASE_URL, window.location.origin);
+        const scopePath = appBase.pathname.endsWith("/") ? appBase.pathname : `${appBase.pathname}/`;
+
+        return Promise.all(
+          registrations
+            .filter((registration) => {
+              try {
+                return new URL(registration.scope).pathname.startsWith(scopePath);
+              } catch (_error) {
+                return false;
+              }
+            })
+            .map((registration) => registration.unregister())
+        );
+      })
+      .then(() => {
+        if (!("caches" in window)) {
+          return;
+        }
+
+        return caches
+          .keys()
+          .then((keys) =>
+            Promise.all(keys.filter((key) => key.startsWith("geomemory-shell-")).map((key) => caches.delete(key)))
+          )
+          .then(() => undefined);
+      })
       .catch(() => {
-        // Ignore failed registration in unsupported or local preview contexts.
+        // Ignore unsupported or partially-cached mobile browser states.
       });
   });
 }

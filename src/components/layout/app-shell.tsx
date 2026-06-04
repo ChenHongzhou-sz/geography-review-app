@@ -29,7 +29,7 @@ export function AppShell({
     try {
       const rawValue = window.localStorage.getItem(STORAGE_KEYS.featuredUnit);
       setFeaturedUnitId(rawValue ? (JSON.parse(rawValue) as string) : DEFAULT_UNIT_ID);
-    } catch {
+    } catch (_error) {
       setFeaturedUnitId(DEFAULT_UNIT_ID);
     }
   }, [location.pathname]);
