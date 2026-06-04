@@ -30,7 +30,7 @@ export function UnitDetailPage({ engine }: { engine: StudyEngine }) {
       title={`${unit.chapter} ${unit.title}`}
       subtitle={unit.description}
       headerAside={
-        <div className="rounded-[1.6rem] bg-gradient-to-br from-ocean-500 via-ocean-700 to-mint-500 px-5 py-4 text-white shadow-lg">
+        <div className="w-full max-w-[240px] rounded-[1.6rem] bg-gradient-to-br from-ocean-500 via-ocean-700 to-mint-500 px-5 py-4 text-white shadow-lg">
           <div className="text-sm text-white/70">当前掌握率</div>
           <div className="mt-2 text-3xl font-bold">{unit.masteryRate}%</div>
           <div className="mt-4 text-sm text-white/78">待复习 {unit.dueCount} 项</div>
@@ -40,66 +40,84 @@ export function UnitDetailPage({ engine }: { engine: StudyEngine }) {
       {data ? (
         <div className="space-y-6">
           <Card className="bg-gradient-to-br from-ocean-900 via-ocean-700 to-mint-600 text-white">
-            <div className="flex flex-wrap items-center justify-between gap-4">
-              <div>
+            <div className="flex flex-col gap-5 xl:flex-row xl:items-start xl:justify-between">
+              <div className="min-w-0 flex-1">
                 <div className="mb-3 inline-flex rounded-full bg-white/12 px-3 py-1 text-sm font-semibold">
                   当前已接入训练数据
                 </div>
-                <CardTitle className="text-3xl text-white">{data.title}</CardTitle>
-                <CardDescription className="mt-3 max-w-3xl text-white/80">
+                <CardTitle className="text-2xl leading-tight text-white sm:text-3xl">{data.title}</CardTitle>
+                <CardDescription className="mt-3 max-w-2xl overflow-hidden text-sm leading-6 text-white/80 [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:2] sm:text-base sm:[display:block] sm:overflow-visible">
                   这个单元已经接入知识卡片、原题、地图题和亚洲闯关。后续其他章节只要沿用同样的数据结构，就能直接复用这套 UI 和训练逻辑。
                 </CardDescription>
               </div>
 
-              <div className="grid grid-cols-2 gap-3 rounded-[1.5rem] bg-white/10 p-4 backdrop-blur">
+              <div className="grid w-full max-w-[16rem] grid-cols-2 gap-2 rounded-[1.35rem] bg-white/10 p-3 backdrop-blur sm:max-w-none sm:gap-3 sm:p-4 xl:w-auto">
                 <div>
                   <div className="text-sm text-white/70">知识点</div>
-                  <div className="mt-1 text-2xl font-bold">{unit.knowledgeCount}</div>
+                  <div className="mt-1 text-xl font-bold sm:text-2xl">{unit.knowledgeCount}</div>
                 </div>
                 <div>
                   <div className="text-sm text-white/70">原题</div>
-                  <div className="mt-1 text-2xl font-bold">{unit.questionCount}</div>
+                  <div className="mt-1 text-xl font-bold sm:text-2xl">{unit.questionCount}</div>
                 </div>
                 <div>
                   <div className="text-sm text-white/70">地图题</div>
-                  <div className="mt-1 text-2xl font-bold">{unit.mapCount}</div>
+                  <div className="mt-1 text-xl font-bold sm:text-2xl">{unit.mapCount}</div>
                 </div>
                 <div>
                   <div className="text-sm text-white/70">闯关关卡</div>
-                  <div className="mt-1 text-2xl font-bold">{data.stages.length}</div>
+                  <div className="mt-1 text-xl font-bold sm:text-2xl">{data.stages.length}</div>
                 </div>
               </div>
             </div>
 
-            <div className="mt-6 flex flex-wrap gap-3">
-              <Link to={`/training/${unit.unitId}`} className={cn(buttonVariants({ size: "lg" }))}>
+            <div className="mt-5 grid grid-cols-2 gap-2 sm:mt-6 sm:flex sm:flex-wrap sm:gap-3">
+              <Link
+                to={`/training/${unit.unitId}`}
+                className={cn(
+                  buttonVariants({ size: "default" }),
+                  "col-span-2 justify-center sm:h-14 sm:rounded-[1.4rem] sm:px-6 sm:text-base"
+                )}
+              >
                 <Compass className="mr-2 h-4 w-4" />
                 开始训练
               </Link>
               <Link
                 to={`/handbook/${unit.unitId}`}
-                className={cn(buttonVariants({ variant: "secondary", size: "lg" }), "bg-white text-ink")}
+                className={cn(
+                  buttonVariants({ variant: "secondary", size: "default" }),
+                  "justify-center bg-white text-ink sm:h-14 sm:rounded-[1.4rem] sm:px-6 sm:text-base"
+                )}
               >
                 <BookOpen className="mr-2 h-4 w-4" />
                 知识手册
               </Link>
               <Link
                 to={`/maps/${unit.unitId}`}
-                className={cn(buttonVariants({ variant: "secondary", size: "lg" }), "bg-white text-ink")}
+                className={cn(
+                  buttonVariants({ variant: "secondary", size: "default" }),
+                  "justify-center bg-white text-ink sm:h-14 sm:rounded-[1.4rem] sm:px-6 sm:text-base"
+                )}
               >
                 <MapPinned className="mr-2 h-4 w-4" />
                 地图挑战
               </Link>
               <Link
                 to="/sprint"
-                className={cn(buttonVariants({ variant: "secondary", size: "lg" }), "bg-white/12 text-white")}
+                className={cn(
+                  buttonVariants({ variant: "secondary", size: "default" }),
+                  "justify-center bg-white/12 text-white sm:h-14 sm:rounded-[1.4rem] sm:px-6 sm:text-base"
+                )}
               >
                 <Trophy className="mr-2 h-4 w-4" />
                 亚洲闯关
               </Link>
               <Link
                 to="/review"
-                className={cn(buttonVariants({ variant: "secondary", size: "lg" }), "bg-white/12 text-white")}
+                className={cn(
+                  buttonVariants({ variant: "secondary", size: "default" }),
+                  "justify-center bg-white/12 text-white sm:h-14 sm:rounded-[1.4rem] sm:px-6 sm:text-base"
+                )}
               >
                 <Sparkles className="mr-2 h-4 w-4" />
                 今日复习
