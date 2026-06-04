@@ -18,10 +18,5 @@
     "types": ["node"]
   },
   "include": ["src", "tailwind.config.ts", "vite.config.ts"],
-  "exclude": [
-    "scripts",
-    "src/data/chapters.ts",
-    "src/data/knowledge-base.ts",
-    "src/data/map-challenges.ts"
-  ]
+  "exclude": ["scripts"]
 }

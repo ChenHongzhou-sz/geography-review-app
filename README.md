@@ -1,191 +1,123 @@
 # GeoMemory
 
-GeoMemory 是一个面向七年级学生的地理记忆训练 Web App。它不是 PDF 阅读器，也不是传统题库，而是一个围绕“快速开练、间隔复习、地图强化、错题回炉”设计的移动优先学习系统。
+GeoMemory 是一个面向七年级学生的地理训练 Web App。当前仓库已经切换到“单元训练中心”结构，所有训练、地图挑战、错题本和复习逻辑都围绕单元数据工作。
 
-## 当前已完成
+## 当前状态
 
-- React + TypeScript + Vite 项目骨架
-- TailwindCSS + 手工接入的 Shadcn 风格组件
-- 5 个核心页面：
-  - 首页
-  - 智能训练
-  - 地图挑战
-  - 错题本
-  - 考前冲刺
-- LocalStorage 学习进度保存
-- 间隔复习算法与掌握度等级
-- 已扩充的七年级地理知识点数据
-- 已接入真实原图的地图挑战题数据
-- PDF 结构抽取、图片抽取、题库生成脚本
-- GitHub Pages 自动部署工作流
-- PWA 基础支持，可添加到手机/iPad 主屏幕
-- 课件 RAR 资源分析脚本
+- 主 UI 已完成重构：
+  - 首页 Dashboard
+  - 单元列表 Units
+  - 单元详情 Unit Detail
+  - 单元训练 Training
+  - 地图挑战 Map Challenge
+  - 错题本 Mistakes
+  - 今日复习 Review
+  - 亚洲闯关 Sprint
+- 当前已接入并可训练的单元：
+  - 七年级下册 第七章《我们生活的大洲——亚洲》
+- 学习记录保存在浏览器 `LocalStorage`
+- 已支持 GitHub Pages 自动部署
+- 已支持基础 PWA 与离线缓存
 
 ## 技术栈
 
 - React
 - TypeScript
 - Vite
-- TailwindCSS
+- Tailwind CSS
 - React Router
 - Framer Motion
-- Shadcn 风格 UI 组件
 
-## 目录结构
+## 项目结构
 
 ```text
 src/
 ├── components/
 ├── data/
+│   └── units/
+│       ├── geo-7b-chapter7-asia.json
+│       └── geo-7b-chapter7-asia/
+│           ├── knowledge.json
+│           ├── questions.json
+│           └── maps.json
 ├── hooks/
-├── images/
 ├── pages/
 ├── types/
 ├── utils/
-└── App.tsx
+├── App.tsx
+└── main.tsx
 
 public/
-├── .nojekyll
+├── 404.html
 ├── manifest.webmanifest
 ├── sw.js
 └── images/
+    ├── 七下/第七章/
+    └── runtime-courseware/
 
 .github/workflows/
-└── deploy-pages.yml
-
-scripts/
-├── extract-images.ts
-├── extract-knowledge.ts
-├── generate-questions.ts
-├── inspect-courseware.ts
-└── review-algorithm.ts
+└── deploy.yml
 ```
 
-## 安装与运行
+## 单元数据
 
-先确认本机有可用的 Node.js 与 npm，然后在项目目录执行：
+当前训练系统以单元 JSON 为核心。主数据文件位于：
+
+- `src/data/units/geo-7b-chapter7-asia.json`
+
+为了方便继续校题和维护，也保留了拆分数据：
+
+- `src/data/units/geo-7b-chapter7-asia/knowledge.json`
+- `src/data/units/geo-7b-chapter7-asia/questions.json`
+- `src/data/units/geo-7b-chapter7-asia/maps.json`
+
+后续新增章节时，优先沿用相同结构继续扩展，不再回到旧的全局题库模式。
+
+## 图片资源
+
+亚洲单元当前实际使用的稳定图片位于：
+
+- `public/images/七下/第七章/asia-location.png`
+- `public/images/七下/第七章/asia-regions.png`
+- `public/images/七下/第七章/asia-terrain-climate.png`
+
+`public/images/runtime-courseware/` 主要保留课件抽图素材，用于后续章节扩展和素材追溯。
+
+## 开发与运行
 
 ```bash
 npm install
 npm run dev
 ```
 
-默认开发端口在 `4173`。
-
-## GitHub 发布
-
-项目已经加入：
-
-- 相对路径构建配置，适配 GitHub Pages 子路径
-- `HashRouter`
-- `.github/workflows/deploy-pages.yml`
-- `manifest.webmanifest`
-- `service worker`
-
-发布步骤：
-
-1. 把整个项目文件夹初始化为 Git 仓库并推到 GitHub。
-2. 默认分支使用 `main`。
-3. 推送后，GitHub Actions 会自动构建并部署到 GitHub Pages。
-4. 在仓库设置里确认 `Pages` 使用 `GitHub Actions` 作为来源。
-
-部署完成后，手机和 iPad 直接打开 Pages 链接即可使用；在 iPhone / iPad Safari 中还可以“添加到主屏幕”。
-
-本版针对 GitHub Pages 和移动端打不开的问题做了结构修复：
-
-- 新增 `.github/workflows/deploy-pages.yml`，上传源码后由 GitHub 自动构建 `dist` 并发布。
-- 保留 `HashRouter` 和 `base: "./"`，适配 `username.github.io/repo-name/` 这类仓库子路径。
-- 地图图片路径不再直接使用 `/images/...`，运行时会自动加上当前 Pages base 路径。
-- service worker 只在生产环境注册，并使用当前页面路径作为 scope，减少手机 Safari 缓存旧页面导致的白屏。
-- `manifest.webmanifest` 增加 `scope`，`start_url` 改为 `./#/`，从主屏幕打开也回到正确入口。
-- `public/.nojekyll` 防止 GitHub Pages 对静态资源路径做 Jekyll 处理。
-
-当前这份项目已经整理成轻量发布版：
-
-- GitHub 仓库内只保留网页运行真正需要的代码和图片
-- 地图题实际使用的图片位于 `public/images/runtime-courseware/`
-- 不需要把归档目录上传到 GitHub
-
-## 数据与脚本
-
-### 1. 抽取 PDF 结构
+构建命令：
 
 ```bash
-npm run extract:knowledge
+npm run build
 ```
 
-输出：
+## GitHub Pages
 
-- `src/data/generated/pdf-structure.json`
+项目当前使用：
 
-### 2. 抽取原始教材图片
+- `BrowserRouter`
+- Vite `base` 配置
+- `public/404.html` 做 SPA 回跳
+- `.github/workflows/deploy.yml` 自动发布
 
-```bash
-npm run extract:images
-```
+每次推送到 `main` 分支后，GitHub Actions 会自动构建并部署到 GitHub Pages。
 
-输出：
+## 素材与分析脚本
 
-- `public/images/**`
-- `public/images/manifests/image-manifest.json`
+仍保留的脚本主要用于原始资料分析和图片抽取：
 
-### 3. 生成题库 JSON
+- `npm run extract:images`
+- `npm run extract:courseware`
+- `npm run extract:knowledge`
+- `npm run inspect:courseware`
 
-```bash
-npm run generate:questions
-```
+这些脚本用于整理教材或课件资料，不参与网页运行时逻辑。
 
-输出：
+## 说明
 
-- `src/data/generated/questions.json`
-
-### 4. 分析课件 RAR 内嵌图片
-
-```bash
-npm run inspect:courseware
-```
-
-输出：
-
-- `src/data/generated/courseware-assets.json`
-
-## 已接入的教材来源
-
-- 七上教材
-- 七下教材
-- 七上教师用书
-- 七下教师用书
-
-其中：
-
-- 七上教材、七下教材目录文本可直接抽取
-- 七上教师用书目录文本可直接抽取
-- 七下教师用书当前判断为图片型 PDF，适合先抽图，再根据需要追加 OCR
-
-详细分析见：
-
-- `docs/pdf-analysis.md`
-- `docs/courseware-assets.md`
-
-## 当前版本说明
-
-- 首页和训练流已经能用演示进度直接体验完整交互
-- 当前知识卡片共 `149` 条
-- 当前地图挑战共 `44` 组
-- 地图题已经直接接入真实课件/教材原图，不再使用 AI 生成地图
-- 教材目录中的 `30/30` 个主小节现在都已经有题目覆盖
-- 训练流会基于最近做题历史避开短期重复，并尽量打散章节
-- 发布版只保留 `public/images/runtime-courseware/` 中的 `32` 张运行态图片
-
-## 注意事项
-
-- 当前地图训练实际使用的图片，来自教材 PDF 抽图或课件 `RAR` 内嵌图片抽取
-- 不要放 AI 生成地图、网络下载地图或手工重绘地图
-- `public/app-icon.svg` 与 `public/favicon.svg` 是代码绘制的应用图标，不属于训练配图
-- 本项目使用 `HashRouter`，方便后续离线部署与本地文件预览
-
-图片来源说明见：
-
-- `docs/courseware-assets.md`
-- `docs/active-image-sources.md`
-- `docs/size-optimization.md`
+仓库里原先那套旧 UI 数据源和旧亚洲题库生成脚本已经移除，当前 GitHub 上保留的就是这套新的单元化训练架构。

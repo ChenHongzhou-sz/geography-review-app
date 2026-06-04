@@ -10,7 +10,6 @@
     "extract:images": "tsx scripts/extract-images.ts",
     "extract:courseware": "tsx scripts/extract-courseware-images.ts",
     "extract:knowledge": "tsx scripts/extract-knowledge.ts",
-    "generate:questions": "tsx scripts/generate-questions.ts",
     "inspect:courseware": "tsx scripts/inspect-courseware.ts"
   },
   "dependencies": {
