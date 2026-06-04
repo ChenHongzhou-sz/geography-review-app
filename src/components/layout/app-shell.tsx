@@ -78,7 +78,7 @@ export function AppShell({
               <div className="mb-3 inline-flex rounded-full bg-ocean-50 px-3 py-1 text-xs font-semibold text-ocean-900">
                 {badge}
               </div>
-              <h1 className="w-full break-words text-[1.85rem] font-bold leading-tight tracking-tight sm:title-balance sm:text-[2.2rem]">
+              <h1 className="w-full break-all text-[1.85rem] font-bold leading-tight tracking-tight sm:break-normal sm:title-balance sm:text-[2.2rem]">
                 {title}
               </h1>
               <p className="mt-2 max-w-3xl text-sm leading-6 text-slate-600 sm:text-base">
