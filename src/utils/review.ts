@@ -121,10 +121,10 @@ function recentEntriesByType(history: RecentHistoryState, type: "review" | "map"
     .slice(0, type === "map" ? MAP_HISTORY_WINDOW : REVIEW_HISTORY_WINDOW);
 }
 
-function sectionBalancedPool(items: UnitItem[], targetSize: number) {
+function sectionBalancedPool<T extends UnitItem>(items: T[], targetSize: number) {
   const candidateLimit = Math.max(targetSize * 2, targetSize);
   const candidates = items.slice(0, candidateLimit);
-  const sectionBuckets = new Map<string, UnitItem[]>();
+  const sectionBuckets = new Map<string, T[]>();
   const sectionOrder: string[] = [];
 
   for (const item of candidates) {
@@ -136,7 +136,7 @@ function sectionBalancedPool(items: UnitItem[], targetSize: number) {
     sectionBuckets.get(item.section)?.push(item);
   }
 
-  const pool: UnitItem[] = [];
+  const pool: T[] = [];
   const selectedIds = new Set<string>();
   let cursor = 0;
 
@@ -184,8 +184,8 @@ function sectionBalancedPool(items: UnitItem[], targetSize: number) {
   return pool;
 }
 
-function rankItems(
-  items: UnitItem[],
+function rankItems<T extends UnitItem>(
+  items: T[],
   progressMap: Record<string, ReviewProgress>,
   history: RecentHistoryState,
   mode: "review" | "map"
@@ -446,7 +446,7 @@ export function buildReviewDeck(
   history: RecentHistoryState,
   targetSize = 20
 ) {
-  const reviewItems = [...knowledgePoints, ...questions];
+  const reviewItems: Array<Exclude<UnitItem, MapChallenge>> = [...knowledgePoints, ...questions];
   const rankedReviewItems = rankItems(reviewItems, progressMap, history, "review");
   const nonMapSlots = QUESTION_PATTERN.slice(0, targetSize).filter((type) => type !== "map").length;
   const mapSlots = QUESTION_PATTERN.slice(0, targetSize).filter((type) => type === "map").length;
@@ -455,7 +455,10 @@ export function buildReviewDeck(
     Math.max(nonMapSlots * 2, nonMapSlots)
   );
   const mapPool = selectMapChallenges(maps, progressMap, history, Math.max(mapSlots, 1));
-  const buckets = new Map<Exclude<ReviewCard["questionType"], "map">, UnitItem[]>();
+  const buckets = new Map<
+    Exclude<ReviewCard["questionType"], "map">,
+    Array<Exclude<UnitItem, MapChallenge>>
+  >();
   const deck: ReviewCard[] = [];
   const usedIds = new Set<string>();
   let mapCursor = 0;
@@ -469,7 +472,7 @@ export function buildReviewDeck(
 
   const takeNextItem = (
     preferredType: Exclude<ReviewCard["questionType"], "map">
-  ) => {
+  ): Exclude<UnitItem, MapChallenge> | undefined => {
     for (const type of questionTypeOrder(preferredType)) {
       const bucket = buckets.get(type);
 
