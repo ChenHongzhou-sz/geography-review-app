@@ -3,6 +3,7 @@ import type {
   RecentHistoryState,
   ReviewCard,
   ReviewProgress,
+  ReviewSource,
   SelfRating,
   UnitItem,
   UnitQuestion
@@ -54,6 +55,33 @@ export function createRecentHistory(): RecentHistoryState {
   };
 }
 
+export function inferAnsweredCorrectly(
+  rating: SelfRating,
+  answeredCorrectly?: boolean
+) {
+  if (typeof answeredCorrectly === "boolean") {
+    return answeredCorrectly;
+  }
+
+  if (rating === "good") {
+    return true;
+  }
+
+  if (rating === "again") {
+    return false;
+  }
+
+  return undefined;
+}
+
+export function isMistakeActive(progress?: ReviewProgress) {
+  if (!progress) {
+    return false;
+  }
+
+  return progress.inMistakeBook ?? (progress.wrongCount > 0);
+}
+
 export function masteryLabel(mastery: number) {
   return ["不会", "模糊", "一般", "熟练", "非常熟练", "完全掌握"][clampMastery(mastery)];
 }
@@ -61,26 +89,47 @@ export function masteryLabel(mastery: number) {
 export function applyReviewResult(
   current: ReviewProgress | undefined,
   rating: SelfRating,
+  meta: {
+    answeredCorrectly?: boolean;
+    source?: ReviewSource;
+  } = {},
   now = new Date()
 ): ReviewProgress {
   const base: ReviewProgress = current ?? {
     mastery: 1,
     correctCount: 0,
     wrongCount: 0,
-    blurCount: 0
+    blurCount: 0,
+    inMistakeBook: false
   };
+  const answeredCorrectly = inferAnsweredCorrectly(rating, meta.answeredCorrectly);
+  const source = meta.source ?? "standard";
+  const effectiveRating = answeredCorrectly === false ? "again" : rating;
 
-  const masteryDelta = rating === "again" ? -1 : rating === "good" ? 1 : 0;
+  const masteryDelta =
+    effectiveRating === "again" ? -1 : effectiveRating === "good" ? 1 : 0;
   const mastery = clampMastery(base.mastery + masteryDelta);
   const intervalDays =
-    rating === "hard" ? Math.max(1, REVIEW_INTERVALS[mastery] - 1) : REVIEW_INTERVALS[mastery];
+    effectiveRating === "hard"
+      ? Math.max(1, REVIEW_INTERVALS[mastery] - 1)
+      : REVIEW_INTERVALS[mastery];
+  let inMistakeBook = isMistakeActive(base);
+
+  if (answeredCorrectly === false) {
+    inMistakeBook = true;
+  }
+
+  if (source === "mistakes" && answeredCorrectly === true) {
+    inMistakeBook = false;
+  }
 
   return {
     mastery,
-    correctCount: base.correctCount + (rating === "good" ? 1 : 0),
-    wrongCount: base.wrongCount + (rating === "again" ? 1 : 0),
-    blurCount: base.blurCount + (rating === "hard" ? 1 : 0),
-    lastRating: rating,
+    correctCount: base.correctCount + (answeredCorrectly === true ? 1 : 0),
+    wrongCount: base.wrongCount + (answeredCorrectly === false ? 1 : 0),
+    blurCount: base.blurCount + (effectiveRating === "hard" ? 1 : 0),
+    inMistakeBook,
+    lastRating: effectiveRating,
     lastReviewedAt: now.toISOString(),
     nextReviewAt: new Date(now.getTime() + intervalDays * MS_PER_DAY).toISOString()
   };

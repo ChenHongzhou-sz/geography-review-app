@@ -48,8 +48,8 @@ export function ReviewPage({ engine }: { engine: StudyEngine }) {
           <StudyCard
             card={card}
             indexLabel={`${currentIndex + 1} / ${sessionCards.length}`}
-            onRate={(rating) => {
-              engine.reviewKnowledge(card, rating);
+            onAdvance={({ rating, answeredCorrectly }) => {
+              engine.reviewKnowledge(card, rating, { answeredCorrectly });
               setCurrentIndex((value) => value + 1);
             }}
           />

@@ -9,6 +9,7 @@ export type QuestionType =
   | "match"
   | "map";
 export type SelfRating = "again" | "hard" | "good";
+export type ReviewSource = "standard" | "mistakes";
 export type UnitStatus = "ready" | "planned";
 export type MapMode = "select" | "click" | "region";
 
@@ -103,6 +104,7 @@ export interface ReviewProgress {
   correctCount: number;
   wrongCount: number;
   blurCount: number;
+  inMistakeBook?: boolean;
   lastRating?: SelfRating;
   lastReviewedAt?: string;
   nextReviewAt?: string;

@@ -19,11 +19,13 @@ const typeLabel: Record<ReviewCard["questionType"], string> = {
 export function StudyCard({
   card,
   indexLabel,
-  onRate
+  onAdvance,
+  advanceLabel = "下一题"
 }: {
   card: ReviewCard;
   indexLabel: string;
-  onRate: (rating: SelfRating) => void;
+  onAdvance: (result: { rating: SelfRating; answeredCorrectly?: boolean }) => void;
+  advanceLabel?: string;
 }) {
   const [revealed, setRevealed] = useState(false);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
@@ -39,10 +41,24 @@ export function StudyCard({
     revealed && selectedOption && card.correctOption
       ? selectedOption === card.correctOption
       : undefined;
+  const requiresChoiceAnswer = Boolean(card.options?.length && card.correctOption);
   const resolvedAssetPath = resolvePublicAsset(card.assetPath);
   const showImage =
     Boolean(resolvedAssetPath) &&
     (card.questionType === "map" || card.questionType === "analysis" || card.questionType === "choice");
+
+  function getAdvanceResult() {
+    if (typeof selectedIsCorrect === "boolean") {
+      return {
+        rating: selectedIsCorrect ? "good" : "again",
+        answeredCorrectly: selectedIsCorrect
+      } as const;
+    }
+
+    return {
+      rating: "good"
+    } as const;
+  }
 
   return (
     <motion.div
@@ -117,6 +133,7 @@ export function StudyCard({
                   key={option}
                   type="button"
                   onClick={() => setSelectedOption(option)}
+                  disabled={revealed}
                   className={[
                     "rounded-[1.2rem] border px-4 py-4 text-left text-base font-medium transition-all",
                     isCorrectOption
@@ -141,10 +158,18 @@ export function StudyCard({
 
         {!revealed ? (
           <div className="space-y-3">
-            <Button size="lg" className="w-full" onClick={() => setRevealed(true)}>
+            <Button
+              size="lg"
+              className="w-full"
+              onClick={() => setRevealed(true)}
+              disabled={requiresChoiceAnswer && !selectedOption}
+            >
               <Eye className="mr-2 h-4 w-4" />
               查看答案与解析
             </Button>
+            {requiresChoiceAnswer && !selectedOption ? (
+              <div className="text-sm text-slate-500">先选择一个答案，再查看解析。</div>
+            ) : null}
             <div className="flex flex-wrap items-center gap-2 text-sm text-slate-500">
               <FileText className="h-4 w-4" />
               <span>{card.sourceLabel}</span>
@@ -187,20 +212,13 @@ export function StudyCard({
               </div>
             </div>
 
-            <div>
-              <div className="mb-3 text-sm font-semibold text-slate-700">现在给自己一个掌握评价</div>
-              <div className="grid gap-3 sm:grid-cols-3">
-                <Button variant="danger" className="w-full" onClick={() => onRate("again")}>
-                  不会
-                </Button>
-                <Button variant="secondary" className="w-full" onClick={() => onRate("hard")}>
-                  模糊
-                </Button>
-                <Button variant="success" className="w-full" onClick={() => onRate("good")}>
-                  会了
-                </Button>
-              </div>
-            </div>
+            <Button
+              size="lg"
+              className="w-full"
+              onClick={() => onAdvance(getAdvanceResult())}
+            >
+              {advanceLabel}
+            </Button>
           </div>
         )}
       </Card>

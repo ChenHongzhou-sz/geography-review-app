@@ -1,4 +1,4 @@
-import { ArrowRight, Lock, MapPinned, Trophy } from "lucide-react";
+import { ArrowRight, BookOpen, Lock, MapPinned, Trophy } from "lucide-react";
 import { Link } from "react-router-dom";
 import type { UnitSummary } from "../../types";
 import { Badge } from "../ui/badge";
@@ -90,6 +90,13 @@ export function UnitCard({
 
         {unit.ready ? (
           <>
+            <Link
+              to={`/handbook/${unit.unitId}`}
+              className={cn(buttonVariants({ variant: "secondary", size: "lg" }), "flex-1 sm:flex-none")}
+            >
+              <BookOpen className="mr-2 h-4 w-4" />
+              知识手册
+            </Link>
             <Link
               to={`/training/${unit.unitId}`}
               className={cn(buttonVariants({ size: "lg" }), "flex-1 sm:flex-none")}

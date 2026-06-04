@@ -15,6 +15,7 @@ import {
   createMapReviewCard,
   createRecentHistory,
   createReviewCard,
+  isMistakeActive,
   isDue,
   recordRecentCard
 } from "../utils/review";
@@ -23,6 +24,7 @@ import type {
   DashboardState,
   ReviewCard,
   ReviewProgress,
+  ReviewSource,
   SelfRating,
   StudyStats,
   UnitData,
@@ -61,7 +63,8 @@ function createSeedProgress() {
       mastery: 0,
       correctCount: 0,
       wrongCount: 0,
-      blurCount: 0
+      blurCount: 0,
+      inMistakeBook: false
     };
 
     return result;
@@ -164,7 +167,7 @@ function createStats(
 
 function createWrongItems(progressMap: Record<string, ReviewProgress>) {
   return allReviewItems
-    .filter((item) => (progressMap[item.id]?.wrongCount ?? 0) > 0)
+    .filter((item) => isMistakeActive(progressMap[item.id]))
     .sort(
       (left, right) =>
         (progressMap[right.id]?.wrongCount ?? 0) - (progressMap[left.id]?.wrongCount ?? 0)
@@ -177,7 +180,8 @@ function createWrongItems(progressMap: Record<string, ReviewProgress>) {
           mastery: 0,
           correctCount: 0,
           wrongCount: 0,
-          blurCount: 0
+          blurCount: 0,
+          inMistakeBook: false
         }
     }));
 }
@@ -215,7 +219,14 @@ export interface StudyEngine {
   recentHistory: ReturnType<typeof createRecentHistory>;
   reviewDeck: ReviewCard[];
   wrongItems: WrongItem[];
-  reviewKnowledge: (card: ReviewCard, rating: SelfRating) => void;
+  reviewKnowledge: (
+    card: ReviewCard,
+    rating: SelfRating,
+    meta?: {
+      answeredCorrectly?: boolean;
+      source?: ReviewSource;
+    }
+  ) => void;
   clearProgress: () => void;
   getUnit: (unitId: string) => UnitSummary | undefined;
   getUnitData: (unitId: string) => UnitData | undefined;
@@ -263,11 +274,18 @@ export function useStudyEngine(): StudyEngine {
   const stats = createStats(progressMap, normalizedDashboard, units);
   const wrongItems = createWrongItems(progressMap);
 
-  const reviewKnowledge = (card: ReviewCard, rating: SelfRating) => {
+  const reviewKnowledge = (
+    card: ReviewCard,
+    rating: SelfRating,
+    meta?: {
+      answeredCorrectly?: boolean;
+      source?: ReviewSource;
+    }
+  ) => {
     startTransition(() => {
       setProgressMap((currentMap) => ({
         ...currentMap,
-        [card.itemId]: applyReviewResult(currentMap[card.itemId], rating)
+        [card.itemId]: applyReviewResult(currentMap[card.itemId], rating, meta)
       }));
 
       setDashboard((currentDashboard) => {

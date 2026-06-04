@@ -15,7 +15,8 @@ const navItems = [
     to: "/units",
     label: "单元",
     icon: BookOpen,
-    match: (pathname: string) => pathname === "/units" || pathname.startsWith("/unit/")
+    match: (pathname: string) =>
+      pathname === "/units" || pathname.startsWith("/unit/") || pathname.startsWith("/handbook/")
   },
   {
     to: `/training/${DEFAULT_UNIT_ID}`,

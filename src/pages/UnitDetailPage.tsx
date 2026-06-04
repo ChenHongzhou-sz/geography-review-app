@@ -70,6 +70,13 @@ export function UnitDetailPage({ engine }: { engine: StudyEngine }) {
                 开始训练
               </Link>
               <Link
+                to={`/handbook/${unit.unitId}`}
+                className={cn(buttonVariants({ variant: "secondary", size: "lg" }), "bg-white text-ink")}
+              >
+                <BookOpen className="mr-2 h-4 w-4" />
+                知识手册
+              </Link>
+              <Link
                 to={`/maps/${unit.unitId}`}
                 className={cn(buttonVariants({ variant: "secondary", size: "lg" }), "bg-white text-ink")}
               >
@@ -148,9 +155,9 @@ export function UnitDetailPage({ engine }: { engine: StudyEngine }) {
             <Card>
               <div className="flex items-center justify-between gap-3">
                 <div>
-                  <CardTitle>知识点预览</CardTitle>
+                  <CardTitle>知识手册预览</CardTitle>
                   <CardDescription className="mt-2">
-                    当前亚洲单元已经接入一组可训练知识点，用于记忆卡片和复习调度。
+                    当前亚洲单元已经整理出一组可直接浏览的知识卡，适合按张翻阅做课前梳理和考前回顾。
                   </CardDescription>
                 </div>
                 <BookOpen className="h-5 w-5 text-ocean-500" />
@@ -172,7 +179,7 @@ export function UnitDetailPage({ engine }: { engine: StudyEngine }) {
             <Card>
               <CardTitle>掌握进度</CardTitle>
               <CardDescription className="mt-2">
-                熟练度会根据“不会 / 模糊 / 会了”动态更新，并进入后续复习调度。
+                现在客观题会根据实际答对或答错自动更新，知识手册则更适合先把内容完整过一遍。
               </CardDescription>
               <div className="mt-5">
                 <div className="mb-2 flex items-center justify-between text-sm font-medium text-slate-600">

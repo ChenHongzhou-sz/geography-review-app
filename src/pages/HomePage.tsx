@@ -144,6 +144,13 @@ export function HomePage({ engine }: { engine: StudyEngine }) {
                 开始训练
               </Link>
               <Link
+                to={`/handbook/${featuredUnit.unitId}`}
+                className={cn(buttonVariants({ variant: "secondary", size: "lg" }), "bg-white text-ink")}
+              >
+                <BookOpen className="mr-2 h-4 w-4" />
+                知识手册
+              </Link>
+              <Link
                 to={`/maps/${featuredUnit.unitId}`}
                 className={cn(buttonVariants({ variant: "secondary", size: "lg" }), "bg-white/12 text-white")}
               >

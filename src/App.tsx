@@ -1,6 +1,7 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { useStudyEngine } from "./hooks/useStudyEngine";
 import { HomePage } from "./pages/HomePage";
+import { HandbookPage } from "./pages/HandbookPage";
 import { MapPage } from "./pages/MapPage";
 import { MistakesPage } from "./pages/MistakesPage";
 import { ReviewPage } from "./pages/ReviewPage";
@@ -17,6 +18,7 @@ function RoutedApp() {
       <Route path="/" element={<HomePage engine={engine} />} />
       <Route path="/units" element={<UnitsPage engine={engine} />} />
       <Route path="/unit/:unitId" element={<UnitDetailPage engine={engine} />} />
+      <Route path="/handbook/:unitId" element={<HandbookPage engine={engine} />} />
       <Route path="/training/:unitId" element={<TrainingPage engine={engine} />} />
       <Route path="/maps/:unitId" element={<MapPage engine={engine} />} />
       <Route path="/mistakes" element={<MistakesPage engine={engine} />} />
